@@ -254,6 +254,16 @@ export default function SwimTimePanel({
      ⏱️ Race Clock (SFS500)
     </button>
     <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#0f4c3a',color:'#86efac',border:'1px solid #22c55e'}}
+     disabled={busy||!heat}
+     onClick={()=>{
+      setSelectedTemplate('SFS550');
+      onGraphicAction?.('preview', 'SFS550', selectedLane);
+     }}
+    >
+     ⏳ Countdown 75s (SFS550)
+    </button>
+    <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
      disabled={busy||!heat}
      onClick={()=>{

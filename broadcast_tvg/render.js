@@ -128,6 +128,30 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   const a=rows[0]||{};await header(946,a.name||'WINNER PENDING',description+' - WINNER');
  }else if(t.kind==='medal'){
   const a=rows[0]||{};await image('header1_line',522,987);await image('sfs_1',522,987);text(a.name||'MEDAL DECISION PENDING',610,993,25,680);
+ }else if(t.kind==='countdown'||code==='SFS550'||code==='COUNTDOWN'){
+  const x=535,y=398;
+  await image('presentation',x,y);
+  const now=Date.now()/1000;
+  const setAt=heat?.scene_set_at||now;
+  const elapsed=Math.max(0,now-setAt);
+  const remaining=Math.max(0,75-Math.floor(elapsed));
+  const m=Math.floor(remaining/60),s=remaining%60;
+  const timeStr=`${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  const evTitle=(description||'RACE START COUNTDOWN').toUpperCase();
+  c.fillStyle='rgba(12, 50, 116, 0.95)';
+  c.fillRect(x,y-44,849,42);
+  c.textBaseline='middle';
+  c.fillStyle='#ffffff';
+  c.font='900 22px Lato, sans-serif';
+  const evW=c.measureText(evTitle).width;
+  c.fillText(evTitle,x+Math.max(20,(849-evW)/2),y-23);
+  const isUrgent=remaining<=10&&remaining>0;
+  const isZero=remaining===0;
+  c.fillStyle=isZero?'#22c55e':(isUrgent?'#ef4444':'#38bdf8');
+  c.font='900 22px Lato, sans-serif';
+  const label=isZero?'⏱️ 00:00 • RACE READY / START':`⏱️ COUNTDOWN: ${timeStr}  (${remaining}s)`;
+  const lw=c.measureText(label).width;
+  c.fillText(label,x+(849-lw)/2,y+266);
  }else{
   await header(946,'FINSWIMMING',code==='SFS900'?'VICTORY CEREMONY - '+description:code==='SFS001'||code==='SFS002'?'SHARM EL SHEIKH - '+(heat?.venue||'VENUE CONFIRMATION PENDING'):description);
 

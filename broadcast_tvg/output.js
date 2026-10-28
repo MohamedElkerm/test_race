@@ -1,4 +1,4 @@
-import {renderTemplate} from './render.js?v=5';import{subscribe}from './stream.js';
+import {renderTemplate} from './render.js?v=6';import{subscribe}from './stream.js';
 const q=new URLSearchParams(location.search),canvas=document.querySelector('canvas'),lost=document.querySelector('#lost');
 const registry=await fetch('/api/templates').then(r=>r.json());let state,busy=false,drawAgain=false,lastBeat=0,connectionLost=false;
 const client=globalThis.crypto?.randomUUID?.()||'tv-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
@@ -25,8 +25,20 @@ async function draw(){
  try{
   const scene=(!q.has('program')&&q.get('template'))?{template:q.get('template'),heat_id:q.get('heat')||state.selected_heat,lane:Number(q.get('lane')||1)}:state.graphics[q.has('preview')?'preview':'program'];
   if(!scene){canvas.getContext('2d').clearRect(0,0,1920,1080);return}
-  let heat=scene.frozen_heat||state.heats.find(h=>h.id===scene.heat_id)||state.heats.find(h=>h.id===state.selected_heat)||state.heats[0];
-  heat={...heat,selected_lane:scene.lane};
+  heat={...heat,selected_lane:scene.lane,scene_set_at:scene.set_at};
+
+  // Manage smooth 1s timer for countdown
+  if(scene.template==='SFS550'||scene.template==='COUNTDOWN'){
+   if(!globalThis._cdTimer){
+    globalThis._cdTimer=setInterval(()=>{
+     const cur=(!q.has('program')&&q.get('template'))?{template:q.get('template')}:state?.graphics?.[q.has('preview')?'preview':'program'];
+     if(cur&&(cur.template==='SFS550'||cur.template==='COUNTDOWN'))draw();
+     else{clearInterval(globalThis._cdTimer);globalThis._cdTimer=null}
+    },1000);
+   }
+  }else if(globalThis._cdTimer){
+   clearInterval(globalThis._cdTimer);globalThis._cdTimer=null;
+  }
 
   // Bind live SwimTime UDP timing & clock into heat
   const st = state.swimtime;

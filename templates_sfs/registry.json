@@ -1564,5 +1564,33 @@
     "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
     "preview_url": "/broadcast_tvg/?template=SFS902B&preview=1",
     "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS550": {
+    "code": "SFS550",
+    "name": "START COUNTDOWN (75s)",
+    "guide_page": 4,
+    "kind": "countdown",
+    "fields": [
+      "event",
+      "countdown"
+    ],
+    "assets": [
+      {
+        "guide_name": "PRESENTATION.TGA",
+        "original": "assets_original/tga/background/presentation.tga",
+        "processed": "/assets/sfs/presentation.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS001 - SPORT PRESENTATION.jpg",
+    "component": "renderTemplate(SFS550)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": true,
+    "production_approved": true,
+    "state_behaviour": "Starts 75s countdown from trigger. Renders centered presentation card with smooth timer.",
+    "preview_url": "/broadcast_tvg/?template=SFS550&preview=1",
+    "test_case": "client countdown loop"
   }
 }
