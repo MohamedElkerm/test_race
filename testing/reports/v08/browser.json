@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETED",
+  "executed_at": "2026-10-24T00:31:23.111Z",
+  "environment": "Linux / headless Chromium / real IPv4 UDP loopback and HTTP+WebSocket",
+  "checks": [
+    {
+      "name": "Authenticated recorded replay renders all ten matched source values and is labelled not live",
+      "status": "PASS",
+      "evidence": {
+        "rows": 10,
+        "datagrams": 2754,
+        "clock": "suppressed"
+      }
+    },
+    {
+      "name": "Browser start -> UDP socket -> parsed data -> WebSocket -> clock and ten rows",
+      "status": "PASS",
+      "evidence": {
+        "port": 38897,
+        "clock": "1:10.00",
+        "received_lane_frames": 10,
+        "source": "127.0.0.1 / TEST loopback"
+      }
+    },
+    {
+      "name": "Stopping UDP input suppresses the clock and shows stale state while retaining labelled test rows",
+      "status": "PASS",
+      "evidence": {
+        "clock": "suppressed",
+        "stale_threshold_seconds": 3
+      }
+    },
+    {
+      "name": "Resumed UDP input recovers without restarting the listener",
+      "status": "PASS"
+    },
+    {
+      "name": "Client WebSocket watchdog suppresses its clock even while server UDP remains fresh",
+      "status": "PASS",
+      "evidence": {
+        "server_receiving": true,
+        "server_clock_fresh": true
+      }
+    },
+    {
+      "name": "Operator stop closes reception and suppresses the current clock",
+      "status": "PASS"
+    },
+    {
+      "name": "UDP observation never publishes or changes official results",
+      "status": "PASS",
+      "evidence": {
+        "published_heats": 0,
+        "results_written": false
+      }
+    },
+    {
+      "name": "Updated dashboard has no JavaScript errors or Internet requests",
+      "status": "PASS",
+      "evidence": {
+        "errors": [],
+        "external": []
+      }
+    },
+    {
+      "name": "Arabic guide renders RTL and fits a 390px mobile viewport",
+      "status": "PASS"
+    }
+  ],
+  "windows_runtime_test": false,
+  "physical_alge_test": false,
+  "physical_wifi_test": false,
+  "physical_obs_test": false,
+  "production_approved": false,
+  "browser": "153.0.8010.0"
+}

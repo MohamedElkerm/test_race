@@ -1,0 +1,38 @@
+{
+  "status": "ENGINEERING BUILD",
+  "template_branch_count": 35,
+  "fully_matched": 0,
+  "production_approved": 0,
+  "priority_templates": [
+    "SFS203A",
+    "SFS203B",
+    "SFS302A",
+    "SFS302B",
+    "SFS500",
+    "SFS503",
+    "SFS504A",
+    "SFS504B",
+    "SFS206"
+  ],
+  "priority_note": "All have engineering branches and actual captures/comparisons. Missing blue bar or clock naming blocks all listed priorities except the basic SFS206 asset set. SFS206 still awaits full dynamic typography/layout QA and FISU approval.",
+  "partial_variants": [
+    "SFS001",
+    "SFS002",
+    "SFS003",
+    "SFS200B",
+    "SFS200C",
+    "SFS201B",
+    "SFS201C",
+    "SFS202",
+    "SFS501",
+    "SFS502",
+    "SFS503",
+    "SFS504A",
+    "SFS504B",
+    "SFS901A",
+    "SFS901B",
+    "SFS902A",
+    "SFS902B"
+  ],
+  "scope_document": "docs/Remaining_Implementation_Work.md"
+}

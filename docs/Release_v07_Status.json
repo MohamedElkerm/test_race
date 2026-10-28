@@ -1,0 +1,54 @@
+{
+  "version": "0.7.0",
+  "release_date": "2026-10-23",
+  "status": "IMPLEMENTED / AUTOMATED TESTS COMPLETE / FIELD ACCEPTANCE PENDING",
+  "default_operation": "SINGLE OPERATOR",
+  "obs_program_url": "http://SERVER_PRIVATE_IP:8765/broadcast_tvg/?program=1",
+  "output_pixels": [
+    1920,
+    1080
+  ],
+  "tested_platform": "Linux / Python 3.12.14 / Chromium 153.0.8010.0",
+  "tests": {
+    "v07_regression": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0
+    },
+    "v07_features": {
+      "tests": 10,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "browser_checks": 11,
+  "led_browser_checks": 31,
+  "led_native_captures": 18,
+  "assets_verified": {
+    "original": 496,
+    "processed": 245
+  },
+  "implemented": [
+    "single authenticated operator with audit and explicit external approval recording",
+    "separate transparent preview/program with TAKE/CLEAR",
+    "OBS LAN setup and 60-second link diagnostics",
+    "GEN structural review for five supplied samples",
+    "raw UDP evidence recorder requiring a confirmed port",
+    "six native LED outputs with the FISU SFS source correction"
+  ],
+  "not_implemented_or_verified": [
+    "Network Display protocol decoding and live venue ingestion",
+    "GEN semantic mapping or result adoption",
+    "Physical Windows installation test",
+    "Physical OBS/capture test",
+    "Venue Wi-Fi/LAN performance",
+    "ALGE hardware test",
+    "Fully matched FISU template approval",
+    "Approved LED layout or production acceptance"
+  ],
+  "windows_installation": "Procedure and bundled Windows wheels retained; launcher contents checked; NOT EXECUTED ON WINDOWS",
+  "wifi_recommendation": "Suitable for initial manual test; field measurements needed; wired LAN recommended for official operation",
+  "fully_matched": false,
+  "production_approved": false,
+  "hardware_verified": false
+}

@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETED",
+  "executed_at": "2026-10-23T15:27:27.934Z",
+  "environment": "Linux / headless Chromium / loopback HTTP",
+  "checks": [
+    {
+      "name": "One authenticated operator can select timing, results, graphics, LED and audit controls",
+      "status": "PASS"
+    },
+    {
+      "name": "1920x1080 program retains real alpha and ignores preview override in program URL",
+      "status": "PASS",
+      "detail": {
+        "width": 1920,
+        "height": 1080,
+        "clear_pixels": 1943333,
+        "visible_pixels": 130267,
+        "body_background": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "name": "Preview changes do not affect program before TAKE",
+      "status": "PASS"
+    },
+    {
+      "name": "Stalled WebSocket without close clears the graphic and warns within watchdog timeout",
+      "status": "PASS"
+    },
+    {
+      "name": "Reconnect restores current program automatically after state delivery resumes",
+      "status": "PASS"
+    },
+    {
+      "name": "CLEAR produces a fully transparent canvas",
+      "status": "PASS"
+    },
+    {
+      "name": "Single operator GUI exposes result controls and mandatory external authority field",
+      "status": "PASS"
+    },
+    {
+      "name": "GEN sample upload is inspected through authenticated UI without adopting results",
+      "status": "PASS"
+    },
+    {
+      "name": "OBS URL builder uses the declared server address, not a remote localhost assumption",
+      "status": "PASS"
+    },
+    {
+      "name": "60-second link diagnostics measured HTTP RTT and WebSocket delivery on loopback",
+      "status": "PASS",
+      "detail": {
+        "status": "COMPLETED / MANUAL NETWORK ACCEPTANCE REQUIRED",
+        "started_at": "2026-10-23T15:27:34.391Z",
+        "origin": "http://127.0.0.1:8773",
+        "declared_connection": "UNSPECIFIED",
+        "duration_seconds": 60,
+        "http_samples": 61,
+        "http_failures": 0,
+        "rtt_median_ms": 5,
+        "rtt_max_ms": 18,
+        "ws_messages": 582,
+        "ws_loss_notifications": 0,
+        "ws_max_gap_ms": 121,
+        "production_approved": false,
+        "physical_wifi_test": false
+      }
+    },
+    {
+      "name": "Updated UI and outputs use only local resources and tolerate unavailable randomUUID",
+      "status": "PASS",
+      "detail": {
+        "external": [],
+        "errors": []
+      }
+    }
+  ],
+  "physical_obs_test": false,
+  "physical_wifi_test": false,
+  "windows_test": false,
+  "alge_hardware_test": false,
+  "fully_matched": false,
+  "browser": "153.0.8010.0"
+}

@@ -1,0 +1,119 @@
+template,official_field,central_data_binding,authority,implementation_status
+SFS001,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS001,venue,unassigned venue display field,LOC venue approval pending,Engineering / detailed variant completion and independent QA pending
+SFS002,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS002,venue,unassigned venue display field,LOC venue approval pending,Engineering / detailed variant completion and independent QA pending
+SFS003,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS003,schedule,unassigned approved session schedule,Competition Manager input pending,Engineering / detailed variant completion and independent QA pending
+SFS004,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS004,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS005,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS005,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS005,heat,heat.timing_heat,Timing-to-roster binding,Engineering / detailed variant completion and independent QA pending
+SFS200A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS200A,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS200B,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS200B,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS200B,approved_irm,entries[].irm / approved_rule_codes.json,Technical mapping approval required,Engineering / detailed variant completion and independent QA pending
+SFS200C,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS200C,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS200C,approved_qualification,entries[].qualification,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS200C,approved_record,entries[].record,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS201A,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS201A,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS201B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS201B,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS201B,approved_irm,entries[].irm / approved_rule_codes.json,Technical mapping approval required,Engineering / detailed variant completion and independent QA pending
+SFS201C,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS201C,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS201C,approved_qualification,entries[].qualification,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS201C,approved_record,entries[].record,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS202,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS202,members.name,entries[].members[].name,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS202,members.position,entries[].members[].position,Approved M-W-M-W relay roster,Engineering / detailed variant completion and independent QA pending
+SFS202,time,entries[].ticks -> clock formatting,Raw timing / documented Jury correction,Engineering / detailed variant completion and independent QA pending
+SFS202,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS203A,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS203A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS203A,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS203A,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS203A,country.flag,entries[].country -> original MEDIUM flag sprite,Approved roster + Common Graphics archive,Engineering / detailed variant completion and independent QA pending
+SFS203B,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS203B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS203B,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS203B,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS203B,country.flag,entries[].country -> original MEDIUM flag sprite,Approved roster + Common Graphics archive,Engineering / detailed variant completion and independent QA pending
+SFS204,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS205A,WARM UP POOL,WARM UP POOL,FISU TVG guide static label,Engineering / detailed variant completion and independent QA pending
+SFS205B,CALL ROOM,CALL ROOM,FISU TVG guide static label,Engineering / detailed variant completion and independent QA pending
+SFS206,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS206,athlete.university,entries[].university,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS206,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS206,country.flag,entries[].country -> original MEDIUM flag sprite,Approved roster + Common Graphics archive,Engineering / detailed variant completion and independent QA pending
+SFS300A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS300A,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS300A,approved_winner,rank=1 with OFFICIAL approval and not FISU Team,Jury-approved ranking,Engineering / detailed variant completion and independent QA pending
+SFS300B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS300B,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS300B,approved_winner,rank=1 with OFFICIAL approval and not FISU Team,Jury-approved ranking,Engineering / detailed variant completion and independent QA pending
+SFS301A,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS301A,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS301A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS301A,rank,entries[].rank,Unofficial proposal / Jury-approved result,Engineering / detailed variant completion and independent QA pending
+SFS301A,time,entries[].ticks -> clock formatting,Raw timing / documented Jury correction,Engineering / detailed variant completion and independent QA pending
+SFS301A,approved_qualification,entries[].qualification,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS301B,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS301B,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS301B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS301B,rank,entries[].rank,Unofficial proposal / Jury-approved result,Engineering / detailed variant completion and independent QA pending
+SFS301B,time,entries[].ticks -> clock formatting,Raw timing / documented Jury correction,Engineering / detailed variant completion and independent QA pending
+SFS301B,approved_qualification,entries[].qualification,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS302A,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS302A,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS302A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS302A,rank,entries[].rank,Unofficial proposal / Jury-approved result,Engineering / detailed variant completion and independent QA pending
+SFS302A,time,entries[].ticks -> clock formatting,Raw timing / documented Jury correction,Engineering / detailed variant completion and independent QA pending
+SFS302A,status,heat.status,Authenticated workflow,Engineering / detailed variant completion and independent QA pending
+SFS302B,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS302B,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS302B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS302B,rank,entries[].rank,Unofficial proposal / Jury-approved result,Engineering / detailed variant completion and independent QA pending
+SFS302B,time,entries[].ticks -> clock formatting,Raw timing / documented Jury correction,Engineering / detailed variant completion and independent QA pending
+SFS302B,status,heat.status,Authenticated workflow,Engineering / detailed variant completion and independent QA pending
+SFS500,running_time,heat.clock_ticks,Accepted ALGE observation; no extrapolation,Engineering / detailed variant completion and independent QA pending
+SFS501,running_time,heat.clock_ticks,Accepted ALGE observation; no extrapolation,Engineering / detailed variant completion and independent QA pending
+SFS501,distance,unassigned per-touch distance mapping,Pool/race data and variant implementation pending,Engineering / detailed variant completion and independent QA pending
+SFS501,split_time,entries[].timings[kind=SPLIT].ticks,Accepted ALGE observation,Engineering / detailed variant completion and independent QA pending
+SFS502,running_time,heat.clock_ticks,Accepted ALGE observation; no extrapolation,Engineering / detailed variant completion and independent QA pending
+SFS502,approved_records,entries[].record / baseline input pending,Documented technical authority; variant display partial,Engineering / detailed variant completion and independent QA pending
+SFS503,finish_time,entries[].timings[kind=FINISH].ticks,Accepted ALGE observation,Engineering / detailed variant completion and independent QA pending
+SFS503,approved_records,entries[].record / baseline input pending,Documented technical authority; variant display partial,Engineering / detailed variant completion and independent QA pending
+SFS503,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS504A,running_time,heat.clock_ticks,Accepted ALGE observation; no extrapolation,Engineering / detailed variant completion and independent QA pending
+SFS504A,distance,unassigned per-touch distance mapping,Pool/race data and variant implementation pending,Engineering / detailed variant completion and independent QA pending
+SFS504A,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS504A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS504A,split_time,entries[].timings[kind=SPLIT].ticks,Accepted ALGE observation,Engineering / detailed variant completion and independent QA pending
+SFS504B,running_time,heat.clock_ticks,Accepted ALGE observation; no extrapolation,Engineering / detailed variant completion and independent QA pending
+SFS504B,distance,unassigned per-touch distance mapping,Pool/race data and variant implementation pending,Engineering / detailed variant completion and independent QA pending
+SFS504B,lane,entries[].lane,Approved start list,Engineering / detailed variant completion and independent QA pending
+SFS504B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS504B,split_time,entries[].timings[kind=SPLIT].ticks,Accepted ALGE observation,Engineering / detailed variant completion and independent QA pending
+SFS900,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS900,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS900,VICTORY CEREMONY,VICTORY CEREMONY,FISU TVG guide static label,Engineering / detailed variant completion and independent QA pending
+SFS901A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS901A,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS901A,approved_medal,entries[].medal,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS901B,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS901B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS901B,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS901B,approved_medal,entries[].medal,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS902A,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS902A,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS902A,athlete.name,entries[].name,Approved roster import,Engineering / detailed variant completion and independent QA pending
+SFS902A,approved_medal,entries[].medal,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending
+SFS902B,sport,FINSWIMMING,FISU TVG guide,Engineering / detailed variant completion and independent QA pending
+SFS902B,event,heat.name / discipline / gender / round,Approved roster/event programme,Engineering / detailed variant completion and independent QA pending
+SFS902B,team.name,entries[].name / relay members,Approved relay roster,Engineering / detailed variant completion and independent QA pending
+SFS902B,approved_medal,entries[].medal,"Documented Jury decision, not inferred",Engineering / detailed variant completion and independent QA pending

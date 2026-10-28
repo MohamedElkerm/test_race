@@ -1,0 +1,12 @@
+id,sources,conflict,treatment,owner
+SRC-01,TVG guide / TGA archive,BAR_BASIC_WITH_BLUE.TGA absent,All start/result list templates blocked; bar_basic is not substituted,FISU TV production / artwork supplier
+SRC-02,TVG guide / TGA archive,SFS_CLOCK vs CSP_clock,Candidate retained but never aliased automatically,FISU TV production / artwork supplier
+SRC-03,TVG guide / TGA archive,header/underscore/space filename variants,"Geometry-compatible mappings documented, confirmation pending",Artwork supplier
+SRC-04,TVG guide / JPG,SFS001/002 presentation examples differ from content/background descriptions,Exact presentation artwork needs independent approval,FISU TV production
+SRC-05,TVG guide / archive,Medal icons absent; some examples use 2025 university wording,No replacement icons or legacy championship text are generated,FISU TV production
+SRC-06,Common fonts / JPG,"Lato fonts available, exact weight/size/baseline not specified for every data field",Use supplied Lato; typography still requires measured QA,FISU TV production
+SRC-07,Technology Guidelines 2025 p15 / proposed custom web distribution,OC-developed public results distribution not accepted in guideline,Local engineering API only; provider/FISU acceptance needed before public deployment,FISU Technology / appointed Results Provider
+SRC-08,SwimTime manual p31 / p32,Summary says video 9600; interface description says standard 19200,Configurable baud; 19200 profile per section 5.1.1.2; actual device settings must be confirmed,ALGE timing supplier
+SRC-09,ALGE manual p32 / p33,RR rank omitted above 14xx; START from 14xx; actual firmware not supplied,"Separate strict parsers, no automatic guessing",ALGE timing supplier
+SRC-10,Older catalogues / October programme,April legacy; catalogue window starts 27 Oct while programme arrivals start 25 Oct,Use 25-30 Oct programme; competition 28-29 Oct; no per-race times inferred from session start,Competition Manager
+SRC-11,Extra JPG reference / guide index,SFS006 RECORDS JPG not listed in governing guide index,"Retained in archive, not treated as an approved required template",FISU TV production

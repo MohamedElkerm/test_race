@@ -1,0 +1,2151 @@
+{
+  "status": "COMPLETED",
+  "lossless_source_derivatives_checked": 235,
+  "assets": [
+    {
+      "asset": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+      "size": [
+        73,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+      "size": [
+        128,
+        79
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/CSP_clock.tga",
+      "size": [
+        286,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/bar_basic.tga",
+      "size": [
+        870,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/bar_basic_short.tga",
+      "size": [
+        456,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/bar_standing_rank.tga",
+      "size": [
+        593,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/blue_records_box.tga",
+      "size": [
+        218,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/finish.tga",
+      "size": [
+        150,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/footer short.tga",
+      "size": [
+        457,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/footer.tga",
+      "size": [
+        870,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/header1_line.tga",
+      "size": [
+        870,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/header1_short_no_logo.tga",
+      "size": [
+        457,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/header2_lines.tga",
+      "size": [
+        870,
+        79
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/lane_box.tga",
+      "size": [
+        47,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/presentation.tga",
+      "size": [
+        849,
+        284
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/short_box3_first.tga",
+      "size": [
+        135,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/short_box3_green.tga",
+      "size": [
+        135,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/short_box3_red.tga",
+      "size": [
+        135,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/short_box_clock.tga",
+      "size": [
+        194,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/short_box_light_blue.tga",
+      "size": [
+        227,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/background/short_box_red.tga",
+      "size": [
+        227,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/pictograms/IRM/DNS.tga",
+      "size": [
+        98,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/pictograms/IRM/DSQ.tga",
+      "size": [
+        98,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/pictograms/IRM/PD.tga",
+      "size": [
+        98,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/tga/pictograms/Q.tga",
+      "size": [
+        47,
+        38
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AGF.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AHO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AIN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ALB.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ALG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AND.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ANG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ANT.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ARG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ARM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ARU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ASA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AUS.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AUT.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AZE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BAH.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BAN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BAR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BDI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BEL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BEN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BER.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BHU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BIH.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BIZ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BLR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BOL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BOT.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BRA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BRN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BRU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BUL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BUR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BWI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAF.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAY.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CGO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CHA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CHI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CHN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CIV.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CMR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COD.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COK.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CPV.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CRC.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CRO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CUB.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CYP.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CZE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DEN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DJI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DMA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DOM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ECU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/EGY.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ERI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ESA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ESP.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/EST.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ETH.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/EUN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FIJ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FIN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FRA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FSM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GAB.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GAM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GBR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GBS.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GEO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GEQ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GER.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GHA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GHI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GRE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GRN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GUA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GUM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GUY.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HAI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HKG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HON.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HUN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/INA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IND.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IRI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IRL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IRQ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ISL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ISR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ISV.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ITA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IVB.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/JAM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/JOR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/JPN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KAZ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KEN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KGZ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KIR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KOR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KOS.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KSA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KUW.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LAO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LAT.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LBA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LBN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LBR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LCA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LES.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LIE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LTU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LUX.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAD.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAS.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAW.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MDA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MDV.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MEX.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MGL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MHL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MKD.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MLI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MLT.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MNE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MON.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MOZ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MRI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MTN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MYA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NAM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NCA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NED.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NEP.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NGR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NIG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NOR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NRU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NZL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/OMA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PAK.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PAN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PAR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PER.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PHI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PLE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PLW.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PNG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/POL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/POR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PRK.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PUR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/QAT.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ROU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/RSA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/RUS.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/RWA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SAM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SEN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SEY.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SGP.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SKN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SLE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SLO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SMR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SOL.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SOM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SRB.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SRI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SSD.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/STP.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SUD.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SUI.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SUR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SVK.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SWE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SWZ.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SYR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TAN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TGA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/THA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TJK.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TKM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TLS.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TOG.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TPE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TTO.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TUN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TUR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TUV.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UAE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UGA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UKR.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/URU.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/USA.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UZB.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VAN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VEN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VIE.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VIN.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/YEM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ZAM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    },
+    {
+      "asset": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ZIM.tga",
+      "size": [
+        93,
+        26
+      ],
+      "mode": "RGBA",
+      "lossless_png_conversion": true
+    }
+  ],
+  "browser_static_regions": [
+    {
+      "region": "native_pictogram",
+      "box": [
+        522,
+        946,
+        650,
+        1025
+      ],
+      "opaque_pixels": 9323,
+      "max_channel_delta": 1,
+      "pixels_delta_over_2": 0,
+      "status": "PASS"
+    },
+    {
+      "region": "native_FISU_logo",
+      "box": [
+        1240,
+        946,
+        1392,
+        982
+      ],
+      "opaque_pixels": 5048,
+      "max_channel_delta": 0,
+      "pixels_delta_over_2": 0,
+      "status": "PASS"
+    }
+  ],
+  "fully_matched_templates": 0,
+  "note": "Source derivative fidelity and selected static regions only. These checks do not approve per-template field geometry, dynamic typography, missing backgrounds or FISU match."
+}

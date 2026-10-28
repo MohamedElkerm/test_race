@@ -1,0 +1,25 @@
+template,asset,status,candidate,action
+SFS203A,BAR_BASIC_WITH_BLUE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS203B,BAR_BASIC_WITH_BLUE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS301A,BAR_BASIC_WITH_BLUE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS301B,BAR_BASIC_WITH_BLUE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS302A,BAR_BASIC_WITH_BLUE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS302B,BAR_BASIC_WITH_BLUE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS500,SFS_CLOCK.TGA,ASSET MISSING / NOT APPROVED,HD/background/CSP_clock.tga,Supplier/FISU written confirmation required. No automatic substitution.
+SFS501,SFS_CLOCK.TGA,ASSET MISSING / NOT APPROVED,HD/background/CSP_clock.tga,Supplier/FISU written confirmation required. No automatic substitution.
+SFS502,SFS_CLOCK.TGA,ASSET MISSING / NOT APPROVED,HD/background/CSP_clock.tga,Supplier/FISU written confirmation required. No automatic substitution.
+SFS503,SFS_CLOCK.TGA,ASSET MISSING / NOT APPROVED,HD/background/CSP_clock.tga,Supplier/FISU written confirmation required. No automatic substitution.
+SFS504A,SFS_CLOCK.TGA,ASSET MISSING / NOT APPROVED,HD/background/CSP_clock.tga,Supplier/FISU written confirmation required. No automatic substitution.
+SFS504B,SFS_CLOCK.TGA,ASSET MISSING / NOT APPROVED,HD/background/CSP_clock.tga,Supplier/FISU written confirmation required. No automatic substitution.
+SFS901A,MEDAL_GOLD_B.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS901A,MEDAL_SILVER_B.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS901A,MEDAL_BRONZE_B.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS901B,MEDAL_GOLD_B.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS901B,MEDAL_SILVER_B.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS901B,MEDAL_BRONZE_B.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS902A,MEDAL_GOLD.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS902A,MEDAL_SILVER.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS902A,MEDAL_BRONZE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS902B,MEDAL_GOLD.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS902B,MEDAL_SILVER.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.
+SFS902B,MEDAL_BRONZE.TGA,ASSET MISSING / NOT APPROVED,,Supplier/FISU written confirmation required. No automatic substitution.

@@ -1,0 +1,1568 @@
+{
+  "SFS001": {
+    "code": "SFS001",
+    "name": "SPORT PRESENTATION",
+    "guide_page": 4,
+    "kind": "presentation",
+    "fields": [
+      "sport",
+      "venue"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS001 - SPORT PRESENTATION.jpg",
+    "component": "renderTemplate(SFS001)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS001&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS002": {
+    "code": "SFS002",
+    "name": "VENUE PRESENTATION",
+    "guide_page": 4,
+    "kind": "presentation",
+    "fields": [
+      "sport",
+      "venue"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "PRESENTATION.TGA",
+        "original": "assets_original/tga/background/presentation.tga",
+        "processed": "/assets/sfs/presentation.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS002 - VENUE.jpg",
+    "component": "renderTemplate(SFS002)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS002&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS003": {
+    "code": "SFS003",
+    "name": "SCHEDULE",
+    "guide_page": 5,
+    "kind": "schedule",
+    "fields": [
+      "sport",
+      "schedule"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS003 - SCHEDULE.jpg",
+    "component": "renderTemplate(SFS003)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS003&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS004": {
+    "code": "SFS004",
+    "name": "EVENT ID BY PHASE PRESENTATION",
+    "guide_page": 5,
+    "kind": "presentation",
+    "fields": [
+      "sport",
+      "event"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS004 - EVENT ID BY PHASE PRESENTATION.jpg",
+    "component": "renderTemplate(SFS004)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS004&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS005": {
+    "code": "SFS005",
+    "name": "EVENT ID BY EVENT UNIT PRESENTATION",
+    "guide_page": 6,
+    "kind": "presentation",
+    "fields": [
+      "sport",
+      "event",
+      "heat"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS005 - EVENT ID BY EVENT UNIT PRESENTATION.jpg",
+    "component": "renderTemplate(SFS005)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS005&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS200A": {
+    "code": "SFS200A",
+    "name": "ATHLETE ID + LANE",
+    "guide_page": 7,
+    "kind": "athlete",
+    "fields": [
+      "athlete.name",
+      "lane"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS200A - ATHLETE ID + LANE.jpg",
+    "component": "renderTemplate(SFS200A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS200A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS200B": {
+    "code": "SFS200B",
+    "name": "ATHLETE ID + FALSE START",
+    "guide_page": 7,
+    "kind": "athlete",
+    "fields": [
+      "athlete.name",
+      "lane",
+      "approved_irm"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SHORT_BOX_RED.TGA",
+        "original": "assets_original/tga/background/short_box_red.tga",
+        "processed": "/assets/sfs/short_box_red.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "DSQ.tga",
+        "original": "assets_original/tga/pictograms/IRM/DSQ.tga",
+        "processed": "/assets/sfs/dsq.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS200B - ATHLETE ID + FALSE START.jpg",
+    "component": "renderTemplate(SFS200B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS200B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS200C": {
+    "code": "SFS200C",
+    "name": "ATHLETE ID + QUALIFICATION + RECORD",
+    "guide_page": 8,
+    "kind": "athlete",
+    "fields": [
+      "athlete.name",
+      "lane",
+      "approved_qualification",
+      "approved_record"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SHORT_BOX__LIGHT_BLUE.TGA",
+        "original": "assets_original/tga/background/short_box_light_blue.tga",
+        "processed": "/assets/sfs/short_box_light_blue.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "Q.TGA",
+        "original": "assets_original/tga/pictograms/Q.tga",
+        "processed": "/assets/sfs/q.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS200C - ATHLETE ID + QUALIFICATION + RECORD.jpg",
+    "component": "renderTemplate(SFS200C)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS200C&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS201A": {
+    "code": "SFS201A",
+    "name": "TEAM ID + LANE",
+    "guide_page": 8,
+    "kind": "team",
+    "fields": [
+      "team.name",
+      "lane"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS201A - TEAM ID + LANE.jpg",
+    "component": "renderTemplate(SFS201A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS201A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS201B": {
+    "code": "SFS201B",
+    "name": "TEAM ID + FALSE START",
+    "guide_page": 9,
+    "kind": "team",
+    "fields": [
+      "team.name",
+      "lane",
+      "approved_irm"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SHORT_BOX_RED.TGA",
+        "original": "assets_original/tga/background/short_box_red.tga",
+        "processed": "/assets/sfs/short_box_red.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "DSQ.tga",
+        "original": "assets_original/tga/pictograms/IRM/DSQ.tga",
+        "processed": "/assets/sfs/dsq.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS201B - TEAM ID + FALSE START.jpg",
+    "component": "renderTemplate(SFS201B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS201B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS201C": {
+    "code": "SFS201C",
+    "name": "TEAM ID + QUALIFICATION + RECORD",
+    "guide_page": 9,
+    "kind": "team",
+    "fields": [
+      "team.name",
+      "lane",
+      "approved_qualification",
+      "approved_record"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SHORT_BOX__LIGHT_BLUE.TGA",
+        "original": "assets_original/tga/background/short_box_light_blue.tga",
+        "processed": "/assets/sfs/short_box_light_blue.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "Q.TGA",
+        "original": "assets_original/tga/pictograms/Q.tga",
+        "processed": "/assets/sfs/q.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS201C - TEAM ID + QUALIFICATION + RECORD.jpg",
+    "component": "renderTemplate(SFS201C)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS201C&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS202": {
+    "code": "SFS202",
+    "name": "TEAM LIST BY LANE",
+    "guide_page": 10,
+    "kind": "relay_members",
+    "fields": [
+      "team.name",
+      "members.name",
+      "members.position",
+      "time",
+      "lane"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE_SHORT_NO_LOGO.TGA",
+        "original": "assets_original/tga/background/header1_short_no_logo.tga",
+        "processed": "/assets/sfs/header1_short_no_logo.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_SHORT.TGA",
+        "original": "assets_original/tga/background/bar_basic_short.tga",
+        "processed": "/assets/sfs/bar_basic_short.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "FOOTER_SHORT.TGA",
+        "original": "assets_original/tga/background/footer short.tga",
+        "processed": "/assets/sfs/footer_short.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SHORT_BOX__LIGHT_BLUE.TGA",
+        "original": "assets_original/tga/background/short_box_light_blue.tga",
+        "processed": "/assets/sfs/short_box_light_blue.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "Q.TGA",
+        "original": "assets_original/tga/pictograms/Q.tga",
+        "processed": "/assets/sfs/q.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS202 - TEAM LIST BY LANE.jpg",
+    "component": "renderTemplate(SFS202)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS202&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS203A": {
+    "code": "SFS203A",
+    "name": "START LIST INDIVIDUAL",
+    "guide_page": 10,
+    "kind": "startlist",
+    "fields": [
+      "sport",
+      "athlete.name",
+      "event",
+      "lane",
+      "country.flag"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_WITH_BLUE.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "MATCHED_TO_BAR_BASIC_PNG"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS203A - START LIST INDIVIDUAL.jpg",
+    "component": "renderTemplate(SFS203A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS203A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS203B": {
+    "code": "SFS203B",
+    "name": "START LIST (RELAY)",
+    "guide_page": 11,
+    "kind": "startlist",
+    "fields": [
+      "sport",
+      "team.name",
+      "event",
+      "lane",
+      "country.flag"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_WITH_BLUE.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "MATCHED_TO_BAR_BASIC_PNG"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS203B - START LIST (RELAY).jpg",
+    "component": "renderTemplate(SFS203B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS203B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS204": {
+    "code": "SFS204",
+    "name": "LANE INDICATOR",
+    "guide_page": 11,
+    "kind": "lane",
+    "fields": [
+      "lane"
+    ],
+    "assets": [
+      {
+        "guide_name": "FINISH.TGA",
+        "original": "assets_original/tga/background/finish.tga",
+        "processed": "/assets/sfs/finish.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS204 - LANE INDICATOR.jpg",
+    "component": "renderTemplate(SFS204)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS204&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS205A": {
+    "code": "SFS205A",
+    "name": "NON COMPETITION AREA INDICATOR",
+    "guide_page": 12,
+    "kind": "area",
+    "fields": [
+      "WARM UP POOL"
+    ],
+    "assets": [
+      {
+        "guide_name": "SHORT_BOX_LIGHT_BLUE.TGA",
+        "original": "assets_original/tga/background/short_box_light_blue.tga",
+        "processed": "/assets/sfs/short_box_light_blue.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS205A - NON COMPETITION AREA INDICATOR.jpg",
+    "component": "renderTemplate(SFS205A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS205A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS205B": {
+    "code": "SFS205B",
+    "name": "NON COMPETITION AREA INDICATOR",
+    "guide_page": 12,
+    "kind": "area",
+    "fields": [
+      "CALL ROOM"
+    ],
+    "assets": [
+      {
+        "guide_name": "SHORT_BOX_LIGHT_BLUE.TGA",
+        "original": "assets_original/tga/background/short_box_light_blue.tga",
+        "processed": "/assets/sfs/short_box_light_blue.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS205B - NON COMPETITION AREA INDICATOR.jpg",
+    "component": "renderTemplate(SFS205B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS205B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS206": {
+    "code": "SFS206",
+    "name": "ATHLETE + UNIVERSITY",
+    "guide_page": 13,
+    "kind": "university",
+    "fields": [
+      "athlete.name",
+      "athlete.university",
+      "lane",
+      "country.flag"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS206 - ATHLETE + UNIVERSITY.jpg",
+    "component": "renderTemplate(SFS206)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS206&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS300A": {
+    "code": "SFS300A",
+    "name": "INDIVIDUAL WINNER",
+    "guide_page": 14,
+    "kind": "winner",
+    "fields": [
+      "athlete.name",
+      "event",
+      "approved_winner"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS300A - INDIVIDUAL WINNER.jpg",
+    "component": "renderTemplate(SFS300A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS300A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS300B": {
+    "code": "SFS300B",
+    "name": "RELAY WINNER",
+    "guide_page": 14,
+    "kind": "winner",
+    "fields": [
+      "team.name",
+      "event",
+      "approved_winner"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS300B - RELAY WINNER.jpg",
+    "component": "renderTemplate(SFS300B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS300B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS301A": {
+    "code": "SFS301A",
+    "name": "ADVANCE TO PHASE INDIVIDUAL",
+    "guide_page": 15,
+    "kind": "qualification",
+    "fields": [
+      "sport",
+      "event",
+      "athlete.name",
+      "rank",
+      "time",
+      "approved_qualification"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_WITH_BLUE.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "MATCHED_TO_BAR_BASIC_PNG"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS301A - ADVANCE TO PHASE INDIVIDUAL.jpg",
+    "component": "renderTemplate(SFS301A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS301A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS301B": {
+    "code": "SFS301B",
+    "name": "ADVANCE TO PHASE RELAY",
+    "guide_page": 15,
+    "kind": "qualification",
+    "fields": [
+      "sport",
+      "event",
+      "team.name",
+      "rank",
+      "time",
+      "approved_qualification"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_WITH_BLUE.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "MATCHED_TO_BAR_BASIC_PNG"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS301B - ADVANCE TO PHASE RELAY.jpg",
+    "component": "renderTemplate(SFS301B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS301B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS302A": {
+    "code": "SFS302A",
+    "name": "RESULTS INDIVIDUAL",
+    "guide_page": 16,
+    "kind": "results",
+    "fields": [
+      "sport",
+      "event",
+      "athlete.name",
+      "rank",
+      "time",
+      "status"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_WITH_BLUE.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "MATCHED_TO_BAR_BASIC_PNG"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS302A - RESULTS INDIVIDUAL.jpg",
+    "component": "renderTemplate(SFS302A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS302A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS302B": {
+    "code": "SFS302B",
+    "name": "RESULTS RELAY",
+    "guide_page": 16,
+    "kind": "results",
+    "fields": [
+      "sport",
+      "event",
+      "team.name",
+      "rank",
+      "time",
+      "status"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC_WITH_BLUE.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "MATCHED_TO_BAR_BASIC_PNG"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS302B - RESULTS RELAY.jpg",
+    "component": "renderTemplate(SFS302B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS302B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS500": {
+    "code": "SFS500",
+    "name": "RACE CLOCK",
+    "guide_page": 17,
+    "kind": "clock",
+    "fields": [
+      "running_time"
+    ],
+    "assets": [
+      {
+        "guide_name": "SFS_CLOCK.TGA",
+        "original": "assets_original/tga/background/CSP_clock.tga",
+        "processed": "/assets/sfs/csp_clock.png",
+        "resolution": "MATCHED_TO_CSP_CLOCK_PNG"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS500 - RACE CLOCK.jpg",
+    "component": "renderTemplate(SFS500)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS500&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS501": {
+    "code": "SFS501",
+    "name": "RACE CLOCK BEFORE SPLINT POINT",
+    "guide_page": 17,
+    "kind": "clock",
+    "fields": [
+      "running_time",
+      "distance",
+      "split_time"
+    ],
+    "assets": [
+      {
+        "guide_name": "SFS_CLOCK.TGA",
+        "original": "assets_original/tga/background/CSP_clock.tga",
+        "processed": "/assets/sfs/csp_clock.png",
+        "resolution": "MATCHED_TO_CSP_CLOCK_PNG"
+      },
+      {
+        "guide_name": "FINISH.TGA",
+        "original": "assets_original/tga/background/finish.tga",
+        "processed": "/assets/sfs/finish.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "BLUE_RECORDS_BOX.TGA",
+        "original": "assets_original/tga/background/blue_records_box.tga",
+        "processed": "/assets/sfs/blue_records_box.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS501 - RACE CLOCK BEFORE SPLINT POINT.jpg",
+    "component": "renderTemplate(SFS501)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS501&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS502": {
+    "code": "SFS502",
+    "name": "RACE CLOCK BEFORE FINISH",
+    "guide_page": 18,
+    "kind": "clock",
+    "fields": [
+      "running_time",
+      "approved_records"
+    ],
+    "assets": [
+      {
+        "guide_name": "SFS_CLOCK.TGA",
+        "original": "assets_original/tga/background/CSP_clock.tga",
+        "processed": "/assets/sfs/csp_clock.png",
+        "resolution": "MATCHED_TO_CSP_CLOCK_PNG"
+      },
+      {
+        "guide_name": "BLUE_RECORDS_BOX.TGA",
+        "original": "assets_original/tga/background/blue_records_box.tga",
+        "processed": "/assets/sfs/blue_records_box.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS502 - RACE CLOCK BEFORE FINISH.jpg",
+    "component": "renderTemplate(SFS502)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS502&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS503": {
+    "code": "SFS503",
+    "name": "RACE CLOCK AT FINISH",
+    "guide_page": 18,
+    "kind": "clock",
+    "fields": [
+      "finish_time",
+      "approved_records",
+      "lane"
+    ],
+    "assets": [
+      {
+        "guide_name": "SFS_CLOCK.TGA",
+        "original": "assets_original/tga/background/CSP_clock.tga",
+        "processed": "/assets/sfs/csp_clock.png",
+        "resolution": "MATCHED_TO_CSP_CLOCK_PNG"
+      },
+      {
+        "guide_name": "FINISH.TGA",
+        "original": "assets_original/tga/background/finish.tga",
+        "processed": "/assets/sfs/finish.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "BLUE_RECORDS_BOX.TGA",
+        "original": "assets_original/tga/background/blue_records_box.tga",
+        "processed": "/assets/sfs/blue_records_box.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "LANE_BOX.TGA",
+        "original": "assets_original/tga/background/lane_box.tga",
+        "processed": "/assets/sfs/lane_box.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS503 - RACE CLOCK AT FINISH.jpg",
+    "component": "renderTemplate(SFS503)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS503&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS504A": {
+    "code": "SFS504A",
+    "name": "RACE CLOCK AT SPLIT POINT + STANDINGS",
+    "guide_page": 19,
+    "kind": "standings",
+    "fields": [
+      "running_time",
+      "distance",
+      "lane",
+      "athlete.name",
+      "split_time"
+    ],
+    "assets": [
+      {
+        "guide_name": "SFS_CLOCK.TGA",
+        "original": "assets_original/tga/background/CSP_clock.tga",
+        "processed": "/assets/sfs/csp_clock.png",
+        "resolution": "MATCHED_TO_CSP_CLOCK_PNG"
+      },
+      {
+        "guide_name": "FINISH.TGA",
+        "original": "assets_original/tga/background/finish.tga",
+        "processed": "/assets/sfs/finish.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SHORT_BOX3_FIRST.TGA",
+        "original": "assets_original/tga/background/short_box3_first.tga",
+        "processed": "/assets/sfs/short_box3_first.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SHORT_BOX3_GREEN.TGA",
+        "original": "assets_original/tga/background/short_box3_green.tga",
+        "processed": "/assets/sfs/short_box3_green.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SHORT_BOX_CLOCK.TGA",
+        "original": "assets_original/tga/background/short_box_clock.tga",
+        "processed": "/assets/sfs/short_box_clock.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "BAR_STANDING_RANK.TGA",
+        "original": "assets_original/tga/background/bar_standing_rank.tga",
+        "processed": "/assets/sfs/bar_standing_rank.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS504A - RACE CLOCK AT SPLIT POINT + STANDINGS.jpg",
+    "component": "renderTemplate(SFS504A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS504A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS504B": {
+    "code": "SFS504B",
+    "name": "RACE CLOCK AT SPLIT POINT + STANDINGS (RELAYS)",
+    "guide_page": 19,
+    "kind": "standings",
+    "fields": [
+      "running_time",
+      "distance",
+      "lane",
+      "team.name",
+      "split_time"
+    ],
+    "assets": [
+      {
+        "guide_name": "SFS_CLOCK.TGA",
+        "original": "assets_original/tga/background/CSP_clock.tga",
+        "processed": "/assets/sfs/csp_clock.png",
+        "resolution": "MATCHED_TO_CSP_CLOCK_PNG"
+      },
+      {
+        "guide_name": "FINISH.TGA",
+        "original": "assets_original/tga/background/finish.tga",
+        "processed": "/assets/sfs/finish.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SHORT_BOX3_FIRST.TGA",
+        "original": "assets_original/tga/background/short_box3_first.tga",
+        "processed": "/assets/sfs/short_box3_first.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SHORT_BOX3_RED.TGA",
+        "original": "assets_original/tga/background/short_box3_red.tga",
+        "processed": "/assets/sfs/short_box3_red.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SHORT_BOX_CLOCK.TGA",
+        "original": "assets_original/tga/background/short_box_clock.tga",
+        "processed": "/assets/sfs/short_box_clock.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "BAR_STANDING_RANK.TGA",
+        "original": "assets_original/tga/background/bar_standing_rank.tga",
+        "processed": "/assets/sfs/bar_standing_rank.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS504B - RACE CLOCK AT SPLIT POINT + STANDINGS (RELAYS).jpg",
+    "component": "renderTemplate(SFS504B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS504B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS900": {
+    "code": "SFS900",
+    "name": "VICTORY CEREMONY",
+    "guide_page": 20,
+    "kind": "presentation",
+    "fields": [
+      "sport",
+      "event",
+      "VICTORY CEREMONY"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      }
+    ],
+    "missing": [],
+    "reference": "/references/SFS900 - MEDAL CEREMONY.jpg",
+    "component": "renderTemplate(SFS900)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS900&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS901A": {
+    "code": "SFS901A",
+    "name": "INDIVIDUAL MEDAL",
+    "guide_page": 20,
+    "kind": "medal",
+    "fields": [
+      "athlete.name",
+      "event",
+      "approved_medal"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "MEDAL_GOLD_B.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_SILVER_B.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_BRONZE_B.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      }
+    ],
+    "missing": [
+      "MEDAL_GOLD_B.TGA",
+      "MEDAL_SILVER_B.TGA",
+      "MEDAL_BRONZE_B.TGA"
+    ],
+    "reference": "/references/SFS901A - INDIVIDUAL MEDAL.jpg",
+    "component": "renderTemplate(SFS901A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS901A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS901B": {
+    "code": "SFS901B",
+    "name": "INDIVIDUAL MEDAL RELAY",
+    "guide_page": 21,
+    "kind": "medal",
+    "fields": [
+      "athlete.name",
+      "team.name",
+      "event",
+      "approved_medal"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_1LINE.TGA",
+        "original": "assets_original/tga/background/header1_line.tga",
+        "processed": "/assets/sfs/header1_line.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_1.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+        "processed": "/assets/sfs/sfs_1.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "MEDAL_GOLD_B.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_SILVER_B.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_BRONZE_B.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      }
+    ],
+    "missing": [
+      "MEDAL_GOLD_B.TGA",
+      "MEDAL_SILVER_B.TGA",
+      "MEDAL_BRONZE_B.TGA"
+    ],
+    "reference": "/references/SFS901B - INDIVIDUAL MEDAL RELAY.jpg",
+    "component": "renderTemplate(SFS901B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS901B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS902A": {
+    "code": "SFS902A",
+    "name": "MEDALS LIST",
+    "guide_page": 21,
+    "kind": "medals",
+    "fields": [
+      "sport",
+      "event",
+      "athlete.name",
+      "approved_medal"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "MEDAL_GOLD.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_SILVER.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_BRONZE.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      }
+    ],
+    "missing": [
+      "MEDAL_GOLD.TGA",
+      "MEDAL_SILVER.TGA",
+      "MEDAL_BRONZE.TGA"
+    ],
+    "reference": "/references/SFS902A - MEDALS LIST.jpg",
+    "component": "renderTemplate(SFS902A)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS902A&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  },
+  "SFS902B": {
+    "code": "SFS902B",
+    "name": "MEDALS LIST RELAY",
+    "guide_page": 22,
+    "kind": "medals",
+    "fields": [
+      "sport",
+      "event",
+      "team.name",
+      "approved_medal"
+    ],
+    "assets": [
+      {
+        "guide_name": "HEADER_2LINES.TGA",
+        "original": "assets_original/tga/background/header2_lines.tga",
+        "processed": "/assets/sfs/header2_lines.png",
+        "resolution": "DOCUMENTED_FILENAME_VARIANT_PENDING_CONFIRMATION"
+      },
+      {
+        "guide_name": "BAR_BASIC.TGA",
+        "original": "assets_original/tga/background/bar_basic.tga",
+        "processed": "/assets/sfs/bar_basic.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "FOOTER.TGA",
+        "original": "assets_original/tga/background/footer.tga",
+        "processed": "/assets/sfs/footer.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "SFS_2.tga",
+        "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+        "processed": "/assets/sfs/sfs_2.png",
+        "resolution": "EXACT_NAME_CASE_NORMALISED"
+      },
+      {
+        "guide_name": "MEDAL_GOLD.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_SILVER.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      },
+      {
+        "guide_name": "MEDAL_BRONZE.TGA",
+        "original": null,
+        "processed": null,
+        "resolution": "ASSET MISSING"
+      }
+    ],
+    "missing": [
+      "MEDAL_GOLD.TGA",
+      "MEDAL_SILVER.TGA",
+      "MEDAL_BRONZE.TGA"
+    ],
+    "reference": "/references/SFS902B - MEDALS LIST RELAYS.jpg",
+    "component": "renderTemplate(SFS902B)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "ASSET MISSING / NOT APPROVED",
+    "visually_matched": false,
+    "production_approved": false,
+    "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
+    "preview_url": "/broadcast_tvg/?template=SFS902B&preview=1",
+    "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
+  }
+}

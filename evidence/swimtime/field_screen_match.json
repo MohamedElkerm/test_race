@@ -1,0 +1,141 @@
+{
+  "capture_file": "udp26-20261024T000648Z-1792800408138675400.jsonl",
+  "capture_sha256": "f406de2726311dc569a2bc17fcd6d4a5c34c72f7e68c0497b931bb38553644fe",
+  "capture_bytes": 1585669,
+  "datagrams": 2754,
+  "parsed": 2754,
+  "counts": {
+    "RunningTime": 2690,
+    "LaneTime": 24,
+    "Ready": 24,
+    "Meet": 4,
+    "Session": 2,
+    "Event": 3,
+    "Heat": 7
+  },
+  "negative_LaneTime_codes": {
+    "-3": 10,
+    "-1": 4
+  },
+  "positive_running_updates": 642,
+  "estimated_running_ticks_per_second": 10000.306954382031,
+  "receive_window_seconds": 296.7529351711273,
+  "max_receive_gap_seconds": 0.20898103713989258,
+  "sender_endpoints": [
+    "10.227.186.112:54408"
+  ],
+  "field_screen_matches": [
+    {
+      "channel": 10,
+      "raw_ticks": 531404,
+      "source_screen_time": "0:53.14",
+      "converted_time": "0:53.14",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "1",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 9,
+      "raw_ticks": 549504,
+      "source_screen_time": "0:54.95",
+      "converted_time": "0:54.95",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "2",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 8,
+      "raw_ticks": 559004,
+      "source_screen_time": "0:55.90",
+      "converted_time": "0:55.90",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "3",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 7,
+      "raw_ticks": 566104,
+      "source_screen_time": "0:56.61",
+      "converted_time": "0:56.61",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "4",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 6,
+      "raw_ticks": 575304,
+      "source_screen_time": "0:57.53",
+      "converted_time": "0:57.53",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "5",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 5,
+      "raw_ticks": 581504,
+      "source_screen_time": "0:58.15",
+      "converted_time": "0:58.15",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "6",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 4,
+      "raw_ticks": 588404,
+      "source_screen_time": "0:58.84",
+      "converted_time": "0:58.84",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "7",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 3,
+      "raw_ticks": 595104,
+      "source_screen_time": "0:59.51",
+      "converted_time": "0:59.51",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "8",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 2,
+      "raw_ticks": 606904,
+      "source_screen_time": "1:00.69",
+      "converted_time": "1:00.69",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "9",
+      "source_points": "50.00"
+    },
+    {
+      "channel": 1,
+      "raw_ticks": 620004,
+      "source_screen_time": "1:02.00",
+      "converted_time": "1:02.00",
+      "matched": true,
+      "source_lap": "1",
+      "source_rank": "10",
+      "source_points": "50.00"
+    }
+  ],
+  "screen_source": "WhatsApp_Image_2026-10-24_at_3.12.13_AM.jpeg",
+  "unit_seconds": 0.0001,
+  "conversion": "integer floor(ticks/100) to hundredths; no rounding",
+  "validation_scope": "Observed TEST stream and supplied source screen only",
+  "physical_touchpad_verified": false,
+  "official_lane_numbering_verified": false,
+  "finish_detection_verified": false,
+  "DNF_mapping_verified": false,
+  "one_way_latency_measured": false,
+  "sequence_numbers_documented": false,
+  "final_summary_state": "STALE",
+  "raw_metadata_imported": false
+}

@@ -1,0 +1,55 @@
+{
+  "review_date": "2026-10-23",
+  "swimtime_version": "2.4.10.1",
+  "hardware_label": "ALGE TimeManager; exact model/firmware not verified",
+  "connection_in_about_screenshot": "No hardware detected / No hardware connected at capture time",
+  "network_display_screenshot": {
+    "enabled": true,
+    "destination": "Send only local",
+    "intermediates": 5,
+    "reaction_times": 5
+  },
+  "hytek_screenshot": {
+    "format": "Standard",
+    "auto_import_start_list": false,
+    "create_result_automatically": false,
+    "exchange_dir": "C:\\Users\\Public\\Documents\\SwimTime\\Exchange"
+  },
+  "gen_samples": [
+    {
+      "filename": "001-001-12P0001.gen",
+      "bytes": 129,
+      "sha256": "5d68b2c982a881fe997be3f15f3d2065dbbb6382b6aa0daeaa01248a9c0ba5ee"
+    },
+    {
+      "filename": "001-029-01P0001.gen",
+      "bytes": 209,
+      "sha256": "fd29bd179ed8a92e99ce055649c597721ca22a1dc2ec2e92d4d95e8ff9db1e7c"
+    },
+    {
+      "filename": "001-029-01P0002.gen",
+      "bytes": 199,
+      "sha256": "cd296cfa941ccd5d78c4a554773b9eec196d96fc3950b9b80813117556935ff0"
+    },
+    {
+      "filename": "001-029-02P0001.gen",
+      "bytes": 179,
+      "sha256": "1b8dcf3573c5d4a375bc125488ae9cde659fce61bf7c9c97fac13006d392ab1e"
+    },
+    {
+      "filename": "001-029-03P0001.gen",
+      "bytes": 179,
+      "sha256": "71f386b1509909fa275a5c2900c7ffc0cf484aec772eb7bae37c0660324b8051"
+    }
+  ],
+  "verified": "File bytes parsed structurally only",
+  "open_questions": [
+    "GEN time column semantics and lane-row mapping",
+    "Q/P and header fields",
+    "Correction/revision precedence between GEN filenames",
+    "Network Display destination port, transport and message schema",
+    "Actual ALGE/SwimTime connection and real data capture"
+  ],
+  "hardware_integrated": false,
+  "network_display_decoding_implemented": false
+}

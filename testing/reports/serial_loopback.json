@@ -1,0 +1,11 @@
+{
+  "type": "PSEUDOTERMINAL SERIAL SOFTWARE TEST",
+  "hardware_verified": false,
+  "checks": [
+    "Gateway opens POSIX PTY with configured serial settings and sends transport heartbeat",
+    "Fragmented START / RUNNING / SPLIT / FINISH delivered through PySerial, durable spool, HTTP and SQLite",
+    "All four raw frames retained in durable gateway spool and acknowledged",
+    "Serial disconnect detected and reconnect mode entered"
+  ],
+  "status": "COMPLETED"
+}

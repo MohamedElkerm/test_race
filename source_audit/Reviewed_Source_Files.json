@@ -1,0 +1,68 @@
+[
+  {
+    "name": "FINS2026_Graphic_Catalogue_Broadcast_System_Design.pptx",
+    "bytes": 52501717,
+    "sha256": "fe86934f175f48c3b5f016a2b3b62a34c0801989f99992f792664ced74df44e2",
+    "inspection": "ZIP slide XML/text extracted; visual catalogue not treated as governing TVG artwork",
+    "included_in_package": false,
+    "location": "Original Drive source retained"
+  },
+  {
+    "name": "FINS2026_Graphic_Catalogue_FINAL.pptx",
+    "bytes": 51521381,
+    "sha256": "eb1bea9f1d3e4c0ca9af051888ff712302bad6386bd808bdc46f2c4ce14bf1ef",
+    "inspection": "ZIP slide XML/text extracted; visual catalogue not treated as governing TVG artwork",
+    "included_in_package": false,
+    "location": "Original Drive source retained"
+  },
+  {
+    "name": "FINS2026_Venue_Look_Graphic_Catalogue_FINAL_Branding_Reissue.pptx",
+    "bytes": 21322128,
+    "sha256": "645cc8d16fbbb74309ea1a5e4068d554fb4374a58dcd2208aa44ccb20fd0c339",
+    "inspection": "ZIP slide XML/text extracted; visual catalogue not treated as governing TVG artwork",
+    "included_in_package": false,
+    "location": "Original Drive source retained"
+  },
+  {
+    "name": "COMMON_GRAPHICS.zip",
+    "bytes": 3247302,
+    "sha256": "ecaf813064753d6c983651475e71ddfb7f4640cf011d9f96e48bea0ad2f1d816",
+    "inspection": "ZIP contents extracted and inspected",
+    "included_in_package": false
+  },
+  {
+    "name": "FINS2026_LiveResults_v04_Fixed_Screens.zip",
+    "bytes": 3422103,
+    "sha256": "d2e6449798c2c04632417909bd522a4a81126402372e8ed3b79aa582719a0e00",
+    "inspection": "ZIP contents extracted and inspected",
+    "included_in_package": false
+  },
+  {
+    "name": "SFS_Jpg.zip",
+    "bytes": 3214512,
+    "sha256": "d8b12fa83c99ae692849b6c968f08638417f3547012c8cec8bf6c75c3e68228b",
+    "inspection": "ZIP contents extracted and inspected",
+    "included_in_package": false
+  },
+  {
+    "name": "SFS_Tga.zip",
+    "bytes": 122184,
+    "sha256": "a088ff912e3f8424b3c7dcb6ec01545729d09e3a44d5a355361080a418522e4c",
+    "inspection": "ZIP contents extracted and inspected",
+    "included_in_package": false
+  },
+  {
+    "name": "FINS2026_LiveResults_Updated_v03_SFS_USB-C.zip",
+    "bytes": 3420482,
+    "sha256": "f378cd7bd31051ae2b7cdbc8a5c3cbecf2ff9652cb3034d9d118663b185e95b2",
+    "inspection": "ZIP contents extracted and inspected",
+    "included_in_package": false
+  },
+  {
+    "name": "FINS2026_FISU_6Screens_TVG_v05_Review.zip",
+    "bytes": 10388778,
+    "sha256": "b2d36a3b7b3c29be00457c9ce0ded90558d49c1d002fe1ee511e24282b5f5fe8",
+    "inspection": "ZIP contents, source code, source audit and reference assets independently reviewed",
+    "included_in_package": false
+  }
+]

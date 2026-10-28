@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED / MANUAL NETWORK ACCEPTANCE REQUIRED",
+  "started_at": "2026-10-23T15:27:34.391Z",
+  "origin": "http://127.0.0.1:8773",
+  "declared_connection": "UNSPECIFIED",
+  "duration_seconds": 60,
+  "http_samples": 61,
+  "http_failures": 0,
+  "rtt_median_ms": 5,
+  "rtt_max_ms": 18,
+  "ws_messages": 582,
+  "ws_loss_notifications": 0,
+  "ws_max_gap_ms": 121,
+  "production_approved": false,
+  "physical_wifi_test": false
+}

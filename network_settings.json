@@ -1,0 +1,8 @@
+{
+  "swimtime_source_ip": "192.168.1.119",
+  "swimtime_port": 26,
+  "api_base_url": "https://fasugames2026.eusf.org.eg/v2/api",
+  "bearer_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhY2I3YTllODU0YjI2YWMwOWY5ZWRlMSIsImVtYWlsIjoiYWh1c3NpZW5AZWVsdS5lZHUuZWciLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3OTMxMDc1NjcsImV4cCI6MTc5MzE5Mzk2N30.UtSc-ZVbvY_YCmj3cZnKkPSsJ4Zr9J56_B0zDpkf_IE",
+  "lane_offset": 0,
+  "auto_sync": true
+}

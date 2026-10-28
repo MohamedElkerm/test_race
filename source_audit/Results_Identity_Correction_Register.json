@@ -1,0 +1,84 @@
+{
+  "patch": "RESULTS-20261020-2",
+  "source_folder": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+  "review_date": "2026-10-20",
+  "source_review": "Original SFS203A/SFS302A/SFS500 JPGs and supplied TGA sprites inspected",
+  "withdrawn_patch": "LED-20261020-1",
+  "withdrawal_reason": "Venue purple/mascot artwork is not the approved results identity",
+  "authority": "User-designated Live Results folder; FISU SFS guide governs TVG; LED placements still unapproved",
+  "sprite_checks": [
+    {
+      "asset": "presentation",
+      "dimensions": [
+        849,
+        284
+      ],
+      "rgba_equal": true,
+      "compared_channels": 964464,
+      "changed_channels": 0
+    },
+    {
+      "asset": "header2_lines",
+      "dimensions": [
+        870,
+        79
+      ],
+      "rgba_equal": true,
+      "compared_channels": 274920,
+      "changed_channels": 0
+    },
+    {
+      "asset": "sfs_2",
+      "dimensions": [
+        128,
+        79
+      ],
+      "rgba_equal": true,
+      "compared_channels": 40448,
+      "changed_channels": 0
+    },
+    {
+      "asset": "footer",
+      "dimensions": [
+        870,
+        38
+      ],
+      "rgba_equal": true,
+      "compared_channels": 132240,
+      "changed_channels": 0
+    },
+    {
+      "asset": "bar_basic",
+      "dimensions": [
+        870,
+        38
+      ],
+      "rgba_equal": true,
+      "compared_channels": 132240,
+      "changed_channels": 0
+    },
+    {
+      "asset": "bar_standing_rank",
+      "dimensions": [
+        593,
+        38
+      ],
+      "rgba_equal": true,
+      "compared_channels": 90136,
+      "changed_channels": 0
+    }
+  ],
+  "coverage": {
+    "all_templates": 35,
+    "templates_with_missing_assets": 16
+  },
+  "implemented": "LED source mapping, exact native SFS header/footer, no substitution of missing sprites, test-only diagnostic views, six native canvases",
+  "not_claimed": [
+    "Full SFS template visual match",
+    "Approved LED adaptation",
+    "Windows validation",
+    "Physical LED readability",
+    "ALGE hardware verification",
+    "Production approval"
+  ]
+}

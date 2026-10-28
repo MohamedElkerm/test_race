@@ -1,0 +1,154 @@
+{
+  "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+  "patch": "RESULTS-20261020-2",
+  "source_folder_id": "1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+  "source_folder_url": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+  "guide": "UWC2026_TVG_SFS_V1_0.pdf, 14 October 2026",
+  "source_tga_file_id": "1k9GRyZdeVuhY8mCDGLRD5yeeqqSApu9y",
+  "source_zip_sha256": "a088ff912e3f8424b3c7dcb6ec01545729d09e3a44d5a355361080a418522e4c",
+  "assets": {
+    "presentation": {
+      "original": "assets_original/tga/background/presentation.tga",
+      "original_sha256": "f56f14631dff2831c269576ff6218407b1c73d929917a9668ca187c4e5e7a65e",
+      "processed": "/assets/sfs/presentation.png",
+      "png_sha256": "565394eefd2f0bf5638a6bb1a394ebb88c1ffece9d0cee72e4739d036d9c4c69",
+      "width": 849,
+      "height": 284,
+      "derivation": "lossless RGBA conversion; no recolouring, redraw or alpha change"
+    },
+    "header2_lines": {
+      "original": "assets_original/tga/background/header2_lines.tga",
+      "original_sha256": "49c689b244a776ba18e7ef3ea3b35a57328cf81941a9f2d44d9229e6fa21e5d8",
+      "processed": "/assets/sfs/header2_lines.png",
+      "png_sha256": "2f3bdd7cffa5a0f74a73cb6421a4c57dc690ec57b225b2784a8fc1a5019a79e9",
+      "width": 870,
+      "height": 79,
+      "derivation": "lossless RGBA conversion; no recolouring, redraw or alpha change"
+    },
+    "sfs_2": {
+      "original": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+      "original_sha256": "befee19328181c03314737a4cc1873c2e0c410e8f5dc44ebac2882afaab21221",
+      "processed": "/assets/sfs/sfs_2.png",
+      "png_sha256": "993d2dc9ad5fe78c508733959a58b92c525138ec297c7579cad4753b0fccefb5",
+      "width": 128,
+      "height": 79,
+      "derivation": "lossless RGBA conversion; no recolouring, redraw or alpha change"
+    },
+    "footer": {
+      "original": "assets_original/tga/background/footer.tga",
+      "original_sha256": "f8b8c8b7f659db87996e4933371601c650c12b280b1059cd01df8e4582f4efc4",
+      "processed": "/assets/sfs/footer.png",
+      "png_sha256": "a2041e0534978a1d3560b4e927fd6af23b80ec9deaf0bf06cdc3068da9d01f77",
+      "width": 870,
+      "height": 38,
+      "derivation": "lossless RGBA conversion; no recolouring, redraw or alpha change"
+    },
+    "bar_basic": {
+      "original": "assets_original/tga/background/bar_basic.tga",
+      "original_sha256": "6962cb7be8815bdd0894b8b2a87662c704c3c2a1ebba9a7a4e9b9d1af93e8f1c",
+      "processed": "/assets/sfs/bar_basic.png",
+      "png_sha256": "efbb41f5d7db1bf6aafa5a652f93dc69a67dbaebba0e5598acbb62dab63e3917",
+      "width": 870,
+      "height": 38,
+      "derivation": "lossless RGBA conversion; no recolouring, redraw or alpha change"
+    },
+    "bar_standing_rank": {
+      "original": "assets_original/tga/background/bar_standing_rank.tga",
+      "original_sha256": "7244fb5ed81e69564afb77c4c414d32cadc3a4741466f1c006f6f032ec066657",
+      "processed": "/assets/sfs/bar_standing_rank.png",
+      "png_sha256": "51e3343bde0072563e1b7d675613aa166358a5ec568abf36fd37d166fce76e59",
+      "width": 593,
+      "height": 38,
+      "derivation": "lossless RGBA conversion; no recolouring, redraw or alpha change"
+    }
+  },
+  "template_missing": {
+    "SFS001": [],
+    "SFS002": [],
+    "SFS003": [],
+    "SFS004": [],
+    "SFS005": [],
+    "SFS200A": [],
+    "SFS200B": [],
+    "SFS200C": [],
+    "SFS201A": [],
+    "SFS201B": [],
+    "SFS201C": [],
+    "SFS202": [],
+    "SFS203A": [
+      "BAR_BASIC_WITH_BLUE.TGA"
+    ],
+    "SFS203B": [
+      "BAR_BASIC_WITH_BLUE.TGA"
+    ],
+    "SFS204": [],
+    "SFS205A": [],
+    "SFS205B": [],
+    "SFS206": [],
+    "SFS300A": [],
+    "SFS300B": [],
+    "SFS301A": [
+      "BAR_BASIC_WITH_BLUE.TGA"
+    ],
+    "SFS301B": [
+      "BAR_BASIC_WITH_BLUE.TGA"
+    ],
+    "SFS302A": [
+      "BAR_BASIC_WITH_BLUE.TGA"
+    ],
+    "SFS302B": [
+      "BAR_BASIC_WITH_BLUE.TGA"
+    ],
+    "SFS500": [
+      "SFS_CLOCK.TGA"
+    ],
+    "SFS501": [
+      "SFS_CLOCK.TGA"
+    ],
+    "SFS502": [
+      "SFS_CLOCK.TGA"
+    ],
+    "SFS503": [
+      "SFS_CLOCK.TGA"
+    ],
+    "SFS504A": [
+      "SFS_CLOCK.TGA"
+    ],
+    "SFS504B": [
+      "SFS_CLOCK.TGA"
+    ],
+    "SFS900": [],
+    "SFS901A": [
+      "MEDAL_GOLD_B.TGA",
+      "MEDAL_SILVER_B.TGA",
+      "MEDAL_BRONZE_B.TGA"
+    ],
+    "SFS901B": [
+      "MEDAL_GOLD_B.TGA",
+      "MEDAL_SILVER_B.TGA",
+      "MEDAL_BRONZE_B.TGA"
+    ],
+    "SFS902A": [
+      "MEDAL_GOLD.TGA",
+      "MEDAL_SILVER.TGA",
+      "MEDAL_BRONZE.TGA"
+    ],
+    "SFS902B": [
+      "MEDAL_GOLD.TGA",
+      "MEDAL_SILVER.TGA",
+      "MEDAL_BRONZE.TGA"
+    ]
+  },
+  "led_placement_approved": false,
+  "fully_matched": false,
+  "status": "TEST ONLY / AWAITING LED LAYOUT AND FISU APPROVAL",
+  "excluded_sources": [
+    "LOC 4x3.pdf purple mascot artwork withdrawn for RESULTS use"
+  ],
+  "unresolved": [
+    "BAR_BASIC_WITH_BLUE.TGA absent; no substitute drawn",
+    "SFS_CLOCK.TGA absent; CSP_clock.tga is not an approved alias",
+    "Header filename variant remains subject to source conflict SRC-03",
+    "Native LED placements require separate approval; TVG positions unchanged"
+  ]
+}

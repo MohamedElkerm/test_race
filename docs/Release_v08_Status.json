@@ -1,0 +1,21 @@
+{
+  "release": "0.8.0",
+  "generated_at_cairo": "2026-10-24T03:32:58.748121+03:00",
+  "scope": "Read-only SwimTime UDP TEST reception inside FINS dashboard",
+  "field_capture_datagrams": 2754,
+  "source_screen_time_matches": 10,
+  "observed_time_unit_seconds": "0.0001",
+  "python_tests_passed": 69,
+  "browser_checks_passed": 9,
+  "original_assets_hash_checked": 496,
+  "processed_assets_hash_checked": 245,
+  "bundled_windows_wheels_checked": 17,
+  "test_environment": "Linux / Python 3.12.14 / headless Chromium / IPv4 loopback",
+  "windows_v08_runtime_test": false,
+  "physical_alge_lane_test": false,
+  "finish_semantics_verified": false,
+  "official_results_from_network_display_enabled": false,
+  "network_display_to_TVG_LED_enabled": false,
+  "FISU_visual_matching_status": "Existing blockers retained; no new approval",
+  "production_approved": false
+}

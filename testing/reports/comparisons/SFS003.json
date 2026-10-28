@@ -1,0 +1,62 @@
+{
+  "code": "SFS003",
+  "missing": [],
+  "fields": [
+    {
+      "value": "FINSWIMMING",
+      "x": 664,
+      "y": 953,
+      "size": 30,
+      "width": 218,
+      "max_width": 620,
+      "weight": 900
+    },
+    {
+      "value": "SESSION SCHEDULE",
+      "x": 664,
+      "y": 993,
+      "size": 24,
+      "width": 225,
+      "max_width": 700,
+      "weight": 900
+    },
+    {
+      "value": "NOT APPROVED / Schedule source not assigned",
+      "x": 76,
+      "y": 92,
+      "size": 20,
+      "width": 429,
+      "max_width": 1460,
+      "weight": 700
+    },
+    {
+      "value": "TEST / ENGINEERING BUILD  •  SFS003  •  NOT FISU APPROVED",
+      "x": 76,
+      "y": 25,
+      "size": 21,
+      "width": 611,
+      "max_width": 1760,
+      "weight": 700
+    }
+  ],
+  "overflow": [],
+  "blocked": [
+    "Schedule source not assigned"
+  ],
+  "approval": "AWAITING VISUAL QA AND FISU APPROVAL",
+  "reference": "/references/SFS003 - SCHEDULE.jpg",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "overlay_alpha": 0.5,
+  "mean_absolute_rgb_error": 151.02287085262347,
+  "pixels_over_12": 2052563,
+  "fully_matched": false,
+  "notes": [
+    "Reference camera matte and sample names differ from TEST data. Full-image error is not a static-sprite fidelity score.",
+    "Field positions, measured widths, font sizes and colours require independent review against original.",
+    "No template is production approved."
+  ],
+  "fonts": "Supplied Common Graphics Lato (native TTF); final per-field weights/baselines pending review"
+}

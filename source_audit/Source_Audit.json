@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "templates": 35,
+  "templates_with_missing_assets": 16,
+  "fully_matched": 0,
+  "production_approved": 0,
+  "original_assets_hashed": 496,
+  "wipe": {
+    "status": "NOT DOWNLOADED / NOT INSPECTED",
+    "bytes": 299682423,
+    "connector_limit": 268435456,
+    "action": "Supply extracted files or split archive parts under 256 MiB"
+  },
+  "prototype_review": {
+    "v03": "standard-library demo; no authenticated results approval or actual serial integration",
+    "v04": "same demo architecture; fixed sizes",
+    "v05": "engineering prototype independently inspected; not production approved; its fallback substitutions are not adopted"
+  },
+  "source_scope": "Root and technical source folders inventoried. Specified TVG/prototype archives inspected. Catalogues extracted (24/22/21 slides). Unrelated passport/finance folders not downloaded. No real roster or device log imported."
+}

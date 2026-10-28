@@ -1,0 +1,62 @@
+{
+  "code": "SFS200C",
+  "missing": [],
+  "fields": [
+    {
+      "value": "TEST ATHLETE 01",
+      "x": 713,
+      "y": 992,
+      "size": 26,
+      "width": 214,
+      "max_width": 560,
+      "weight": 900
+    },
+    {
+      "value": "",
+      "x": 1370,
+      "y": 1034,
+      "size": 22,
+      "width": 0,
+      "max_width": 180,
+      "weight": 900
+    },
+    {
+      "value": "NOT APPROVED / Approved qualification / record required",
+      "x": 76,
+      "y": 92,
+      "size": 20,
+      "width": 526,
+      "max_width": 1460,
+      "weight": 700
+    },
+    {
+      "value": "TEST / ENGINEERING BUILD  •  SFS200C  •  NOT FISU APPROVED",
+      "x": 76,
+      "y": 25,
+      "size": 21,
+      "width": 625,
+      "max_width": 1760,
+      "weight": 700
+    }
+  ],
+  "overflow": [],
+  "blocked": [
+    "Approved qualification / record required"
+  ],
+  "approval": "AWAITING VISUAL QA AND FISU APPROVAL",
+  "reference": "/references/SFS200C - ATHLETE ID + QUALIFICATION + RECORD.jpg",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "overlay_alpha": 0.5,
+  "mean_absolute_rgb_error": 166.70472447273661,
+  "pixels_over_12": 2064427,
+  "fully_matched": false,
+  "notes": [
+    "Reference camera matte and sample names differ from TEST data. Full-image error is not a static-sprite fidelity score.",
+    "Field positions, measured widths, font sizes and colours require independent review against original.",
+    "No template is production approved."
+  ],
+  "fonts": "Supplied Common Graphics Lato (native TTF); final per-field weights/baselines pending review"
+}

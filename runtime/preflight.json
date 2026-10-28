@@ -1,0 +1,11 @@
+{
+  "platform": "macOS-26.0.1-arm64-arm-64bit",
+  "python": "3.12.16 (main, Oct 25 2026, 18:24:37) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "bits": 64,
+  "sqlite": "3.54.1",
+  "original_assets_checked": 496,
+  "processed_assets_checked": 245,
+  "failures": [],
+  "production_approved": false,
+  "windows_field_test": "PENDING"
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "backend_loopback_soak",
+  "requested_seconds": 60,
+  "clients": 8,
+  "physical_device": false,
+  "gpu_measured": false,
+  "windows_tested": false,
+  "errors": [],
+  "status": "COMPLETED",
+  "elapsed_seconds": 60.36,
+  "messages": 601,
+  "websocket_snapshots_by_client": [
+    584,
+    583,
+    582,
+    582,
+    584,
+    584,
+    585,
+    584
+  ],
+  "http_roundtrip": {
+    "n": 601,
+    "median_ms": 6.79,
+    "p95_ms": 11.88,
+    "max_ms": 80.0
+  },
+  "ingest_to_websocket": {
+    "n": 4629,
+    "median_ms": 57.32,
+    "p95_ms": 101.04,
+    "max_ms": 123.86
+  },
+  "rss_mb_min": null,
+  "rss_mb_max": null,
+  "memory_measurement": "INVALIDATED AFTER REVIEW - PID namespace returned an implausible 0.4 MiB; no RAM capacity claim",
+  "cpu_percent_max": 105.37,
+  "notes": [
+    "Backend receipt-to-WebSocket measurement on loopback, not device-to-LED end-to-end latency.",
+    "60-second bounded soak is not a full competition-day endurance test.",
+    "CPU is backend process CPU; no Surface CPU/RAM/GPU or LED refresh measurement.",
+    "RSS sample invalidated after plausibility review. Raw untrusted values are retained separately; Windows/venue RSS measurement is pending."
+  ],
+  "raw_untrusted_rss_mb": {
+    "min": 0.4,
+    "max": 0.4
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "code": "SFS203A",
+  "missing": [
+    "BAR_BASIC_WITH_BLUE.TGA"
+  ],
+  "fields": [
+    {
+      "value": "FINSWIMMING",
+      "x": 664,
+      "y": 582,
+      "size": 30,
+      "width": 218,
+      "max_width": 620,
+      "weight": 900
+    },
+    {
+      "value": "START LIST - MEN 100m SF - FINAL 1",
+      "x": 664,
+      "y": 622,
+      "size": 24,
+      "width": 404,
+      "max_width": 700,
+      "weight": 900
+    },
+    {
+      "value": "1",
+      "x": 537,
+      "y": 662,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 01",
+      "x": 709,
+      "y": 662,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "2",
+      "x": 537,
+      "y": 703,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 02",
+      "x": 709,
+      "y": 703,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "3",
+      "x": 537,
+      "y": 744,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 03",
+      "x": 709,
+      "y": 744,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "4",
+      "x": 537,
+      "y": 785,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 04",
+      "x": 709,
+      "y": 785,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "5",
+      "x": 537,
+      "y": 826,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 05",
+      "x": 709,
+      "y": 826,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "6",
+      "x": 537,
+      "y": 867,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 06",
+      "x": 709,
+      "y": 867,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "7",
+      "x": 537,
+      "y": 908,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 07",
+      "x": 709,
+      "y": 908,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "8",
+      "x": 537,
+      "y": 949,
+      "size": 26,
+      "width": 15,
+      "max_width": 45,
+      "weight": 900
+    },
+    {
+      "value": "TEST ATHLETE 08",
+      "x": 709,
+      "y": 949,
+      "size": 26,
+      "width": 214,
+      "max_width": 650,
+      "weight": 900
+    },
+    {
+      "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA",
+      "x": 76,
+      "y": 92,
+      "size": 20,
+      "width": 436,
+      "max_width": 1460,
+      "weight": 700
+    },
+    {
+      "value": "TEST / ENGINEERING BUILD  •  SFS203A  •  NOT FISU APPROVED",
+      "x": 76,
+      "y": 25,
+      "size": 21,
+      "width": 626,
+      "max_width": 1760,
+      "weight": 700
+    }
+  ],
+  "overflow": [],
+  "blocked": [],
+  "approval": "ASSET MISSING / NOT APPROVED",
+  "reference": "/references/SFS203A - START LIST INDIVIDUAL.jpg",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "overlay_alpha": 0.5,
+  "mean_absolute_rgb_error": 144.10840808256174,
+  "pixels_over_12": 1977298,
+  "fully_matched": false,
+  "notes": [
+    "Reference camera matte and sample names differ from TEST data. Full-image error is not a static-sprite fidelity score.",
+    "Field positions, measured widths, font sizes and colours require independent review against original.",
+    "No template is production approved."
+  ],
+  "fonts": "Supplied Common Graphics Lato (native TTF); final per-field weights/baselines pending review"
+}

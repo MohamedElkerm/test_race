@@ -1,0 +1,226 @@
+{
+  "data_mode": "TEST",
+  "championship_id": "TEST-FINS26",
+  "name": "TEST / FINS 2026 Engineering",
+  "source": "Synthetic fixture; competition date from October programme, not real entries",
+  "reason": "Engineering simulation only",
+  "heats": [
+    {
+      "session_id": "TEST-S1",
+      "session_name": "TEST Morning",
+      "date": "2026-10-28",
+      "session_start": "09:00",
+      "round": "FINAL",
+      "id": "TEST-IND-1",
+      "event_id": "TEST-E1",
+      "timing_event": 1,
+      "timing_heat": 1,
+      "name": "100m SF",
+      "discipline": "SF",
+      "gender": "MEN",
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 430000,
+          "athlete": {
+            "id": "TEST-A1",
+            "name": "TEST ATHLETE 01",
+            "country": "EGY",
+            "university_id": "TEST-U1",
+            "university": "TEST UNIVERSITY 01",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 440000,
+          "athlete": {
+            "id": "TEST-A2",
+            "name": "TEST ATHLETE 02",
+            "country": "ITA",
+            "university_id": "TEST-U2",
+            "university": "TEST UNIVERSITY 02",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 450000,
+          "athlete": {
+            "id": "TEST-A3",
+            "name": "TEST ATHLETE 03",
+            "country": "CHN",
+            "university_id": "TEST-U3",
+            "university": "TEST UNIVERSITY 03",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 460000,
+          "athlete": {
+            "id": "TEST-A4",
+            "name": "TEST ATHLETE 04",
+            "country": "FRA",
+            "university_id": "TEST-U4",
+            "university": "TEST UNIVERSITY 04",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 470000,
+          "athlete": {
+            "id": "TEST-A5",
+            "name": "TEST ATHLETE 05",
+            "country": "CZE",
+            "university_id": "TEST-U5",
+            "university": "TEST UNIVERSITY 05",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 480000,
+          "athlete": {
+            "id": "TEST-A6",
+            "name": "TEST ATHLETE 06",
+            "country": "POL",
+            "university_id": "TEST-U6",
+            "university": "TEST UNIVERSITY 06",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 490000,
+          "athlete": {
+            "id": "TEST-A7",
+            "name": "TEST ATHLETE 07",
+            "country": "GER",
+            "university_id": "TEST-U7",
+            "university": "TEST UNIVERSITY 07",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 500000,
+          "athlete": {
+            "id": "TEST-A8",
+            "name": "TEST ATHLETE 08",
+            "country": "LTU",
+            "university_id": "TEST-U8",
+            "university": "TEST UNIVERSITY 08",
+            "gender": "MEN"
+          }
+        }
+      ]
+    },
+    {
+      "session_id": "TEST-S1",
+      "session_name": "TEST Morning",
+      "date": "2026-10-28",
+      "session_start": "09:00",
+      "round": "FINAL",
+      "id": "TEST-RELAY-1",
+      "event_id": "TEST-E2",
+      "timing_event": 2,
+      "timing_heat": 1,
+      "name": "4x100m SF",
+      "discipline": "SF",
+      "gender": "MIXED",
+      "relay": true,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 1600000,
+          "team": {
+            "id": "TEST-T1",
+            "name": "TEST RELAY TEAM 1",
+            "country": "EGY",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-T1-A1",
+                "name": "TEST RELAY 1 MEMBER 1",
+                "country": "EGY",
+                "university_id": "TEST-RU11",
+                "university": "TEST RELAY UNIVERSITY 11",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-T1-A2",
+                "name": "TEST RELAY 1 MEMBER 2",
+                "country": "EGY",
+                "university_id": "TEST-RU12",
+                "university": "TEST RELAY UNIVERSITY 12",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-T1-A3",
+                "name": "TEST RELAY 1 MEMBER 3",
+                "country": "EGY",
+                "university_id": "TEST-RU13",
+                "university": "TEST RELAY UNIVERSITY 13",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-T1-A4",
+                "name": "TEST RELAY 1 MEMBER 4",
+                "country": "EGY",
+                "university_id": "TEST-RU14",
+                "university": "TEST RELAY UNIVERSITY 14",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 1600000,
+          "team": {
+            "id": "TEST-T2",
+            "name": "TEST RELAY TEAM 2",
+            "country": "ITA",
+            "fisu_team": true,
+            "members": [
+              {
+                "id": "TEST-T2-A1",
+                "name": "TEST RELAY 2 MEMBER 1",
+                "country": "ITA",
+                "university_id": "TEST-RU21",
+                "university": "TEST RELAY UNIVERSITY 21",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-T2-A2",
+                "name": "TEST RELAY 2 MEMBER 2",
+                "country": "ITA",
+                "university_id": "TEST-RU22",
+                "university": "TEST RELAY UNIVERSITY 22",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-T2-A3",
+                "name": "TEST RELAY 2 MEMBER 3",
+                "country": "ITA",
+                "university_id": "TEST-RU23",
+                "university": "TEST RELAY UNIVERSITY 23",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-T2-A4",
+                "name": "TEST RELAY 2 MEMBER 4",
+                "country": "ITA",
+                "university_id": "TEST-RU24",
+                "university": "TEST RELAY UNIVERSITY 24",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

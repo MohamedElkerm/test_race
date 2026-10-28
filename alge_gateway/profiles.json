@@ -1,0 +1,10 @@
+{
+ "manual":"Swimming-BE.pdf, pages 32-33, section 5.1.1.2",
+ "transport":{"direction":"receive only","baud_default":19200,"data_bits":8,"parity":"N","stop_bits":1,"terminator_hex":"0d","max_frame_chars":64},
+ "profiles":{
+  "tm-swim-video-modern-v1":{"rank_columns":0,"authority":"Manual: RR omitted on versions higher than 14xx; verify actual device","hardware_verified":false},
+  "tm-swim-video-legacy-v1":{"rank_columns":2,"authority":"Manual diagram RR columns 7-8; verify actual device","hardware_verified":false}
+ },
+ "quarantine":["unmapped lane","wrong event or heat","out of order sequence","regressive running clock","changed time without delete","unknown format"],
+ "limitations":["START has no event/heat; explicit operator heat binding is required","Lane messages omit event/heat; a wrong manual binding cannot be inferred away","No device capture supplied","No field device has been connected","Network Display, Splash/Lenex and Hy-Tek wire/file adapters are not claimed implemented"]
+}

@@ -1,0 +1,583 @@
+    
+    
+Professional Graphic Catalogue
+& Broadcast Graphics System
+2026 FISU World University Championship Finswimming
+Sharm El Sheikh, Egypt
+كتالوج الجرافيك ونظام البث المرئي للبطولة
+28–29 Oct
+Competition dates
+25–30 Oct
+Delegation / event window
+Data-led
+TV • Web • LED • Social
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+01
+    
+System Objective: one visual operating system
+Not a moodboard — a production-ready catalogue for social, web, broadcast, venue and results delivery.
+    
+01
+Brand-compliant
+FISU-led hierarchy, protected lock-ups, sponsor controls and official typography.
+02
+Data-driven
+One source of truth feeds TV graphics, web results, LED screens and social templates.
+03
+Broadcast-safe
+Legible layouts for compressed livestream, TV, pool lighting and long-distance viewing.
+Social Media
+Official Website
+Web Results
+Live Broadcast
+TV Graphics
+Videoboard
+Athlete Entrance
+Call Room
+Medal Ceremonies
+Mixed Zone
+Operational Notices
+Digital Documents
+All outputs must feel like one event system — fast, aquatic, premium and officially FISU.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+02
+    
+Source hierarchy & production audit
+Use approved operational documents plus the live official event website; where they disagree, hold public production until the OC/FISU source is reconciled.
+    
+Source
+Production status
+Graphic implication
+Gantt Updated 23 Sep 2026
+CURRENT
+Locks October schedule, readiness gates, TVG/live score tasks.
+CURRENT
+Technical Handbook Finswimming
+CURRENT
+Disciplines, M–W–M–W relay order, ties, swim-offs, FISU Team.
+CURRENT
+Technology Guideline 2025
+MANDATORY
+English TVG/Web Results, University in athlete TVG, API/iFrame, ORIS.
+MANDATORY
+Brand Book + Logo Guidelines
+MANDATORY
+FISU colours, Lato, lock-up hierarchy, clear space, TV rules.
+MANDATORY
+Look of Venue — Finswimming
+MANDATORY
+Camera-plan placement, FISU Space, scoreboard and backdrop logic.
+MANDATORY
+Old Invitation / April assets
+LEGACY
+Do not publish; tag as date conflict unless formally reapproved.
+LEGACY
+Audit output: every template receives an approval owner, source field and version ID.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+03
+    
+Legacy content filter: April dates excluded
+Public graphics use the October 2026 schedule now published on the official event website; unresolved internal/public differences remain approval-gated.
+    
+LEGACY — DO NOT PUBLISH
+10–11 APRIL 2026
+Found in old invitations / communication drafts.
+Requires replacement in all countdowns, website banners, broadcast title cards and printed collateral.
+CURRENT PRODUCTION BASELINE
+25–26 OCT
+Arrival & Registration
+27 OCT
+Official Training + Technical Meetings
+28 OCT
+Opening + Competition Day 1
+29–30 OCT
+Competition Day 2 + Closing / Departures
+Catalogue rule: every graphic must carry a version ID and event-date source reference before production release.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+04
+    
+Brand foundations: official assets only
+No redrawing, recolouring, distortion or sponsor insertion without approved rights.
+    
+    
+Event Lock-up
+    
+FISU Master Brand
+    
+    
+OC / Host Hierarchy
+FISU SPACE
+OC SPACE
+APPROVED SLOT ONLY
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+05
+    
+Colour system & typography
+FISU corporate palette + controlled finswimming motion language.
+    
+Cyan
+#007BC0
+Yellow
+#F9B000
+Red
+#E30613
+Green
+#009640
+Navy
+#123274
+Dark
+#00151D
+Lato Black
+Major headlines • results • rankings
+Lato Medium
+Athlete names • labels • data fields
+Lato Light
+Readability rules
+No information by colour alone
+Minimum TV/mobile legibility
+Flags + country codes
+Clear status labels
+No generic splash clichés
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+06
+    
+Visual language: hydrodynamic, not decorative
+Motion comes from fin propulsion, lane geometry, pressure trails and clean data reveals.
+    
+    
+Event symbol remains the only symbol.
+Fin propulsion
+Lane speed
+Water displacement
+Pressure / flow
+Red Sea atmosphere
+Broadcast-safe clarity
+Avoid: visual clutter • excessive glow • random waves • over-animation • tiny data typography.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+07
+    
+Competition scope & terminology
+Every template supports the current Finswimming programme and status logic.
+    
+Individual — Men & Women
+50m AP
+100m SF
+200m SF
+400m SF
+800m SF
+50m BF
+100m BF
+200m BF
+400m BF
+Mixed Relays
+4×50m SF
+4×50m BF
+4×100m SF
+4×100m BF
+Result states
+LIVE
+UNOFFICIAL
+UNDER REVIEW
+OFFICIAL
+SWIM-OFF REQUIRED
+FISU RECORD
+AP = Apnea • SF = Surface • BF = Bi-fins
+Ties and ex aequo must be supported without manual visual hacks.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+08
+    
+Results data flow: one source → multiple outputs
+The visual system must not require duplicate manual entry for TV, web, LED and social when a feed exists.
+    
+GMS
+Entries
+Timing &
+Scoring
+OVR
+Venue Data
+Central Results
+Database
+TCC Approval
+Gate
+Outputs
+TV/Web/LED
+Graphic guardrail
+If result_status is not OFFICIAL, the template must not render “Official Result”.
+Manual field
+Allowed only as MANUAL_APPROVED_FIELD with operator, source and timestamp.
+No duplicate entry
+Social, website, TV and videoboard receive consistent approved data.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+09
+    
+Broadcast race flow
+Templates follow the real journey from session intro through heats, qualification, finals and medal ceremonies.
+    
+Session Intro
+Event Title
+Start List
+Athlete / Lane Intro
+Live Timing
+Splits / Ranking
+Finish Order
+Unofficial Result
+Review Gate
+Official Result
+Qualifiers / Finalists
+Medal / Podium
+The graphic engine must wait for status + approval, not simply display the final-looking layout when a race finishes.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+10
+    
+Broadcast template: Start List
+HD 16:9 safe master; English master data; athlete + country + university model.
+    
+100m SURFACE • MEN • HEAT 2
+START LIST
+1
+EGY
+KAREEM HASSAN
+Cairo University
+42.18
+2
+ITA
+LUCA BIANCHI
+University of Bologna
+41.76
+3
+CHN
+WEI ZHANG
+Beijing Sport Univ.
+41.44
+4
+COL
+MATEO ROJAS
+Universidad de Antioquia
+41.28
+Required fields
+event_id
+discipline_code
+gender / round / heat
+lane
+athlete_display_name
+country_code + flag
+university_name
+seed_time / entry_time
+result_status
+University name is a core field — not a visual afterthought.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+11
+    
+Broadcast template: result status architecture
+Same result content, visually distinct publication state.
+    
+50m AP • WOMEN • FINAL
+UNOFFICIAL
+1
+CHN
+LI MEI
+19.42
+2
+ITA
+S. ROSSI
+19.58
+3
+EGY
+M. ALI
+19.87
+50m AP • WOMEN • FINAL
+UNDER REVIEW
+1
+CHN
+LI MEI
+19.42
+2
+ITA
+S. ROSSI
+19.58
+3
+EGY
+M. ALI
+19.87
+50m AP • WOMEN • FINAL
+OFFICIAL
+1
+CHN
+LI MEI
+19.42
+2
+ITA
+S. ROSSI
+19.58
+3
+EGY
+M. ALI
+19.87
+Do not rely on colour alone: each status carries a text label and structural treatment.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+12
+    
+Athlete entrance full-screen system
+Lane-led reveal sequence with country, university and event data.
+    
+LANE 4
+KAREEM HASSAN
+EGY • Cairo University
+100m SURFACE • MEN • FINAL
+SEED 41.28
+    
+Animation: Event identity → Lane → Flag/Country → Athlete → University → Next lane
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+13
+    
+Relay graphics: Mixed Relay + FISU Team logic
+Supports M–W–M–W order, per-athlete university, and FISU Team visual treatment.
+    
+4×100m BF • MIXED RELAY
+1
+M
+A. HASSAN
+Cairo University
+2
+W
+M. ALI
+Alexandria University
+3
+M
+O. SALEH
+Mansoura University
+4
+W
+N. FARID
+Ain Shams University
+FISU TEAM
+Multi-country relay treatment
+No national flag dominance
+Per-athlete country + university
+MEDAL_ELIGIBLE = FALSE unless approved
+Not shown as a country team
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+14
+    
+Website graphic system
+Align the catalogue with the official FISU event-site structure while keeping live results on the approved data layer.
+    
+    
+News
+Schedules
+General Info
+Participants
+For Media
+Organisers
+    
+LIVE NOW
+100m Surface • Men • Heat 2
+WATCH LIVE
+Next Event
+50m AP • Women Final
+15:25
+Official Result
+400m BF • Men
+PDF + HTML
+Web Results language: English master. Arabic companion UI may be provided without changing the data layer.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+15
+finswimming2026.fisu.net  •  official digital reference
+    
+Social media template family
+Same data model adapted to 4:5 feed, 1:1 square, 16:9 and 9:16 story/reel.
+    
+    
+    
+GOLD MEDAL
+OFFICIAL RESULT
+Women 50m BF
+4:5 FEED
+    
+    
+START LIST
+OFFICIAL RESULT
+Women 50m BF
+1:1 SQUARE
+    
+    
+LIVE NOW
+OFFICIAL RESULT
+Women 50m BF
+16:9 WEBSITE / X
+    
+    
+RECORD ALERT
+OFFICIAL RESULT
+Women 50m BF
+9:16 STORY
+Every post has: source data • status label • logo safe area • language variant • approval owner • version ID.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+16
+    
+Scoreboard / Videowall system
+ORIS-aligned large typography; simpler than TV graphics; tested for pool reflections and long-distance viewing.
+    
+NEXT RACE
+100m SURFACE • MEN • FINAL
+START 15:40
+Idle / Branding
+Start List
+Live Timing
+Official Result
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+17
+    
+Medal ceremony graphics
+Supports podium, equal ranks and protocol-controlled anthem state.
+    
+MEDAL CEREMONY
+Women 50m Bi-fins
+GOLD
+LI MEI
+CHN • Beijing Sport University
+SILVER
+SOFIA ROSSI
+ITA • University of Bologna
+BRONZE
+MARIAM ALI
+EGY • Cairo University
+CER_MEDAL_ANTHEM_HOLD — protocol approval required
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+18
+    
+Operational graphics: functional, fast and official
+For call room, transport, delays, medical, accreditation, venue access and emergency notices.
+    
+SCHEDULE CHANGE
+Session 2 delayed by 20 minutes
+Use only after competition manager approval
+BUS DEPARTURE
+Team buses leave at 18:15
+Load from venue west gate
+CALL ROOM NOTICE
+Athletes must report 20 min before race
+Bring accreditation card
+URGENT NOTICE
+Venue access temporarily restricted
+Follow LOC staff instructions
+Operational system is less promotional: bigger labels, strict source control, bilingual variants where needed.
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+19
+    
+Export matrix & naming convention
+Every asset is trackable by platform, approval owner, source file and version.
+    
+Asset ID
+Use case
+Format
+Data source
+Approval
+FINS26_TVG_STARTLIST_M_100SF_v01
+Start List
+MOV/PNG+Alpha
+RTS/OVR
+FISU Media
+FINS26_TVG_RESULT_W_50BF_OFFICIAL_v01
+Official Result
+CG Template
+CRS/TCC
+TCC + ICT
+FINS26_SOC_RESULT_W_50BF_4x5_v01
+Social Result
+PNG/MP4
+Approved CRS
+LOC Media
+FINS26_LED_FINAL_STARTLIST_16x9_v01
+Videowall
+PNG/MP4
+OVR
+Venue + ICT
+FINS26_OPS_DELAY_NOTICE_16x9_v01
+Operational notice
+PNG/PDF
+LOC approved
+Functional Lead
+Static + Motion + Platform variants
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+20
+    
+Approval gates before production release
+Every template is tagged with its approval owner and production state.
+    
+DRAFT
+INTERNAL REVIEW
+SUBMITTED TO FISU
+REVISION REQUIRED
+APPROVED
+LOCKED FOR PRODUCTION
+Primary approval owners: FISU Marketing • FISU Media & TV Production • FISU ICT / Technology • FISU TCC • CMAS • LOC
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+21
+    
+    
+Complete documented, scalable and data-driven visual operating system
+Ready for detailed production pages, final artwork, motion prototypes and supplier handoff.
+FISU
+CMAS
+Host Broadcaster
+Results Provider
+Website Team
+Social Media Team
+LED Supplier
+Organising Committee
+NEXT: Final website cleanup + production artwork approval
+FINS 2026 GRAPHIC CATALOGUE • PRE-PRODUCTION DESIGN SYSTEM
+24
+Official website alignment — live source audit
+The website is now a mandatory public-facing source, but several secondary pages still contain legacy or placeholder content.
+FINS 2026 GRAPHIC CATALOGUE • WEBSITE ALIGNMENT
+22
+CURRENT PUBLIC SCHEDULE • HOMEPAGE / SCHEDULES
+25–26 OCT
+Arrival & Registration
+27 OCT
+Official Training & Technical Meetings
+28 OCT
+Opening Ceremony + Competition Day 1
+29 OCT
+Competition Day 2 + Closing Ceremony
+30 OCT
+Departure
+OFFICIAL DIGITAL SOURCE  •  finswimming2026.fisu.net
+CONTENT RECONCILIATION REQUIRED
+SITE TITLE
+Still carries “(postponed)” status label.
+COMPETITION PAGE
+Still publishes April 9–12 legacy schedule.
+CEREMONIES PAGE
+Still lists Opening Ceremony on 10 April.
+PARTICIPANT PAGE
+Contains Pending / sample contacts / Lorem Ipsum.
+SCHEDULE TIMES
+Current schedule cards show 00:00 placeholders.
+DO NOT PULL DATES FROM SECONDARY PAGES
+Website → Graphic Catalogue integration
+Each official website section maps to a controlled graphic family and the same authoritative results / schedule data.
+FINS 2026 GRAPHIC CATALOGUE • WEBSITE ALIGNMENT
+23
+NEWS
+Press cards • quote cards • story / reel promos
+SOC / PRS
+SCHEDULES
+Day strips • session cards • countdowns • venue screens
+WEB / LED / OPS
+GENERAL INFO
+Venue cards • city / Red Sea content • ceremony info
+WEB / CER
+FOR PARTICIPANTS
+Arrival • transport • accreditation • medical • FAQ
+OPS / WEB
+FOR MEDIA
+Press kit • mixed-zone info • downloadable media assets
+PRS / WEB
+ORGANISERS
+Approved host/partner hierarchy • sponsor visibility rules
+BRD / EXP
+ONE DATA LAYER → Website • TVG • Scoreboard • Videowall • Social • PDF Results • Archive
+No duplicate manual result entry

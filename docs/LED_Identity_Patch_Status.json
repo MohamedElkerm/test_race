@@ -1,0 +1,14 @@
+{
+  "status": "WITHDRAWN_WRONG_RESULTS_IDENTITY",
+  "checks": 26,
+  "browser_captures": 12,
+  "native_outputs": 6,
+  "physical_hardware": false,
+  "windows": false,
+  "fully_matched": false,
+  "layout_approved": false,
+  "patch": "LED-20261020-1",
+  "source_identity": "FINS2026-LOC-4X3-20261017",
+  "superseded_by": "RESULTS-20261020-2",
+  "reason": "Its pixel tests verified the wrong venue image, not the results identity"
+}

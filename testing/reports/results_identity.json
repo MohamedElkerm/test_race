@@ -1,0 +1,4702 @@
+{
+  "status": "COMPLETED",
+  "executed_at": "2026-10-23T15:31:08.429Z",
+  "environment": "Linux / headless Chromium / loopback HTTP",
+  "checks": [
+    {
+      "name": "Six supplied TGA and PNG asset checksums agree with source mapping",
+      "status": "PASS"
+    },
+    {
+      "name": "master idle: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 1113,
+          "y": 371,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "l1 idle: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 463,
+          "y": 48,
+          "w": 480,
+          "h": 158
+        },
+        "compared_channels": 303360,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "l2 idle: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 399,
+          "y": 48,
+          "w": 480,
+          "h": 158
+        },
+        "compared_channels": 303360,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "screen2 idle: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 473,
+          "y": 243,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "screen3 idle: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 345,
+          "y": 371,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "stage idle: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 345,
+          "y": 115,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "master startlist: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 1101,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "l1 startlist: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 269,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "l2 startlist: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 205,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "screen2 startlist: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 461,
+          "y": 569,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "screen3 startlist: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "stage startlist: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 359,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "master results: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 1101,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "master: content modes, official gate, stale timing, real split sprite, venue gate, blackout, long name suppression",
+      "status": "PASS",
+      "detail": [
+        {
+          "content": "upcoming",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "UPCOMING - MEN 100m SF",
+            "MEN 100m SF / FINAL / HEAT 1",
+            "READY / HEAT 1 / PAGE 1 OF 1 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "live",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "WAITING FOR TIMING",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "splits",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "SPLITS - MEN 100m SF",
+            "NO APPROVED DATA FOR THIS VIEW",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "official",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "APPROVAL PENDING - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "qualification",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "QUALIFICATION - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "medals",
+          "overflow": [],
+          "missing": [
+            "MEDAL_GOLD.TGA",
+            "MEDAL_SILVER.TGA",
+            "MEDAL_BRONZE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "MEDALS - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: MEDAL_GOLD.TGA, MEDAL_SILVER.TGA, MEDAL_BRONZE.TGA"
+          ]
+        },
+        {
+          "content": "notice",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "NOTICE - MEN 100m SF",
+            "NO OPERATIONAL NOTICE",
+            "READY / HEAT 1 / PAGE 1 OF 1 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "stale",
+          "suppressed": true,
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "TIMING DATA LOST",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "running",
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "43.56",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "split",
+          "overflow": [],
+          "original": true
+        },
+        {
+          "content": "venue",
+          "blocked": [
+            "LED LAYOUT NOT APPROVED / OUTPUT BLOCKED"
+          ],
+          "sprites": []
+        },
+        {
+          "content": "blackout",
+          "black": true,
+          "blocked": true
+        },
+        {
+          "content": "long_name",
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "name": "l1 results: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 269,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "l1: content modes, official gate, stale timing, real split sprite, venue gate, blackout, long name suppression",
+      "status": "PASS",
+      "detail": [
+        {
+          "content": "upcoming",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "UPCOMING - MEN 100m SF",
+            "MEN 100m SF / FINAL / HEAT 1",
+            "READY / HEAT 1 / PAGE 1 OF 8 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "live",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "WAITING FOR TIMING",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "splits",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "SPLITS - MEN 100m SF",
+            "NO APPROVED DATA FOR THIS VIEW",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "official",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "APPROVAL PENDING - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "qualification",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "QUALIFICATION - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "medals",
+          "overflow": [],
+          "missing": [
+            "MEDAL_GOLD.TGA",
+            "MEDAL_SILVER.TGA",
+            "MEDAL_BRONZE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "MEDALS - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: MEDAL_GOLD.TGA, MEDAL_SILVER.TGA, MEDAL_BRONZE.TGA"
+          ]
+        },
+        {
+          "content": "notice",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "NOTICE - MEN 100m SF",
+            "NO OPERATIONAL NOTICE",
+            "READY / HEAT 1 / PAGE 1 OF 8 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "stale",
+          "suppressed": true,
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "TIMING DATA LOST",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "running",
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "43.56",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "split",
+          "overflow": [],
+          "original": true
+        },
+        {
+          "content": "venue",
+          "blocked": [
+            "LED LAYOUT NOT APPROVED / OUTPUT BLOCKED"
+          ],
+          "sprites": []
+        },
+        {
+          "content": "blackout",
+          "black": true,
+          "blocked": true
+        },
+        {
+          "content": "long_name",
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "name": "l2 results: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 205,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "l2: content modes, official gate, stale timing, real split sprite, venue gate, blackout, long name suppression",
+      "status": "PASS",
+      "detail": [
+        {
+          "content": "upcoming",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "UPCOMING - MEN 100m SF",
+            "MEN 100m SF / FINAL / HEAT 1",
+            "READY / HEAT 1 / PAGE 1 OF 8 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "live",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "WAITING FOR TIMING",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "splits",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "SPLITS - MEN 100m SF",
+            "NO APPROVED DATA FOR THIS VIEW",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "official",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "APPROVAL PENDING - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "qualification",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "QUALIFICATION - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "medals",
+          "overflow": [],
+          "missing": [
+            "MEDAL_GOLD.TGA",
+            "MEDAL_SILVER.TGA",
+            "MEDAL_BRONZE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "MEDALS - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: MEDAL_GOLD.TGA, MEDAL_SILVER.TGA, MEDAL_BRONZE.TGA"
+          ]
+        },
+        {
+          "content": "notice",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "NOTICE - MEN 100m SF",
+            "NO OPERATIONAL NOTICE",
+            "READY / HEAT 1 / PAGE 1 OF 8 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "stale",
+          "suppressed": true,
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "TIMING DATA LOST",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "running",
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "43.56",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "split",
+          "overflow": [],
+          "original": true
+        },
+        {
+          "content": "venue",
+          "blocked": [
+            "LED LAYOUT NOT APPROVED / OUTPUT BLOCKED"
+          ],
+          "sprites": []
+        },
+        {
+          "content": "blackout",
+          "black": true,
+          "blocked": true
+        },
+        {
+          "content": "long_name",
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "name": "screen2 results: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 461,
+          "y": 569,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "screen2: content modes, official gate, stale timing, real split sprite, venue gate, blackout, long name suppression",
+      "status": "PASS",
+      "detail": [
+        {
+          "content": "upcoming",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "UPCOMING - MEN 100m SF",
+            "MEN 100m SF / FINAL / HEAT 1",
+            "READY / HEAT 1 / PAGE 1 OF 1 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "live",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "WAITING FOR TIMING",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "splits",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "SPLITS - MEN 100m SF",
+            "NO APPROVED DATA FOR THIS VIEW",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "official",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "APPROVAL PENDING - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "qualification",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "QUALIFICATION - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "medals",
+          "overflow": [],
+          "missing": [
+            "MEDAL_GOLD.TGA",
+            "MEDAL_SILVER.TGA",
+            "MEDAL_BRONZE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "MEDALS - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: MEDAL_GOLD.TGA, MEDAL_SILVER.TGA, MEDAL_BRONZE.TGA"
+          ]
+        },
+        {
+          "content": "notice",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "NOTICE - MEN 100m SF",
+            "NO OPERATIONAL NOTICE",
+            "READY / HEAT 1 / PAGE 1 OF 1 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "stale",
+          "suppressed": true,
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "TIMING DATA LOST",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "running",
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "43.56",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "split",
+          "overflow": [],
+          "original": true
+        },
+        {
+          "content": "venue",
+          "blocked": [
+            "LED LAYOUT NOT APPROVED / OUTPUT BLOCKED"
+          ],
+          "sprites": []
+        },
+        {
+          "content": "blackout",
+          "black": true,
+          "blocked": true
+        },
+        {
+          "content": "long_name",
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "name": "screen3 results: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "screen3: content modes, official gate, stale timing, real split sprite, venue gate, blackout, long name suppression",
+      "status": "PASS",
+      "detail": [
+        {
+          "content": "upcoming",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "UPCOMING - MEN 100m SF",
+            "MEN 100m SF / FINAL / HEAT 1",
+            "READY / HEAT 1 / PAGE 1 OF 1 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "live",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "WAITING FOR TIMING",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "splits",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "SPLITS - MEN 100m SF",
+            "NO APPROVED DATA FOR THIS VIEW",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "official",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "APPROVAL PENDING - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "qualification",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "QUALIFICATION - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "medals",
+          "overflow": [],
+          "missing": [
+            "MEDAL_GOLD.TGA",
+            "MEDAL_SILVER.TGA",
+            "MEDAL_BRONZE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "MEDALS - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: MEDAL_GOLD.TGA, MEDAL_SILVER.TGA, MEDAL_BRONZE.TGA"
+          ]
+        },
+        {
+          "content": "notice",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "NOTICE - MEN 100m SF",
+            "NO OPERATIONAL NOTICE",
+            "READY / HEAT 1 / PAGE 1 OF 1 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "stale",
+          "suppressed": true,
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "TIMING DATA LOST",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "running",
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "43.56",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "split",
+          "overflow": [],
+          "original": true
+        },
+        {
+          "content": "venue",
+          "blocked": [
+            "LED LAYOUT NOT APPROVED / OUTPUT BLOCKED"
+          ],
+          "sprites": []
+        },
+        {
+          "content": "blackout",
+          "black": true,
+          "blocked": true
+        },
+        {
+          "content": "long_name",
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "name": "stage results: native canvas, original results source and explicit approval status",
+      "status": "PASS",
+      "detail": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 359,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "name": "stage: content modes, official gate, stale timing, real split sprite, venue gate, blackout, long name suppression",
+      "status": "PASS",
+      "detail": [
+        {
+          "content": "upcoming",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "UPCOMING - MEN 100m SF",
+            "MEN 100m SF / FINAL / HEAT 1",
+            "READY / HEAT 1 / PAGE 1 OF 2 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "live",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "WAITING FOR TIMING",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "splits",
+          "overflow": [],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ],
+          "blocked": [
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "SPLITS - MEN 100m SF",
+            "NO APPROVED DATA FOR THIS VIEW",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "official",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "APPROVAL PENDING - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "qualification",
+          "overflow": [],
+          "missing": [
+            "BAR_BASIC_WITH_BLUE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "QUALIFICATION - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA"
+          ]
+        },
+        {
+          "content": "medals",
+          "overflow": [],
+          "missing": [
+            "MEDAL_GOLD.TGA",
+            "MEDAL_SILVER.TGA",
+            "MEDAL_BRONZE.TGA"
+          ],
+          "blocked": [
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING / NOT APPROVED"
+          ],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "MEDALS - MEN 100m SF",
+            "AWAITING OFFICIAL APPROVAL",
+            "ASSET MISSING: MEDAL_GOLD.TGA, MEDAL_SILVER.TGA, MEDAL_BRONZE.TGA"
+          ]
+        },
+        {
+          "content": "notice",
+          "overflow": [],
+          "missing": [],
+          "blocked": [],
+          "sprites": [
+            "header2_lines",
+            "sfs_2",
+            "footer",
+            "bar_basic"
+          ],
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "NOTICE - MEN 100m SF",
+            "NO OPERATIONAL NOTICE",
+            "READY / HEAT 1 / PAGE 1 OF 2 / NOT APPROVED"
+          ]
+        },
+        {
+          "content": "stale",
+          "suppressed": true,
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "TIMING DATA LOST",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "running",
+          "fields": [
+            "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "FINSWIMMING",
+            "LIVE - MEN 100m SF",
+            "43.56",
+            "ASSET MISSING: SFS_CLOCK.TGA"
+          ],
+          "missing": [
+            "SFS_CLOCK.TGA"
+          ]
+        },
+        {
+          "content": "split",
+          "overflow": [],
+          "original": true
+        },
+        {
+          "content": "venue",
+          "blocked": [
+            "LED LAYOUT NOT APPROVED / OUTPUT BLOCKED"
+          ],
+          "sprites": []
+        },
+        {
+          "content": "blackout",
+          "black": true,
+          "blocked": true
+        },
+        {
+          "content": "long_name",
+          "suppressed": true
+        }
+      ]
+    },
+    {
+      "name": "Missing original SFS sprite blocks output",
+      "status": "PASS"
+    },
+    {
+      "name": "Incorrect results sprite checksum blocks output",
+      "status": "PASS"
+    },
+    {
+      "name": "LAN client ID fallback works without randomUUID",
+      "status": "PASS"
+    },
+    {
+      "name": "Disconnected output clears live canvas and warns",
+      "status": "PASS"
+    },
+    {
+      "name": "WebSocket reconnect restores the original SFS results source",
+      "status": "PASS"
+    },
+    {
+      "name": "No Internet dependencies or withdrawn venue identity requests",
+      "status": "PASS",
+      "detail": {
+        "external": [],
+        "wrongIdentity": []
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "key": "master",
+      "content": "idle",
+      "metrics": {
+        "width": 3072,
+        "height": 1024,
+        "content": "idle",
+        "displayed_content": "idle",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 3024,
+            "weight": 700
+          },
+          {
+            "value": "ORIGINAL PRESENTATION.TGA / LED PLACEMENT AWAITING APPROVAL",
+            "x": 24,
+            "y": 984,
+            "size": 16,
+            "width": 541,
+            "max_width": 3024,
+            "weight": 700
+          }
+        ],
+        "sprites": [],
+        "missing": [],
+        "blocked": [],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false,
+          "draw": {
+            "x": 1111,
+            "y": 369,
+            "width": 849,
+            "height": 284,
+            "source_width": 849,
+            "source_height": 284,
+            "fit": "contain",
+            "cropped": false,
+            "stretched": false
+          }
+        }
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 1113,
+          "y": 371,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "l1",
+      "content": "idle",
+      "metrics": {
+        "width": 1408,
+        "height": 256,
+        "content": "idle",
+        "displayed_content": "idle",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1360,
+            "weight": 700
+          },
+          {
+            "value": "ORIGINAL PRESENTATION.TGA / LED PLACEMENT AWAITING APPROVAL",
+            "x": 24,
+            "y": 216,
+            "size": 16,
+            "width": 541,
+            "max_width": 1360,
+            "weight": 700
+          }
+        ],
+        "sprites": [],
+        "missing": [],
+        "blocked": [],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false,
+          "draw": {
+            "x": 461,
+            "y": 46,
+            "width": 484.2887323943662,
+            "height": 162,
+            "source_width": 849,
+            "source_height": 284,
+            "fit": "contain",
+            "cropped": false,
+            "stretched": false
+          }
+        }
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 463,
+          "y": 48,
+          "w": 480,
+          "h": 158
+        },
+        "compared_channels": 303360,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "l2",
+      "content": "idle",
+      "metrics": {
+        "width": 1280,
+        "height": 256,
+        "content": "idle",
+        "displayed_content": "idle",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1232,
+            "weight": 700
+          },
+          {
+            "value": "ORIGINAL PRESENTATION.TGA / LED PLACEMENT AWAITING APPROVAL",
+            "x": 24,
+            "y": 216,
+            "size": 16,
+            "width": 541,
+            "max_width": 1232,
+            "weight": 700
+          }
+        ],
+        "sprites": [],
+        "missing": [],
+        "blocked": [],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false,
+          "draw": {
+            "x": 397,
+            "y": 46,
+            "width": 484.2887323943662,
+            "height": 162,
+            "source_width": 849,
+            "source_height": 284,
+            "fit": "contain",
+            "cropped": false,
+            "stretched": false
+          }
+        }
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 399,
+          "y": 48,
+          "w": 480,
+          "h": 158
+        },
+        "compared_channels": 303360,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "screen2",
+      "content": "idle",
+      "metrics": {
+        "width": 1792,
+        "height": 768,
+        "content": "idle",
+        "displayed_content": "idle",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1744,
+            "weight": 700
+          },
+          {
+            "value": "ORIGINAL PRESENTATION.TGA / LED PLACEMENT AWAITING APPROVAL",
+            "x": 24,
+            "y": 728,
+            "size": 16,
+            "width": 541,
+            "max_width": 1744,
+            "weight": 700
+          }
+        ],
+        "sprites": [],
+        "missing": [],
+        "blocked": [],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false,
+          "draw": {
+            "x": 471,
+            "y": 241,
+            "width": 849,
+            "height": 284,
+            "source_width": 849,
+            "source_height": 284,
+            "fit": "contain",
+            "cropped": false,
+            "stretched": false
+          }
+        }
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 473,
+          "y": 243,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "screen3",
+      "content": "idle",
+      "metrics": {
+        "width": 1536,
+        "height": 1024,
+        "content": "idle",
+        "displayed_content": "idle",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1488,
+            "weight": 700
+          },
+          {
+            "value": "ORIGINAL PRESENTATION.TGA / LED PLACEMENT AWAITING APPROVAL",
+            "x": 24,
+            "y": 984,
+            "size": 16,
+            "width": 541,
+            "max_width": 1488,
+            "weight": 700
+          }
+        ],
+        "sprites": [],
+        "missing": [],
+        "blocked": [],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false,
+          "draw": {
+            "x": 343,
+            "y": 369,
+            "width": 849,
+            "height": 284,
+            "source_width": 849,
+            "source_height": 284,
+            "fit": "contain",
+            "cropped": false,
+            "stretched": false
+          }
+        }
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 345,
+          "y": 371,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "stage",
+      "content": "idle",
+      "metrics": {
+        "width": 1536,
+        "height": 512,
+        "content": "idle",
+        "displayed_content": "idle",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1488,
+            "weight": 700
+          },
+          {
+            "value": "ORIGINAL PRESENTATION.TGA / LED PLACEMENT AWAITING APPROVAL",
+            "x": 24,
+            "y": 472,
+            "size": 16,
+            "width": 541,
+            "max_width": 1488,
+            "weight": 700
+          }
+        ],
+        "sprites": [],
+        "missing": [],
+        "blocked": [],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false,
+          "draw": {
+            "x": 343,
+            "y": 113,
+            "width": 849,
+            "height": 284,
+            "source_width": 849,
+            "source_height": 284,
+            "fit": "contain",
+            "cropped": false,
+            "stretched": false
+          }
+        }
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/presentation.png",
+        "region": {
+          "x": 345,
+          "y": 115,
+          "w": 845,
+          "h": 280
+        },
+        "compared_channels": 946400,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "master",
+      "content": "startlist",
+      "metrics": {
+        "width": 3072,
+        "height": 1024,
+        "content": "startlist",
+        "displayed_content": "startlist",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 3024,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 1243,
+            "y": 293,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF",
+            "x": 1243,
+            "y": 333,
+            "size": 24,
+            "width": 297,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "1",
+            "x": 1116,
+            "y": 373,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 1288,
+            "y": 373,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "2",
+            "x": 1116,
+            "y": 414,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 1288,
+            "y": 414,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "3",
+            "x": 1116,
+            "y": 455,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 1288,
+            "y": 455,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "4",
+            "x": 1116,
+            "y": 496,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 1288,
+            "y": 496,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "5",
+            "x": 1116,
+            "y": 537,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 1288,
+            "y": 537,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "6",
+            "x": 1116,
+            "y": 578,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 1288,
+            "y": 578,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "7",
+            "x": 1116,
+            "y": 619,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 1288,
+            "y": 619,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "8",
+            "x": 1116,
+            "y": 660,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 1288,
+            "y": 660,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 984,
+            "size": 16,
+            "width": 338,
+            "max_width": 3024,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 1101,
+            "y": 286,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 1101,
+            "y": 286,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 1101,
+            "y": 697,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS203A",
+        "page": 1,
+        "pages": 1,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 1101,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "l1",
+      "content": "startlist",
+      "metrics": {
+        "width": 1408,
+        "height": 256,
+        "content": "startlist",
+        "displayed_content": "startlist",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1360,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 411,
+            "y": 53,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF",
+            "x": 411,
+            "y": 93,
+            "size": 24,
+            "width": 297,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "8",
+            "x": 284,
+            "y": 133,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 456,
+            "y": 133,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 216,
+            "size": 16,
+            "width": 338,
+            "max_width": 1360,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 269,
+            "y": 46,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 269,
+            "y": 46,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 269,
+            "y": 170,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS203A",
+        "page": 8,
+        "pages": 8,
+        "visible_lanes": [
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 269,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "l2",
+      "content": "startlist",
+      "metrics": {
+        "width": 1280,
+        "height": 256,
+        "content": "startlist",
+        "displayed_content": "startlist",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1232,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 347,
+            "y": 53,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF",
+            "x": 347,
+            "y": 93,
+            "size": 24,
+            "width": 297,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "8",
+            "x": 220,
+            "y": 133,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 392,
+            "y": 133,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 216,
+            "size": 16,
+            "width": 338,
+            "max_width": 1232,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 205,
+            "y": 46,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 205,
+            "y": 46,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 205,
+            "y": 170,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS203A",
+        "page": 8,
+        "pages": 8,
+        "visible_lanes": [
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 205,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "screen2",
+      "content": "startlist",
+      "metrics": {
+        "width": 1792,
+        "height": 768,
+        "content": "startlist",
+        "displayed_content": "startlist",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1744,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 603,
+            "y": 165,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF",
+            "x": 603,
+            "y": 205,
+            "size": 24,
+            "width": 297,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "1",
+            "x": 476,
+            "y": 245,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 648,
+            "y": 245,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "2",
+            "x": 476,
+            "y": 286,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 648,
+            "y": 286,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "3",
+            "x": 476,
+            "y": 327,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 648,
+            "y": 327,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "4",
+            "x": 476,
+            "y": 368,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 648,
+            "y": 368,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "5",
+            "x": 476,
+            "y": 409,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 648,
+            "y": 409,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "6",
+            "x": 476,
+            "y": 450,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 648,
+            "y": 450,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "7",
+            "x": 476,
+            "y": 491,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 648,
+            "y": 491,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "8",
+            "x": 476,
+            "y": 532,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 648,
+            "y": 532,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 728,
+            "size": 16,
+            "width": 338,
+            "max_width": 1744,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 461,
+            "y": 158,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 461,
+            "y": 158,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 461,
+            "y": 569,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS203A",
+        "page": 1,
+        "pages": 1,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 461,
+          "y": 569,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "screen3",
+      "content": "startlist",
+      "metrics": {
+        "width": 1536,
+        "height": 1024,
+        "content": "startlist",
+        "displayed_content": "startlist",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1488,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 475,
+            "y": 293,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF",
+            "x": 475,
+            "y": 333,
+            "size": 24,
+            "width": 297,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "1",
+            "x": 348,
+            "y": 373,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 520,
+            "y": 373,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "2",
+            "x": 348,
+            "y": 414,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 520,
+            "y": 414,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "3",
+            "x": 348,
+            "y": 455,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 520,
+            "y": 455,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "4",
+            "x": 348,
+            "y": 496,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 520,
+            "y": 496,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "5",
+            "x": 348,
+            "y": 537,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 520,
+            "y": 537,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "6",
+            "x": 348,
+            "y": 578,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 520,
+            "y": 578,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "7",
+            "x": 348,
+            "y": 619,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 520,
+            "y": 619,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "8",
+            "x": 348,
+            "y": 660,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 520,
+            "y": 660,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 984,
+            "size": 16,
+            "width": 338,
+            "max_width": 1488,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 333,
+            "y": 286,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 333,
+            "y": 286,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 333,
+            "y": 697,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS203A",
+        "page": 1,
+        "pages": 1,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "stage",
+      "content": "startlist",
+      "metrics": {
+        "width": 1536,
+        "height": 512,
+        "content": "startlist",
+        "displayed_content": "startlist",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1488,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 475,
+            "y": 119,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF",
+            "x": 475,
+            "y": 159,
+            "size": 24,
+            "width": 297,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "1",
+            "x": 348,
+            "y": 199,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 520,
+            "y": 199,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "2",
+            "x": 348,
+            "y": 240,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 520,
+            "y": 240,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "3",
+            "x": 348,
+            "y": 281,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 520,
+            "y": 281,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "4",
+            "x": 348,
+            "y": 322,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 520,
+            "y": 322,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 472,
+            "size": 16,
+            "width": 338,
+            "max_width": 1488,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 333,
+            "y": 112,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 333,
+            "y": 112,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 333,
+            "y": 359,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS203A",
+        "page": 1,
+        "pages": 2,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 359,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "master",
+      "content": "results",
+      "metrics": {
+        "width": 3072,
+        "height": 1024,
+        "content": "results",
+        "displayed_content": "results",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 3024,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 1243,
+            "y": 293,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "AWAITING RESULTS - MEN 100m SF",
+            "x": 1243,
+            "y": 333,
+            "size": 24,
+            "width": 399,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 373,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 1288,
+            "y": 373,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 374,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 414,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 1288,
+            "y": 414,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 415,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 455,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 1288,
+            "y": 455,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 456,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 496,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 1288,
+            "y": 496,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 497,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 537,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 1288,
+            "y": 537,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 538,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 578,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 1288,
+            "y": 578,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 579,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 619,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 1288,
+            "y": 619,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 620,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1116,
+            "y": 660,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 1288,
+            "y": 660,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1848,
+            "y": 661,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 984,
+            "size": 16,
+            "width": 338,
+            "max_width": 3024,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 1101,
+            "y": 286,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 1101,
+            "y": 286,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 1101,
+            "y": 697,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS302A",
+        "page": 1,
+        "pages": 1,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 1101,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "l1",
+      "content": "results",
+      "metrics": {
+        "width": 1408,
+        "height": 256,
+        "content": "results",
+        "displayed_content": "results",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1360,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 411,
+            "y": 53,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "AWAITING RESULTS - MEN 100m SF",
+            "x": 411,
+            "y": 93,
+            "size": 24,
+            "width": 399,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 284,
+            "y": 133,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 456,
+            "y": 133,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1016,
+            "y": 134,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 216,
+            "size": 16,
+            "width": 338,
+            "max_width": 1360,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 269,
+            "y": 46,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 269,
+            "y": 46,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 269,
+            "y": 170,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS302A",
+        "page": 1,
+        "pages": 8,
+        "visible_lanes": [
+          1
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 269,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "l2",
+      "content": "results",
+      "metrics": {
+        "width": 1280,
+        "height": 256,
+        "content": "results",
+        "displayed_content": "results",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1232,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 347,
+            "y": 53,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "AWAITING RESULTS - MEN 100m SF",
+            "x": 347,
+            "y": 93,
+            "size": 24,
+            "width": 399,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 220,
+            "y": 133,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 392,
+            "y": 133,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 952,
+            "y": 134,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 216,
+            "size": 16,
+            "width": 338,
+            "max_width": 1232,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 205,
+            "y": 46,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 205,
+            "y": 46,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 205,
+            "y": 170,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS302A",
+        "page": 1,
+        "pages": 8,
+        "visible_lanes": [
+          1
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 205,
+          "y": 170,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "screen2",
+      "content": "results",
+      "metrics": {
+        "width": 1792,
+        "height": 768,
+        "content": "results",
+        "displayed_content": "results",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1744,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 603,
+            "y": 165,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "AWAITING RESULTS - MEN 100m SF",
+            "x": 603,
+            "y": 205,
+            "size": 24,
+            "width": 399,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 245,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 648,
+            "y": 245,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 246,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 286,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 648,
+            "y": 286,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 287,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 327,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 648,
+            "y": 327,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 328,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 368,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 648,
+            "y": 368,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 369,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 409,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 648,
+            "y": 409,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 410,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 450,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 648,
+            "y": 450,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 451,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 491,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 648,
+            "y": 491,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 492,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 476,
+            "y": 532,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 648,
+            "y": 532,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1208,
+            "y": 533,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 728,
+            "size": 16,
+            "width": 338,
+            "max_width": 1744,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 461,
+            "y": 158,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 461,
+            "y": 158,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 461,
+            "y": 569,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS302A",
+        "page": 1,
+        "pages": 1,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 461,
+          "y": 569,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "screen3",
+      "content": "results",
+      "metrics": {
+        "width": 1536,
+        "height": 1024,
+        "content": "results",
+        "displayed_content": "results",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1488,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 475,
+            "y": 293,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "AWAITING RESULTS - MEN 100m SF",
+            "x": 475,
+            "y": 333,
+            "size": 24,
+            "width": 399,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 373,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 520,
+            "y": 373,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 374,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 414,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 520,
+            "y": 414,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 415,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 455,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 520,
+            "y": 455,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 456,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 496,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 520,
+            "y": 496,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 497,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 537,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 520,
+            "y": 537,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 538,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 578,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 520,
+            "y": 578,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 579,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 619,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 520,
+            "y": 619,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 620,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 660,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 520,
+            "y": 660,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 661,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 984,
+            "size": 16,
+            "width": 338,
+            "max_width": 1488,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 333,
+            "y": 286,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 333,
+            "y": 286,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 333,
+            "y": 697,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS302A",
+        "page": 1,
+        "pages": 1,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 697,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    },
+    {
+      "key": "stage",
+      "content": "results",
+      "metrics": {
+        "width": 1536,
+        "height": 512,
+        "content": "results",
+        "displayed_content": "results",
+        "overflow": [],
+        "fields": [
+          {
+            "value": "TEST / DEMO  |  FISU RESULTS SOURCE  |  LED LAYOUT NOT APPROVED",
+            "x": 24,
+            "y": 24,
+            "size": 16,
+            "width": 524,
+            "max_width": 1488,
+            "weight": 700
+          },
+          {
+            "value": "FINSWIMMING",
+            "x": 475,
+            "y": 119,
+            "size": 30,
+            "width": 218,
+            "max_width": 570,
+            "weight": 900
+          },
+          {
+            "value": "AWAITING RESULTS - MEN 100m SF",
+            "x": 475,
+            "y": 159,
+            "size": 24,
+            "width": 399,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 199,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 520,
+            "y": 199,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 200,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 240,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 520,
+            "y": 240,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 241,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 281,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 520,
+            "y": 281,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 282,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 348,
+            "y": 322,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 520,
+            "y": 322,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1080,
+            "y": 323,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "ASSET MISSING: BAR_BASIC_WITH_BLUE.TGA",
+            "x": 24,
+            "y": 472,
+            "size": 16,
+            "width": 338,
+            "max_width": 1488,
+            "weight": 700
+          }
+        ],
+        "sprites": [
+          {
+            "key": "header2_lines",
+            "x": 333,
+            "y": 112,
+            "width": 870,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/header2_lines.png"
+          },
+          {
+            "key": "sfs_2",
+            "x": 333,
+            "y": 112,
+            "width": 128,
+            "height": 79,
+            "scale": 1,
+            "asset": "/assets/sfs/sfs_2.png"
+          },
+          {
+            "key": "footer",
+            "x": 333,
+            "y": 359,
+            "width": 870,
+            "height": 38,
+            "scale": 1,
+            "asset": "/assets/sfs/footer.png"
+          }
+        ],
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "blocked": [
+          "ASSET MISSING / NOT APPROVED"
+        ],
+        "test": true,
+        "approved": false,
+        "fully_matched": false,
+        "patch": "RESULTS-20261020-2",
+        "branding": {
+          "loaded": true,
+          "approval": "AWAITING_LED_LAYOUT_AND_FISU_APPROVAL",
+          "id": "FINS2026-FISU-SFS-RESULTS-20261014",
+          "source": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+          "manifest": "/assets/results_identity/manifest.json",
+          "fully_matched": false
+        },
+        "template": "SFS302A",
+        "page": 1,
+        "pages": 2,
+        "visible_lanes": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "source_sprite_comparison": {
+        "asset": "/assets/sfs/footer.png",
+        "region": {
+          "x": 333,
+          "y": 359,
+          "w": 870,
+          "h": 38
+        },
+        "compared_channels": 132240,
+        "changed_channels": 0
+      }
+    }
+  ],
+  "physical_led_test": false,
+  "windows_test": false,
+  "layout_approved": false,
+  "fully_matched": false,
+  "browser": "153.0.8010.0"
+}

@@ -1,0 +1,17 @@
+{
+  "patch": "RESULTS-20261020-2",
+  "identity": "FINS2026-FISU-SFS-RESULTS-20261014",
+  "status": "IMPLEMENTED AND BROWSER TESTED / TEST ONLY",
+  "source_folder": "https://drive.google.com/drive/folders/1FR509dU4k0nw5l3eFZ99B9-6HTEJS3xY",
+  "browser_checks": 31,
+  "native_captures": 18,
+  "original_rgba_assets_verified": 6,
+  "fully_matched": false,
+  "led_layout_approved": false,
+  "windows_tested": false,
+  "physical_led_tested": false,
+  "alge_hardware_tested_by_this_patch": false,
+  "production_approved": false,
+  "withdrawn_patch": "LED-20261020-1",
+  "installer_logic_checks": 11
+}

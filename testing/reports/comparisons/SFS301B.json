@@ -1,0 +1,64 @@
+{
+  "code": "SFS301B",
+  "missing": [
+    "BAR_BASIC_WITH_BLUE.TGA"
+  ],
+  "fields": [
+    {
+      "value": "FINSWIMMING",
+      "x": 664,
+      "y": 910,
+      "size": 30,
+      "width": 218,
+      "max_width": 620,
+      "weight": 900
+    },
+    {
+      "value": "ADVANCE TO PHASE - MIXED 4x100m SF - FINAL 1",
+      "x": 664,
+      "y": 950,
+      "size": 24,
+      "width": 570,
+      "max_width": 700,
+      "weight": 900
+    },
+    {
+      "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA | Approved qualification decisions required",
+      "x": 76,
+      "y": 92,
+      "size": 20,
+      "width": 817,
+      "max_width": 1460,
+      "weight": 700
+    },
+    {
+      "value": "TEST / ENGINEERING BUILD  •  SFS301B  •  NOT FISU APPROVED",
+      "x": 76,
+      "y": 25,
+      "size": 21,
+      "width": 625,
+      "max_width": 1760,
+      "weight": 700
+    }
+  ],
+  "overflow": [],
+  "blocked": [
+    "Approved qualification decisions required"
+  ],
+  "approval": "ASSET MISSING / NOT APPROVED",
+  "reference": "/references/SFS301B - ADVANCE TO PHASE RELAY.jpg",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "overlay_alpha": 0.5,
+  "mean_absolute_rgb_error": 145.53224006558642,
+  "pixels_over_12": 2032646,
+  "fully_matched": false,
+  "notes": [
+    "Reference camera matte and sample names differ from TEST data. Full-image error is not a static-sprite fidelity score.",
+    "Field positions, measured widths, font sizes and colours require independent review against original.",
+    "No template is production approved."
+  ],
+  "fonts": "Supplied Common Graphics Lato (native TTF); final per-field weights/baselines pending review"
+}

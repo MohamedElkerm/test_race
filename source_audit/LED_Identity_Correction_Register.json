@@ -1,0 +1,127 @@
+{
+  "patch": "LED-20261020-1",
+  "source_identity": {
+    "id": "FINS2026-LOC-4X3-20261017",
+    "name": "Championship LOC identity supplied 17 October 2026",
+    "source_url": "https://drive.google.com/file/d/1ClR8PdrVIZ1igsfwr-8xQu0Tv1_PVvG1/view",
+    "source_file": "assets_original/branding/loc_4x3_20261017.pdf",
+    "source_sha256": "adcee66925d26d7561627f312a596e174097a7db1082dc028bc7b6729fdfbdb0",
+    "source_modified": "2026-10-17T17:31:09.826Z",
+    "processed": "/assets/branding/loc_4x3_20261017.png",
+    "processed_sha256": "21c573acc0795ba2564dc9436032ae29814783c579f637be9c5a442ae72d6a7a",
+    "width": 3072,
+    "height": 2304,
+    "background": "#272362",
+    "processing": "Full page 1 PDF rasterisation. No cropping, recolouring, redrawing, AI generation or object replacement.",
+    "fit": "contain",
+    "source_artwork_approval": "NOT_VERIFIED",
+    "led_layout_approval": "AWAITING_LOC_AND_FISU_APPROVAL",
+    "physical_test": "NOT_EXECUTED",
+    "fully_matched": false
+  },
+  "reviewed_sources": [
+    {
+      "key": "horizontal_logo",
+      "source_id": "10MYqnV_xKvI_BE0IQiWLtMPjoeXVhALa",
+      "name": "FISU_2026 Sharm El Sheikh- Finswimming_Logos Horizontal Version copy.pdf",
+      "modified": "2025-08-07T19:18:31.000Z",
+      "bytes": 1014164,
+      "sha256": "42a081cb6fa5dfb09f9bafa681623a0752703dca2261dbfe32f2dfbbca7e071f"
+    },
+    {
+      "key": "branding_pdf",
+      "source_id": "1ejWE9UPvSttGyF1ULJp3mbpxR1QrSNh0",
+      "name": "Fins_branding.pdf",
+      "modified": "2026-09-29T10:16:25.484Z",
+      "bytes": 1692612,
+      "sha256": "463acf817e44c031387f24817716d33fee6b1e2a0974319f8f6a1ffdd5dacfd5"
+    },
+    {
+      "key": "branding_oct05",
+      "source_id": "1-MKazvlhypOx8bgdswPMCm2UH54_H7b9",
+      "name": "2 Fins_branding.pdf (1).pdf",
+      "modified": "2026-10-05T18:30:41.337Z",
+      "bytes": 28107687,
+      "sha256": "e66d3ebaf4593b820c3167583176939c148b8a07c356bbf8972b9f9b2ef077b0"
+    },
+    {
+      "key": "branding_oct17",
+      "source_id": "1ClR8PdrVIZ1igsfwr-8xQu0Tv1_PVvG1",
+      "name": "4x3.pdf",
+      "modified": "2026-10-17T17:31:09.826Z",
+      "bytes": 35834885,
+      "sha256": "adcee66925d26d7561627f312a596e174097a7db1082dc028bc7b6729fdfbdb0"
+    },
+    {
+      "key": "branding_chat",
+      "source_id": "1EVeo789KqpHS2o1wciAdiZm_mslx2Dl2",
+      "name": "WhatsApp Chat with بطولة سباحة بالزعانف جامعات.zip",
+      "modified": "2026-10-17T17:33:09.591Z",
+      "bytes": 20251648,
+      "sha256": "ce28a46a0a76a22139efde5cc610c717eb1d47ce771af0ee01e3a7211c96ca2b"
+    },
+    {
+      "key": "branding_1",
+      "source_id": "1q5nD_Jv-vHR5yRjitkiJ-zVQdf7shUs0",
+      "name": "1.png",
+      "modified": "2026-09-23T20:19:23.318Z",
+      "bytes": 2458306,
+      "sha256": "28b2bcfddc55961a49013b7da9d4fcac741cae1eb230b9a36b0b470812f6d19a"
+    },
+    {
+      "key": "branding_3",
+      "source_id": "1hDkehwiCB8FDkWklXsMpWT82oAEVN9ka",
+      "name": "3.png",
+      "modified": "2026-09-23T20:19:22.811Z",
+      "bytes": 1979897,
+      "sha256": "eebb5378928d95e32940fe9176bfc998f8204d21987141b87e73e304abe291b5"
+    },
+    {
+      "key": "branding_4",
+      "source_id": "1PkcsDIZGYuFGuq-Mh_hog6Oy_BLCzDFh",
+      "name": "4.png",
+      "modified": "2026-09-23T20:19:22.651Z",
+      "bytes": 2400582,
+      "sha256": "f9d3147a364c1eb91a01a466d47f4a82dd84db0f3396205d814ca2a3d3d4dcba"
+    }
+  ],
+  "previous_review_gap": "Original LED test evidence covered canvas sizes, pagination and functionality; it did not establish identity conformity.",
+  "correction": "Generic identity removed from LED engine. Existing artwork from LOC 4x3.pdf is shown as a complete image. Dynamic data has a separate review layout.",
+  "source_artwork_checks": "Display compared with source raster in the same browser at the same scale. All compared interior channels were equal in the executed 12 captures. This does not establish an approved native LED template.",
+  "conflicts": [
+    {
+      "id": "LED-BRAND-01",
+      "sources": "v0.6 led_displays/render.js / LOC 4x3.pdf 17 October 2026",
+      "conflict": "Generic navy background and text identity used instead of the supplied championship identity",
+      "treatment": "Corrected by loading the full source artwork. No substitute theme on missing or altered artwork.",
+      "owner": "Development / LOC branding"
+    },
+    {
+      "id": "LED-BRAND-02",
+      "sources": "September catalogues / October LOC branding and supplier assets",
+      "conflict": "Older catalogue aquatic visual concepts differ from the October purple/red identity",
+      "treatment": "October source artwork is explicitly mapped; formal approval of source artwork and LED layout is not inferred from file date.",
+      "owner": "LOC branding / FISU"
+    },
+    {
+      "id": "LED-BRAND-03",
+      "sources": "LOC 4:3 source artwork / six native LED canvases",
+      "conflict": "Separate approved artwork for all six LED aspect ratios was not located",
+      "treatment": "Full source image uses contain with matching-colour margins. Data occupies a separate area. Native layout remains awaiting LOC/FISU approval; viewing-distance testing pending.",
+      "owner": "LOC branding / FISU / LED supplier"
+    }
+  ],
+  "test_summary": {
+    "status": "COMPLETED",
+    "checks": 26,
+    "browser_captures": 12,
+    "native_outputs": 6,
+    "physical_hardware": false,
+    "windows": false,
+    "fully_matched": false,
+    "layout_approved": false
+  },
+  "status": "WITHDRAWN_WRONG_RESULTS_IDENTITY",
+  "superseded_by": "RESULTS-20261020-2",
+  "reason": "LOC venue identity was incorrectly used for results"
+}

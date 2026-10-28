@@ -1,0 +1,13 @@
+import{subscribe}from './stream.js';
+const el=id=>document.getElementById(id);el('origin').value=location.origin;
+function update(){try{const u=new URL(el('origin').value);if(!['http:','https:'].includes(u.protocol)||u.username||u.password)throw Error('Use an HTTP server origin');const url=u.origin+'/broadcast_tvg/?program=1';el('url').value=url;el('open').href=url;el('copied').textContent=''}catch(e){el('copied').textContent=String(e)}}
+el('update').onclick=update;update();el('copy').onclick=async()=>{try{if(navigator.clipboard?.writeText)await navigator.clipboard.writeText(el('url').value);else{el('url').select();if(!document.execCommand('copy'))throw Error('Select and copy the URL manually')}el('copied').textContent='Program URL copied'}catch{el('url').select();el('copied').textContent='Press Ctrl+C to copy the selected URL'}};
+let report,stop,timer,running=false;
+const show=()=>{el('metrics').textContent=JSON.stringify(report,null,2);window.finsLinkReport=report};
+el('start').onclick=()=>{if(running)return;running=true;el('start').disabled=true;let last=0,rt=[];
+ report={status:'RUNNING',started_at:new Date().toISOString(),origin:location.origin,declared_connection:el('type').value,duration_seconds:0,http_samples:0,http_failures:0,rtt_median_ms:null,rtt_max_ms:null,ws_messages:0,ws_loss_notifications:0,ws_max_gap_ms:0,production_approved:false,physical_wifi_test:false};const start=performance.now();
+ stop=subscribe(()=>{const now=performance.now();if(last)report.ws_max_gap_ms=Math.max(report.ws_max_gap_ms,Math.round(now-last));last=now;report.ws_messages++;show()},()=>{report.ws_loss_notifications++;show()});
+ async function ping(){if(!running)return;const t=performance.now();try{const r=await fetch('/api/link/ping',{cache:'no-store',signal:AbortSignal.timeout(2500)});if(!r.ok)throw Error('HTTP '+r.status);await r.json();rt.push(Math.round(performance.now()-t));report.http_samples++;const sorted=[...rt].sort((a,b)=>a-b);report.rtt_median_ms=sorted[Math.floor(sorted.length/2)];report.rtt_max_ms=Math.max(...rt)}catch{report.http_failures++}report.duration_seconds=Math.round((performance.now()-start)/1000);show();if(performance.now()-start>=60000){running=false;stop();report.status='COMPLETED / MANUAL NETWORK ACCEPTANCE REQUIRED';el('start').disabled=false;show()}else timer=setTimeout(ping,1000)}ping();
+};
+el('save').onclick=()=>{if(!report)return;const a=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)],{type:'application/json'}));a.href=url;a.download='FINS2026_Link_Diagnostics.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+addEventListener('pagehide',()=>{running=false;stop?.();clearTimeout(timer)});

@@ -1,0 +1,5125 @@
+{
+  "release": "0.8.0",
+  "files": [
+    {
+      "path": "FINS_PC/RUN_FINS_MONITOR.cmd",
+      "bytes": 352,
+      "sha256": "8bc8e48718c26386698e82e7a8a3e8be58096209b42e7f27858601c78038a8b1"
+    },
+    {
+      "path": "FINS_PC/swimtime_monitor.py",
+      "bytes": 10730,
+      "sha256": "6185965c9e7a781a73dda6304ddad59f8e3fd1a7d6dc2739cbfecd7969a7cbb0"
+    },
+    {
+      "path": "INSTALL_SINGLE_OPERATOR.cmd",
+      "bytes": 63,
+      "sha256": "313e1b4a50fe3aa42dd6e759ef43743fe85a0e15053a948544e5dbd3b323984e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2737,
+      "sha256": "7fb6fac001a23532b25b2f4153d051c23ef542ec489ac0bd661ea008efb9dad1"
+    },
+    {
+      "path": "READ_ME_AR.html",
+      "bytes": 15181,
+      "sha256": "4d63ec174c886608ec359f8646582ff5ca8c083f7934c33f1531a47129ab98e0"
+    },
+    {
+      "path": "RUN_SINGLE_TEST_LAN.cmd",
+      "bytes": 712,
+      "sha256": "45d96ac63b6c1cd09174616697a7f1b55f71cebcc5e5ffb77180d8192fe435da"
+    },
+    {
+      "path": "RUN_SINGLE_VENUE_LAN.cmd",
+      "bytes": 715,
+      "sha256": "54aa6ff17b443ac25e173b9f0c62caed15a47cb8163eedcfd4a94459fef7264f"
+    },
+    {
+      "path": "RUN_SWIMTIME_TEST_LAN.cmd",
+      "bytes": 48,
+      "sha256": "841c0c6cac044353f5a06735cd2e873cdb41fb3e306e88320c23ab2bbf8efae3"
+    },
+    {
+      "path": "RUN_TEST.cmd",
+      "bytes": 444,
+      "sha256": "f910d7bccde9ca021ab5e3c4fcdf19100b55c46538ce868ddf818586d3e25c45"
+    },
+    {
+      "path": "START_HERE_v08_AR.html",
+      "bytes": 276,
+      "sha256": "1912827ff3bac5c19f9e60dc9d339b4961ac4bbaf5b4e8168ab35c4c0245e26b"
+    },
+    {
+      "path": "SWIMTIME_PC/RELAY_LOCAL_TO_FINS.ps1",
+      "bytes": 3779,
+      "sha256": "85a221b65300799e85a3bccebb9aa764e1c5844bbeedf5d0f216fe8fca261dd7"
+    },
+    {
+      "path": "SWIMTIME_PC/RUN_RELAY.cmd",
+      "bytes": 178,
+      "sha256": "5dcfe808278eea7d53b9300d4e46ccc90c9dcaeda2e26b03ee381643fd2f8ada"
+    },
+    {
+      "path": "UPDATE_EXISTING_v07.cmd",
+      "bytes": 491,
+      "sha256": "a717a16db0ed8ccbc3b71c9fbb1f7b02f95208e5aec43de5460d61f5f4767487"
+    },
+    {
+      "path": "alge_gateway/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "alge_gateway/gen_inspector.py",
+      "bytes": 2230,
+      "sha256": "81446460dde190c6a7464cb8ca7b6c551f0c68a142a92d42d3e7a6c84e7f00ac"
+    },
+    {
+      "path": "alge_gateway/main.py",
+      "bytes": 5296,
+      "sha256": "31a406309360a19a0778714b63dcca2698e1490b409a16a262f4caeadac3364e"
+    },
+    {
+      "path": "alge_gateway/profiles.json",
+      "bytes": 1002,
+      "sha256": "6d293a7a3af854417a49b90ef695a2e764524a8ebddbf8e65149abac67a23b83"
+    },
+    {
+      "path": "alge_gateway/protocol.py",
+      "bytes": 3768,
+      "sha256": "65ef9427323ea7cee0292e0d2376d49aed9b1cd8d1dbf935e28dbe0fae328cd6"
+    },
+    {
+      "path": "alge_gateway/record_udp.py",
+      "bytes": 1934,
+      "sha256": "7b110ace3ce670275809beea1e8a4521c2bc330d93dbdf1b29fb89be1596959b"
+    },
+    {
+      "path": "alge_gateway/swimtime_network.py",
+      "bytes": 12168,
+      "sha256": "bdf33a52e049ce1786de986ace6cdddfdfe3acaddf472d15f223db5e111bf4ef"
+    },
+    {
+      "path": "alge_gateway/swimtime_observed.py",
+      "bytes": 10730,
+      "sha256": "6185965c9e7a781a73dda6304ddad59f8e3fd1a7d6dc2739cbfecd7969a7cbb0"
+    },
+    {
+      "path": "assets_original/2026 FISU Technical Handbook Finswimming.pdf",
+      "bytes": 1192647,
+      "sha256": "b8585696a3f9218d6e5f0504c6aa8e2b1157f327f1aaeabb56fb440ad9e63265"
+    },
+    {
+      "path": "assets_original/ALGE-TIMING - Swimming.pdf",
+      "bytes": 1170812,
+      "sha256": "ea4a29031d7510e37b60346c69f2c095e8145feb1d610fba7ffc6f83f1de3488"
+    },
+    {
+      "path": "assets_original/FISU Technology Guideline.pdf",
+      "bytes": 1651157,
+      "sha256": "1b8f1376e4a8b1a1361f55d231ced31c58d40580366b6e8508178d3df9eae5cd"
+    },
+    {
+      "path": "assets_original/Swimming-BE.pdf",
+      "bytes": 8556073,
+      "sha256": "cbb6bfbcaf3f0d685d4532d20d45ded7eb7949206fa91289e8bb2a3b150ff980"
+    },
+    {
+      "path": "assets_original/UWC2026_TVG_SFS_V1_0.pdf",
+      "bytes": 5903393,
+      "sha256": "85d473aebce9276147e4859a71a93c0c6273abdd2dd906e0e50edc33805bc155"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AGF.tga",
+      "bytes": 7654,
+      "sha256": "833d8a24c3487c43303f75e80eae8760747b6f27e694ec6642e484e599b2410a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AHO.tga",
+      "bytes": 7654,
+      "sha256": "b874b048466128e4b9b5ed77d910b9f961aea7a7448143ba11c76ea09ec153d4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AIN.tga",
+      "bytes": 7680,
+      "sha256": "7c70806f120ce979aa9d70e6002b4761a9493217cf979fcf0df8ee83ed4a8e01"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ALB.tga",
+      "bytes": 7654,
+      "sha256": "26c8e9abccab7ecd2101be057004108e1c851a254c725b6cb4b41adae24d0afb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ALG.tga",
+      "bytes": 7654,
+      "sha256": "76e848e307514f21ec9ff40184c47f6f0ea2333a4d5264a46a1b9328fba4389f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AND.tga",
+      "bytes": 7654,
+      "sha256": "9342bf7f01a1791b7126859d9f5b6e62ef9a5242cbe9dae956b79172b9ad2017"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ANG.tga",
+      "bytes": 7654,
+      "sha256": "168abf8b17eddfcb974c5cf1737f94f19262319042f4c1842991ee8050ea238e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ANT.tga",
+      "bytes": 7654,
+      "sha256": "e50dd26b4fbe813be387d15bcac9299b12e8fc27541d7f64ed16eea1ec48c7d1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ARG.tga",
+      "bytes": 7654,
+      "sha256": "12d867ff72860d20d30a51d483c7b9f1639c7cd92c070f150b10db3e76db5202"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ARM.tga",
+      "bytes": 7654,
+      "sha256": "d3b3cd224cca45f7e775ed338bf20c5dbc401940f67ef306ea4c99af6ddb1851"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ARU.tga",
+      "bytes": 7654,
+      "sha256": "1357f342d9b377de59b0db918794f332f4a7af253d0201fa61494630c886a846"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ASA.tga",
+      "bytes": 7654,
+      "sha256": "f2caabcb0dded7ea5193ef4b566ecd393afe92d6437136d867dac58425120644"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AUS.tga",
+      "bytes": 7654,
+      "sha256": "a5ee934c5a1c3626f8dfab8a60e85e240a7865e109f5011574960c5ea13792a3"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AUT.tga",
+      "bytes": 7654,
+      "sha256": "b374171ac9e9330c0cc15c8cfe47fe3151f702d9fcaa553b3bd1d37fdd3c0d72"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/AZE.tga",
+      "bytes": 7654,
+      "sha256": "ab5073c519cdef837cf418f125f551b995396b46e3a951e375ba69faf24c0520"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BAH.tga",
+      "bytes": 7654,
+      "sha256": "ba2b316c2f58e77bf34e1889b05629516f77f1a5277f36f89f8b4bf8bde5810c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BAN.tga",
+      "bytes": 7654,
+      "sha256": "850ac2f72012ca3f586c2fd8af0304e352181ca1bcd545db13a08817fd959e2e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BAR.tga",
+      "bytes": 7654,
+      "sha256": "20e42b47b4d1e32d1fdee719bbabf218f5ed3d979db9378afa967f00480da12c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BDI.tga",
+      "bytes": 7654,
+      "sha256": "ac9030386559a84b5f334534d50d1ccc040cc7656848997e7e08c37c94b2e2e6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BEL.tga",
+      "bytes": 7654,
+      "sha256": "47a31a2ce9301a955f31da46c6fbd78fbb310bbed70de7a400faa619b4539c1c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BEN.tga",
+      "bytes": 7654,
+      "sha256": "0b0d68edd6ceeed30d97381065f91d6c8837a6f1df5f509b94fb78a6e6226424"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BER.tga",
+      "bytes": 7654,
+      "sha256": "0d075083f268903846547c6791dd4311e10ee7baa72e5ec1770a9e543f91b845"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BHU.tga",
+      "bytes": 7654,
+      "sha256": "af215b3c4a15c43304616aef947cd4f662590a403b5e5d0fe1df12257e69106e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BIH.tga",
+      "bytes": 7654,
+      "sha256": "3b3753f2da21b43ea5209350977b8c18e7b6f035fcd01ab2eff42bdc8aa73c70"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BIZ.tga",
+      "bytes": 7654,
+      "sha256": "46391a4a337e385ac137ae270a433bea49c3d1954cd3a5358a3c3dca0e2baf73"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BLR.tga",
+      "bytes": 7680,
+      "sha256": "3568bc2f02e4dfc523c1626e4b6740f06bb684c5993e8c6a404f02dfd679cf8f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BOL.tga",
+      "bytes": 7654,
+      "sha256": "c7f778081533749ffe49acb641d315967fb9218c66c011e22eb1c156acd37806"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BOT.tga",
+      "bytes": 7654,
+      "sha256": "8d39c79ccd03cf2110bb3e66e7a642654a9b1934e3c948cd83e15b600fa400d6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BRA.tga",
+      "bytes": 7654,
+      "sha256": "f75476f08ba152c7ec3130553239ebec6a679d44e30e67785114bbd7844ddd76"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BRN.tga",
+      "bytes": 7654,
+      "sha256": "dddcfb543d9da7d605cddd303776bf17e22beec7a03b795bdfe90be88e303ad2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BRU.tga",
+      "bytes": 7654,
+      "sha256": "b775e4b8c16751ae15ff1971e7f5b00abd1ecc8bdbf56b8bfa7b1e3b0fc2f6cc"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BUL.tga",
+      "bytes": 7654,
+      "sha256": "d942785a01f0f0d880893b64279322c6bb3a3e4d426b6ce0344b492e611dd1f0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BUR.tga",
+      "bytes": 7654,
+      "sha256": "53c48962a6724e61fbe25684f522ca82a2e73e4cb2433464f0d2ac70c7314757"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/BWI.tga",
+      "bytes": 7654,
+      "sha256": "16c2352f168d161dacd9259f333262cefb0893e8597c22b132c373395f396aeb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CAF.tga",
+      "bytes": 7654,
+      "sha256": "93e6c20633bc05f61de82e5717b9ae228312c7dbafa0de1833410983d89bfc5e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CAM.tga",
+      "bytes": 7654,
+      "sha256": "a908bb3e9cbe0cb686c6e47b7ca1a653d3c7175cf36744c45754b17b9dae99c5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CAN.tga",
+      "bytes": 7654,
+      "sha256": "4574530bd3d8a75fb27929b4be99ce4a0fdf8bf58a81a0844ed15820c533655d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CAY.tga",
+      "bytes": 7654,
+      "sha256": "29798ece8d34b0d30b235df6daf46eb4963c2ca25456b120a1a7f356a2198a8f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CGO.tga",
+      "bytes": 7654,
+      "sha256": "62ea33f412616fa0f1b3ebbbca6e1d1d1456d948eb4a30a7b249d3450c997b67"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CHA.tga",
+      "bytes": 7654,
+      "sha256": "7907f4a514df8d3494e372b38ccd88a16eb844d0f85f233b3aefeac05afff6cc"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CHI.tga",
+      "bytes": 7654,
+      "sha256": "d1004be88083c22763690e2201cf54538fbc5360787bb35babb8b95e978b3294"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CHN.tga",
+      "bytes": 7654,
+      "sha256": "6db631dcf61f59c75c4c87e134399e082aced3ca0c7f8b7d1b192ca3bd2507a0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CIV.tga",
+      "bytes": 7654,
+      "sha256": "6d042e58d511f4df782ca352d6b430a81dcc4a303e6feaa54d35a342f5e81b74"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CMR.tga",
+      "bytes": 7654,
+      "sha256": "bad982ca3817e929f72d39792d9383d5657cba377676b4c8a455f8fb4dac3837"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/COD.tga",
+      "bytes": 7654,
+      "sha256": "ca606d89ad24c99b1cbcc6e20b4193cf032b5c033f290eac0bd8991a80a288b2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/COK.tga",
+      "bytes": 7654,
+      "sha256": "97657341a63f520fe717116cec1e02f84b75c79fdb52ced5b2c3bb3d8d46ed0b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/COL.tga",
+      "bytes": 7654,
+      "sha256": "1b5b547e0d7cb8be6f8c85033dfda0d760722df68d1e3a2f7901c9a1f92283b0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/COM.tga",
+      "bytes": 7654,
+      "sha256": "338a2d3ae58fe477dd18533e0a247e10b852956212f64d3198b479c5f31e1739"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CPV.tga",
+      "bytes": 7654,
+      "sha256": "3b0407e39f3a22deee12c7ba0632e0c3380bff16ca333738c85cde73f1bf4821"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CRC.tga",
+      "bytes": 7654,
+      "sha256": "7f64dee20b3c80d035817297050dc04cc537058adf089e78e216f9dbcfd380e6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CRO.tga",
+      "bytes": 7654,
+      "sha256": "1bc748804d62cd585a81753e1ceebc2292305e835daf3c9eef2bf43c2a8c82d5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CUB.tga",
+      "bytes": 7654,
+      "sha256": "aa78f1951dbe57e725ef3fe683c01d51f36c3e559c9a10d49a312864ee47c627"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CYP.tga",
+      "bytes": 7654,
+      "sha256": "bb53c5a251234ea38f8850340bb8fab309b025f80dba9aefeb03cbf9d8766a97"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/CZE.tga",
+      "bytes": 7654,
+      "sha256": "58db5a78d5f7959467b44f1b8435c0117039a2b1433730e01fd64c77ac8566b8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/DEN.tga",
+      "bytes": 7654,
+      "sha256": "fce03ca12dfb515a4e77cd2a23fc312c66ada38561f390ee408cc6994daa6add"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/DJI.tga",
+      "bytes": 7654,
+      "sha256": "1d7e5c3b3b6073766ece8cc7b99ae7367608b43e1ca20afb0319607f537dc260"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/DMA.tga",
+      "bytes": 7654,
+      "sha256": "fc2bb5d04886629ad62e43f30b079ea6a0f0126f25e4f65363fbc9bc31b95adb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/DOM.tga",
+      "bytes": 7654,
+      "sha256": "b54416ff88203bf457b2930385cad110dcc8c8f7235009cbd0c085293cdf0e01"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ECU.tga",
+      "bytes": 7654,
+      "sha256": "0061e4a039f49883e61d0d674a228269089348c8fc138692fee4ab954de390d6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/EGY.tga",
+      "bytes": 7654,
+      "sha256": "45f1352ebb0e5e2ec61683a32af407be4c03f5c3c3b56ca283f23fb804bc5b60"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ERI.tga",
+      "bytes": 7654,
+      "sha256": "eb60bf23b7f56f236a2b7dbc7927451d13b3f7ad286768131227ef012109c81b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ESA.tga",
+      "bytes": 7654,
+      "sha256": "50fb192163b1d7d9e410c6c90f1f8679dac04fdaa27a646d91a59e50c68e416f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ESP.tga",
+      "bytes": 7654,
+      "sha256": "630db2fac47346174d441b5cc51fc3db276f5715db9fd009bd8974311b25bba7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/EST.tga",
+      "bytes": 7654,
+      "sha256": "00f4f6f03f9abeb4c7edd71c29e1e10d0c342fb4531a6a75f2123d365b0c6a18"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ETH.tga",
+      "bytes": 7654,
+      "sha256": "4874d7be67e8309bad1062078ee4504d0c99b867a02ab4557271407414076b78"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/EUN.tga",
+      "bytes": 7654,
+      "sha256": "b61d4b1a0347e6a3b82cc11006fb89c197dab04ae4b584eaf1e94f664c4ffe10"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/FIJ.tga",
+      "bytes": 7654,
+      "sha256": "092e0f11666335ca4ef8ffcbd4b029b780b4173a2b98436c82e53c052e864f1c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/FIN.tga",
+      "bytes": 7654,
+      "sha256": "e39dcf429b1e64e96ffdd79fe33aface2884d22b65869770c906c847bbc37c22"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/FRA.tga",
+      "bytes": 7654,
+      "sha256": "00ccc571f27a3ff8b81972d8a96a75d9d0d41c3887a4e244d570c1f6defdce28"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/FSM.tga",
+      "bytes": 7654,
+      "sha256": "d7b97ce28d9117fbe3a8e1f105f94730ef8e6a40576df50247272207cf26b5e4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GAB.tga",
+      "bytes": 7654,
+      "sha256": "df5130f664954b38cd4440491cad366d0e04db81020838885b14109f8d579305"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GAM.tga",
+      "bytes": 7654,
+      "sha256": "f9f7f2898f4bbd84a331bf482222f059eb84e43566494db1cc1a804c4c5f61b1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GBR.tga",
+      "bytes": 7654,
+      "sha256": "1b56287cb21954d9a231203a9fa4d75b4308ab84a7595f4ab261ffb007674494"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GBS.tga",
+      "bytes": 7654,
+      "sha256": "7a1f219c0ac049b556cf4ebdae9fafead3c620fbaf3fef2948f19872920b7749"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GEO.tga",
+      "bytes": 7654,
+      "sha256": "ed043e0a4128aa24fd0dcd5df82733386d8638f894b717cdd3b73d39c367ed9b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GEQ.tga",
+      "bytes": 7654,
+      "sha256": "b26b197f570a7959444cf5d578cd0e589ffaac90cd71899e22c1fe89054dc86d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GER.tga",
+      "bytes": 7654,
+      "sha256": "cf281d38b06be3282e8404ddfe163740c80f750294708a7a35a25e11dc97d14d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GHA.tga",
+      "bytes": 7654,
+      "sha256": "feabb23d00f725c907cfa876aa400105a79a5e08e4bc9481c64f4188d081d052"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GHI.tga",
+      "bytes": 7654,
+      "sha256": "96f4d394cd08b5671e081fc0759a03407851af9afac2b71418f0f7131afbd899"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GRE.tga",
+      "bytes": 7654,
+      "sha256": "fc3074a82523053bf40493fef3ab2c2f28d3e8978ac23216dc1cc98c202c6e72"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GRN.tga",
+      "bytes": 7654,
+      "sha256": "95e2a68f89c445cd298c9f77903f2132c7637766122f7fb1a6b9afb858bc34a5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GUA.tga",
+      "bytes": 7654,
+      "sha256": "3393aa0ab1de0088b2ecffd0a35375cebdd1c6d368e36a6cd747cc3842f469f9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GUM.tga",
+      "bytes": 7654,
+      "sha256": "021b05f23e1555abec8a1de64729b957af5e9bbefceeb4dfcf9bf763414fd78d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/GUY.tga",
+      "bytes": 7654,
+      "sha256": "3d447945b975ecb01fcfeeeeb8dae41b8128a3ac03c7f14a47447f7049a4f71f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/HAI.tga",
+      "bytes": 7654,
+      "sha256": "bf230f6fd4b01252de5713fd28e4ebd9cac6036108b217d63b0a29d09acae225"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/HKG.tga",
+      "bytes": 7588,
+      "sha256": "11776b0ab95662442faa6f140097260866f76a6b39e6ddf83d71ccf04aa7f9fb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/HON.tga",
+      "bytes": 7654,
+      "sha256": "0448b73d63054c8fc6617301f0613e11c2e7a42867543b2efc88ed63ea5c95b5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/HUN.tga",
+      "bytes": 7654,
+      "sha256": "9ebe03436568256c616bb393105990dbef66d977b80e80ab3f2d32af0b2e21e6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/INA.tga",
+      "bytes": 7654,
+      "sha256": "fd6aec76832e5bb04ab51e29e3bb29b3cfd9aaedf92bfa1d1a1fda265d124ef1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/IND.tga",
+      "bytes": 7654,
+      "sha256": "a661967039aad18f1a6f406d8bac90258b46a07e295f591e6ae79594ddd05296"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/IRI.tga",
+      "bytes": 7654,
+      "sha256": "14feef78ffc39d9cd058b73bfde5a298fc739153bb1f8c52f454e5f311c4f79e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/IRL.tga",
+      "bytes": 7654,
+      "sha256": "b4c67407bd67d30eafae07746d7bcc5f235c496e8c1ba14c823c2e2994371df9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/IRQ.tga",
+      "bytes": 7654,
+      "sha256": "9f8314a657d8e55b70b5c3738cb488c245777df83e9f27a1a9060fe269de2fcf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ISL.tga",
+      "bytes": 7654,
+      "sha256": "b25dffd411c2cc15307f1c72e96b5fd3a769aa7c70a3a412acab9365450c9d15"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ISR.tga",
+      "bytes": 7654,
+      "sha256": "041e49c880f14bce3941d75de60d95cfab2a66e58c30c3730a2956850980aba0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ISV.tga",
+      "bytes": 7654,
+      "sha256": "9db7a74dd0ca96998c13772b2c17a92aa36c42e4396d8addf0596399a8db05b4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ITA.tga",
+      "bytes": 7654,
+      "sha256": "56991370cd304fd2fe29a23d6536b87d24ad7476ccd3c4a1f638abdc1501c94e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/IVB.tga",
+      "bytes": 7654,
+      "sha256": "dfd72a10147937c9d5614856ef853e5cd16cd6bd7776d18ea67e3438ed7d93cd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/JAM.tga",
+      "bytes": 7654,
+      "sha256": "de24158affd1bd9fe4c235603dd7fc21c708f46cdc714cba71a9ccf3a9122846"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/JOR.tga",
+      "bytes": 7654,
+      "sha256": "f6bce823cc3259931aa9d2149d5dfc9a7366b4f3a470c778230bd894a7c6b111"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/JPN.tga",
+      "bytes": 7654,
+      "sha256": "2809fa44c0646fb0a8a836171beba60c1b26f651549755be6c632b70b17f7b36"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KAZ.tga",
+      "bytes": 7654,
+      "sha256": "a2466c95cf70ccfffb14b66fbefd6ad8ac12f09c59335f0a39db1b2d6aa1e79e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KEN.tga",
+      "bytes": 7654,
+      "sha256": "abfeb6d2b551d874aaeaba734166d93418e91b198bd1571541efb1e6feda257f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KGZ.tga",
+      "bytes": 7654,
+      "sha256": "3ac80ef4f070fc62c764b81bac2493ad4fe0f32c40a99a7005998db051bde145"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KIR.tga",
+      "bytes": 7654,
+      "sha256": "7723e2cd47ba47fe2b70b96e5237d8470b4401729d76cb2cae873bdb70303d2a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KOR.tga",
+      "bytes": 7654,
+      "sha256": "94828a8f7634f4fb67c76e07de8d7518706946e717d00252ee48baf470a553e1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KOS.tga",
+      "bytes": 7654,
+      "sha256": "6a01ca17923cdebf23c0375e8a51e5a0fa61d8ff97a52fe5a0e5208f02890664"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KSA.tga",
+      "bytes": 7654,
+      "sha256": "346d51532ff1314828d2b3e23a821697b33e81b1075990e7015d602222f7e589"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/KUW.tga",
+      "bytes": 7654,
+      "sha256": "82241b551f6491927d4927d824792e3bd8702d37ba95fec4795c4f8a492bf17a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LAO.tga",
+      "bytes": 7654,
+      "sha256": "b8aab3669561156f994a8fb74cb34942ebd7b9d82089352bcf09e1fadb7f9170"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LAT.tga",
+      "bytes": 7654,
+      "sha256": "aec732189810a0133c47197adbbe65e1cc51985bfcb7e0142bc18064db62516b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LBA.tga",
+      "bytes": 7654,
+      "sha256": "95d92ce9ac8e108d4b9527b5d512fdcc0bf0ca7fc2074e461c1ae03409d4323f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LBN.tga",
+      "bytes": 7654,
+      "sha256": "2be3341d0f6919aa2754b1fca4c1dbbc2c30179d50fe49292690d3a43e77470c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LBR.tga",
+      "bytes": 7654,
+      "sha256": "5b3fd9b04939935316522bb3b614243e4fa21bebfc58c38744c36584b89085a0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LCA.tga",
+      "bytes": 7654,
+      "sha256": "563453bd812290cc27ee56a164998406aa9287a2ca16f438a880e6f0d45e9030"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LES.tga",
+      "bytes": 7654,
+      "sha256": "0108e8c7d1c9afec732b9ec4a8d2fd462003cac5fb7696537de6044a9f09339e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LIE.tga",
+      "bytes": 7654,
+      "sha256": "3b41876f0b943eb7a47d9ff33cfc9bb954395ff3218f96fc7b584cce07594088"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LTU.tga",
+      "bytes": 7654,
+      "sha256": "d3924db1e1cc118346472b8d1adcaddb0911929f6b5adfdd16f4a98a955435a0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/LUX.tga",
+      "bytes": 7654,
+      "sha256": "e7f8a78a4390bfe69973db7602b215fc84dd79733574cd6ca3bd4333ccb3ec56"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MAD.tga",
+      "bytes": 7654,
+      "sha256": "0028104f916af1b28b817ad9ecb4bbeb6e54d141634f6b2372a1b8298cd79976"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MAR.tga",
+      "bytes": 7654,
+      "sha256": "61df12b2d75b7e2bfc1f33275333acaaf0468d85f77a7a320d3fae34c20da42e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MAS.tga",
+      "bytes": 7654,
+      "sha256": "ddc77103ed84749a9946bead55c5fb64219826643c22def9e7037f20d0fb790b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MAW.tga",
+      "bytes": 7654,
+      "sha256": "af82dbb052782d52844a878fd269c71679656e5e20ddcc113c0a5d0f32efe199"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MDA.tga",
+      "bytes": 7654,
+      "sha256": "58d7ef80b63f3a5e91ad43cad3120163e129b82861b322f33403b5d9a20a993f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MDV.tga",
+      "bytes": 7654,
+      "sha256": "2a770bac840ac632c9c2a1d934c38a9992cc43d9a6b3723fb5a54c746f8798c3"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MEX.tga",
+      "bytes": 7654,
+      "sha256": "2fb06610f1a59c730c77938eb4182bee2d9d774a8878c1eb90149fcb9a9101d2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MGL.tga",
+      "bytes": 7654,
+      "sha256": "fe420d4c41abe983363021082209ad52919a06924fcaea14697379893b883c90"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MHL.tga",
+      "bytes": 7654,
+      "sha256": "a894f518e38431bf34561baa883bb5671de8a2d7005937833a2ad5267b6046ad"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MKD.tga",
+      "bytes": 7654,
+      "sha256": "ff83ff06f16b4d63a2042995461aab0c91db1868b5ff8ec87e25703dbf38b00b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MLI.tga",
+      "bytes": 7654,
+      "sha256": "6de687f8dc9138f2245e8d14c13407fc52b39a6f1bbbb333e08e939d7a4dcc75"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MLT.tga",
+      "bytes": 7654,
+      "sha256": "1b2826cdc0ac523634309cf4925770ade538c1fde2d4d4ecde3d8bea437352a9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MNE.tga",
+      "bytes": 7654,
+      "sha256": "6ef39b38acf961e9707b8efeb103900b6507f259d3fa2bb03a02e921972e5f33"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MON.tga",
+      "bytes": 7654,
+      "sha256": "119caef3030b26d3b3ead4ecd036b133d7ecedbb7c7e54aa1b650c7a52f88f43"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MOZ.tga",
+      "bytes": 7654,
+      "sha256": "02ad4370a7f16ebdb075282615406885b12c6ee854f95c76df696c9035fcd042"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MRI.tga",
+      "bytes": 7654,
+      "sha256": "9817d994fe29c6f7f19726e738ccd9940b7926f474c6f77b853635893cf26661"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MTN.tga",
+      "bytes": 7654,
+      "sha256": "0e2f0986e0e670c1ccf24b59ad214c70aef35a8f8f03570ec07e49e9cec761c9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/MYA.tga",
+      "bytes": 7654,
+      "sha256": "5ac194edbe76a1e4c6d3cca95a586e147671ad37fc3a27f7a18587ccc3de6008"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NAM.tga",
+      "bytes": 7654,
+      "sha256": "b57be9096169f55998738745f86e9176f47d1e0478e726aae3d45d57838dc203"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NCA.tga",
+      "bytes": 7654,
+      "sha256": "321835adc27500f7534c8c0480480a4a8abdf3737121d88ecf56110442731e08"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NED.tga",
+      "bytes": 7654,
+      "sha256": "1b350be8cd6c9b7a82912c9801a61a7f301c6abff60b8798cc84949db38c6a10"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NEP.tga",
+      "bytes": 7654,
+      "sha256": "afaa2026865a2ae9c6fd6b6b26a9f6249509bc53286943267b0e3bc3f3cf8dd2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NGR.tga",
+      "bytes": 7654,
+      "sha256": "7b183e750ff182ba9c1e06d4efc588df05b5e4c4d5ae272a2209c0954266966f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NIG.tga",
+      "bytes": 7654,
+      "sha256": "42a6e1cafe16cecfbd7ee64fd237137af66bed8737c279c235977f84bbb07c32"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NOR.tga",
+      "bytes": 7654,
+      "sha256": "c80cc4c6f64a04e93c2d329ee8022ec84fb920e17d1776d948416a1823a1b532"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NRU.tga",
+      "bytes": 7654,
+      "sha256": "d108718ff8deaebc85cb01f01bffa71ccce0386792aa1b475c70e55b9ef7bb7b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/NZL.tga",
+      "bytes": 7654,
+      "sha256": "44fb792b2dde51810c5d7e17aec4042ff2d32abd0d3137f82f9d73f6ac58256e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/OMA.tga",
+      "bytes": 7654,
+      "sha256": "dbf4525b44d3a46b53616e31fde3bb35f1f730bf7cc83030141398b44ac577a7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PAK.tga",
+      "bytes": 7654,
+      "sha256": "1e2b5d6e7cf53ba47b19e8dcae376f42eaffcae4f3d7d34e64c1a4d96873d754"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PAN.tga",
+      "bytes": 7654,
+      "sha256": "4edccfed14c14b118e60b5ab70c54b2dcdca976867b151b0ac09f9f03d4d818e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PAR.tga",
+      "bytes": 7654,
+      "sha256": "b4dbe9f67ee5f846ae0d2e2db623ee56f72822e3b5936e4bde9a52727b3d5842"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PER.tga",
+      "bytes": 7654,
+      "sha256": "cbcbd6f9ad4155f4c8a50465fd85c03425ad509614ea92c809b5569e1a1a144d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PHI.tga",
+      "bytes": 7654,
+      "sha256": "ca8467de6235cf29f0931206756d13cba5fa5ddd59cf8848bb57b62884992708"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PLE.tga",
+      "bytes": 7654,
+      "sha256": "ef1826098896b8aca7f06eb3988030201597921fbab2b97b3b4a9a509b4fb032"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PLW.tga",
+      "bytes": 7654,
+      "sha256": "3322b8b7ad6868d42f30ed2b43829deca3ab568a08432fc2596b2c172915e479"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PNG.tga",
+      "bytes": 7654,
+      "sha256": "4a2b384f60255b10f5c74bd06fbc0bf6d552ef316129b8750141cc815f59497f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/POL.tga",
+      "bytes": 7654,
+      "sha256": "997b49558e7b85cacc3ffa6bac8224958b65eeccf434ae21296602fa262a2835"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/POR.tga",
+      "bytes": 7654,
+      "sha256": "3ff5e05790e398b12e097cf24729c08fc8dd14c31fb2ff623531a0614bdd9f94"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PRK.tga",
+      "bytes": 7654,
+      "sha256": "3f7a9c5c5c4c0f51e31437b72da1338ab6fbe4e5cf8b7f89da162ccab0fdd911"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/PUR.tga",
+      "bytes": 7654,
+      "sha256": "eeca393aaaba58ffdaa745e5c0790ba6d4167c0b24d79acc409dac53d609d26e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/QAT.tga",
+      "bytes": 7654,
+      "sha256": "30f14a948dcf9e9d790dde3307c57cd7465e44a02c30e2fb2ab956d8c105dbf4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ROU.tga",
+      "bytes": 7654,
+      "sha256": "abff7ed2ed4505fa5aeece1b848e6c5de51f192d1686a89594494360f6e33105"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/RSA.tga",
+      "bytes": 7654,
+      "sha256": "aa83fc0808b0fa80bf33259a0a35875a00af8afa499f16c0ef09b399d2681b6d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/RUS.tga",
+      "bytes": 7654,
+      "sha256": "7d3ab771c915498b8a9a78f71cefc09ca24d93c6d5246e813f71dfe9530244aa"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/RWA.tga",
+      "bytes": 7654,
+      "sha256": "6c050213a4f16f3845a0f6c50622837145c8238b6d654b749502b3d45d54cd66"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SAM.tga",
+      "bytes": 7654,
+      "sha256": "a9e96ea22011ba481735cb60129fda902f9e583886023441e0c6cd6a64c1d852"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SEN.tga",
+      "bytes": 7654,
+      "sha256": "eacee3a48f8577302ccae99c9d0837d089ea2f90f62617a672d3d8313806bd6b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SEY.tga",
+      "bytes": 7654,
+      "sha256": "a32b354dc98f8855fdc01412232d8f7556e5480d481de8d12cddbe3135ece711"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SGP.tga",
+      "bytes": 7654,
+      "sha256": "e7c977f36b38121a4e39180a38b677c171d45b7b0475d22447904280b8b7676a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SKN.tga",
+      "bytes": 7654,
+      "sha256": "8a579462b9f448777c713820f366dde70c63d97c32b2bf52984449df2caf966b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SLE.tga",
+      "bytes": 7654,
+      "sha256": "52133f2e63140d32e4ce784febc00626daade0b7a49876f6ca48c7bd43d8497d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SLO.tga",
+      "bytes": 7654,
+      "sha256": "f55f7b3448e33437249ed1ad12ea1135b0fe5912ceb1df21b3ddb426010040c0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SMR.tga",
+      "bytes": 7654,
+      "sha256": "7503f86b28043a4b1ed82202a309d7281ce43020a9b98c6c0539e4a81e70e3ab"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SOL.tga",
+      "bytes": 7654,
+      "sha256": "935c10c1e43a4d725008ab8fa63b2bb6e4d1a439567b76bd3eb61ebcf2b8c221"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SOM.tga",
+      "bytes": 7654,
+      "sha256": "eaff38e06d438cb987a27f5f33f8a7543dbda187329398aaa30880c3622aaad9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SRB.tga",
+      "bytes": 7654,
+      "sha256": "7eaac15143b11ceccb8cf43d7062d9f81c87a6f29f3111059bb7c1cf23180c30"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SRI.tga",
+      "bytes": 7654,
+      "sha256": "2e617a0d983b095bf98829ec64a30a153c7313cc49fb2b849ddf1f163974d349"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SSD.tga",
+      "bytes": 7654,
+      "sha256": "beb531036d90b653643d7ed333fe7d8cb2c1bbcb3bc38e5fbc295f870b3ae1ee"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/STP.tga",
+      "bytes": 7654,
+      "sha256": "878aae5eb835b90acb6da359c85bcf07170f366614d6b9cd3655301cc8454c10"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SUD.tga",
+      "bytes": 7654,
+      "sha256": "da1be15e7a4229cef260854cabc3f734058e479f7060a3f6c86092b93c32aac6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SUI.tga",
+      "bytes": 7654,
+      "sha256": "f8df4620024f737c47ab692a0cd6d3f944aac52866dc4026912e35fc4ab08147"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SUR.tga",
+      "bytes": 7654,
+      "sha256": "c3cce5db7fd94a288440d9178d2b1b30bb0b8d6f38dfbc3a60f52a0de040302c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SVK.tga",
+      "bytes": 7654,
+      "sha256": "04587d759801306fa68222f4fd5e7c0a5e0c781f54ef0d00efb0b5adb24f345b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SWE.tga",
+      "bytes": 7654,
+      "sha256": "56cc5196181e06884d4abdad77fde927e89a6953f53fef415d00eb797064422d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SWZ.tga",
+      "bytes": 7654,
+      "sha256": "e91d2e552139b8fb352b763782152ff2c719dd76cdaf0f884807cf4fa874c176"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/SYR.tga",
+      "bytes": 7680,
+      "sha256": "bffe25260b7b5972352aa11d4004cab996783f778bbc6b5129bce888ae5106fb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TAN.tga",
+      "bytes": 7654,
+      "sha256": "a1f682b5d463c4495e860fc8ff4dc37a425694cb1abf5a94821c180bc5fb6e44"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TGA.tga",
+      "bytes": 7654,
+      "sha256": "663aaa894b93b75b6977828830c91b9a32372eec87b2763d8186b37febb16572"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/THA.tga",
+      "bytes": 7654,
+      "sha256": "77b7df48aa46d181e23c7b5b67b83250f72578d0422e40827b2e0dbbf372c33a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TJK.tga",
+      "bytes": 7654,
+      "sha256": "86d82ab76075988eaa7d5a29e99a83a0938d6ac935d63cbb1eda539e2e30aa99"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TKM.tga",
+      "bytes": 7654,
+      "sha256": "46fee20e3e96d34c86c7e2ebbb2b81586f7117ba33e6baa0f85fdcb978d9a343"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TLS.tga",
+      "bytes": 7654,
+      "sha256": "6b63d20f814a0d1535d6856eda98c51aee06dd9d04dea15ff1462bf73309e4b2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TOG.tga",
+      "bytes": 7654,
+      "sha256": "ac1a59b85f6a1a1734c1a5247981cc844e7b6bbfbcfd75cf16ee7ec30bcef7c3"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TPE.tga",
+      "bytes": 7654,
+      "sha256": "91d1eeac30f69648afd214a57a83964f9e01d61d1ad10f7cf9f99de6be6957d2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TTO.tga",
+      "bytes": 7654,
+      "sha256": "1be998d4764fd63f9df8c2e301626fc6b94c72605cc132427f2c9fea72657157"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TUN.tga",
+      "bytes": 7654,
+      "sha256": "a1cbf637b7139439953188e465328b1cc2bfde6c6ac8fff6cec68ede9aaa5fac"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TUR.tga",
+      "bytes": 7654,
+      "sha256": "27ffecbcde8e8aa3d7ba5a0e936e2361dfd47a1a75d9589470c07b809ec8a8f1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/TUV.tga",
+      "bytes": 7654,
+      "sha256": "ed0af485aaf248ed7f59213f54e0a46fd965257bafdda42f82728b0a049be4f0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/UAE.tga",
+      "bytes": 7654,
+      "sha256": "0ebaa70a0057e7eb35fb5e44079757daa0ed42e28bd80b7042f978fa7fc52eeb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/UGA.tga",
+      "bytes": 7654,
+      "sha256": "baad2c390317ea001b368da8f93f3d68442c400956d43da490b7589b092fdd3c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/UKR.tga",
+      "bytes": 7654,
+      "sha256": "59608ac7c11b6690712d3b3dbfb397abf28ea9ef7c6e01c5822a0ab67575b19f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/URU.tga",
+      "bytes": 7654,
+      "sha256": "100fa894d0bf8a7b8a3f3a6f4cf55be6dd7e57670e8a48cb05dd408fff803506"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/USA.tga",
+      "bytes": 7654,
+      "sha256": "60e70e86df763dd0df91b55dceceb1d29f283c6dda9542eb190439ca05b2e650"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/UZB.tga",
+      "bytes": 7654,
+      "sha256": "a454cdb122ee0bff753a7e41d22e05fcca389dc30d4c159959dfb9dfdf12ce8d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/VAN.tga",
+      "bytes": 7654,
+      "sha256": "4037dd5b43d2dd50e9d717cf35014e6cdb04de72c2edcb383ce7b9ffc59817bf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/VEN.tga",
+      "bytes": 7654,
+      "sha256": "6b03ee45165a22bda538015ba8d9523aba78655951b8ce9412ce08192465b1bd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/VIE.tga",
+      "bytes": 7654,
+      "sha256": "8c2606117eb11ddd55043af07bcac1ca8bdd6b1d79edf6a03be5a697a92e8ecf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/VIN.tga",
+      "bytes": 7654,
+      "sha256": "0d96434aa4e8533c61debbc59d3532f6a6821a20471a5dddb56f9adcd1315332"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/YEM.tga",
+      "bytes": 7654,
+      "sha256": "7620f4848c75d64699209a15af279d677e0a45d7e2fa57e90251aaecaf28308c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ZAM.tga",
+      "bytes": 7654,
+      "sha256": "6fb430296c696a2c0c873006d493dd68cec27855a71ea6da098daa59b7a27e9b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/CRUNCH/ZIM.tga",
+      "bytes": 7654,
+      "sha256": "ab2b76c87c0dfd6e830bd0669224d76493dda08c0a180b0f17145ecca3fefb33"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AGF.tga",
+      "bytes": 9690,
+      "sha256": "8648d15dd365472910dcd4db366745521c75c3dda5ce554be56186c05b6561c1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AHO.tga",
+      "bytes": 9690,
+      "sha256": "efc6331fa39250a3970193f96a691f50a4fbbf28cb8310f00c9ec22f514cee42"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AIN.tga",
+      "bytes": 9716,
+      "sha256": "889ec1e3390e8226bb5d9a5ca78cdfaf2d884f334b0d907eae975874a63fde44"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ALB.tga",
+      "bytes": 9690,
+      "sha256": "4427ff94668ea573d82ee99353532edf56bf7403ff7a93ff0deff8ecca71d0f2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ALG.tga",
+      "bytes": 9690,
+      "sha256": "c6318f0e435d9b54088ca2e739feab98af1af6764642d7ffb5e4f7b94c52e777"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AND.tga",
+      "bytes": 9690,
+      "sha256": "fea6ad95b9b0179bfcfbe06389b607572b2d11dfac1ad25a72d406005be997d2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ANG.tga",
+      "bytes": 9690,
+      "sha256": "2b4165927f1d562a9cde65d10f73a34214389ef6194bb444f3b47afb14f5a30a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ANT.tga",
+      "bytes": 9690,
+      "sha256": "d1f9f08a19deb7abe04d7ff2b9e226111a300cba8e159bd28212d5d5af9c3f2e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ARG.tga",
+      "bytes": 9690,
+      "sha256": "f9f1ae615c184a0d2c82d3b14a8050bb067a9d91d36c83ad82ad095ed91d9c59"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ARM.tga",
+      "bytes": 9690,
+      "sha256": "32062555191d0266601da3893c8ae263b9f928a215c83fc22684413b5ea86bc5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ARU.tga",
+      "bytes": 9690,
+      "sha256": "aa90b60ff81563ffe7d06ad91ca570572188fe059f7b5403ffd0cdaacdb88589"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ASA.tga",
+      "bytes": 9690,
+      "sha256": "d1ac2f9c6815c2390376a65fbff602bb2f0fc3b87b66c163bcdc0a0ec75e74af"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AUS.tga",
+      "bytes": 9690,
+      "sha256": "3dde0ffcc1cf15aa7cbb43c16748486b7115cdfae237cb58ee1ce9dcb493a009"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AUT.tga",
+      "bytes": 9690,
+      "sha256": "73f3fa73c346b626e9455d96daac03c72ed0deea4b1b9ec6a8988168c67d6da9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/AZE.tga",
+      "bytes": 9690,
+      "sha256": "ec0c5d47a1fb4b06064fc76faea32357fa8fc8b6da5056a09a1e7724cddcbcda"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BAH.tga",
+      "bytes": 9690,
+      "sha256": "860318636b3a61f8eaba9f195e5d7457a2ef0a649b59be80749f8a597a2644d5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BAN.tga",
+      "bytes": 9690,
+      "sha256": "9194ffa5776226e02f99dd104dd29c0bc2c74ef22d2a5487ecaa5d5d2f1c64ca"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BAR.tga",
+      "bytes": 9690,
+      "sha256": "a984939751f5095fb8c3fb847c318ca341b6e80b577c8c5e918b6b99e48cc025"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BDI.tga",
+      "bytes": 9690,
+      "sha256": "76a48d2aa4a9064b6c01b72d656b8ca3e62905898f736419835db56422f88fd4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BEL.tga",
+      "bytes": 9690,
+      "sha256": "ad166ce1fc5a82917f0566f1c7402889a5dfbeb5525caed2c5545749df366236"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BEN.tga",
+      "bytes": 9690,
+      "sha256": "f59bf29ede374ae9d46520b8b035f654c908faf6b5048e7868bf529ec5a41ff7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BER.tga",
+      "bytes": 9690,
+      "sha256": "397e79a1fb2da7966c92beb2f6748eec81710a87009620a773c3b9ec2a288090"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BHU.tga",
+      "bytes": 9690,
+      "sha256": "fa67423af85b09555eb428d6ebf964b8fa66db11dca921a5bc5949dc1548ea3a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BIH.tga",
+      "bytes": 9690,
+      "sha256": "9b4f798021c1f02bd76e25817b973b392c443eae9855285218846fae839860be"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BIZ.tga",
+      "bytes": 9690,
+      "sha256": "9a53660370fb304bc57c47892f57b7f724f51a3536cbf48f16192f50ab9457c2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BLR.tga",
+      "bytes": 9716,
+      "sha256": "984706ce27883eba8e3081707f12e5696c09ae2caf2faf98eb3df281a7cd4aaa"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BOL.tga",
+      "bytes": 9690,
+      "sha256": "293803fe5221a28246c5440550ca2dce23e3f3ed7b61f50ef2f973481064de20"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BOT.tga",
+      "bytes": 9690,
+      "sha256": "368466850a9c3bed0e51d5bab6e99aa2c428e1595c2c08f7283618d491306bf2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BRA.tga",
+      "bytes": 9690,
+      "sha256": "153ef5d3c861e2801aac0d3a7bf8ed087757c0cbcf3e0ec1847dbf1a215aaf5a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BRN.tga",
+      "bytes": 9690,
+      "sha256": "0fb2e2c605a83186cfd04404633a10592aac5fc42a3a103f85e806babf334bbb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BRU.tga",
+      "bytes": 9690,
+      "sha256": "7cb319d53fb61897b56283abb4cc8ca5696bb7fa16eb2e7ffdfa6c9eda5d655a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BUL.tga",
+      "bytes": 9690,
+      "sha256": "d114fc41e771fef5355ea5e6fd288022e21a7457fb5520032ad29e8c41ca63bb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BUR.tga",
+      "bytes": 9690,
+      "sha256": "45f7a5106a0971d26374a16b6d41b8beee263622ffcc083a3c5146a7c3ca052b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/BWI.tga",
+      "bytes": 9690,
+      "sha256": "30a1719bb3700c6fdfb15ab43e62ff43b65c8774ded24e08a941982dfe5ea803"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAF.tga",
+      "bytes": 9690,
+      "sha256": "88f786f54d885bb85825422b66d3daef1496c666855383c3968a938ffdd2f207"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAM.tga",
+      "bytes": 9690,
+      "sha256": "a8202873f00016c86a30a4ab4efdcfbfaf90c0a2ec6e068957cfe9db97146369"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAN.tga",
+      "bytes": 9690,
+      "sha256": "c449a064c0b8182d4aae58f7df45d4377124a00ff4bc54f740ede9377a4cf208"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CAY.tga",
+      "bytes": 9690,
+      "sha256": "3485afa980d519a0592a6c3a0ac5116d258c69504bca36a45775dc7545f6b0cc"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CGO.tga",
+      "bytes": 9690,
+      "sha256": "5474788f299abf7572f9cfe9113e6874f7f3df37e2810b0857ee07e0d2a22b37"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CHA.tga",
+      "bytes": 9690,
+      "sha256": "975069b99b97d80c84f73e9f12f8d0cb1db9394ab3c373b2be5a4ecc77100453"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CHI.tga",
+      "bytes": 9690,
+      "sha256": "ed47555009092d23206bcfeb8682bebf2ca64e99359ba8f7a5d89e5852c2402f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CHN.tga",
+      "bytes": 9690,
+      "sha256": "6ee10e46b0d496480defdd049716175b3f818f8ede81ee2d6855a413c95213cd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CIV.tga",
+      "bytes": 9690,
+      "sha256": "d9160f899ffa6e2afa21b92c4493e9c8f68d85ba60b0a171d361808111313bce"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CMR.tga",
+      "bytes": 9690,
+      "sha256": "305176fe7810c2a146a35b9fc99b09f3992a1a259e2baafbb83e5c3b090c3e0c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COD.tga",
+      "bytes": 9690,
+      "sha256": "fdb3a899d32c9c0190bcc0aec271bbab1add87747cc735278e4d18f58ff05c4b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COK.tga",
+      "bytes": 9690,
+      "sha256": "ae7f8561d634760023534c1522412db438a67f88e139acdf7f055a6abf141edf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COL.tga",
+      "bytes": 9690,
+      "sha256": "580f3d09371922b01d6dadf1870c668d233b56cba11a9bde7e6af84442d6cbe7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/COM.tga",
+      "bytes": 9690,
+      "sha256": "c9f5b639cf94676b28d4cb9d1cf0218bd3410c607965c6d9abb8effc8e091a36"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CPV.tga",
+      "bytes": 9690,
+      "sha256": "66ef9cc3910279b58b5f762d1c91c5e6255a5f323504e28bc0acb5b5f2226494"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CRC.tga",
+      "bytes": 9690,
+      "sha256": "13888ae99d35993caefd7f8200cea8b10b9eaad62a97010d7b45041cd6f66e30"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CRO.tga",
+      "bytes": 9690,
+      "sha256": "f86b0ed98cb0e9cdd9495bef8ec0d46ad944079cd078cfe225bd842fbcdac380"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CUB.tga",
+      "bytes": 9690,
+      "sha256": "6b08e06e87d63374c0325f433b6a92db64b47ac49328708a72fc9e725b12c7ab"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CYP.tga",
+      "bytes": 9690,
+      "sha256": "7ef2467ebca3121d60859761f9c41ecf7eab34cdec2c5b092a8ef690e5e97a95"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/CZE.tga",
+      "bytes": 9690,
+      "sha256": "a76b5d9952a1eff63e0f2f2fd73e2c3e2d389ac7ba7eecc939c6734ac0af3c4a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DEN.tga",
+      "bytes": 9690,
+      "sha256": "45d3749e05224f590fbb5dbc171b076e8f4c52942f8c6c59a56a67c0d8549f30"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DJI.tga",
+      "bytes": 9690,
+      "sha256": "37797215d71ca707060249513557f9e63d1b0672228360863c62423ab29dadab"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DMA.tga",
+      "bytes": 9690,
+      "sha256": "02c81cb68b0629901c4295fbf18be55c0bf4bd10e13cd3ad549e4649bec07394"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/DOM.tga",
+      "bytes": 9690,
+      "sha256": "83870deab8ba8c8cd5c626cc3cb4dc6a41b27f226c1e63ea8929bf934e568b70"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ECU.tga",
+      "bytes": 9690,
+      "sha256": "2543b471d523ee3704052b4b86fb35b8c2d445b24c6b01a5686949d482cdd7a4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/EGY.tga",
+      "bytes": 9690,
+      "sha256": "83fe7c9264912d7ee6b619f5afe62b758575ad78238b8d03ef550630657f1fb8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ERI.tga",
+      "bytes": 9690,
+      "sha256": "634dc41a883af65afb7595b10b693542ee227372aff97548135c8ad4112090e2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ESA.tga",
+      "bytes": 9690,
+      "sha256": "79f2ba6090e49066148d9e0a298349a43a9b7ab598c1ac4a5553206a5203ce97"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ESP.tga",
+      "bytes": 9690,
+      "sha256": "3f6fe221f03dff06ca4750d70c738725090d3ef7148912565fba8b88ab7f96d2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/EST.tga",
+      "bytes": 9690,
+      "sha256": "4fec1c2b4416b38f4559e7dfdfaf24c357cdc554eb6484307ba54c22bc55bb40"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ETH.tga",
+      "bytes": 9690,
+      "sha256": "88610371d879e1fb65fbea4cbee8c351797f11b5d00603cb24a3c304466a38b3"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/EUN.tga",
+      "bytes": 9690,
+      "sha256": "840b22c9604b2d3d723027f855f5dd30aa46694edd0be9d3b2931ef5f7afb2dc"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FIJ.tga",
+      "bytes": 9690,
+      "sha256": "4b00fba1782faae0d0305d1b7dc730a2b90e4a91b1927f3aee764573fba587b8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FIN.tga",
+      "bytes": 9690,
+      "sha256": "428a5d3b3a345120a209ca2d62b9cb9d0a1ec0d87edd742e9b83219d6b3c5670"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FRA.tga",
+      "bytes": 9690,
+      "sha256": "bf3de192bbc8687cfafcb290880b4b44d5d6d88b04f3822d9bee0f8ac303609c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/FSM.tga",
+      "bytes": 9690,
+      "sha256": "db0d76cecba352b8ec8c0fb577a839fc50ad7ab07567745b411a5957bb7b484e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GAB.tga",
+      "bytes": 9690,
+      "sha256": "ad8c18f927b76641cced3539305f1d64b8ee41899a320901b58b08abf234c001"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GAM.tga",
+      "bytes": 9690,
+      "sha256": "615e670b158d54067fe1f810c1fd7113aa06e35f04daecd694c8e87534f90ca6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GBR.tga",
+      "bytes": 9690,
+      "sha256": "2fce70ce192c07f76ebf491148afb2ccfbde611265e3c717865c4700b04c7b72"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GBS.tga",
+      "bytes": 9690,
+      "sha256": "cf09c78fbf15c800e0fd5bd1745691d60d428d93a42435838d53d85b98717430"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GEO.tga",
+      "bytes": 9690,
+      "sha256": "235bc1f97561b7d7b3c1f0c84041bff669f1df891c3a3fb36d35afa04207ae03"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GEQ.tga",
+      "bytes": 9690,
+      "sha256": "3da48f4f744c8b761cb9b8ad32f6b65aeabeae3a1d040009082993c6d25cee20"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GER.tga",
+      "bytes": 9690,
+      "sha256": "c14edab4229368db2a95ae4cbdb7539cd0c2677e2a3f43dd896a53954bc51648"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GHA.tga",
+      "bytes": 9690,
+      "sha256": "6dd090b182ee40b2ce03e6448b6a808a60dc76fdd32762e329fa368f9f918cf8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GHI.tga",
+      "bytes": 9690,
+      "sha256": "260e414860e8203a2389ca9ae00f4dab6306589cedf121fe849c81dc0080d594"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GRE.tga",
+      "bytes": 9690,
+      "sha256": "7eca1646ffe704354ec8ab56ec6503e33c8dfa391978496b82093bd106f3f12b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GRN.tga",
+      "bytes": 9690,
+      "sha256": "3825fd116f1b36574ed4dfcfd0c8fa219dd8f178d647a4243978e8841891911f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GUA.tga",
+      "bytes": 9690,
+      "sha256": "3e1128f4e355cb2d44bce5fcabd3b644860374af4331295dadaad7797b8bcdc1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GUM.tga",
+      "bytes": 9690,
+      "sha256": "5f24c4abae9a35847d1948b96ba049caa5889bd2dbcfa410a5e24cdbb7e73abf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/GUY.tga",
+      "bytes": 9690,
+      "sha256": "c87a33c8ddaee7fb0f8701ee5dac0ad6a4a7d75ab4c3e3abee887c0bdcf3ca48"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HAI.tga",
+      "bytes": 9690,
+      "sha256": "d49e1438ca26543e34f7ee5377672973135d7d53a1ea0f72449db498b7ccfbd9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HKG.tga",
+      "bytes": 9716,
+      "sha256": "080608b212c7f8279b6c8287fa78c4b6f9cb8f0f549e9e227213909487985bfd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HON.tga",
+      "bytes": 9690,
+      "sha256": "2aa19775ebeb3c57c8a3c9bc902ae73cc25c8dc2712d4a4db4acb42043e8b6b4"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/HUN.tga",
+      "bytes": 9690,
+      "sha256": "f890230a6f1a0fc7466c756ad1173d311725a49d1e1563b317667401fdc3c520"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/INA.tga",
+      "bytes": 9690,
+      "sha256": "a9768980f9a358301c3e3d23ad55e0ce03eb5b8a20459b642eb8f60eb4cb8b65"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IND.tga",
+      "bytes": 9690,
+      "sha256": "5357c6826724104c1d12fe74ec371e912ce6aeea0f45966501fb71e39e02b4e0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IRI.tga",
+      "bytes": 9690,
+      "sha256": "006e5594cf15dbb9dc29e659dc78ddd2dd242dba70de2824f45e01093ee0a3a1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IRL.tga",
+      "bytes": 9690,
+      "sha256": "3af913e5fe4f56c39d6170417375a58bffd65f209a3df4491dd96d4ac96698f9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IRQ.tga",
+      "bytes": 9690,
+      "sha256": "deeec70eacdd4838ef6af61ab242ffd683bfb7936f85f7d101254ee27db2e3cf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ISL.tga",
+      "bytes": 9690,
+      "sha256": "2bdfe490963f28d2a9772f8d22c3beb4beba0779db8a290ec057de83c7e84461"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ISR.tga",
+      "bytes": 9690,
+      "sha256": "ae679c8027ffd519edc493ae6216b4e42919d8ce5d1a812b2e0262e9fcee5614"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ISV.tga",
+      "bytes": 9690,
+      "sha256": "60c7ec3d5716b0584f7de155bed7dc128a9c951c48f6ef6748a1779a2909b181"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ITA.tga",
+      "bytes": 9690,
+      "sha256": "f38824da35bacb55b0de31a6fa9a20d03f8ebd6f83879e9e490fd7dfd78189e6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/IVB.tga",
+      "bytes": 9690,
+      "sha256": "fb9ae87c1f93ecdb60b58ec14e5f1d0a59feddd0be366e78e249b04fd08d27e2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/JAM.tga",
+      "bytes": 9690,
+      "sha256": "cb6aa14404137c9e162619ec59e22eba9761882cd8ddc66518f78d00b81c18f2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/JOR.tga",
+      "bytes": 9690,
+      "sha256": "d6da29331d807b4810935fd98982aa4c8f073edbd086cd184d906fb2622d0c88"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/JPN.tga",
+      "bytes": 9690,
+      "sha256": "161bb9c7912d9c94d276ab3db686a80eaaa0359c8536c1666853d47edde4221c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KAZ.tga",
+      "bytes": 9690,
+      "sha256": "ee46b314a2b80d9c11296ddfde2e523e219a9df5b7d388a3efb1dc73ef156bff"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KEN.tga",
+      "bytes": 9690,
+      "sha256": "e7646b27b03d2219de9930f4bb1b47f90c11df171ffb2e8a17ef52c189369fbd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KGZ.tga",
+      "bytes": 9690,
+      "sha256": "3d34c8fdfd3bad132bf220a6e6ebe0683ab7daa9de8d7eaa4075bcb81a72b3e0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KIR.tga",
+      "bytes": 9690,
+      "sha256": "0839a310254e56cf67d858e46beca59d84a97f64e07331c970ea7f455c64a266"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KOR.tga",
+      "bytes": 9690,
+      "sha256": "a8a5fc13f2bcfb0d67a38701e7b404c2e5b8225389bcf612a4d369b52135dbd7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KOS.tga",
+      "bytes": 9690,
+      "sha256": "e8db8bd8669d41ae06ab3ca9d140d7f626326eb63b14eab45b326c4cac471232"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KSA.tga",
+      "bytes": 9690,
+      "sha256": "3935c0e33321b65d9a1248bec041bdd39d578f1296b9e25b0bbadd51c6c9c11f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/KUW.tga",
+      "bytes": 9690,
+      "sha256": "e9d03e549a3270c695b8a34886310589e699b2bb8b35f6b1bd335711037cc54c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LAO.tga",
+      "bytes": 9690,
+      "sha256": "487c8fbd4986c600e71dea304d572b78d20202cfe362dbe443506aaebd526d88"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LAT.tga",
+      "bytes": 9690,
+      "sha256": "0f10c23eeeeaa0b8d578e8fac2341eb27e04fc961c4cefb32ba78a24a1b9423c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LBA.tga",
+      "bytes": 9690,
+      "sha256": "120bcd6bac95ad04b02f760a4846ee4ce497aa12ca303318140260a806deb56b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LBN.tga",
+      "bytes": 9690,
+      "sha256": "10c13fb2009f763669be3cadb067c756aee52503de49fe06724b85e6ffb4db4f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LBR.tga",
+      "bytes": 9690,
+      "sha256": "bfc4e69fa21ba97c47d2895ed169165f00e811661861907c8b7e87e666571fac"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LCA.tga",
+      "bytes": 9690,
+      "sha256": "be596fd32fa74531709884181d00cf34977c2da8f332c7b33257a166c0e1ad2d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LES.tga",
+      "bytes": 9690,
+      "sha256": "a1de0c93890e6be6ee837183a8c1b5ac6746f9eb7b48adb8fe20c1e86878ab9d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LIE.tga",
+      "bytes": 9690,
+      "sha256": "f9fdfa7a084d61445f4480b0100b7daeba3facd0c4ebd3697ddb67dc420ebcfb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LTU.tga",
+      "bytes": 9690,
+      "sha256": "3538e4c37573ef3bd8f57c55e97d507ee26b82645caa2698611b9e5d5645272f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/LUX.tga",
+      "bytes": 9690,
+      "sha256": "d6457f2c72688385461d20fe3fe68d64f47baed7ef37e00d52f0ad2ab647db13"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAD.tga",
+      "bytes": 9690,
+      "sha256": "521c789655b7b7e2aecd8e6bdc7458dd70611c3a22a4bc11b11c63d5edce1fb6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAR.tga",
+      "bytes": 9690,
+      "sha256": "a249f27c573433aaf0a0744d05b1acef4245c8b0029cc077892f9a8028d029cd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAS.tga",
+      "bytes": 9690,
+      "sha256": "af335899233fee3f208611f2560f8ca0554cc5b9926141874e7873a351df9b36"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MAW.tga",
+      "bytes": 9690,
+      "sha256": "c4d3dcce61d0b550ed94f7322d37df1406b50979c33bf263f2da3a30ba274744"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MDA.tga",
+      "bytes": 9690,
+      "sha256": "f829b716aee6aa1f42b1b0a8faaa4d562d240138aa20bbe6b0b6baeee5835eb2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MDV.tga",
+      "bytes": 9690,
+      "sha256": "bd18e53c85dbd8455b2251e1b50213177240023f391ac8a7c61e4b9b5c643d70"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MEX.tga",
+      "bytes": 9690,
+      "sha256": "86a30e98c9bdf4307c8d00b1c349e38e7cca399a36d79d3760b68b836b340619"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MGL.tga",
+      "bytes": 9690,
+      "sha256": "21935f0ea581b71fd089cce4e5454b88e7efd818bb3321631b93ae3a8bfddb43"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MHL.tga",
+      "bytes": 9690,
+      "sha256": "3d9baa001fb6b920a84a623047e354c6ace144b5d0911b927e94ac566a0b8d6c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MKD.tga",
+      "bytes": 9690,
+      "sha256": "e38751b8de1212367a5cc1b6e807fd5cd92534ef80e3a2b012e1f1c951679ce5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MLI.tga",
+      "bytes": 9690,
+      "sha256": "f14ccd6ec4ec6456993cf7cfc8b1fe0757c4c50f38496efc491b139373cbf9c8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MLT.tga",
+      "bytes": 9690,
+      "sha256": "faa52bc17636b4aaf03d82a755398a648351a989292bf0a52b357fad7400b4a5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MNE.tga",
+      "bytes": 9690,
+      "sha256": "ae62f9338a99edbfbac16cc35a0ab3701509c9fedb91b33f30a98fe0771dbed1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MON.tga",
+      "bytes": 9690,
+      "sha256": "b59d6b0ca5e69379994ab9f971779ddf42ec9bf6cbc9fde89f6ece30d74e136b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MOZ.tga",
+      "bytes": 9690,
+      "sha256": "50ec1cbce0a9aaab244f9491cf15ed4f57f2ba51ac075f7696f44a158a08f18f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MRI.tga",
+      "bytes": 9690,
+      "sha256": "1aff95effdf75722c468ced0d192c1a6b372237cd2e0116493f0ec8ea466c8eb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MTN.tga",
+      "bytes": 9690,
+      "sha256": "21de2389e6ee9b7572bd7ab5b313b63e69566623360b7753d0fc54fe0f272d7a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/MYA.tga",
+      "bytes": 9690,
+      "sha256": "834ea14fd34a94e1111fc7de854e30c086a55cc7cc667764974cefdde141b9f9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NAM.tga",
+      "bytes": 9690,
+      "sha256": "637b11c9162821130fd29aa40eb39d6c23c6ccf15663423e9d4bb01d2128f935"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NCA.tga",
+      "bytes": 9690,
+      "sha256": "35b0f14233ec07dd10a74646435fad423386df2fa41fc57d08d42a1c06cdd2c2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NED.tga",
+      "bytes": 9690,
+      "sha256": "67473c76f404c621db13038234c36c5ce41026d96b0452bd9783a4438d518dd5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NEP.tga",
+      "bytes": 9690,
+      "sha256": "6b915b094d760a76a5f57e5281ee7d61d740249c369350737537b6e7eba7dd37"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NGR.tga",
+      "bytes": 9690,
+      "sha256": "4b6e214a61caf667d16a8e4da62c526f77790004f192813896ffae89564d54d8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NIG.tga",
+      "bytes": 9690,
+      "sha256": "e15edb9a1182f29e7d06f24f28770b2c2b6200089ab1647e806118bef735f19a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NOR.tga",
+      "bytes": 9690,
+      "sha256": "28863ab1676c424da41e32dd5e260692da2fd1e1cabb974706c2ebb011baad6c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NRU.tga",
+      "bytes": 9690,
+      "sha256": "81408d935f3e72c1e3af3a133de478aeba3b6f4d8d4be23fc4ac9906d68375d3"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/NZL.tga",
+      "bytes": 9690,
+      "sha256": "795508810da762e18d3c1f0ffe75fcc29987bfef19cef922a871d3f4422ebde0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/OMA.tga",
+      "bytes": 9690,
+      "sha256": "cc2f1d0760bf4fe2d533247db0b576fd758239cf5852a39534cadeeb636fca78"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PAK.tga",
+      "bytes": 9690,
+      "sha256": "f54484c7e3496ee6fa341980b9689ec371c89c7e5a044bb6e196e5e819218576"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PAN.tga",
+      "bytes": 9690,
+      "sha256": "36e783eee280fd8808116ead23acf263bc9aa01a38887e9ad6c6d2232eafc707"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PAR.tga",
+      "bytes": 9690,
+      "sha256": "98c3a1d5de06437ec7f4deae343ad7ff971727e188e174fc7a64706b564ce5eb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PER.tga",
+      "bytes": 9690,
+      "sha256": "459d71a6ad14a3c26d72fbaba544817555708f7bb3393fc276bea299cc627e1c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PHI.tga",
+      "bytes": 9690,
+      "sha256": "bfd6c0429a6c575a24971f905f5ce088655e51589e40c0fc9e3907404b8d2238"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PLE.tga",
+      "bytes": 9690,
+      "sha256": "dcb931c04274733b42310b958c1a0e5ad5dd88796887d94ed832a33e0d3f0833"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PLW.tga",
+      "bytes": 9690,
+      "sha256": "69db3813bb142674c483b3151112b7df440d8aec3412e3227e709e0367e1eeda"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PNG.tga",
+      "bytes": 9690,
+      "sha256": "1a01f67f89d90204f11b6d3cbde9d337d74789dd87d3d7deafc492c8d9f6a03d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/POL.tga",
+      "bytes": 9690,
+      "sha256": "caa823a792c37be02a4277658e170bacef1b36570bbd6083f034b32497ca5785"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/POR.tga",
+      "bytes": 9690,
+      "sha256": "6eb1bebdf595b60e9ca3431637f8d061e67808dabf5c0f5c71a8649a60d25536"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PRK.tga",
+      "bytes": 9690,
+      "sha256": "cdea86ce760743624d0a6fdd186e4fc520642a0380eb0af843c76cf8c731cb10"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/PUR.tga",
+      "bytes": 9690,
+      "sha256": "f79371e548cb6064d51ae53b17e15929477155ba510cb930b4b543f6864b413c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/QAT.tga",
+      "bytes": 9690,
+      "sha256": "4333df49f257d6ba8e1b0bfc011462f6032da6b2a64080fb36ed10fe598b130f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ROU.tga",
+      "bytes": 9690,
+      "sha256": "ad49f962a28113f3155441ddfbdf8352e46616da36747f5c49a06f0cf9946e60"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/RSA.tga",
+      "bytes": 9690,
+      "sha256": "70dcab2a8417376e25325f4d7721bdc09dc18ebfe7efacb6b5417c91e4a0c086"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/RUS.tga",
+      "bytes": 9690,
+      "sha256": "4c54056ce5a5c1965b6357856e5780cb35f14f10a1981406a7880aaa7cc85bcf"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/RWA.tga",
+      "bytes": 9690,
+      "sha256": "43dca4926df313ba18953ead40415998cec03522f0d402415d81781eaa5b233f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SAM.tga",
+      "bytes": 9690,
+      "sha256": "19c5996d6c9759cd29754dea93883fdc4037b6625dbc132a96d304f108304c51"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SEN.tga",
+      "bytes": 9690,
+      "sha256": "c03e87d1c465a015db7b88f17f287a8bbe72377d7727bd48011570b83554497e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SEY.tga",
+      "bytes": 9690,
+      "sha256": "4293ca8c1053cd01bd0bf2df63b0beb81bc07d333a1a5f4439e98201dd804979"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SGP.tga",
+      "bytes": 9690,
+      "sha256": "625f00fa8c82fa158880195b94c933e869ee27d035b3a66ea12132826838639c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SKN.tga",
+      "bytes": 9690,
+      "sha256": "6065ec6c37d4704aa16270f9b522beaa736339d30a909886e1803bf7d21cdabb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SLE.tga",
+      "bytes": 9690,
+      "sha256": "6293d8b6b6671f0865f2c8702a0dc309fad36773ecf08c0e9aeca2461a447d7b"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SLO.tga",
+      "bytes": 9690,
+      "sha256": "d5e82ff29726aaf0bce354645e6374b33a46bea1271d4c79d3944c0b094c37ab"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SMR.tga",
+      "bytes": 9690,
+      "sha256": "d87fb710b718541ae9024586b8274a099d248b3799d5c9a2070ddd9add112b39"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SOL.tga",
+      "bytes": 9690,
+      "sha256": "8fa2deda36b11b945fec552ff621bb63ee5d07a06580d13d089ed69a010c859a"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SOM.tga",
+      "bytes": 9690,
+      "sha256": "6b372c3f6da779717a7a4fa3cebafc83849aba5e777045df0ecef9d20262f4cd"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SRB.tga",
+      "bytes": 9690,
+      "sha256": "94ea8e12ba7a53701060b3b5c922293e78faadc0555ec4610785633baa16a973"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SRI.tga",
+      "bytes": 9690,
+      "sha256": "c4b8faf5a1f028d5717d62c526446c07b2b16e8e8519b45e8272caa23b40bdd5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SSD.tga",
+      "bytes": 9690,
+      "sha256": "0f99cb22fdd315e3cc671bb8ab026b757fe737dfc3bd146ace9c0e6c9f4c3914"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/STP.tga",
+      "bytes": 9690,
+      "sha256": "1f64d7ea7eae2cb5f1bc94a6741127e5f161d5b6001a107c0cc88e7a96818ab7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SUD.tga",
+      "bytes": 9690,
+      "sha256": "c1e04d84f6c71a9cb68f335c25d6aa1035a80120656b4891fd7c129a1ee5ada6"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SUI.tga",
+      "bytes": 9690,
+      "sha256": "405f19fb6e0d512630cdc9fdb010bd0a2ce1d4874c10def37af68e12d58c4e5f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SUR.tga",
+      "bytes": 9690,
+      "sha256": "1a942a616f130eb237aa932ab4ede7434d788427a8997f816f0d6f454e9671c7"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SVK.tga",
+      "bytes": 9690,
+      "sha256": "76ceef29596dee793d388d905d18047ba06e7aa40acfe88360dedfb0ad5fde00"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SWE.tga",
+      "bytes": 9690,
+      "sha256": "5a5625121727efdaffa9b2ac9d178fcff6466fd5cbc651cd7dea66b10ba7dcb9"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SWZ.tga",
+      "bytes": 9690,
+      "sha256": "7f7dcf90e7a7f4d2d6eb41b2e1c7ed6d2cf4ce572d20f6119b03b5282a3e9fe5"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/SYR.tga",
+      "bytes": 9716,
+      "sha256": "86e5d37378c60601ee3a847fbb21884e046b4457c82a0e65529d528cbc16f125"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TAN.tga",
+      "bytes": 9690,
+      "sha256": "df97fa95039b5435ef92e48e4b390a45acdc106a2cb0e28f98804774bd228907"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TGA.tga",
+      "bytes": 9690,
+      "sha256": "fda791a294312e375f5669369ba23c6c2f3b1189b2a86fa61f4e6d3a29b5e832"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/THA.tga",
+      "bytes": 9690,
+      "sha256": "4ef6bb0d8ab82541a88f92285521a44940c0c38d6f8508adf0a04d23b4f2fafb"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TJK.tga",
+      "bytes": 9690,
+      "sha256": "e97844e3b45b6088f9c89dc4ccf7db8abf2f96a6d145c2ee53032019969c16f8"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TKM.tga",
+      "bytes": 9690,
+      "sha256": "8a0b55bd6ce302b4cfd8d2449713d39c0a9f7a04234df0b78c868607e57b82ff"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TLS.tga",
+      "bytes": 9690,
+      "sha256": "a98a80caa0f98ca9b8092e01ce463a3360387f501e0443464c022b61b8772574"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TOG.tga",
+      "bytes": 9690,
+      "sha256": "73f76f1e99b2ac70e86c14e1328338ec1ea758b560bf1e542992465b6f65db6d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TPE.tga",
+      "bytes": 9690,
+      "sha256": "3344c28f8c6e354934892022dbf76d4dc4220b9b45d628bd715656d06ec3e258"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TTO.tga",
+      "bytes": 9690,
+      "sha256": "4b8aee1c4d31d420ad005bca2917e5488d3871d95d5150f2a8fbc6599c616230"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TUN.tga",
+      "bytes": 9690,
+      "sha256": "5036b23a1e1b5226fadcddaf1d030ab0900312f033480b219c444bb69c4cfd2c"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TUR.tga",
+      "bytes": 9690,
+      "sha256": "6467887f834669ccfd53b5366e4e244e982fe8e79389976497c0a75cc1ec8335"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/TUV.tga",
+      "bytes": 9690,
+      "sha256": "97cb7a2b27e4e35e98cac60306fe359530b2f9aba6829b60b1e686412551ceb1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UAE.tga",
+      "bytes": 9690,
+      "sha256": "f595ee80366126c82c98c559be94fd456dd9abcc5d706a093b39b14a0e61f0e1"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UGA.tga",
+      "bytes": 9690,
+      "sha256": "1920df48482e3f1f5d08eb4c06ed99bbaf3444e9f7c2b2344a80abf777241948"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UKR.tga",
+      "bytes": 9690,
+      "sha256": "ed50abb134b868fa816a4d34ad2295319dfbcf0d175d47eb67dfa05f137d2f2f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/URU.tga",
+      "bytes": 9690,
+      "sha256": "0676e9ac20946f18946a364a12c20f3bdaada6280ac2f39e2a9ee58dc2b982e3"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/USA.tga",
+      "bytes": 9690,
+      "sha256": "182c426a4130f6cd57eed8c8dd9f169becc88aa19d64b649135de4093171156d"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/UZB.tga",
+      "bytes": 9690,
+      "sha256": "5dbc9904e519c31905652035c6978c91c77f57025e7a14f92c846b86b7b1ece2"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VAN.tga",
+      "bytes": 9690,
+      "sha256": "e5317aeebe8968e4c3e1e576715607a5f0a0e75824f05820d406ac8630d652d0"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VEN.tga",
+      "bytes": 9690,
+      "sha256": "32fdc3951d12873446b24d158150bb20c902ebeb1744e4f20e4ee9ebc1bccbbe"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VIE.tga",
+      "bytes": 9690,
+      "sha256": "1bf328c50ba3b8a9e4bc1dfe0662ee25fe6642b7977146bc3af8c7aad28cdf08"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/VIN.tga",
+      "bytes": 9690,
+      "sha256": "1d0d3f110ea6be28257682169796abf16f1a11ebae7f613ff2a1c54cda194e7f"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/YEM.tga",
+      "bytes": 9690,
+      "sha256": "f471e4ed442be8a06d53bcc31bf2703f399d8e5c237539b46244e46ff20f3c01"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ZAM.tga",
+      "bytes": 9690,
+      "sha256": "a72c5dc8160298c7a5c111e06e1d5f7927268e9c095004a220f323c524ed8b8e"
+    },
+    {
+      "path": "assets_original/common/COMMOM GRAPHICS/FLAGS/TGA/HD/MEDIUM/ZIM.tga",
+      "bytes": 9690,
+      "sha256": "e7b9bd4ac7c16f352904e06d368bd584af9a712003fb094c1d6a7635914d5a39"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-Black.ttf",
+      "bytes": 69484,
+      "sha256": "8944da5a861ece00185fa173ea65324e7d4797aa863c6fa0f03e066805974b6c"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-BlackItalic.ttf",
+      "bytes": 71948,
+      "sha256": "1bb6ac346b9b152fa093d54030efcd073e28e51ec007cfb76c201f96fd74de67"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-Bold.ttf",
+      "bytes": 73316,
+      "sha256": "7b720599f8aed3bac5b9531fecf6750c8fa7e593b727739bc0692fcc0f55b678"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-BoldItalic.ttf",
+      "bytes": 77680,
+      "sha256": "6100468364df6d34709a91fd933c49c008affa486b5a35e796fa0341591e89fb"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-Italic.ttf",
+      "bytes": 75744,
+      "sha256": "118c8f4fa60ac74abb899962311cf15781aababb3634225d1b8f889fa16fd026"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-Light.ttf",
+      "bytes": 77192,
+      "sha256": "8f186e57fe440c5c010120c754944a9d5b33e612c3a311dd642435119aafcf70"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-LightItalic.ttf",
+      "bytes": 49064,
+      "sha256": "d5c5d73229ca60988eb7e446f231fc88c231ec26ca4e972535bc27183478abfa"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-Regular.ttf",
+      "bytes": 75136,
+      "sha256": "ea8979c22cf1d830e3ff939aadd49cc4d78c851e3cb59d2aa95ea10ee752d5d1"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-Thin.ttf",
+      "bytes": 69968,
+      "sha256": "286925bc1fd8578a711a1e209e0bb3e3e883b7300db7f8d3335624aeaf71b778"
+    },
+    {
+      "path": "assets_original/common/fonts/Lato-ThinItalic.ttf",
+      "bytes": 48848,
+      "sha256": "2419776061ba8b3e9f4e6c8539735e540df848186d38a3a5d001129fc5314022"
+    },
+    {
+      "path": "assets_original/references/SFS001 - SPORT PRESENTATION.jpg",
+      "bytes": 339108,
+      "sha256": "1ac0db6e6370d1078faf248fe090d96ca9af90f7915d4fb3ce6226704591caad"
+    },
+    {
+      "path": "assets_original/references/SFS002 - VENUE.jpg",
+      "bytes": 247839,
+      "sha256": "7992e7de9e2319d21aa012b6bbd4a0fc85e497fd61334672501dd9b5a0365885"
+    },
+    {
+      "path": "assets_original/references/SFS003 - SCHEDULE.jpg",
+      "bytes": 324012,
+      "sha256": "d9e8be8a07f6366e3b49ace688a6f8b4437c87dca9aef40ca9261c68697f0d68"
+    },
+    {
+      "path": "assets_original/references/SFS004 - EVENT ID BY PHASE PRESENTATION.jpg",
+      "bytes": 231419,
+      "sha256": "54b7a29f686b957d3a56c5e333cea90a1b8dd7e37ece0385d31ecd557c6e6e2d"
+    },
+    {
+      "path": "assets_original/references/SFS005 - EVENT ID BY EVENT UNIT PRESENTATION.jpg",
+      "bytes": 231571,
+      "sha256": "8a869bebe134ff0707e07f24df6f464a60604a50540c6feb4b3bdcc8d7b50760"
+    },
+    {
+      "path": "assets_original/references/SFS006 - RECORDS.jpg",
+      "bytes": 288690,
+      "sha256": "c64eb98c80ed71b76b93aad345766c96d4d85295492b7788e6993d2658571f2c"
+    },
+    {
+      "path": "assets_original/references/SFS200A - ATHLETE ID + LANE.jpg",
+      "bytes": 208700,
+      "sha256": "8992f7809e336eb2558e339434576ffd5059fdb214dc2d620c3ef8ed62eac99f"
+    },
+    {
+      "path": "assets_original/references/SFS200B - ATHLETE ID + FALSE START.jpg",
+      "bytes": 219724,
+      "sha256": "5754a585c725ece30b0ebfafa0e57ade19fce859668a78dd8355a6022f338e83"
+    },
+    {
+      "path": "assets_original/references/SFS200C - ATHLETE ID + QUALIFICATION + RECORD.jpg",
+      "bytes": 215199,
+      "sha256": "88116e9f16ccef401703581fe4bf7d0124af9069044545d2be772474ce090735"
+    },
+    {
+      "path": "assets_original/references/SFS201A - TEAM ID + LANE.jpg",
+      "bytes": 209957,
+      "sha256": "1d5aa4eb3eddc9dd61d47b1ab363ff49af6cd271a53893e2e19ed5fe74b4abad"
+    },
+    {
+      "path": "assets_original/references/SFS201B - TEAM ID + FALSE START.jpg",
+      "bytes": 220732,
+      "sha256": "1a99f25c7bb7b4053ca1ff742b593718b2e616a174d50285efeb491b2e7c02bf"
+    },
+    {
+      "path": "assets_original/references/SFS201C - TEAM ID + QUALIFICATION + RECORD.jpg",
+      "bytes": 218702,
+      "sha256": "15f559ef20cb481a5a1413c4bfacdf098fa5176bcb761a8a8621e7e5e39fd4fa"
+    },
+    {
+      "path": "assets_original/references/SFS202 - TEAM LIST BY LANE.jpg",
+      "bytes": 244353,
+      "sha256": "4d069fa52b5d7f7beb4c87db7ca62f032e88ca55667ba87509fe268a28f40333"
+    },
+    {
+      "path": "assets_original/references/SFS203A - START LIST INDIVIDUAL.jpg",
+      "bytes": 371674,
+      "sha256": "5c2bdb8a8d673e8129ffa1e6908ff28c1526eb4ca74ca2e2d43a567a0677d833"
+    },
+    {
+      "path": "assets_original/references/SFS203B - START LIST (RELAY).jpg",
+      "bytes": 366321,
+      "sha256": "487c722c7e405d0b5d009f571e0247ed9a965a16bc418dd035db165d042ee1fb"
+    },
+    {
+      "path": "assets_original/references/SFS204 - LANE INDICATOR.jpg",
+      "bytes": 192104,
+      "sha256": "9a9cc448581d18e156be93521418bd2bad07b1a4ec5895f274b8091bac52de32"
+    },
+    {
+      "path": "assets_original/references/SFS205A - NON COMPETITION AREA INDICATOR.jpg",
+      "bytes": 192086,
+      "sha256": "b2130fd4f9ed37335326d421a99184a2d16cd1a480520412f29f98cd20c9bbc1"
+    },
+    {
+      "path": "assets_original/references/SFS205B - NON COMPETITION AREA INDICATOR.jpg",
+      "bytes": 191103,
+      "sha256": "f3e00f0e1fc741fac610e51ee5242d74d92b676565a9e4ffebe4cb7fac0759a9"
+    },
+    {
+      "path": "assets_original/references/SFS206 - ATHLETE + UNIVERSITY.jpg",
+      "bytes": 235394,
+      "sha256": "bb92bde0d4758f1238ac0ff2cc3ead43d34ba54dc27b159294519abbd7b5975c"
+    },
+    {
+      "path": "assets_original/references/SFS300A - INDIVIDUAL WINNER.jpg",
+      "bytes": 242661,
+      "sha256": "ed2cf246da85412559fde9b168c61417db19a3254c24a779f7712faa3613120c"
+    },
+    {
+      "path": "assets_original/references/SFS300B - RELAY WINNER.jpg",
+      "bytes": 236519,
+      "sha256": "8e0ccda7ee59ee3964a8e30adb67cf12940a7c220b339e317fcc67f2ee3f90b5"
+    },
+    {
+      "path": "assets_original/references/SFS301A - ADVANCE TO PHASE INDIVIDUAL.jpg",
+      "bytes": 391611,
+      "sha256": "8495fdf2ecb44612e6245881b01cac98d81c77d56aa44bdc48b34377bc58c295"
+    },
+    {
+      "path": "assets_original/references/SFS301B - ADVANCE TO PHASE RELAY.jpg",
+      "bytes": 386251,
+      "sha256": "c459fdaae14a75778c4c75770be6e6e513afa20685a9c9b0c43f7e6515b82404"
+    },
+    {
+      "path": "assets_original/references/SFS302A - RESULTS INDIVIDUAL.jpg",
+      "bytes": 392673,
+      "sha256": "8eea6c40f64e6f5642ff508591773e689836b73ef96673b5c4afcc1b2e61b775"
+    },
+    {
+      "path": "assets_original/references/SFS302B - RESULTS RELAY.jpg",
+      "bytes": 387194,
+      "sha256": "ed21298d278c27830573e5c758248f3dc2a7b5e7d732807a53553dc7d64697e2"
+    },
+    {
+      "path": "assets_original/references/SFS500 - RACE CLOCK.jpg",
+      "bytes": 192541,
+      "sha256": "3f8aeca327f77a434da6a91e3f5824445ea875520e9c696d5945b03d53fcba97"
+    },
+    {
+      "path": "assets_original/references/SFS501 - RACE CLOCK BEFORE SPLINT POINT.jpg",
+      "bytes": 210204,
+      "sha256": "44b18e75cc7eb4387bc2d2f9f3df7be4b2578361d3326e563a36c47b984f4e14"
+    },
+    {
+      "path": "assets_original/references/SFS502 - RACE CLOCK BEFORE FINISH.jpg",
+      "bytes": 211579,
+      "sha256": "9549ae8cd1c0f33392bc014c41617011cc76b3799cd1e54fea032341fee9aaec"
+    },
+    {
+      "path": "assets_original/references/SFS503 - RACE CLOCK AT FINISH.jpg",
+      "bytes": 219002,
+      "sha256": "46f8692e4be02baaded81dfa127d7debc9faec5604bef4fed1c13fd6bb3da645"
+    },
+    {
+      "path": "assets_original/references/SFS504A - RACE CLOCK AT SPLIT POINT + STANDINGS.jpg",
+      "bytes": 254471,
+      "sha256": "4743dd62cf16769384e45d31c4a5942a964ae9b002bb6cc8c5568ac195e5f886"
+    },
+    {
+      "path": "assets_original/references/SFS504B - RACE CLOCK AT SPLIT POINT + STANDINGS (RELAYS).jpg",
+      "bytes": 251634,
+      "sha256": "f38914db215eb4d4dc3206cbf11d0496e924c0e6dcf02714001b1df250c25ee1"
+    },
+    {
+      "path": "assets_original/references/SFS900 - MEDAL CEREMONY.jpg",
+      "bytes": 237434,
+      "sha256": "6a5355f9564ef79daf96a118d840abb554aacc148260da731a11bfaca5827a06"
+    },
+    {
+      "path": "assets_original/references/SFS901A - INDIVIDUAL MEDAL.jpg",
+      "bytes": 210381,
+      "sha256": "1108d44a95044b60c1b5fe948e7f9523f5f7f1a7caadba1e39c0c606937e73a9"
+    },
+    {
+      "path": "assets_original/references/SFS901B - INDIVIDUAL MEDAL RELAY.jpg",
+      "bytes": 261541,
+      "sha256": "f8310fa78fb138492f6c6cc9de489188de021cb51a851b36237ee8817b6c1f46"
+    },
+    {
+      "path": "assets_original/references/SFS902A - MEDALS LIST.jpg",
+      "bytes": 311945,
+      "sha256": "20271eac4a2d2f3b127a1a761d8fae5b1dc3510743b298d0fc38483fceb4b4a1"
+    },
+    {
+      "path": "assets_original/references/SFS902B - MEDALS LIST RELAYS.jpg",
+      "bytes": 101843,
+      "sha256": "77229bc1af784c81974f0b4fbd7952366749aa16494fc7cad3be9622208072a7"
+    },
+    {
+      "path": "assets_original/tga/Sport Pictograms/SFS_1.tga",
+      "bytes": 11140,
+      "sha256": "a0c53b7aca56992680d2473595831e98cfde32a87b329f7bef456c6b8642cfb5"
+    },
+    {
+      "path": "assets_original/tga/Sport Pictograms/SFS_2.tga",
+      "bytes": 40492,
+      "sha256": "befee19328181c03314737a4cc1873c2e0c410e8f5dc44ebac2882afaab21221"
+    },
+    {
+      "path": "assets_original/tga/background/CSP_clock.tga",
+      "bytes": 43516,
+      "sha256": "cc69918623a5c4d4ac3cb4d6db0459a4633f1b1c917927a8b036619d99b319ad"
+    },
+    {
+      "path": "assets_original/tga/background/bar_basic.tga",
+      "bytes": 132284,
+      "sha256": "6962cb7be8815bdd0894b8b2a87662c704c3c2a1ebba9a7a4e9b9d1af93e8f1c"
+    },
+    {
+      "path": "assets_original/tga/background/bar_basic_short.tga",
+      "bytes": 69356,
+      "sha256": "f2923dfcab19a3f9b029dd5ae3d1c70750917b98708812b6d8bddea98e367fa3"
+    },
+    {
+      "path": "assets_original/tga/background/bar_standing_rank.tga",
+      "bytes": 90180,
+      "sha256": "7244fb5ed81e69564afb77c4c414d32cadc3a4741466f1c006f6f032ec066657"
+    },
+    {
+      "path": "assets_original/tga/background/blue_records_box.tga",
+      "bytes": 33180,
+      "sha256": "bc7661548354561bbac35edd0409049bb0b0965213ed9dc24f879ff4123b5092"
+    },
+    {
+      "path": "assets_original/tga/background/finish.tga",
+      "bytes": 22844,
+      "sha256": "82f5609081321fae2af342c17e837609f78732c17100e3b0d8b75424165bbdf4"
+    },
+    {
+      "path": "assets_original/tga/background/footer short.tga",
+      "bytes": 69508,
+      "sha256": "075d22745d52c400245532be3798d5c50468ffbb6c99cfb007f670849f78e544"
+    },
+    {
+      "path": "assets_original/tga/background/footer.tga",
+      "bytes": 132284,
+      "sha256": "f8b8c8b7f659db87996e4933371601c650c12b280b1059cd01df8e4582f4efc4"
+    },
+    {
+      "path": "assets_original/tga/background/header1_line.tga",
+      "bytes": 132284,
+      "sha256": "09d33f9073b2a37bf875bcd241bf9aa5ee887e0c06b63d57e16ac6af213b0d36"
+    },
+    {
+      "path": "assets_original/tga/background/header1_short_no_logo.tga",
+      "bytes": 69508,
+      "sha256": "0a663a25c7100b1c4e5c55a11d3984b86c3199ff6ed4fc1e60cd19fded0e4470"
+    },
+    {
+      "path": "assets_original/tga/background/header2_lines.tga",
+      "bytes": 274964,
+      "sha256": "49c689b244a776ba18e7ef3ea3b35a57328cf81941a9f2d44d9229e6fa21e5d8"
+    },
+    {
+      "path": "assets_original/tga/background/lane_box.tga",
+      "bytes": 7188,
+      "sha256": "7bfa5c584983222cfb1b72649a3f665fb75f59454f4c4b26ef55525ec2193a63"
+    },
+    {
+      "path": "assets_original/tga/background/presentation.tga",
+      "bytes": 964508,
+      "sha256": "f56f14631dff2831c269576ff6218407b1c73d929917a9668ca187c4e5e7a65e"
+    },
+    {
+      "path": "assets_original/tga/background/short_box3_first.tga",
+      "bytes": 20564,
+      "sha256": "d524091f1cd8e800e708e20ce64e3fa5f792618a9bb2f348ff32f282a5bbc6c7"
+    },
+    {
+      "path": "assets_original/tga/background/short_box3_green.tga",
+      "bytes": 20564,
+      "sha256": "3f54f0ad30a07b148dbfe130def8680c724c48f17c4352764b92cf75cc934257"
+    },
+    {
+      "path": "assets_original/tga/background/short_box3_red.tga",
+      "bytes": 20564,
+      "sha256": "643e4d11ff48b9af43215e1257dfb97bf5ef7885f47a008847a980630844d90f"
+    },
+    {
+      "path": "assets_original/tga/background/short_box_clock.tga",
+      "bytes": 29532,
+      "sha256": "708fe49f1ce60e0368ffd465525cba6032b2670b81f111922159c18ebeee4075"
+    },
+    {
+      "path": "assets_original/tga/background/short_box_light_blue.tga",
+      "bytes": 34548,
+      "sha256": "d8b38722ed6dd901ad1b0b4235ae84b87568d45010a63976b63308b071422397"
+    },
+    {
+      "path": "assets_original/tga/background/short_box_red.tga",
+      "bytes": 34548,
+      "sha256": "f1fc9efec6841a4d89dc2114f8ee7a9114ee3cdfe809e248795e5518b7de6de7"
+    },
+    {
+      "path": "assets_original/tga/pictograms/IRM/DNS.tga",
+      "bytes": 14940,
+      "sha256": "e9462c97b1c9e0f4fba3fabe2c55f852a1a39c648a96d3269d4da1670740ad6b"
+    },
+    {
+      "path": "assets_original/tga/pictograms/IRM/DSQ.tga",
+      "bytes": 14940,
+      "sha256": "cd24f3fc5fb20792c45a8ec6a7676c9e07ad52a5658a78cd6b5d3ed1e9dc524f"
+    },
+    {
+      "path": "assets_original/tga/pictograms/IRM/PD.tga",
+      "bytes": 14940,
+      "sha256": "f783f987d6842f0aab1c5f34c494e86679fcd0ded501d2981d061ad97ba82aaa"
+    },
+    {
+      "path": "assets_original/tga/pictograms/Q.tga",
+      "bytes": 7188,
+      "sha256": "8b0487c582b5477f41a5d5205849588ecd308eca0c6af5455b3a6dfd5d3d2f8b"
+    },
+    {
+      "path": "assets_processed/flags/AGF.png",
+      "bytes": 2727,
+      "sha256": "ac589559a06c4c54b68817bb66beac8c5e63b901ad7a2c76755bdc5b0efafae7"
+    },
+    {
+      "path": "assets_processed/flags/AHO.png",
+      "bytes": 3348,
+      "sha256": "3acceb9c3fdb1b2dfd4ad5fd14d5147a23528e9a8d08d234fdec1a03e46a27b1"
+    },
+    {
+      "path": "assets_processed/flags/AIN.png",
+      "bytes": 2171,
+      "sha256": "f8d793261f99cb2712e215bb24bce17f77b9a19c3633500ed6c521850ea7cbe1"
+    },
+    {
+      "path": "assets_processed/flags/ALB.png",
+      "bytes": 2728,
+      "sha256": "b2833a87a335b681ba46f5708aa8804b429c5b6fcf8150fcb5302f254b92b458"
+    },
+    {
+      "path": "assets_processed/flags/ALG.png",
+      "bytes": 2659,
+      "sha256": "543858958a15cb488ccdd8212c36af4906fcf1547631b3c8eda89494fc7b0e79"
+    },
+    {
+      "path": "assets_processed/flags/AND.png",
+      "bytes": 2912,
+      "sha256": "479cfc13b44a9805e892752e50b48e13443025c22ca0c8ca57f70894a19ff732"
+    },
+    {
+      "path": "assets_processed/flags/ANG.png",
+      "bytes": 2834,
+      "sha256": "c074cd4d250b5f7c895c4dced42a4e226a9409f1a468782ab89a48eb30c9eece"
+    },
+    {
+      "path": "assets_processed/flags/ANT.png",
+      "bytes": 3229,
+      "sha256": "265e88202b8ecee4bf5b595ae8e7854389ade70a6e3c519f4e4e8749965b8f3d"
+    },
+    {
+      "path": "assets_processed/flags/ARG.png",
+      "bytes": 2795,
+      "sha256": "f00568a2708aeb622bd0628084de86da4016f2a48d27a7df3c81fd48fd27f9b8"
+    },
+    {
+      "path": "assets_processed/flags/ARM.png",
+      "bytes": 2477,
+      "sha256": "1df36b88c696c3ed8862388c3268a65151f012f7e32693b141260478f89c34e8"
+    },
+    {
+      "path": "assets_processed/flags/ARU.png",
+      "bytes": 2516,
+      "sha256": "e5f02bf348bc8690b593da3a7936853a0d01402cfad1752bad8062ed9f8e7286"
+    },
+    {
+      "path": "assets_processed/flags/ASA.png",
+      "bytes": 3904,
+      "sha256": "ff5dd59c0796327c025419d9ae7508c3068f278345a913aff51d2f2ed29fd4db"
+    },
+    {
+      "path": "assets_processed/flags/AUS.png",
+      "bytes": 3902,
+      "sha256": "fceaacad3a4cdc727f93d50a09d4c4b2c385f458cebaed3f58837850934ce068"
+    },
+    {
+      "path": "assets_processed/flags/AUT.png",
+      "bytes": 2016,
+      "sha256": "4db3867c87b99ae05e9cf6c11fe601ca19fe4091e5cc022a979d9d29e8eab1ad"
+    },
+    {
+      "path": "assets_processed/flags/AZE.png",
+      "bytes": 2647,
+      "sha256": "bce555bd77fd6da50e2e48a64c50527086858abb52537d683109f1921ddb640f"
+    },
+    {
+      "path": "assets_processed/flags/BAH.png",
+      "bytes": 2566,
+      "sha256": "775a0886807a0a7d2dab3bccb70d2c46158e726725b405a378ab6af8ee3a607b"
+    },
+    {
+      "path": "assets_processed/flags/BAN.png",
+      "bytes": 2733,
+      "sha256": "e9305e158ecd140ee6258daac024ae5fbebbfae0bf72241c6ca157ed258d4614"
+    },
+    {
+      "path": "assets_processed/flags/BAR.png",
+      "bytes": 2819,
+      "sha256": "b1982d9ecc92ec6a3eeb979e1271a9e875212ea82136f46c2dda617bec279aee"
+    },
+    {
+      "path": "assets_processed/flags/BDI.png",
+      "bytes": 3622,
+      "sha256": "64e2c03ab8b2a7ea2c8a603cd9384567ff74877ae5c73c92759ea4c4720462a5"
+    },
+    {
+      "path": "assets_processed/flags/BEL.png",
+      "bytes": 1559,
+      "sha256": "da327f064bb801c930e8600bfc0e196ec0a2e12c625945d94874a6daeabdef10"
+    },
+    {
+      "path": "assets_processed/flags/BEN.png",
+      "bytes": 2028,
+      "sha256": "ecb6de45e13f0cdd3cb95e500d9614ff1170d59f3bc5681e4b552c10f39a9212"
+    },
+    {
+      "path": "assets_processed/flags/BER.png",
+      "bytes": 3921,
+      "sha256": "8bc9d6d9fb40e3751b68f7d7179da086b071ee1bf5b013fc8a09599102e061ea"
+    },
+    {
+      "path": "assets_processed/flags/BHU.png",
+      "bytes": 3203,
+      "sha256": "79a394cc3658c9da6aae76dc8eb334dccc2a79b031872d166135d16508bedb9c"
+    },
+    {
+      "path": "assets_processed/flags/BIH.png",
+      "bytes": 2732,
+      "sha256": "eba707180c2e230ea47b15020bfc1df997960bcbe3728b51c3be81b2850da48a"
+    },
+    {
+      "path": "assets_processed/flags/BIZ.png",
+      "bytes": 3311,
+      "sha256": "497bbcd22d8b46b760bcc858397269f97cfefc738cc8f2c343a2c4be4144d863"
+    },
+    {
+      "path": "assets_processed/flags/BLR.png",
+      "bytes": 2063,
+      "sha256": "8813eca0f74a60782ec17988e6bb53880caa5d7b1fc5f0d792502f070f4d80b6"
+    },
+    {
+      "path": "assets_processed/flags/BOL.png",
+      "bytes": 2118,
+      "sha256": "630f14bedf5528ef425373dc7da7e10087209c644ddaeb68e0f78c5b8ea105d3"
+    },
+    {
+      "path": "assets_processed/flags/BOT.png",
+      "bytes": 2217,
+      "sha256": "fbe5f7f59a8c902e5762ee5047656263695a82a92050b7770a0d431af2061eed"
+    },
+    {
+      "path": "assets_processed/flags/BRA.png",
+      "bytes": 3831,
+      "sha256": "cc7905ae85b5646374e3d8f9e3a1c97ae4a5e86bfc3a787cd8b8fdf2f52e0863"
+    },
+    {
+      "path": "assets_processed/flags/BRN.png",
+      "bytes": 2575,
+      "sha256": "712dff5630c9a7304118bf162004bcd042fdce2f5358b0a9ed39dcd69cd4574e"
+    },
+    {
+      "path": "assets_processed/flags/BRU.png",
+      "bytes": 3829,
+      "sha256": "2ba30e6995e1f77ea03b5a01de157a5d5d3a84b616dd39d463f09a905525e5da"
+    },
+    {
+      "path": "assets_processed/flags/BUL.png",
+      "bytes": 1872,
+      "sha256": "863d98d92fe977181c967c6b1d8a09af3ef2e452ba4158812137b695bcf01ed4"
+    },
+    {
+      "path": "assets_processed/flags/BUR.png",
+      "bytes": 2426,
+      "sha256": "dcbac30d848e5fc2e0a28757fb14426bc6e6231192bb21c15750422c26efecf3"
+    },
+    {
+      "path": "assets_processed/flags/BWI.png",
+      "bytes": 4281,
+      "sha256": "262d825f4b5c071694e70e82138dc41c608cd2923c7073aa5bb7113c10c0288d"
+    },
+    {
+      "path": "assets_processed/flags/CAF.png",
+      "bytes": 3112,
+      "sha256": "01ef25082c72e1a0d318626a4922d5366356d21284127ca55e242e62dc777030"
+    },
+    {
+      "path": "assets_processed/flags/CAM.png",
+      "bytes": 3186,
+      "sha256": "e59246b77c32833c14cfaad5cfb26f00f4059336306e4ed3a86d587506ed62dc"
+    },
+    {
+      "path": "assets_processed/flags/CAN.png",
+      "bytes": 2676,
+      "sha256": "787768b7426480203f77d38bec5ece0f4e051344735a13d9b7624c343b270005"
+    },
+    {
+      "path": "assets_processed/flags/CAY.png",
+      "bytes": 4175,
+      "sha256": "782fb880718f7fc5e321b690878895b79c5bc7b5b2e5693d13027261ebdd1d21"
+    },
+    {
+      "path": "assets_processed/flags/CGO.png",
+      "bytes": 3269,
+      "sha256": "1b485b51bb08f3d54e929c64196c5bb116c80eb0e8c7c854df9276fad845e0cd"
+    },
+    {
+      "path": "assets_processed/flags/CHA.png",
+      "bytes": 2240,
+      "sha256": "917b2451b806dadd93a4ad3ffe8025f71f9a6c5e6ef6d30ac1835ed5a0b514dc"
+    },
+    {
+      "path": "assets_processed/flags/CHI.png",
+      "bytes": 2124,
+      "sha256": "f5da280a58b1c04aa47d8f5ae683f2f3d8307f2d1bba5385ad6af04961af94d4"
+    },
+    {
+      "path": "assets_processed/flags/CHN.png",
+      "bytes": 2418,
+      "sha256": "3fa951d81e59f00c8f2a8293be0ace206b3d85d70f703f026a17bf63e25cf6ed"
+    },
+    {
+      "path": "assets_processed/flags/CIV.png",
+      "bytes": 1946,
+      "sha256": "007272607d7827da2232368d4f5871b5dc56990e340f5d29509ccafe6ce1ff69"
+    },
+    {
+      "path": "assets_processed/flags/CMR.png",
+      "bytes": 2693,
+      "sha256": "0025bf747d37b799c293b0c3908efb626fcbdfb34bd9b0237d4d982c38c9f902"
+    },
+    {
+      "path": "assets_processed/flags/COD.png",
+      "bytes": 4096,
+      "sha256": "e96ef1cfe06d171fce62aca51a12322600dd844f90776078b112f908d282b151"
+    },
+    {
+      "path": "assets_processed/flags/COK.png",
+      "bytes": 4322,
+      "sha256": "864affeaaaaf1008e2916d252d7f6b300700f90617356167e8e89dd91fdfd8ba"
+    },
+    {
+      "path": "assets_processed/flags/COL.png",
+      "bytes": 2100,
+      "sha256": "9825a53b444bc7354167eb1ee437d70e5376e4c3d34551132295d9795c62e3dc"
+    },
+    {
+      "path": "assets_processed/flags/COM.png",
+      "bytes": 3698,
+      "sha256": "35dc1a2cabba1728d45bb72542a7f8f3f6f0939d6fee0fd65f41e17fd00f4d6e"
+    },
+    {
+      "path": "assets_processed/flags/CPV.png",
+      "bytes": 2914,
+      "sha256": "dae2d0dd521bff70fd4858a59d5df9f6737a6350ca370dd44a849c5475b291b9"
+    },
+    {
+      "path": "assets_processed/flags/CRC.png",
+      "bytes": 2345,
+      "sha256": "b4e9616af983c3b6d5478d3cef86015dcacf07a4798aa42d8528797cd0e30528"
+    },
+    {
+      "path": "assets_processed/flags/CRO.png",
+      "bytes": 3365,
+      "sha256": "f0d37280180805049b11f6225582a4e0e5e1ae39c2ab452159ad4c9717c7688c"
+    },
+    {
+      "path": "assets_processed/flags/CUB.png",
+      "bytes": 3179,
+      "sha256": "bfbdd45346c8356272072cc4845046d85cf36c75f23e6a45a405859e6b8e4943"
+    },
+    {
+      "path": "assets_processed/flags/CYP.png",
+      "bytes": 2853,
+      "sha256": "f524903ec4bc813ba2444d4b295b7dcefd6202019b6119f5ed2c47bc9b03fe5c"
+    },
+    {
+      "path": "assets_processed/flags/CZE.png",
+      "bytes": 2665,
+      "sha256": "646451ca3fd40e7de0f352a68e48ceb1eef5a45e4d056d50ac6a25772e151fb4"
+    },
+    {
+      "path": "assets_processed/flags/DEN.png",
+      "bytes": 2510,
+      "sha256": "6e48683d359e243e3641688357d3912c8e094cf35a2bcfe924e9d408be90f9bf"
+    },
+    {
+      "path": "assets_processed/flags/DJI.png",
+      "bytes": 2327,
+      "sha256": "41ad6331f2e5f17e3d9e930ea805883ce02f65aba92d5781cb73f2b05f3ef91a"
+    },
+    {
+      "path": "assets_processed/flags/DMA.png",
+      "bytes": 3519,
+      "sha256": "2ff12a3972a13e95a4a0f7874802a42c07987dbc08b629a543ef3b826e890869"
+    },
+    {
+      "path": "assets_processed/flags/DOM.png",
+      "bytes": 3131,
+      "sha256": "9f8e9c75b382bd02e06f9ff89096453ae765d033dcdfb6c168929ea056e066b0"
+    },
+    {
+      "path": "assets_processed/flags/ECU.png",
+      "bytes": 2785,
+      "sha256": "bad5d2bc21c11073143e7bb771ed0e56a6d550a36c859ef7245537b309ea736e"
+    },
+    {
+      "path": "assets_processed/flags/EGY.png",
+      "bytes": 2345,
+      "sha256": "3ed6f1ca3946792afc4682f317403c9b70a2214854a465ada24d65d87fb81041"
+    },
+    {
+      "path": "assets_processed/flags/ERI.png",
+      "bytes": 3357,
+      "sha256": "ec749de75d5145432b52c6581f90a02d32ce0f9b71b0c834599d565a3802d5ae"
+    },
+    {
+      "path": "assets_processed/flags/ESA.png",
+      "bytes": 2580,
+      "sha256": "cff3889c4b8ce35f79e7f9bc69b870c17fd8b0dfee451628ca4d6929752a61b4"
+    },
+    {
+      "path": "assets_processed/flags/ESP.png",
+      "bytes": 2493,
+      "sha256": "904c38d0fa3b822ba71e26f3a92eda089649452317c6701c200f198699c40b74"
+    },
+    {
+      "path": "assets_processed/flags/EST.png",
+      "bytes": 1876,
+      "sha256": "14ce824d145e1146527cfe4a6bedcf897c26968d32338fce211c40960945f7ed"
+    },
+    {
+      "path": "assets_processed/flags/ETH.png",
+      "bytes": 3061,
+      "sha256": "85c82dfdde72ec52b5c3ff06fb0015b11d89f17a84240f210b3940a4d62c19ba"
+    },
+    {
+      "path": "assets_processed/flags/EUN.png",
+      "bytes": 2762,
+      "sha256": "ac42bfc202a21dea359298f74b5b8f3ce7a1a5298406a0731051de4d61c813f5"
+    },
+    {
+      "path": "assets_processed/flags/FIJ.png",
+      "bytes": 3162,
+      "sha256": "0e3f3b389d51ade3071dad10cae52f50d6862c41764cb0b21fbdd515ff6f37ff"
+    },
+    {
+      "path": "assets_processed/flags/FIN.png",
+      "bytes": 2163,
+      "sha256": "6e19c938e6d63f5c28896d7be72f77b50b5d2827dd8c173a5b43840441f42ac5"
+    },
+    {
+      "path": "assets_processed/flags/FRA.png",
+      "bytes": 2080,
+      "sha256": "8e1d367e20754e60681933497784649917ceb3af3915bf37b1f9c7b5f791b518"
+    },
+    {
+      "path": "assets_processed/flags/FSM.png",
+      "bytes": 2781,
+      "sha256": "f0888c70f7352644e47f9d60d9f3d4d384840f3e71fcf583e3ec4fa204560415"
+    },
+    {
+      "path": "assets_processed/flags/GAB.png",
+      "bytes": 2526,
+      "sha256": "16cf7c6232343fdc947f6430a773cad3af392b068297ce390b58e85b90edb525"
+    },
+    {
+      "path": "assets_processed/flags/GAM.png",
+      "bytes": 2677,
+      "sha256": "8bab7da6ed6ffc792a9aa4b7b4f0d30f441ab4b7aeba9ce64476cb06707808db"
+    },
+    {
+      "path": "assets_processed/flags/GBR.png",
+      "bytes": 4581,
+      "sha256": "413603a23459bcb55624afabd11978a9c73cddec197ed4111d99b324f3127ee3"
+    },
+    {
+      "path": "assets_processed/flags/GBS.png",
+      "bytes": 2751,
+      "sha256": "12c73d82628ad9a7787018799fb0e0d5d68226e0561a04f9d67bcec878ff436c"
+    },
+    {
+      "path": "assets_processed/flags/GEO.png",
+      "bytes": 2992,
+      "sha256": "300578d62f6d6c2678f6458e6f7cc897576eb91a116ae6f466bb57e0e8bcc3a4"
+    },
+    {
+      "path": "assets_processed/flags/GEQ.png",
+      "bytes": 3171,
+      "sha256": "88e6cbfb402cc8d10136cfee68f9e87fff5a3556afa8206860250802fbae3290"
+    },
+    {
+      "path": "assets_processed/flags/GER.png",
+      "bytes": 2126,
+      "sha256": "dc6893c5b0d4df934103c5398594a88dc63fac8669ed6a56dd1195aff28d2323"
+    },
+    {
+      "path": "assets_processed/flags/GHA.png",
+      "bytes": 2738,
+      "sha256": "b65237a080e9f24dad37f992f96db745194c3a954227069be493b1be2ce70099"
+    },
+    {
+      "path": "assets_processed/flags/GHI.png",
+      "bytes": 1832,
+      "sha256": "98597fd2b50616eebaf74342310382a54a7308ac7316a436ecb0b4f1babb8611"
+    },
+    {
+      "path": "assets_processed/flags/GRE.png",
+      "bytes": 2936,
+      "sha256": "86e1f83328617228ed902ad24322ff06d15eb13ea4b87c1a2a069b93c4e434e4"
+    },
+    {
+      "path": "assets_processed/flags/GRN.png",
+      "bytes": 4111,
+      "sha256": "0f5e1161ca92c450278fe481f32f943c84c673f16f75ca13b7a548cd8a359f29"
+    },
+    {
+      "path": "assets_processed/flags/GUA.png",
+      "bytes": 2693,
+      "sha256": "b03957e7640333cf2835d94a03d3f03c0e1c46c42394a676b316f3a747ce4b5a"
+    },
+    {
+      "path": "assets_processed/flags/GUM.png",
+      "bytes": 3013,
+      "sha256": "da81d2de933ef47279425bbcca0ac2670a04442ce33d095bfc5824befacb0789"
+    },
+    {
+      "path": "assets_processed/flags/GUY.png",
+      "bytes": 3858,
+      "sha256": "1cc5b5425de4eec52a0c5df632795d234fbc01b41f9822dd343ebf3fb7567c8f"
+    },
+    {
+      "path": "assets_processed/flags/HAI.png",
+      "bytes": 2161,
+      "sha256": "c433231137a1fe27c722cd71d0af6be103a0660fc03be68635af306fd42e79ee"
+    },
+    {
+      "path": "assets_processed/flags/HKG.png",
+      "bytes": 2817,
+      "sha256": "ee1ad8ea0cc979f465c265e5af983405472f8908dbe9c50e5c40b7c0c44e9b01"
+    },
+    {
+      "path": "assets_processed/flags/HON.png",
+      "bytes": 2696,
+      "sha256": "a4e0e003c7d43e5463517f13ea7db5c508e8030a7be2ed1261971cdbfc74f31b"
+    },
+    {
+      "path": "assets_processed/flags/HUN.png",
+      "bytes": 2025,
+      "sha256": "c6dd581f3157d7d272a53f9545078669a12cca88d81eb6b570d686d526242d5d"
+    },
+    {
+      "path": "assets_processed/flags/INA.png",
+      "bytes": 1708,
+      "sha256": "2416e5a66b30832be5b5f2cb75d34580647a4852888a40f106c6d24d6ecf9584"
+    },
+    {
+      "path": "assets_processed/flags/IND.png",
+      "bytes": 2151,
+      "sha256": "2d56058c2ca0d8f789718b6681c76affab0f9ba2a8d3e7d3aa8f9418f16c73a1"
+    },
+    {
+      "path": "assets_processed/flags/IRI.png",
+      "bytes": 2363,
+      "sha256": "eb7079bd1c37d2f9a8565810c5e2faa41d687ba985bce8b115e8ab307f276bfa"
+    },
+    {
+      "path": "assets_processed/flags/IRL.png",
+      "bytes": 1449,
+      "sha256": "1a27204132d1c5078578de91e230bb1934cf4c9f4779c20450d18dd4d9c0a04c"
+    },
+    {
+      "path": "assets_processed/flags/IRQ.png",
+      "bytes": 2531,
+      "sha256": "d82056b0153b64184e177370127410558492f929f16240c3c4c935a88426dada"
+    },
+    {
+      "path": "assets_processed/flags/ISL.png",
+      "bytes": 2192,
+      "sha256": "5baea8a40eaf0b5e10f80554076761dc7738ca905287389c529125c2b57e447e"
+    },
+    {
+      "path": "assets_processed/flags/ISR.png",
+      "bytes": 2437,
+      "sha256": "f130d4638c0b98eb573d1ba26fc59a3c251526c8bde35544d4389394a3b6b051"
+    },
+    {
+      "path": "assets_processed/flags/ISV.png",
+      "bytes": 3580,
+      "sha256": "9aace9ec1389c907e461ef5a72f58e42f7f65f03d733dd1cb8a62a430ba654fe"
+    },
+    {
+      "path": "assets_processed/flags/ITA.png",
+      "bytes": 1650,
+      "sha256": "fd337a53bab5daf9202b97e280301a3a86ebbb9ce092bddb0011509c85c88a6f"
+    },
+    {
+      "path": "assets_processed/flags/IVB.png",
+      "bytes": 3687,
+      "sha256": "a3552aed18d6dfd3185d38b7ce1701454c271ea325109f47d52a101c70949a92"
+    },
+    {
+      "path": "assets_processed/flags/JAM.png",
+      "bytes": 3444,
+      "sha256": "ef34986880bd333055ca9c3298a2e091a980aa1d2fffcf1c21748b5f50d71c3d"
+    },
+    {
+      "path": "assets_processed/flags/JOR.png",
+      "bytes": 2885,
+      "sha256": "663bd94db91766fa04107f242b1ba5470e190547147eb7fb0dec763fcdf434b4"
+    },
+    {
+      "path": "assets_processed/flags/JPN.png",
+      "bytes": 2265,
+      "sha256": "7b58c47a25bb8e8f9b962ec65688aa4a846d8b594acd4327e8bc7ffb130c2a3e"
+    },
+    {
+      "path": "assets_processed/flags/KAZ.png",
+      "bytes": 3345,
+      "sha256": "4a4b9718dcbdbd666856c0aca1443de3aeaa5fbfc11c8236841135d54aa77bfc"
+    },
+    {
+      "path": "assets_processed/flags/KEN.png",
+      "bytes": 2747,
+      "sha256": "680a1dadab3530dd79cf0f6d11d55ad75a6a6acd0e4c2e6ae46f68ef94ab0307"
+    },
+    {
+      "path": "assets_processed/flags/KGZ.png",
+      "bytes": 2920,
+      "sha256": "363ebd7c43ae3ea6ff124ec2d0ea4e263d75e92b0b7b1a0a32de03d36c2135f6"
+    },
+    {
+      "path": "assets_processed/flags/KIR.png",
+      "bytes": 3718,
+      "sha256": "70ac8bdfbd640af14ef1adfa95eb7a58f275e5b7aba5ff08b80b5fa693f97c6e"
+    },
+    {
+      "path": "assets_processed/flags/KOR.png",
+      "bytes": 3685,
+      "sha256": "1d2ae59c491c201be7c67d574350563c988c2374a2fb83a79ae8b719ea9d5d52"
+    },
+    {
+      "path": "assets_processed/flags/KOS.png",
+      "bytes": 3574,
+      "sha256": "c6861246eaa0c1dd518dea90a7837ebf091f097344070634ca01bec2a0a5c64f"
+    },
+    {
+      "path": "assets_processed/flags/KSA.png",
+      "bytes": 3242,
+      "sha256": "5442e8ad1d217f13ebbca5cba18123b43827cd063281920b4800768ef69cc6f0"
+    },
+    {
+      "path": "assets_processed/flags/KUW.png",
+      "bytes": 2738,
+      "sha256": "947a1e33db25dbb16dde14537f74390247ef568977ad6fed34c7d6ca38475c77"
+    },
+    {
+      "path": "assets_processed/flags/LAO.png",
+      "bytes": 2595,
+      "sha256": "d538833aea30e9d2fe226ac3a067f414676f951ba7c48b08bd3bdc210bec44fd"
+    },
+    {
+      "path": "assets_processed/flags/LAT.png",
+      "bytes": 1746,
+      "sha256": "44d850477e54c2d4a82f1619a38f7701b0be07dccbaff401e13d651b64d994d2"
+    },
+    {
+      "path": "assets_processed/flags/LBA.png",
+      "bytes": 2147,
+      "sha256": "15d5ffda6aa55cc5d40598e55f983fcbc2a7ea953a8f6de8c8c31bc8d93f628f"
+    },
+    {
+      "path": "assets_processed/flags/LBN.png",
+      "bytes": 2539,
+      "sha256": "af02c623a2ba3934241f0950cc89230dee1b3ca7e6abad336d46f5b80940519e"
+    },
+    {
+      "path": "assets_processed/flags/LBR.png",
+      "bytes": 2588,
+      "sha256": "254b6325994e2e5c1748f0a7034ea350916d7bf5f9fcecc56826f72883921875"
+    },
+    {
+      "path": "assets_processed/flags/LCA.png",
+      "bytes": 2647,
+      "sha256": "ca0b23375d0d790ed2e3b0560c70a5e337e7b883c410c4109760a0e4ed65c1f8"
+    },
+    {
+      "path": "assets_processed/flags/LES.png",
+      "bytes": 2343,
+      "sha256": "d8a1b6ef744663cdc0c24ea2b86918739dbaa95a7e5de54692ba10b71d54e77f"
+    },
+    {
+      "path": "assets_processed/flags/LIE.png",
+      "bytes": 1617,
+      "sha256": "2838769a93d8c30f53d97f390f02653b4b552a4502a6c75b6333e3cbecdeef4b"
+    },
+    {
+      "path": "assets_processed/flags/LTU.png",
+      "bytes": 1637,
+      "sha256": "599d1867fec75b38dc5d65a9984722d2274cd8d0c9a0176118f2dfd3b916f093"
+    },
+    {
+      "path": "assets_processed/flags/LUX.png",
+      "bytes": 2044,
+      "sha256": "3f318134ec8dce29b53e7ab1b61c6289ae60d2445cf06029421d9c5a923c9e51"
+    },
+    {
+      "path": "assets_processed/flags/MAD.png",
+      "bytes": 2338,
+      "sha256": "3d003331731f547ac62f9796285fb00eb87bb23cbcb52c2421015442674b2a02"
+    },
+    {
+      "path": "assets_processed/flags/MAR.png",
+      "bytes": 2483,
+      "sha256": "140930f69aea45988e0fa66a4b6df7c36ee4c44e1f4cb5bb23e70cbfb6ddd16c"
+    },
+    {
+      "path": "assets_processed/flags/MAS.png",
+      "bytes": 3493,
+      "sha256": "e4c1827f5e0a319a7b3a4ca35e2d79a30c58af16ffe4fd10d0cf0f6b8a21d8c5"
+    },
+    {
+      "path": "assets_processed/flags/MAW.png",
+      "bytes": 3111,
+      "sha256": "2157e58f5763936d6f0e120cb72a0af62a0318ef1506654e95251ab9e23420f2"
+    },
+    {
+      "path": "assets_processed/flags/MDA.png",
+      "bytes": 2787,
+      "sha256": "c554f3825653ea8e42c05caf4e1cdd011771d59ab76ffbf96deb84baa5b04122"
+    },
+    {
+      "path": "assets_processed/flags/MDV.png",
+      "bytes": 2670,
+      "sha256": "0e5749dbc4b24372b732b0b68e38da12d48d320ebecdf44eb0224929581cd6a0"
+    },
+    {
+      "path": "assets_processed/flags/MEX.png",
+      "bytes": 2713,
+      "sha256": "a7dd2c44cebf661c644ce8af72f047040f9878eeddd1b79d1917c7bd4b1a17d1"
+    },
+    {
+      "path": "assets_processed/flags/MGL.png",
+      "bytes": 2606,
+      "sha256": "263a46cc04c3d2aa91849ae3c2595d8e83506a6fee318c3479d47d9c49f03183"
+    },
+    {
+      "path": "assets_processed/flags/MHL.png",
+      "bytes": 3332,
+      "sha256": "db791d97bd030cd8192d9aea5f33275e3ca9e2f682ccf17d1c75bb7e3da7512a"
+    },
+    {
+      "path": "assets_processed/flags/MKD.png",
+      "bytes": 3835,
+      "sha256": "ef082a9fcc440dad25a53f386893b6c00951b4062c70424f26f03b6dff8076cf"
+    },
+    {
+      "path": "assets_processed/flags/MLI.png",
+      "bytes": 1568,
+      "sha256": "d554698492ab0c526971122b92c2be8495990d3751fa03994bde51358b5afba9"
+    },
+    {
+      "path": "assets_processed/flags/MLT.png",
+      "bytes": 1882,
+      "sha256": "8ef91e4b56ba2284376d669f619b25d920ed8c2e9f6f1ccc8d3c140f3f04485f"
+    },
+    {
+      "path": "assets_processed/flags/MNE.png",
+      "bytes": 2602,
+      "sha256": "06919218cc6f2d887878e266872015fda686e3bd25b45a232bf5df7a66c2d12b"
+    },
+    {
+      "path": "assets_processed/flags/MON.png",
+      "bytes": 2405,
+      "sha256": "bd09c5233f5ba7f87d1a6ff040835c9a4c3b4933acb1d6c3ec9a5563edca204d"
+    },
+    {
+      "path": "assets_processed/flags/MOZ.png",
+      "bytes": 3352,
+      "sha256": "243ee8aa2599a374c15e63f3646d9f6abeb92fb885b6a356841de177f7546431"
+    },
+    {
+      "path": "assets_processed/flags/MRI.png",
+      "bytes": 2074,
+      "sha256": "d1967bf97a5643f0845f16483e64d2f6d334c5444e457d5e2a2eedc37e7802ee"
+    },
+    {
+      "path": "assets_processed/flags/MTN.png",
+      "bytes": 2612,
+      "sha256": "31fd7adcc484cbe38c358387e66dbb739e1801538cb0441e01d274542ff1aec2"
+    },
+    {
+      "path": "assets_processed/flags/MYA.png",
+      "bytes": 3324,
+      "sha256": "3c3072ebc1393004b1f8eadf368d8a89e99f3ed3e167bdea5b1444fd8d28a2a0"
+    },
+    {
+      "path": "assets_processed/flags/NAM.png",
+      "bytes": 4093,
+      "sha256": "fbf30c9c337f213b5e0d3003766738e833a28fc2bc211fb886d839afd1bb998b"
+    },
+    {
+      "path": "assets_processed/flags/NCA.png",
+      "bytes": 2696,
+      "sha256": "d155329b2f9b24c536a91b2907b05cd384a931b0c48a3954df2bba059ce932ee"
+    },
+    {
+      "path": "assets_processed/flags/NED.png",
+      "bytes": 2115,
+      "sha256": "8224d084ca5f957d8fd614446d30507d9840c2294f31238bffe943739087cf09"
+    },
+    {
+      "path": "assets_processed/flags/NEP.png",
+      "bytes": 3019,
+      "sha256": "8d1191def233c4a45a61308c3e7660df38bd9b7bb13a85d68790c5847a6deba7"
+    },
+    {
+      "path": "assets_processed/flags/NGR.png",
+      "bytes": 2315,
+      "sha256": "3d45ffad98ba7e0e3d392ec619a980cc6aa8ac47453046474aee4cd9b649048b"
+    },
+    {
+      "path": "assets_processed/flags/NIG.png",
+      "bytes": 2369,
+      "sha256": "f64994e569f2044f1d985b41a5a7e11e96a10caebab2249ac715025d528c8926"
+    },
+    {
+      "path": "assets_processed/flags/NOR.png",
+      "bytes": 3153,
+      "sha256": "afd6b23ae2124c8511d9d7ed3f1dfe9db950e4e5371e64d7cce23975785bdd0c"
+    },
+    {
+      "path": "assets_processed/flags/NRU.png",
+      "bytes": 2533,
+      "sha256": "8014e6938364fe8c0e3ed5f391a9d0e99b08234bfe89c53bbfebdf0b2e7a34a2"
+    },
+    {
+      "path": "assets_processed/flags/NZL.png",
+      "bytes": 3313,
+      "sha256": "7696a8fb1b80683f79c7ac3d3648c69761b45513cde8b4110b5b8a2890c9511b"
+    },
+    {
+      "path": "assets_processed/flags/OMA.png",
+      "bytes": 3188,
+      "sha256": "77aae8a8085a30d0f775c25685b9b24459757882f41ce791431a9039e6a705e6"
+    },
+    {
+      "path": "assets_processed/flags/PAK.png",
+      "bytes": 2985,
+      "sha256": "0ed6e9da29e8edf38013bf41240426095088933b0fd88b7012fcfb4109711f63"
+    },
+    {
+      "path": "assets_processed/flags/PAN.png",
+      "bytes": 2758,
+      "sha256": "f56d10e60b3830337eaf32664e48c1dabdebee4fd945aa141cfa6024575397a4"
+    },
+    {
+      "path": "assets_processed/flags/PAR.png",
+      "bytes": 2679,
+      "sha256": "a8b146f8c68a33e459ddb0b7bb5ac7e938753396da03ca310619edaa14a8c68e"
+    },
+    {
+      "path": "assets_processed/flags/PER.png",
+      "bytes": 2002,
+      "sha256": "9ff7f0c2fe2a0dc8efc254a99addeb9c6f2bfb7e3fe38e475f9530cbb6684b03"
+    },
+    {
+      "path": "assets_processed/flags/PHI.png",
+      "bytes": 2556,
+      "sha256": "85e8ddfae33213ec761eb9c471672442134d7696438dd3823b2cd4e0c7e02b53"
+    },
+    {
+      "path": "assets_processed/flags/PLE.png",
+      "bytes": 2323,
+      "sha256": "a650bd52e0b0851eea03d1db6d8f9fbd5ccb5d4ed9ecc17db2924b6eb9268591"
+    },
+    {
+      "path": "assets_processed/flags/PLW.png",
+      "bytes": 2793,
+      "sha256": "c58469fc15db77767e45ba80bb258dd0f0ffcb110e57c7262fcb6e706ebacba2"
+    },
+    {
+      "path": "assets_processed/flags/PNG.png",
+      "bytes": 3500,
+      "sha256": "c4d57868d422e9b74fd5bc43bae99f5037cc8c1ad1980c75a2cfcd5dea64166c"
+    },
+    {
+      "path": "assets_processed/flags/POL.png",
+      "bytes": 1908,
+      "sha256": "516b74f7ac8001179ddc2acc7a652546c61f66e10837c6a02e7d745b58bed799"
+    },
+    {
+      "path": "assets_processed/flags/POR.png",
+      "bytes": 2879,
+      "sha256": "ff5f6d06cfdb9e1aff88e18f2ddfb39d749f35ec8e066999becb1d4e5448b1d6"
+    },
+    {
+      "path": "assets_processed/flags/PRK.png",
+      "bytes": 2751,
+      "sha256": "d23f3e76cd1806500dc2f78bbc914c75c9f23d5cdf4bb739cc0d2144db7f82ec"
+    },
+    {
+      "path": "assets_processed/flags/PUR.png",
+      "bytes": 2984,
+      "sha256": "d51773ededc5dcc4618b5bda906419fb9c07a522c114b1cecf327190f2153c22"
+    },
+    {
+      "path": "assets_processed/flags/QAT.png",
+      "bytes": 2752,
+      "sha256": "e55ec5f4e5a15e2c1831ca3eeaf22d92baab29dfe6e493a9d3c357ab7d9b1a81"
+    },
+    {
+      "path": "assets_processed/flags/ROU.png",
+      "bytes": 2284,
+      "sha256": "81b56bf695e7b4a843ff7451b808a4ecdd9413b2e247a13ebfc00e7eb60dcc18"
+    },
+    {
+      "path": "assets_processed/flags/RSA.png",
+      "bytes": 3731,
+      "sha256": "3566aa91ceb9a549b396e3feb9b9eb54a7d1b5d89825f4aa8ec634296df1f9cc"
+    },
+    {
+      "path": "assets_processed/flags/RUS.png",
+      "bytes": 2349,
+      "sha256": "38ae76db3fe56dde87cbbdec642a398a69e841f16d16d1cce89e5000f88dcd3f"
+    },
+    {
+      "path": "assets_processed/flags/RWA.png",
+      "bytes": 2900,
+      "sha256": "8eb3717aa3804d68cc68fa1262b1b7dee29fd7a2682fb358922b0c082871e488"
+    },
+    {
+      "path": "assets_processed/flags/SAM.png",
+      "bytes": 2908,
+      "sha256": "1e3c0936424c25e3234cc2071851e30958ab01479fc1bb1a39c1e04e97d93874"
+    },
+    {
+      "path": "assets_processed/flags/SEN.png",
+      "bytes": 2427,
+      "sha256": "27a878bd4bcd6fbf6aff2d46f6fb24c699eab3bff4b28fe584ebfd813ec64c30"
+    },
+    {
+      "path": "assets_processed/flags/SEY.png",
+      "bytes": 3589,
+      "sha256": "e2ddf9a28748129099c45cfc563d0c551ca94604a8e8cf01c7f8bc8751517f37"
+    },
+    {
+      "path": "assets_processed/flags/SGP.png",
+      "bytes": 2772,
+      "sha256": "9e398d2c875b541677db9739e87ab00a15706cd634f17e9e9be53d7ed8ccdee1"
+    },
+    {
+      "path": "assets_processed/flags/SKN.png",
+      "bytes": 3541,
+      "sha256": "58dfa6b44ccb2b969c1566c63dfdd83aff9ca2b0e3197a1cb161c509efecb599"
+    },
+    {
+      "path": "assets_processed/flags/SLE.png",
+      "bytes": 1920,
+      "sha256": "64336143e69b9449a2762f386fac23b6bc4f73f625304289c9f53c57e2e44fbc"
+    },
+    {
+      "path": "assets_processed/flags/SLO.png",
+      "bytes": 2598,
+      "sha256": "375648339bb723c17bb93653231c6d331335f39a004c110296f4ec8906c7f91b"
+    },
+    {
+      "path": "assets_processed/flags/SMR.png",
+      "bytes": 3222,
+      "sha256": "e8a626cca1819a84125e183515aa6e258ec40fcfeab9a2d1b618e4d09148ea8b"
+    },
+    {
+      "path": "assets_processed/flags/SOL.png",
+      "bytes": 3486,
+      "sha256": "2040c1f6c25aae88d2824fdc1c39122423d658ef01bcac01b27d309bb1dd012c"
+    },
+    {
+      "path": "assets_processed/flags/SOM.png",
+      "bytes": 2811,
+      "sha256": "45d31cd2d01988dec783030f29086f14c2a241360966d16a413c29ec2aec2b09"
+    },
+    {
+      "path": "assets_processed/flags/SRB.png",
+      "bytes": 3423,
+      "sha256": "f2e00f1eca627d7347b27552221a39b616c95963a993bac618341e8026f915c4"
+    },
+    {
+      "path": "assets_processed/flags/SRI.png",
+      "bytes": 3005,
+      "sha256": "6355d10ea999ae79a39ffdd2cf3e7a6efb140e194df780cc34579e31460b427d"
+    },
+    {
+      "path": "assets_processed/flags/SSD.png",
+      "bytes": 3099,
+      "sha256": "981e88dd64292cf8b8a6ce6d105727a8dddd7cf310beda2fef6a450ba39a24a3"
+    },
+    {
+      "path": "assets_processed/flags/STP.png",
+      "bytes": 2797,
+      "sha256": "2a228279bd0cccde8f481591706b19516f88ef8afa41c2f4c90401f472f5bbe5"
+    },
+    {
+      "path": "assets_processed/flags/SUD.png",
+      "bytes": 2543,
+      "sha256": "005cf6c1a6089e169b14945368d31a8b729dd105c2085ba243a8d828afe1ef59"
+    },
+    {
+      "path": "assets_processed/flags/SUI.png",
+      "bytes": 1920,
+      "sha256": "91be231f3e066c3b1e3be725178337c89635a8a5d9095754e7e85b8b58806c2b"
+    },
+    {
+      "path": "assets_processed/flags/SUR.png",
+      "bytes": 2678,
+      "sha256": "49dd9a162219fbbff75d5f1bae6ffbda5fa59f670feab59ccce86ae5839663a2"
+    },
+    {
+      "path": "assets_processed/flags/SVK.png",
+      "bytes": 2827,
+      "sha256": "b0db8c0631758933c9c94c10b408b37f986ad53221d19dd730b5e22c6a5c18b7"
+    },
+    {
+      "path": "assets_processed/flags/SWE.png",
+      "bytes": 3054,
+      "sha256": "4c2d2aa360a33d75298d83605ada153edfaeb3cce148ce3bb3b45b26a2bdb8b0"
+    },
+    {
+      "path": "assets_processed/flags/SWZ.png",
+      "bytes": 3831,
+      "sha256": "f84db4a338b52fae668bfe6d76b0e0e540a7ca7dfba0e16f6aa3c36af0414598"
+    },
+    {
+      "path": "assets_processed/flags/SYR.png",
+      "bytes": 2738,
+      "sha256": "6e907a139f03db8794a914f80b0bbe5fa01de90916c6d283c4d002d7ff3c8d26"
+    },
+    {
+      "path": "assets_processed/flags/TAN.png",
+      "bytes": 3223,
+      "sha256": "0db620030fe9d63de73d92e558c35fd7d4c5f3fd418f883875751b45093e7e47"
+    },
+    {
+      "path": "assets_processed/flags/TGA.png",
+      "bytes": 2494,
+      "sha256": "7178b4b77ba6175c4d95c25fce64930d6c059b24cde58d76db93448888b474bf"
+    },
+    {
+      "path": "assets_processed/flags/THA.png",
+      "bytes": 2099,
+      "sha256": "7e571e02c64bbf97ff5871c4a3e724b1cbdc54e19e3d2e26a1df9d695b84fcad"
+    },
+    {
+      "path": "assets_processed/flags/TJK.png",
+      "bytes": 2153,
+      "sha256": "6d8ad1ab1c8fcfc23b41898849b738cbd67f70ebe39b8f48f93d1fbb28bf3d8e"
+    },
+    {
+      "path": "assets_processed/flags/TKM.png",
+      "bytes": 3058,
+      "sha256": "0582ab96688722e4ec81ab4b253da1bf002e934be684208ceffd6fe922495753"
+    },
+    {
+      "path": "assets_processed/flags/TLS.png",
+      "bytes": 2670,
+      "sha256": "2c84d1e800ddd20fc0d4acab36f8a9103049d9a067d26253bff380d658baca7d"
+    },
+    {
+      "path": "assets_processed/flags/TOG.png",
+      "bytes": 2985,
+      "sha256": "37814d936581fd4c2a6aab29690e9a29f2a6714a7d3dbead08e546dd33bdd61f"
+    },
+    {
+      "path": "assets_processed/flags/TPE.png",
+      "bytes": 3148,
+      "sha256": "92847848bfc14c9d76fcef45e4268251b57f9ea2eeca4a35760d31e36f37de62"
+    },
+    {
+      "path": "assets_processed/flags/TTO.png",
+      "bytes": 2979,
+      "sha256": "3f8500f99d9e00990088e0e840fa9e3e35297532e0ff381da39e12b360a7fdf1"
+    },
+    {
+      "path": "assets_processed/flags/TUN.png",
+      "bytes": 2370,
+      "sha256": "8f00bc652e5a84d12a797cfb6a904988fa1216d6555e13049640b4551c5e02e0"
+    },
+    {
+      "path": "assets_processed/flags/TUR.png",
+      "bytes": 2544,
+      "sha256": "bca0a94feffc7d92c3337ef5c756f6011a87920272c222a63c30990d05f5652e"
+    },
+    {
+      "path": "assets_processed/flags/TUV.png",
+      "bytes": 4063,
+      "sha256": "5957979bf2ae63c3f67cfca02fc37e0faaf0e17da8cd0da03df84cf00380f038"
+    },
+    {
+      "path": "assets_processed/flags/UAE.png",
+      "bytes": 2063,
+      "sha256": "6c0d6b52cf5a7bd695beb0c5696cba14f8f5aed38d81ac948e88de5d456989f4"
+    },
+    {
+      "path": "assets_processed/flags/UGA.png",
+      "bytes": 2781,
+      "sha256": "14b8da11fc9f3ff38b45296e7bd9fb08809e0470d6281dbe92792c8a0f475726"
+    },
+    {
+      "path": "assets_processed/flags/UKR.png",
+      "bytes": 2071,
+      "sha256": "7a9369560ce401bdfc89c6601b1b8288c71f59e9753f92b8a6c6a72d8c2d3249"
+    },
+    {
+      "path": "assets_processed/flags/URU.png",
+      "bytes": 2704,
+      "sha256": "cc9aa59f3c6f90c35a7426e931e906506af04051fffaa7ed6da894263b4eb3e2"
+    },
+    {
+      "path": "assets_processed/flags/USA.png",
+      "bytes": 3601,
+      "sha256": "458baeb617774b7e97f4391c3d8fad35cb9394fd5fe06b0bf99d573954677cd7"
+    },
+    {
+      "path": "assets_processed/flags/UZB.png",
+      "bytes": 2696,
+      "sha256": "ec203640ca129824da9ea96460e50c63b83796806b608f70834312b8186f989e"
+    },
+    {
+      "path": "assets_processed/flags/VAN.png",
+      "bytes": 3498,
+      "sha256": "58cefbaaeae0f1294881531a4d9a39121c5669cc2ad59ba6909681b8b910501e"
+    },
+    {
+      "path": "assets_processed/flags/VEN.png",
+      "bytes": 2756,
+      "sha256": "cbae5a7495bd523265924625247d807235a2b52597d15a28aee22b80b36c219d"
+    },
+    {
+      "path": "assets_processed/flags/VIE.png",
+      "bytes": 2177,
+      "sha256": "b996da2821c11971fac4a078716c601a3c4abe827eff1055b13f4f74d931fec7"
+    },
+    {
+      "path": "assets_processed/flags/VIN.png",
+      "bytes": 2415,
+      "sha256": "a462ca32bcd4fe2e8bc07c97d4f10c279a79ab635c5d624573c4edfdc88e38bf"
+    },
+    {
+      "path": "assets_processed/flags/YEM.png",
+      "bytes": 2093,
+      "sha256": "f7321797a76953161f9f7eb77ac0d8370e0249e4ceb1e2d870eb66d42e08e7a6"
+    },
+    {
+      "path": "assets_processed/flags/ZAM.png",
+      "bytes": 2563,
+      "sha256": "43a19f09acc21d13780f4265366ecba405f93150aaac059b38b8b6b431a6a7a0"
+    },
+    {
+      "path": "assets_processed/flags/ZIM.png",
+      "bytes": 2892,
+      "sha256": "236b51c25737c3da1a06d7514e09d8e445cd36db25a1b4229cffc791448ae466"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-Black.ttf",
+      "bytes": 69484,
+      "sha256": "8944da5a861ece00185fa173ea65324e7d4797aa863c6fa0f03e066805974b6c"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-BlackItalic.ttf",
+      "bytes": 71948,
+      "sha256": "1bb6ac346b9b152fa093d54030efcd073e28e51ec007cfb76c201f96fd74de67"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-Bold.ttf",
+      "bytes": 73316,
+      "sha256": "7b720599f8aed3bac5b9531fecf6750c8fa7e593b727739bc0692fcc0f55b678"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-BoldItalic.ttf",
+      "bytes": 77680,
+      "sha256": "6100468364df6d34709a91fd933c49c008affa486b5a35e796fa0341591e89fb"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-Italic.ttf",
+      "bytes": 75744,
+      "sha256": "118c8f4fa60ac74abb899962311cf15781aababb3634225d1b8f889fa16fd026"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-Light.ttf",
+      "bytes": 77192,
+      "sha256": "8f186e57fe440c5c010120c754944a9d5b33e612c3a311dd642435119aafcf70"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-LightItalic.ttf",
+      "bytes": 49064,
+      "sha256": "d5c5d73229ca60988eb7e446f231fc88c231ec26ca4e972535bc27183478abfa"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-Regular.ttf",
+      "bytes": 75136,
+      "sha256": "ea8979c22cf1d830e3ff939aadd49cc4d78c851e3cb59d2aa95ea10ee752d5d1"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-Thin.ttf",
+      "bytes": 69968,
+      "sha256": "286925bc1fd8578a711a1e209e0bb3e3e883b7300db7f8d3335624aeaf71b778"
+    },
+    {
+      "path": "assets_processed/fonts/Lato-ThinItalic.ttf",
+      "bytes": 48848,
+      "sha256": "2419776061ba8b3e9f4e6c8539735e540df848186d38a3a5d001129fc5314022"
+    },
+    {
+      "path": "assets_processed/results_identity/manifest.json",
+      "bytes": 5104,
+      "sha256": "7ff8bcd427691e0f216d360838777e866b7db8729327716109debbdb12cdbd73"
+    },
+    {
+      "path": "assets_processed/sfs/bar_basic.png",
+      "bytes": 768,
+      "sha256": "efbb41f5d7db1bf6aafa5a652f93dc69a67dbaebba0e5598acbb62dab63e3917"
+    },
+    {
+      "path": "assets_processed/sfs/bar_basic_short.png",
+      "bytes": 688,
+      "sha256": "4045a9ae44765dc920084453a01a4cc68a90238679f20f89aa84d2e2a7ebaa50"
+    },
+    {
+      "path": "assets_processed/sfs/bar_standing_rank.png",
+      "bytes": 1722,
+      "sha256": "51e3343bde0072563e1b7d675613aa166358a5ec568abf36fd37d166fce76e59"
+    },
+    {
+      "path": "assets_processed/sfs/blue_records_box.png",
+      "bytes": 522,
+      "sha256": "e427c49286a770ce4c0d779855c3d76bca6e4d79d90494d036a2528d60bd5361"
+    },
+    {
+      "path": "assets_processed/sfs/csp_clock.png",
+      "bytes": 5411,
+      "sha256": "9bdf5c6b83b18036847d2e1e9cea82fee508fcb5c5cf0564a911512e1b8dfa26"
+    },
+    {
+      "path": "assets_processed/sfs/dns.png",
+      "bytes": 3155,
+      "sha256": "56609a19b9e753441faa7bb242f5dd1d44624fa810a31cbb517e01fb814b3f00"
+    },
+    {
+      "path": "assets_processed/sfs/dsq.png",
+      "bytes": 3565,
+      "sha256": "c2220bb6c692494ffc1aeaf68e5b99ff5bb537a2e66d0504b08084448158e42b"
+    },
+    {
+      "path": "assets_processed/sfs/finish.png",
+      "bytes": 456,
+      "sha256": "99036f936210b50afb41a71a8fd1c7340265852d1247e99aee973357a178eb08"
+    },
+    {
+      "path": "assets_processed/sfs/footer.png",
+      "bytes": 5716,
+      "sha256": "a2041e0534978a1d3560b4e927fd6af23b80ec9deaf0bf06cdc3068da9d01f77"
+    },
+    {
+      "path": "assets_processed/sfs/footer_short.png",
+      "bytes": 5013,
+      "sha256": "b9f5f24b5168f34dcfb1faae836091f8097d5f567330b34844bd7149de210133"
+    },
+    {
+      "path": "assets_processed/sfs/header1_line.png",
+      "bytes": 5572,
+      "sha256": "d62e234efab516b0db8a588e27a8c6193a16871dd898626083325a1d9d8e1c6b"
+    },
+    {
+      "path": "assets_processed/sfs/header1_short_no_logo.png",
+      "bytes": 515,
+      "sha256": "6e42c36ed4f2cc0a35a42f043b26b22a3cf996ad4b538e309143d5f141ac32ce"
+    },
+    {
+      "path": "assets_processed/sfs/header2_lines.png",
+      "bytes": 21666,
+      "sha256": "2f3bdd7cffa5a0f74a73cb6421a4c57dc690ec57b225b2784a8fc1a5019a79e9"
+    },
+    {
+      "path": "assets_processed/sfs/lane_box.png",
+      "bytes": 165,
+      "sha256": "c7425867caf5a053f2383d90cc5659187c7acc6cc3a73f9921f99ede0bc7288d"
+    },
+    {
+      "path": "assets_processed/sfs/pd.png",
+      "bytes": 2255,
+      "sha256": "e4d2ed922e7cc4bf62c62c352a440a7abe9d628891081a394daee882910006cb"
+    },
+    {
+      "path": "assets_processed/sfs/presentation.png",
+      "bytes": 54373,
+      "sha256": "565394eefd2f0bf5638a6bb1a394ebb88c1ffece9d0cee72e4739d036d9c4c69"
+    },
+    {
+      "path": "assets_processed/sfs/q.png",
+      "bytes": 1553,
+      "sha256": "3adfd5610b8f0645e8da1039153e153ce5e1862666fe2e208400526f17fe0495"
+    },
+    {
+      "path": "assets_processed/sfs/sfs_1.png",
+      "bytes": 1061,
+      "sha256": "66331ec87bb0d2747f04c8ef50de5f451985ef724882d148655e76410cf182b4"
+    },
+    {
+      "path": "assets_processed/sfs/sfs_2.png",
+      "bytes": 2264,
+      "sha256": "993d2dc9ad5fe78c508733959a58b92c525138ec297c7579cad4753b0fccefb5"
+    },
+    {
+      "path": "assets_processed/sfs/short_box3_first.png",
+      "bytes": 451,
+      "sha256": "0ebcfdddf8b280abe77683680b08fde8919b578673e5796cd20117b80ad4acb6"
+    },
+    {
+      "path": "assets_processed/sfs/short_box3_green.png",
+      "bytes": 1664,
+      "sha256": "5ff08ba4b5595ad432064ddc42009c24b9527539dcdb363461cea1e4fd20670d"
+    },
+    {
+      "path": "assets_processed/sfs/short_box3_red.png",
+      "bytes": 1702,
+      "sha256": "8b10bbdaf960da897cadcdf0bd62e83d5652ed94ec922eab764ea88ef347766a"
+    },
+    {
+      "path": "assets_processed/sfs/short_box_clock.png",
+      "bytes": 718,
+      "sha256": "7e63f6c4c40f8b000ec3212d070313111e1cd93c53b17fa7fb1ffb4cf458223e"
+    },
+    {
+      "path": "assets_processed/sfs/short_box_light_blue.png",
+      "bytes": 848,
+      "sha256": "3b02a39a1c8b1023a23bbc16f5aeebd1910b8e379375b1877a8250081d05ec26"
+    },
+    {
+      "path": "assets_processed/sfs/short_box_red.png",
+      "bytes": 474,
+      "sha256": "d0a4ca9c67cd57a0a9f4e0e89fe47d49ad18a2d20ebe96532b37f36b6cf3db42"
+    },
+    {
+      "path": "backups/README.md",
+      "bytes": 194,
+      "sha256": "323278339fbc3abfc117bdded66c36bfde2f66a8c552302d7cb18f2c684baa1b"
+    },
+    {
+      "path": "broadcast_tvg/base.css",
+      "bytes": 620,
+      "sha256": "ade96e447ae97640d8722f315116ba47d74e4181b4876f827b08bc7b214cd30e"
+    },
+    {
+      "path": "broadcast_tvg/index.html",
+      "bytes": 331,
+      "sha256": "e3e2eb32651a31e4b6cc7feb5aa5150b978e1c5a847627512d48b2dad4c0c72c"
+    },
+    {
+      "path": "broadcast_tvg/output.js",
+      "bytes": 1815,
+      "sha256": "7ea0132926491bea86ac7b0bda7851b1bb62ddeddc413aac0334447355f27643"
+    },
+    {
+      "path": "broadcast_tvg/render.js",
+      "bytes": 9231,
+      "sha256": "3e81e1acd7db8fd86086febb66f28a78cc77e861ef59db115b422bf97ca3e163"
+    },
+    {
+      "path": "broadcast_tvg/setup.html",
+      "bytes": 3245,
+      "sha256": "d263fffd5ec9e65e0b9ae81cbbbc1246f9115d73796bf2d8c9035d3b8c8edcfa"
+    },
+    {
+      "path": "broadcast_tvg/setup.js",
+      "bytes": 2712,
+      "sha256": "73410f06f2db8dd062b0086ddb71dd9b0cb015ebeb9baee8d21ea5347eee8c39"
+    },
+    {
+      "path": "broadcast_tvg/stream.js",
+      "bytes": 958,
+      "sha256": "3926a785a509e18cbe92955c4dea03f0210274f0cc152221f7ac2c72b3e6575b"
+    },
+    {
+      "path": "control_dashboard/dist/app.css",
+      "bytes": 6301,
+      "sha256": "348da86f9db9b6ec865f3e673dab32e6c2cdec664c89168a2e7917d030f08eb0"
+    },
+    {
+      "path": "control_dashboard/dist/app.js",
+      "bytes": 220304,
+      "sha256": "bee510f8250ab23974f67da01b35886c98455966d9276e600d0054eda9511331"
+    },
+    {
+      "path": "control_dashboard/dist/index.html",
+      "bytes": 332,
+      "sha256": "3af33ff9c9cfa80f92681e31630c83c295797bec6f3deac667e400e6a967ff2c"
+    },
+    {
+      "path": "control_dashboard/package-lock.json",
+      "bytes": 17721,
+      "sha256": "428be04d9db0c88f19d3b4160f15392899dca2c57b7a864e720f33490a42f26b"
+    },
+    {
+      "path": "control_dashboard/package.json",
+      "bytes": 432,
+      "sha256": "5827fbcb964cdaa3ebe3873cf5f38e2e33ca97ec2d1920724b186ab2cfdb6620"
+    },
+    {
+      "path": "control_dashboard/src/SwimTimePanel.tsx",
+      "bytes": 4790,
+      "sha256": "2c47fd483e6f3d42a779e6c82f3608536c142f3bfdd93cb0f3522d8e2d49480e"
+    },
+    {
+      "path": "control_dashboard/src/main.tsx",
+      "bytes": 21134,
+      "sha256": "a4bbef32d570530867011343add899d585e99c07711fb5c709e647a5f9b075b9"
+    },
+    {
+      "path": "control_dashboard/src/style.css",
+      "bytes": 6309,
+      "sha256": "e0957d19a723ed06a40d77a4cd245ec02cc15eb59742d28310f6bce0fedfde7b"
+    },
+    {
+      "path": "control_dashboard/tsconfig.json",
+      "bytes": 228,
+      "sha256": "8de9fa22e846ced7d918316471d11d54367d2b2cc632200f94ea34f3e746babe"
+    },
+    {
+      "path": "deployment/LIST_SWIMTIME_PORTS.ps1",
+      "bytes": 645,
+      "sha256": "e20fd05158bb576e5709af5300cfcb42023a1a87a3593a9f2a4e16ef26621d04"
+    },
+    {
+      "path": "deployment/OPEN_LED_PLAYER.cmd",
+      "bytes": 583,
+      "sha256": "7b2eb7c074a18ce723ff4861ae7a6648965870463144aba718e415a01a49cd52"
+    },
+    {
+      "path": "deployment/Package_Manifest.json",
+      "bytes": 182742,
+      "sha256": "94028cb6279907edd800c883453531845996a158296f6634fc0d840f8ec30e66"
+    },
+    {
+      "path": "deployment/RELEASE_NOTES.md",
+      "bytes": 566,
+      "sha256": "a8bd8d7b675a733a61e03f6343ee8999d8e389b658054d6b05598fcc8a7629b7"
+    },
+    {
+      "path": "deployment/RELEASE_NOTES_v08.md",
+      "bytes": 980,
+      "sha256": "d8b188693429c50b9056cd1e523135745dbd982f06b53fc98908cc6b89277fdb"
+    },
+    {
+      "path": "deployment/RUN_TEST_LAN.cmd",
+      "bytes": 438,
+      "sha256": "82670905f9433695f6cdfec0ca943f3be66f74450dc60533f1a9007a42b05139"
+    },
+    {
+      "path": "deployment/RUN_VENUE_ENGINEERING.cmd",
+      "bytes": 417,
+      "sha256": "763ee1cf32ed07414693969a6a35d76671c4ce4d6523835daa3ac5f228082f7b"
+    },
+    {
+      "path": "deployment/apply_v08.py",
+      "bytes": 4744,
+      "sha256": "a1ed1f07a6c7c75ca2d428afd54660cb1ce0186bb06d7b36b223618b1bac412b"
+    },
+    {
+      "path": "deployment/approved_rule_codes.json",
+      "bytes": 175,
+      "sha256": "62e215e48135bcaba4a076f64121649de6aa9a42d65f1219834ef901767ec3f4"
+    },
+    {
+      "path": "deployment/bootstrap.py",
+      "bytes": 1466,
+      "sha256": "f21888d232088547ed152553047c2e465ba72e96fed447ee14ec98899b099f4b"
+    },
+    {
+      "path": "deployment/bootstrap_single.py",
+      "bytes": 1485,
+      "sha256": "7d117bbc6ccbd394ebd868e1630790216797349b1b04cc612ed46d519840eed1"
+    },
+    {
+      "path": "deployment/preflight.py",
+      "bytes": 1876,
+      "sha256": "959fa592988ea9e18d2569846a2a227e79d2a16516b1389594e1fed6ac163190"
+    },
+    {
+      "path": "docs/Architecture_and_Network.md",
+      "bytes": 7135,
+      "sha256": "0909ba54ad4385aa9644062230ec151b82fdaafd4628f1c7e12b42654b4b52de"
+    },
+    {
+      "path": "docs/Delivery_Status.json",
+      "bytes": 1857,
+      "sha256": "abdacd516c8f869c9009144f10be7f81586a0ab5d4a44b2bc86ffeabc99b940d"
+    },
+    {
+      "path": "docs/Hardware_and_Network.svg",
+      "bytes": 3852,
+      "sha256": "39d047c32f4bcad20f332b5ee7fe790086f9a1f2643172c679686341fb931c3d"
+    },
+    {
+      "path": "docs/LED_Identity_Patch_Status.json",
+      "bytes": 428,
+      "sha256": "08d942bdd93cf0a7eb9ae3fe0b2e7178e1b5228d2c84213ed387d31fc6479183"
+    },
+    {
+      "path": "docs/Lato_OFL.txt",
+      "bytes": 6074,
+      "sha256": "9648253641ec1d1f8ba2fbe8997909f7bfc48cc38537946f6272321788465b84"
+    },
+    {
+      "path": "docs/Operator_Manual.md",
+      "bytes": 6601,
+      "sha256": "1475e7570287c43045547709470dd5fb08e03e069234e21964d814ea256a3aad"
+    },
+    {
+      "path": "docs/Production_Acceptance_Checklist.csv",
+      "bytes": 3320,
+      "sha256": "ce29103840fb14b2f85f8e32ae60d9020b0f91247fb55a0673eb615e57297679"
+    },
+    {
+      "path": "docs/Production_Readiness_Report.html",
+      "bytes": 616088,
+      "sha256": "482b23b10f189d3a9736c126cc760cafc5405490879a8ea6b1f344d9c57a5f34"
+    },
+    {
+      "path": "docs/README_v07_AR.html",
+      "bytes": 15181,
+      "sha256": "4d63ec174c886608ec359f8646582ff5ca8c083f7934c33f1531a47129ab98e0"
+    },
+    {
+      "path": "docs/README_v08_AR.html",
+      "bytes": 12305,
+      "sha256": "16eac83da7126c2d0b72603e2e28b44adb66cd06f6842ff786c9f0c57dc7e875"
+    },
+    {
+      "path": "docs/Release_v07_Status.json",
+      "bytes": 1857,
+      "sha256": "abdacd516c8f869c9009144f10be7f81586a0ab5d4a44b2bc86ffeabc99b940d"
+    },
+    {
+      "path": "docs/Release_v08_Status.json",
+      "bytes": 862,
+      "sha256": "4893d7fce99a7e643f4607e590597552810d219794ee46f2469a29658d255908"
+    },
+    {
+      "path": "docs/Remaining_Implementation_Work.md",
+      "bytes": 3811,
+      "sha256": "751bb700efc4362f435d3619043e3f82ba7208191c0c080bc3ad74d68361af4a"
+    },
+    {
+      "path": "docs/Results_Identity_Correction_AR.md",
+      "bytes": 8084,
+      "sha256": "18ed086622e8bc83dcd84c384d8c4cedcec95aa7102142f4846becaa5c69b36a"
+    },
+    {
+      "path": "docs/Results_Identity_Patch_Status.json",
+      "bytes": 595,
+      "sha256": "3a78e0f217f45f90e7056e92912df7e147d368ab1aac0673e0eadc6cc52120e1"
+    },
+    {
+      "path": "docs/SwimTime_v08_Verification.md",
+      "bytes": 5294,
+      "sha256": "6e8c10664517b329a8545c7bdf49c8cfbaa61159d362390af817a68d719976bd"
+    },
+    {
+      "path": "docs/Windows_Installation_and_Recovery.md",
+      "bytes": 6486,
+      "sha256": "e59dac55313ffc5188ea6b0f9f652f2dd997feac8ae70ddbe061bbe2552fbd15"
+    },
+    {
+      "path": "evidence/swimtime/WhatsApp_Image_2026-10-24_at_3.12.13_AM.jpeg",
+      "bytes": 227360,
+      "sha256": "c7597b3425e13eb6468224b34d04dd4777507a146c47e6f8ea2a231b06c539d1"
+    },
+    {
+      "path": "evidence/swimtime/WhatsApp_Image_2026-10-24_at_3.12.32_AM.jpeg",
+      "bytes": 108723,
+      "sha256": "ba15677c643f4cb18ad8a3491d7d657d6f2bcd39ac48cc4e555f40388b615b2a"
+    },
+    {
+      "path": "evidence/swimtime/field_screen_match.json",
+      "bytes": 3648,
+      "sha256": "40778bfbfa278f0f3c4aa05924e9cd37f2b8ca145634363a52b10e34f878b6c5"
+    },
+    {
+      "path": "evidence/swimtime/udp26-20261024T000648Z-1792800408138675400.jsonl",
+      "bytes": 1585669,
+      "sha256": "f406de2726311dc569a2bc17fcd6d4a5c34c72f7e68c0497b931bb38553644fe"
+    },
+    {
+      "path": "installers/INSTALL_SINGLE_OPERATOR.cmd",
+      "bytes": 1236,
+      "sha256": "7453bb9b01b617fc6a3837814c9db0fe72b05450ce685db4d33d8854aa0e185d"
+    },
+    {
+      "path": "installers/INSTALL_TEST.cmd",
+      "bytes": 1101,
+      "sha256": "53ab4b1b5d90f1774268c98a5b2c4d11091f27a6732327d25ccf5998afb2fc31"
+    },
+    {
+      "path": "installers/wheels-win64/annotated_doc-0.0.5-py3-none-any.whl",
+      "bytes": 5302,
+      "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101"
+    },
+    {
+      "path": "installers/wheels-win64/annotated_types-0.8.0-py3-none-any.whl",
+      "bytes": 13427,
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+    },
+    {
+      "path": "installers/wheels-win64/anyio-4.15.1-py3-none-any.whl",
+      "bytes": 132079,
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+    },
+    {
+      "path": "installers/wheels-win64/click-8.5.0-py3-none-any.whl",
+      "bytes": 125251,
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    },
+    {
+      "path": "installers/wheels-win64/fastapi-0.150.0-py3-none-any.whl",
+      "bytes": 145281,
+      "sha256": "e566bc3f1347cfacf61f2f9ea1d7ab4576fbcff02eb9747c2807b8ced16d9e9a"
+    },
+    {
+      "path": "installers/wheels-win64/h11-0.16.0-py3-none-any.whl",
+      "bytes": 37515,
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+    },
+    {
+      "path": "installers/wheels-win64/idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "path": "installers/wheels-win64/opentelemetry_api-1.45.1-py3-none-any.whl",
+      "bytes": 60256,
+      "sha256": "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb"
+    },
+    {
+      "path": "installers/wheels-win64/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+      "bytes": 137737,
+      "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988"
+    },
+    {
+      "path": "installers/wheels-win64/pydantic-2.14.1-py3-none-any.whl",
+      "bytes": 488106,
+      "sha256": "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454"
+    },
+    {
+      "path": "installers/wheels-win64/pydantic_core-2.50.1-cp312-cp312-win_amd64.whl",
+      "bytes": 2172522,
+      "sha256": "132529c83901437ff642f585216831bf5fd7a91df66829907e155192ead62498"
+    },
+    {
+      "path": "installers/wheels-win64/pyserial-3.5-py2.py3-none-any.whl",
+      "bytes": 90585,
+      "sha256": "c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"
+    },
+    {
+      "path": "installers/wheels-win64/starlette-1.9.0-py3-none-any.whl",
+      "bytes": 80335,
+      "sha256": "fd3f159936e882d06c1108f84688f7cda2cf85fc6a592a50edbd175e882c2ddc"
+    },
+    {
+      "path": "installers/wheels-win64/typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "path": "installers/wheels-win64/typing_inspection-0.4.4-py3-none-any.whl",
+      "bytes": 14750,
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+    },
+    {
+      "path": "installers/wheels-win64/uvicorn-0.54.0-py3-none-any.whl",
+      "bytes": 87427,
+      "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf"
+    },
+    {
+      "path": "installers/wheels-win64/websockets-16.0-cp312-cp312-win_amd64.whl",
+      "bytes": 178693,
+      "sha256": "5569417dc80977fc8c2d43a86f78e0a5a22fee17565d78621b6bb264a115d4ea"
+    },
+    {
+      "path": "installers/windows_wheel_manifest.json",
+      "bytes": 2740,
+      "sha256": "4a55fc7ec38cbd680be73ebd0c0656f9c3f5cec201e343fe4125db9cb06590a6"
+    },
+    {
+      "path": "led_displays/identity.js",
+      "bytes": 2069,
+      "sha256": "4ddd3d3d23ad0a1d473abb0a926cbcb7e46a6181c41533bd29f56081772edd1f"
+    },
+    {
+      "path": "led_displays/index.html",
+      "bytes": 592,
+      "sha256": "9e9e8488cd3c11f05b6ff831736071fee1446b1b8604b2dcb8555c5acab5abc4"
+    },
+    {
+      "path": "led_displays/output.js",
+      "bytes": 1667,
+      "sha256": "f9df25c31deff8e3ccbb4d0d45d3e5f141775d1a2305d5994c3562805e53c2f7"
+    },
+    {
+      "path": "led_displays/render.js",
+      "bytes": 7745,
+      "sha256": "c325953094dfc87e0ac7210322525fe29a72650952bf29fbfbd314236f682264"
+    },
+    {
+      "path": "led_displays/results.html",
+      "bytes": 1472,
+      "sha256": "65aa19197f3ec9f7f910ff1af423691bda8a2aee0efba095d666159f29f84958"
+    },
+    {
+      "path": "requirements-test.txt",
+      "bytes": 63,
+      "sha256": "f6072712d808d24cd581a83a876103f38b939806b6f76cb7db900ce4779f8aa9"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 78,
+      "sha256": "378cb07e909830bb7e843711377716910303a21de4445dfcaf4fc73fe9125768"
+    },
+    {
+      "path": "results_backend/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "results_backend/app.py",
+      "bytes": 20119,
+      "sha256": "d3267b8e92c8f9b34f556f6cae491831553815927dc0b15566a3eb1fefbe5ae0"
+    },
+    {
+      "path": "results_backend/cli.py",
+      "bytes": 2253,
+      "sha256": "5e9b6f365f53275fd61169d1c69090719afcbc7c636b60d73b41b0a9e261a4b3"
+    },
+    {
+      "path": "results_backend/schema.sql",
+      "bytes": 4460,
+      "sha256": "4f27e562a159ef390defcfb2483e2744f5a9f29c8efc815ac58bea9ae99de0ad"
+    },
+    {
+      "path": "results_backend/store.py",
+      "bytes": 28443,
+      "sha256": "d03e54cb7d9727e68b796a96e4d305e1218b7c845e5c4772b11afda177273922"
+    },
+    {
+      "path": "runtime/README.md",
+      "bytes": 145,
+      "sha256": "a282ca00ee4e4dff5c780277e0712b969f984bf2186b499a59edf31986fa3270"
+    },
+    {
+      "path": "screenshots/Control_Dashboard.png",
+      "bytes": 145144,
+      "sha256": "217fc64adbb16f3475ec362f7bbbbcc10615c5badbfda70d7db02d725a28fb75"
+    },
+    {
+      "path": "screenshots/Readiness_Report.png",
+      "bytes": 181983,
+      "sha256": "2533ed020c3dca8da54ec12d30ceb861bbbd0dc762bcfdc72a6a0fb7140e3d48"
+    },
+    {
+      "path": "screenshots/Results_Review.png",
+      "bytes": 111062,
+      "sha256": "d439b2254f31e904c81fbbc8a3e9f279c8eed9f12f77780027425724c4f4f84f"
+    },
+    {
+      "path": "screenshots/Six_Native_LED_Outputs.png",
+      "bytes": 308249,
+      "sha256": "52d57c08b532c184df9b44c83f88ef892bca8e66c5300c8ce3a4035c80f452a2"
+    },
+    {
+      "path": "screenshots/Six_Screen_Routing.png",
+      "bytes": 219999,
+      "sha256": "243b06eb989e5425b2132ae8ead172303407833113e3d6ba900acb8c85d0258d"
+    },
+    {
+      "path": "screenshots/Visual_Template_Comparator.png",
+      "bytes": 312188,
+      "sha256": "1b25d131f92e086d364c856ef89798f04c2f1fe57478b72d75d7868cc69584e0"
+    },
+    {
+      "path": "screenshots/led/l1.png",
+      "bytes": 20223,
+      "sha256": "70559a2ee54f24421021a3cdf190ad01b1d90876e7d83b3046228dbb1b5ca25c"
+    },
+    {
+      "path": "screenshots/led/l2.png",
+      "bytes": 20137,
+      "sha256": "347e0b24f654dbe8313e2713e66e19eb79909b67a9620fad3500c84c35d88b06"
+    },
+    {
+      "path": "screenshots/led/master.png",
+      "bytes": 123215,
+      "sha256": "b345907b1c36edf10e5d335b9c82fbf00002962225dcbf7c8d58eca423be9080"
+    },
+    {
+      "path": "screenshots/led/screen2.png",
+      "bytes": 86991,
+      "sha256": "6884160daac306a25bdde138994036b640c4dd6db1d711042b52fe9030104f75"
+    },
+    {
+      "path": "screenshots/led/screen3.png",
+      "bytes": 108396,
+      "sha256": "06052c668ca57e7a342908c61683a848c65203de4eff0b5b528f1dcae97534a9"
+    },
+    {
+      "path": "screenshots/led/stage.png",
+      "bytes": 47340,
+      "sha256": "199fe961a1a5f697cbf9ed7c72df86f38bc9275b122df860f4faae452cb5b9c0"
+    },
+    {
+      "path": "screenshots/results_identity/asset_missing.png",
+      "bytes": 5364,
+      "sha256": "891aac78c5c7544f5ebc1a129b62971da3f1208029d7e1ae978b291992eb28b2"
+    },
+    {
+      "path": "screenshots/results_identity/l1_idle.png",
+      "bytes": 33986,
+      "sha256": "4cae9454dfccecf4a24bdeb1458bee5296fc4427351ba4a64b707c3fd805d6e5"
+    },
+    {
+      "path": "screenshots/results_identity/l1_results.png",
+      "bytes": 48441,
+      "sha256": "b78162d8dc57b2ed4fb0b640023ef77369bff4f4e607693aa038641fcb0bdcf1"
+    },
+    {
+      "path": "screenshots/results_identity/l1_startlist.png",
+      "bytes": 46897,
+      "sha256": "30afb3bd0d8750e063a66a245d71b28294ba4a77d5927d4e5818b48170f1603d"
+    },
+    {
+      "path": "screenshots/results_identity/l2_idle.png",
+      "bytes": 33495,
+      "sha256": "700810bc3f09318a318c178da13642f6b4ff86c52881038d515dd96bac9ebc71"
+    },
+    {
+      "path": "screenshots/results_identity/l2_results.png",
+      "bytes": 47775,
+      "sha256": "788d71a6322881425002958464e43656c50085c14d3ffc394530c7e017a37db7"
+    },
+    {
+      "path": "screenshots/results_identity/l2_startlist.png",
+      "bytes": 46079,
+      "sha256": "543c2939cc60b08cc5f4da1fd9904a1026335b9504c456ea5fa548e7a221bd28"
+    },
+    {
+      "path": "screenshots/results_identity/master_idle.png",
+      "bytes": 66722,
+      "sha256": "8fc8a25e7fc79ae1becf8b41503f61e1803990c63629cd32226ab69b7994a23d"
+    },
+    {
+      "path": "screenshots/results_identity/master_results.png",
+      "bytes": 92248,
+      "sha256": "72099e7fa212aea13bfb5f097e08d95d7b2de14109f715e1f6bbd04eac6b75e2"
+    },
+    {
+      "path": "screenshots/results_identity/master_startlist.png",
+      "bytes": 90492,
+      "sha256": "965f5ea507a9b7d71b582833a44ccf4cd4bd0f826bf16f5e107a120672104494"
+    },
+    {
+      "path": "screenshots/results_identity/screen2_idle.png",
+      "bytes": 59906,
+      "sha256": "622388b1667d4f4eb49fe3574f3ac229521126569b8b84ce5c327ed7587c3d91"
+    },
+    {
+      "path": "screenshots/results_identity/screen2_results.png",
+      "bytes": 82496,
+      "sha256": "6100c5f77a8711ebf715946f759b668579415623a520e637028d5523eb222f0b"
+    },
+    {
+      "path": "screenshots/results_identity/screen2_startlist.png",
+      "bytes": 80872,
+      "sha256": "5b26c8e7d4aa69498cb5299b5ae0bb59ca87af48c042ade6da691239339a5fd8"
+    },
+    {
+      "path": "screenshots/results_identity/screen3_idle.png",
+      "bytes": 61402,
+      "sha256": "9bb461397c2581a781ba5822459922d67fff27b5d775ffce112710405a287ece"
+    },
+    {
+      "path": "screenshots/results_identity/screen3_results.png",
+      "bytes": 83827,
+      "sha256": "db7f4e5d2c403d4bec82aabc83a657100c11fd150edf12048de7458ddfb64beb"
+    },
+    {
+      "path": "screenshots/results_identity/screen3_startlist.png",
+      "bytes": 82299,
+      "sha256": "77ab964dc6b53dd03ea659db33c95dac972450a5e15444b6a1ab647bb809708b"
+    },
+    {
+      "path": "screenshots/results_identity/stage_idle.png",
+      "bytes": 56084,
+      "sha256": "e2188c74bf58de304909e56912e4956f7d2834f0d0a7a6c90944a7659c3f068e"
+    },
+    {
+      "path": "screenshots/results_identity/stage_results.png",
+      "bytes": 63209,
+      "sha256": "459b8dd7d55d8326edf628269f22cf3e23b7c28396ffa204d9d47717e915bdf3"
+    },
+    {
+      "path": "screenshots/results_identity/stage_startlist.png",
+      "bytes": 61595,
+      "sha256": "7743cf7822c2470f78d97fc8c8688f2f8d437c4c4d248b21034fc0b68b35b6d9"
+    },
+    {
+      "path": "screenshots/tvg/SFS001.png",
+      "bytes": 61586,
+      "sha256": "9b93b1c7ec8ce2175a33f4174d4047232bd30e7082506bda76ffafd2be55849b"
+    },
+    {
+      "path": "screenshots/tvg/SFS002.png",
+      "bytes": 61844,
+      "sha256": "0a7a9de1547b2fe4610cd29bedd1c205d9e147fc77d3f4f8afc275a77338ce4c"
+    },
+    {
+      "path": "screenshots/tvg/SFS003.png",
+      "bytes": 57289,
+      "sha256": "cbc5600ef7751adda04df0b5b09091d133cc765c33eb9ca4bb7f5bd9c054644c"
+    },
+    {
+      "path": "screenshots/tvg/SFS004.png",
+      "bytes": 50376,
+      "sha256": "84b87d1cdd30f8acffd77a7486edace30378451445124f2f5ac063763c263ed5"
+    },
+    {
+      "path": "screenshots/tvg/SFS005.png",
+      "bytes": 50515,
+      "sha256": "16ceb5b0653f08c7fe0e8b0fc391f0b273b39e730a87412df960c4829bca9fba"
+    },
+    {
+      "path": "screenshots/tvg/SFS200A.png",
+      "bytes": 29831,
+      "sha256": "b62ec293d9ca8fd2e8c7c209aa6569b1e70b073a307f19a7b18e1ff752d619ff"
+    },
+    {
+      "path": "screenshots/tvg/SFS200B.png",
+      "bytes": 39994,
+      "sha256": "4d5b01baedb7918fe3f46605a139f7c1d131c68f38e5d130d8ca80ab8f1e4104"
+    },
+    {
+      "path": "screenshots/tvg/SFS200C.png",
+      "bytes": 37556,
+      "sha256": "70e546a85cec7a2be7f2bf9bb9186476f93f2d8c2ec780a423c69da28eb3fa65"
+    },
+    {
+      "path": "screenshots/tvg/SFS201A.png",
+      "bytes": 30743,
+      "sha256": "b8ab8fd3fc2ad06eebd129e96bb020fee47a66836570735c15563c3de5c87209"
+    },
+    {
+      "path": "screenshots/tvg/SFS201B.png",
+      "bytes": 40909,
+      "sha256": "80538d554dd86003af783800d68a95a714b740ae8eecad928daaef9435e9141e"
+    },
+    {
+      "path": "screenshots/tvg/SFS201C.png",
+      "bytes": 38483,
+      "sha256": "1fc779aa80c4d952edffcab276fa2c788a9944b16b2e8e89a4803f8557dffa41"
+    },
+    {
+      "path": "screenshots/tvg/SFS202.png",
+      "bytes": 43977,
+      "sha256": "835a68c6bb146a738d8247b732cd59dce359d7ac7b04fff34a3210ae42b6e06c"
+    },
+    {
+      "path": "screenshots/tvg/SFS203A.png",
+      "bytes": 94088,
+      "sha256": "1e4039df501a006abace994f50b030bb38eb507f4666fa48aecea8b52c1cd34a"
+    },
+    {
+      "path": "screenshots/tvg/SFS203B.png",
+      "bytes": 73441,
+      "sha256": "f34252bb12e4fc4e71b1e6210921b579d3c577cf31af894f493e3df732fe6da1"
+    },
+    {
+      "path": "screenshots/tvg/SFS204.png",
+      "bytes": 21071,
+      "sha256": "e4282250e2b4ef40778944a78a2519fc408ba3ee074c1036327b6a245f43ac84"
+    },
+    {
+      "path": "screenshots/tvg/SFS205A.png",
+      "bytes": 21534,
+      "sha256": "9a2dcea6cff26486f4589a1f390d4fdfc26fdb3419a8b1b2cfb3e03f9db4cefd"
+    },
+    {
+      "path": "screenshots/tvg/SFS205B.png",
+      "bytes": 20885,
+      "sha256": "e1612558bdde5c02707de4dc9c94405599acedb2d0c66dc1751cff17b9705632"
+    },
+    {
+      "path": "screenshots/tvg/SFS206.png",
+      "bytes": 52177,
+      "sha256": "d90e0167d086b080dabece49e2a2a9b6fcab32ecc38820c0ad1af29c02db796c"
+    },
+    {
+      "path": "screenshots/tvg/SFS300A.png",
+      "bytes": 60052,
+      "sha256": "71dc5377db5648597e5eb2bd2651a4b52de31262a7440ad5fdf7a0dddf2898cd"
+    },
+    {
+      "path": "screenshots/tvg/SFS300B.png",
+      "bytes": 61385,
+      "sha256": "71a6996cd56af6f239b9349a11b58593d4c87d7018d7dd5346712edaa339a25d"
+    },
+    {
+      "path": "screenshots/tvg/SFS301A.png",
+      "bytes": 68531,
+      "sha256": "bc29ea8538041137faa5d3ae5832be120cd3bd4fb52fc9dc789b8586ec275ab8"
+    },
+    {
+      "path": "screenshots/tvg/SFS301B.png",
+      "bytes": 69533,
+      "sha256": "d99732234b50b75a535522e463ed5ea5b1099fa5e8922cde35bb68178b7afd9b"
+    },
+    {
+      "path": "screenshots/tvg/SFS302A.png",
+      "bytes": 94887,
+      "sha256": "89306fea7cecdd924f3780bfc2bf7aeae897285c12727618711b22fdfd561c6c"
+    },
+    {
+      "path": "screenshots/tvg/SFS302B.png",
+      "bytes": 74152,
+      "sha256": "ac038b7dcc3327232b43d842f8977e3c64b5cdd2251e4105b20f98fc9a2c1b52"
+    },
+    {
+      "path": "screenshots/tvg/SFS500.png",
+      "bytes": 22773,
+      "sha256": "cfeac7cf0b27dd496752d92ad6b7fcc347aea3473500797cc035dbd76c2fbdf5"
+    },
+    {
+      "path": "screenshots/tvg/SFS501.png",
+      "bytes": 22874,
+      "sha256": "9c38bd8450fde62ee281226a26029fdbc742b5a2aca24dae4c182590036cce18"
+    },
+    {
+      "path": "screenshots/tvg/SFS502.png",
+      "bytes": 23120,
+      "sha256": "696164383544bf484b9e430798bfbe1c4685ab58048a156b43260dd262ef9b92"
+    },
+    {
+      "path": "screenshots/tvg/SFS503.png",
+      "bytes": 25258,
+      "sha256": "55746b78caebd00c6a274af3a44ee8e29f04cd065bc51ff73ad73dce37d3f1ef"
+    },
+    {
+      "path": "screenshots/tvg/SFS504A.png",
+      "bytes": 24979,
+      "sha256": "95fd934ce6e37613d606cbc78c403a9415d1704aab338bb074cccb6ca1aada83"
+    },
+    {
+      "path": "screenshots/tvg/SFS504B.png",
+      "bytes": 24976,
+      "sha256": "9a4f5389451585273be5e7ccd0c9cf577f02eda928143e5fdbfdb087e3b6eb87"
+    },
+    {
+      "path": "screenshots/tvg/SFS900.png",
+      "bytes": 53391,
+      "sha256": "db07c1dfab11528600d105cc45c56c499ce1a0725d779d1a5e7e04c7d4001131"
+    },
+    {
+      "path": "screenshots/tvg/SFS901A.png",
+      "bytes": 38411,
+      "sha256": "db09e95cbf8c855ed1fc99c7db206604b7deaa6108c0cdec4702141ce05a2494"
+    },
+    {
+      "path": "screenshots/tvg/SFS901B.png",
+      "bytes": 38408,
+      "sha256": "24354afee115e9cdb862d3d2aaeff1a6cddecc8977c98d5b8248db2a8c7031b8"
+    },
+    {
+      "path": "screenshots/tvg/SFS902A.png",
+      "bytes": 65199,
+      "sha256": "93fe0268fbf59710e0114ec777dd074a302d2a3a3f82988344ceebcb3df6bc4b"
+    },
+    {
+      "path": "screenshots/tvg/SFS902B.png",
+      "bytes": 66361,
+      "sha256": "fa1a39b33c22fa76e77c87a3b1ea359fde3569795db1c883db40ccaf9db7382c"
+    },
+    {
+      "path": "screenshots/v07/arabic_guide_preview.png",
+      "bytes": 162497,
+      "sha256": "ea82715485eae75096ab633017abdb9df9424ad35a996974398e9b5d0564eb0d"
+    },
+    {
+      "path": "screenshots/v07/connections_diagnostics_TEST.png",
+      "bytes": 273011,
+      "sha256": "e628e7b80e524a20e6ad86bb88945dcaddbbcfa3a653622c36d230deb77534bb"
+    },
+    {
+      "path": "screenshots/v07/obs_program_alpha_TEST.png",
+      "bytes": 52177,
+      "sha256": "d90e0167d086b080dabece49e2a2a9b6fcab32ecc38820c0ad1af29c02db796c"
+    },
+    {
+      "path": "screenshots/v07/single_operator_results_TEST.png",
+      "bytes": 99205,
+      "sha256": "a84722d3ff5c6d5cfb7bcc3654dab25a9188881ec2a915ebaaeea4ddf2048a33"
+    },
+    {
+      "path": "screenshots/v08/arabic_v08_guide_desktop.png",
+      "bytes": 126345,
+      "sha256": "34b05f4cfefe495a5550e6b3f9db24db3507562c16f036a183bef261f7947dca"
+    },
+    {
+      "path": "screenshots/v08/arabic_v08_guide_mobile.png",
+      "bytes": 68221,
+      "sha256": "dcc1dab794ad2b81dde85ee9d07a0418d7337dcc73b0eb09b40e687f43692306"
+    },
+    {
+      "path": "screenshots/v08/recorded_capture_ten_channels_TEST.png",
+      "bytes": 165348,
+      "sha256": "094e9a33c556ce663dbae5285e9d6875eb512031fd8e26b6819ad393074b2dda"
+    },
+    {
+      "path": "screenshots/v08/stale_feed_clock_suppressed_TEST.png",
+      "bytes": 168130,
+      "sha256": "e1fd14af8ee37ccf43e25508cb9fff8697b6d4b9dc827c1cbcf88317f13cc95f"
+    },
+    {
+      "path": "screenshots/v08/udp_live_clock_and_channels_TEST.png",
+      "bytes": 171476,
+      "sha256": "e921da67da26406e4c06708559e1cc241ee9af2b3eb4f79d2ad094bb152bf934"
+    },
+    {
+      "path": "source_audit/Data_Field_Mapping.csv",
+      "bytes": 16742,
+      "sha256": "31974c447baaba27d2fbe86ae6e5ce9f23e15f65305092895508694f6fc99c26"
+    },
+    {
+      "path": "source_audit/FINS2026_Graphic_Catalogue_Broadcast_System_Design_extracted.txt",
+      "bytes": 13505,
+      "sha256": "a2785dbc1f8bb48f9daff32f12f2a1eeb83d9e840eb0e2cfc8ff0262a867ada4"
+    },
+    {
+      "path": "source_audit/FINS2026_Graphic_Catalogue_FINAL_extracted.txt",
+      "bytes": 13749,
+      "sha256": "896e0f3f6f2d129e942d378c34d8a39449d2eacf918c1e02dfa6c13e92f84e34"
+    },
+    {
+      "path": "source_audit/FINS2026_Venue_Look_Graphic_Catalogue_FINAL_Branding_Reissue_extracted.txt",
+      "bytes": 10323,
+      "sha256": "473dc09ccb801dee8379a21767d8649ebaccfa83453c090df6f6b42c54389d10"
+    },
+    {
+      "path": "source_audit/Implementation_Coverage.json",
+      "bytes": 870,
+      "sha256": "8df6b8043f881a5e19960590203ecc3bc88b93ff8c641c7107d6c4712418a7ed"
+    },
+    {
+      "path": "source_audit/Integration_Evidence_23Oct2026.json",
+      "bytes": 1836,
+      "sha256": "2a1d3181ca5a9fecfcbdf9b407a1c2100282a2cffe5f7863c78cb63afae25751"
+    },
+    {
+      "path": "source_audit/LED_Identity_Correction_Register.json",
+      "bytes": 5625,
+      "sha256": "4b9c5d2d2446cc74954bc710ea4506deb9e55c1c9d84e7cdfa8abff7a3edf4a8"
+    },
+    {
+      "path": "source_audit/Missing_Assets_Register.csv",
+      "bytes": 3298,
+      "sha256": "304b48e6d7fa2ae809689aa8fbb3dab5ef0f88802d39dc0cd55f011fc48633e3"
+    },
+    {
+      "path": "source_audit/Results_Identity_Correction_Register.json",
+      "bytes": 2096,
+      "sha256": "d50851d42bcc8c3120e12d92bf30cde8f793da6ac21088fd69d6272a9c616373"
+    },
+    {
+      "path": "source_audit/Results_Identity_Missing_Assets.csv",
+      "bytes": 1882,
+      "sha256": "45c7009d30b143daf6a1d72cb511b4f77dcd5db749f2a7b32f64930847af01b9"
+    },
+    {
+      "path": "source_audit/Reviewed_Source_Files.json",
+      "bytes": 2650,
+      "sha256": "faa00aa239c648c55f2c867bdc0ea2805948b0d219968ae052340ebd6057d8f7"
+    },
+    {
+      "path": "source_audit/Source_Audit.json",
+      "bytes": 915,
+      "sha256": "5cbab5a725ca59e17eb1629cd82fc946984c565868eeb15f669abac9fb9aa230"
+    },
+    {
+      "path": "source_audit/Source_Conflict_Register.csv",
+      "bytes": 2130,
+      "sha256": "62f67e7d9914596eb039595a84fac61178edfca4326d029e48a213cffe6b41b2"
+    },
+    {
+      "path": "source_audit/Template_Coverage_Matrix.csv",
+      "bytes": 5318,
+      "sha256": "29bdacef5a5c77455130bdd34ab6077456b2fb74272337b1832746b846b1852a"
+    },
+    {
+      "path": "source_audit/Visual_Comparison_Report.csv",
+      "bytes": 4105,
+      "sha256": "6b504c9001566af3925d7203575150560ac1c729090c0e7de0561d9ac41cf0e4"
+    },
+    {
+      "path": "source_audit/asset_manifest.json",
+      "bytes": 93901,
+      "sha256": "39157a32498f725b449ffbf2d10cb9a58b8f5640a09bb65526c3b3def34cac45"
+    },
+    {
+      "path": "source_audit/broadcast_catalogue.json",
+      "bytes": 26270,
+      "sha256": "8d439a30fdcee0e4f122e913ee4ac655fb9753422ed54b15180c9774412d6344"
+    },
+    {
+      "path": "source_audit/build_registers.py",
+      "bytes": 11949,
+      "sha256": "8dab7eaebcc38427dc3cc83fc45d17624702bb138a23f2587bd981cd67afef46"
+    },
+    {
+      "path": "source_audit/graphics_folder_listing.json",
+      "bytes": 6927,
+      "sha256": "b58e22545ee17401f3f4f7afa32d477873d1084ca88a43ea0697cdd442c92bb6"
+    },
+    {
+      "path": "source_audit/main_folder_listing.json",
+      "bytes": 61507,
+      "sha256": "70a388ae69731304866ef22140422ff0600ea287b51a19963357d6c1b7c9cd1c"
+    },
+    {
+      "path": "source_audit/processed_manifest.json",
+      "bytes": 38216,
+      "sha256": "79a95da907d09eb45f26ed66ecf4ef907927c8ba0e933917c4e9266d89c29a5d"
+    },
+    {
+      "path": "source_audit/schedule_folder_listing.json",
+      "bytes": 1934,
+      "sha256": "145698c66aef42542b9142973efbd1d0fe98a5159a8807f26f0d4b02731672d9"
+    },
+    {
+      "path": "source_audit/schedule_sheet.json",
+      "bytes": 25290,
+      "sha256": "c3230fe12252a4e4e8bc5ca8a6cfc7901ef30702c493a3b44cdd39da82a27c44"
+    },
+    {
+      "path": "source_audit/schedule_source.json",
+      "bytes": 6330,
+      "sha256": "ee813721007acf5d306669ccc74ece04a985345aba52acf7d85fe201059722c6"
+    },
+    {
+      "path": "templates_sfs/comparator.html",
+      "bytes": 1995,
+      "sha256": "9211dd40777f693e56553c18f946f99b275bd35c62ed386d99defdf658a910b1"
+    },
+    {
+      "path": "templates_sfs/comparator.js",
+      "bytes": 2830,
+      "sha256": "3d949a8b27b5b364e07c956422b775bff27098bccd0346b88240d387a69f0cb1"
+    },
+    {
+      "path": "templates_sfs/registry.json",
+      "bytes": 59968,
+      "sha256": "26714be571f9af117a80410735f51ccbc0d740d49faf79fc7286e26de04fc283"
+    },
+    {
+      "path": "testing/browser.cjs",
+      "bytes": 11076,
+      "sha256": "747ed3164103d9f728a47ddaea4d4f6b0f8f3f16b844496eb01b238076bd67ce"
+    },
+    {
+      "path": "testing/fixtures/gen_samples/001-001-12P0001.gen",
+      "bytes": 129,
+      "sha256": "5d68b2c982a881fe997be3f15f3d2065dbbb6382b6aa0daeaa01248a9c0ba5ee"
+    },
+    {
+      "path": "testing/fixtures/gen_samples/001-029-01P0001.gen",
+      "bytes": 209,
+      "sha256": "fd29bd179ed8a92e99ce055649c597721ca22a1dc2ec2e92d4d95e8ff9db1e7c"
+    },
+    {
+      "path": "testing/fixtures/gen_samples/001-029-01P0002.gen",
+      "bytes": 199,
+      "sha256": "cd296cfa941ccd5d78c4a554773b9eec196d96fc3950b9b80813117556935ff0"
+    },
+    {
+      "path": "testing/fixtures/gen_samples/001-029-02P0001.gen",
+      "bytes": 179,
+      "sha256": "1b8dcf3573c5d4a375bc125488ae9cde659fce61bf7c9c97fac13006d392ab1e"
+    },
+    {
+      "path": "testing/fixtures/gen_samples/001-029-03P0001.gen",
+      "bytes": 179,
+      "sha256": "71f386b1509909fa275a5c2900c7ffc0cf484aec772eb7bae37c0660324b8051"
+    },
+    {
+      "path": "testing/fixtures/manual_reconstructed_modern.hex",
+      "bytes": 2673,
+      "sha256": "edac493d13726602ee916d35c41535b2cfbd6ba0084c3c3a30d0a1b24e561f67"
+    },
+    {
+      "path": "testing/fixtures/meet.json",
+      "bytes": 6471,
+      "sha256": "c8353c263343d5afc5a5a4f04a0c1b05c1dacdbf421c1605c28e5b241115db27"
+    },
+    {
+      "path": "testing/led_native.cjs",
+      "bytes": 2414,
+      "sha256": "be1725e691b890504e06c403f9765f7afe6a92c70c49e6d96a683c342298914d"
+    },
+    {
+      "path": "testing/prepare_browser.py",
+      "bytes": 492,
+      "sha256": "43da66d9639607fe643f47b471d96824c0ddb9a4d42f6033fd1da7ca5939e9f9"
+    },
+    {
+      "path": "testing/prepare_v07.py",
+      "bytes": 648,
+      "sha256": "5cc723480e1d1eef311913728af3e48aabeb249e7b1704a9146f5e1a98ff43a9"
+    },
+    {
+      "path": "testing/reports/browser.json",
+      "bytes": 54928,
+      "sha256": "fd188ce6ca72c04f895ee27915ec22491eb10ad1403d9988411128eae3fd145f"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS001.json",
+      "bytes": 1585,
+      "sha256": "188f30c72b4ba96106183fd68548c84a4e183ccff27afa0cf1323a76f2616379"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS002.json",
+      "bytes": 1570,
+      "sha256": "99542c54354d78240e2f5231b35334b377b4c634e701151446fda314fb823626"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS003.json",
+      "bytes": 1517,
+      "sha256": "5ad1b230babbfebb0d050b46ec199f1f222f8c55097a30d09be2795814a34c18"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS004.json",
+      "bytes": 1318,
+      "sha256": "95f87adb0cac4beeac6d1430a79d9daf350baa632ff457f097cbf828e6516ad7"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS005.json",
+      "bytes": 1323,
+      "sha256": "6a6f8166d9303f5fcce7038f789fcc4c3405f1fa64748105d0b706ad063b0811"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS200A.json",
+      "bytes": 1145,
+      "sha256": "9fa0bbd8f15dc70f007bc667b97bf44b97d50e055e5a1253a739d9ed7a9548ed"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS200B.json",
+      "bytes": 1564,
+      "sha256": "0ececa0b4c7ce5c7e35573887a8557e81176512ecfe555ddf6a11572dfe8673e"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS200C.json",
+      "bytes": 1559,
+      "sha256": "1206033967e02a978c476d13907b8e96397aa6fd7cb040d560e7b2569ddbff5e"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS201A.json",
+      "bytes": 1143,
+      "sha256": "fff729ed507666fcf2fc9b08e346c900b0250a9853ea4f4eb70f4060bee6beb3"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS201B.json",
+      "bytes": 1562,
+      "sha256": "3c989b968db133369e9287d2827070c6a85a73e4f2d8c30d3f15d503824dae38"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS201C.json",
+      "bytes": 1558,
+      "sha256": "f01409ea49326add016f10f36772e7960d2dadb01749b53e5392006a420f6e5d"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS202.json",
+      "bytes": 1823,
+      "sha256": "e5a90a6a96b9464221dda9b51ec7c814885fcfbf6409f0ed2ca1f1d4f0694b6e"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS203A.json",
+      "bytes": 3981,
+      "sha256": "4335a65a262345521c8bbff6eda5969a108082fe10ff9b7850ced2a97ad1e49c"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS203B.json",
+      "bytes": 2150,
+      "sha256": "ca827bb384e113faec5c30f7ba09ed42440b4b363d5d9c792044072ecdbcf743"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS204.json",
+      "bytes": 1279,
+      "sha256": "2e530145bcf9db9d78331e4864fc80eec6ee03659dac6e517ea174ae96ce5456"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS205A.json",
+      "bytes": 1155,
+      "sha256": "ee3fe3cdea63630e47076f250fb3935f49ba914b686aa327497ad0f8df8c0215"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS205B.json",
+      "bytes": 1152,
+      "sha256": "46f32cbf3300fdac4aec26b968020a1d3f5c4bddb8195903ae1728436dae8b7e"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS206.json",
+      "bytes": 1309,
+      "sha256": "7a10000b3bc06f8e9d85fc49babc9232950b50ec218178f02c4eb2162ecb0989"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS300A.json",
+      "bytes": 1616,
+      "sha256": "701b6917097a4c8627d813ec9908dd722dae410ebee7fc9715dfbd7f0472855a"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS300B.json",
+      "bytes": 1616,
+      "sha256": "8ced460d20d4768ccfbd9ccd81a91e5e5bf825a62f3fd7589ab328c07afa9870"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS301A.json",
+      "bytes": 1640,
+      "sha256": "96fe5b747417bf5690cfae7365e65a2fd48991df6f22704a404bfce2e0766af6"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS301B.json",
+      "bytes": 1639,
+      "sha256": "ab5ff14b1af35e7b79618f100f2372e2f2ccd522b16d664f4f270ab6ce5d48f8"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS302A.json",
+      "bytes": 5188,
+      "sha256": "12e93b1a9cf6d71abe43914f3ded295fa611eafa1f8fa54411a34a6ea442bb82"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS302B.json",
+      "bytes": 2449,
+      "sha256": "58a45b7152e57880c0b4beb860daf37ea90090fe26e97045982df9659ceed1d8"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS500.json",
+      "bytes": 1311,
+      "sha256": "be8e44af9c401ed3673b661115fe2f10056984eb04618ce0ffbc24a17523dd45"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS501.json",
+      "bytes": 1331,
+      "sha256": "72380084992ee7e9afa4a917fcd779a1ee1ffcdf354ec9a2d023f68ba4027630"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS502.json",
+      "bytes": 1325,
+      "sha256": "9175923513ce7e371dfcd79dcc6b9ede9360a756269abb52b161d0e2025d129b"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS503.json",
+      "bytes": 1376,
+      "sha256": "0837532e05ba54604c31ebd2619826b9ca27251b8be29dba36bde0289abc802a"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS504A.json",
+      "bytes": 1392,
+      "sha256": "b6eccd0cb80b351ab708037128c2728095f73b0c335c8ccdc82e724ca5a1d83c"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS504B.json",
+      "bytes": 1401,
+      "sha256": "40ca45e91cabf46afa8205956e12c46b040118cac7631e5dbfea8faca82b43e1"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS900.json",
+      "bytes": 1321,
+      "sha256": "cb88167d75defd5b13ae02448c5afcd5a0b11426b3ec9cd78661edb70ec7c75d"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS901A.json",
+      "bytes": 1543,
+      "sha256": "0a24c372b20fde05f873026507fbd3d9169cf8e01c364823e1337a054f5fe677"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS901B.json",
+      "bytes": 1550,
+      "sha256": "10cab7e0d44f3ad779c2763d4d2ba3cae9138ef94ef485469d85afa92af28a2e"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS902A.json",
+      "bytes": 1691,
+      "sha256": "bdd30d63b6405b23f9d8cc2e5e03a3c11ec35bc5db25ae8101f41e2ae8fe3e92"
+    },
+    {
+      "path": "testing/reports/comparisons/SFS902B.json",
+      "bytes": 1701,
+      "sha256": "7bfbf91312fe97a093caf51f0c23fd72ab1e32a79d4a5ecdc6aae325271808f2"
+    },
+    {
+      "path": "testing/reports/functional.xml",
+      "bytes": 5060,
+      "sha256": "1cd24c848b1b825d6d514bc1e6a04c478a4ae78b78f60ec9b70119e6a48cf280"
+    },
+    {
+      "path": "testing/reports/led_native.json",
+      "bytes": 1703,
+      "sha256": "86202135168ae7ae2c3064e0b4299c37878dbe074bea3c6abdbb5a60cfbe64ed"
+    },
+    {
+      "path": "testing/reports/preflight_linux.json",
+      "bytes": 314,
+      "sha256": "5f4634507948f43d4bf2ec45d65eecd4d263f428d41a3b68efff5fe209538f0f"
+    },
+    {
+      "path": "testing/reports/results_identity.json",
+      "bytes": 119893,
+      "sha256": "8c85853e83e95378edd12a2cbbec6e143a8bbfdeb8359a833ca34c517adca7c1"
+    },
+    {
+      "path": "testing/reports/serial_loopback.json",
+      "bytes": 466,
+      "sha256": "c5a8fc83e447016b1d4b9cd33954b388e8623b8195e4f321957d05d28e5fd49b"
+    },
+    {
+      "path": "testing/reports/stress.json",
+      "bytes": 1262,
+      "sha256": "dbc3025028539869b00db26c79f041a05119d164a3631e384d3327bae354fa0b"
+    },
+    {
+      "path": "testing/reports/v07_arabic_guide.json",
+      "bytes": 177,
+      "sha256": "136bcd3528c3bac17342710eb790d9d46046581c2d5d60a1bbea3a1429c613b5"
+    },
+    {
+      "path": "testing/reports/v07_browser.json",
+      "bytes": 2546,
+      "sha256": "f5a77d5e7792f979c0610e8866f1a1788cccec3cd90decc51500e0fe2d479c19"
+    },
+    {
+      "path": "testing/reports/v07_features.xml",
+      "bytes": 1408,
+      "sha256": "840fd160e8baa84fcc6f1a9bab5f82a6f353f8231a3c5821b7b2cae1aa25be99"
+    },
+    {
+      "path": "testing/reports/v07_link_loopback.json",
+      "bytes": 436,
+      "sha256": "fae3b6ab8b5cc12f57c0e097c61be2d675951c11ecf579c0e3d2534f6f27444d"
+    },
+    {
+      "path": "testing/reports/v07_preflight.json",
+      "bytes": 314,
+      "sha256": "5f4634507948f43d4bf2ec45d65eecd4d263f428d41a3b68efff5fe209538f0f"
+    },
+    {
+      "path": "testing/reports/v07_regression.xml",
+      "bytes": 5061,
+      "sha256": "f89ba805073fb408251bd581ce9cb46ae8ad104aac2c9b943833e1201406cab8"
+    },
+    {
+      "path": "testing/reports/v08/browser.json",
+      "bytes": 2128,
+      "sha256": "04139834dc983e378ccab4d05d5328de091b4f977d492389f1789fb1b04d305e"
+    },
+    {
+      "path": "testing/reports/v08/browser_server.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "testing/reports/v08/browser_udp_loopback.jsonl",
+      "bytes": 28682,
+      "sha256": "9b4f6198787a0252b1fa8290af5a92b2110decd0e3b4daefbe51db86a8f5e2a0"
+    },
+    {
+      "path": "testing/reports/v08/build_checks.json",
+      "bytes": 581,
+      "sha256": "d46a56f6c431f48fc5b8e4df90a36a16563a71c8db5eced9b14e28916ec5f655"
+    },
+    {
+      "path": "testing/reports/v08/preflight.json",
+      "bytes": 314,
+      "sha256": "5f4634507948f43d4bf2ec45d65eecd4d263f428d41a3b68efff5fe209538f0f"
+    },
+    {
+      "path": "testing/reports/v08/python_tests.xml",
+      "bytes": 8004,
+      "sha256": "8fd816128d5800fd7b487d568badefd5c73f9897fa8b5d72a4edebe1393059c3"
+    },
+    {
+      "path": "testing/reports/visual_assets.json",
+      "bytes": 48770,
+      "sha256": "0ded34c3874e3b1f88bd10db9cad9c58fa9810ddc97bf5db4594658be17d88d4"
+    },
+    {
+      "path": "testing/reports/windows_wheel_resolution.json",
+      "bytes": 283153,
+      "sha256": "b471e1c6b456d3d9d192ffd9440e1b699c387d90835362e7daa0a899ba43794f"
+    },
+    {
+      "path": "testing/results_identity.cjs",
+      "bytes": 11048,
+      "sha256": "8d8d7ca5157c3d863f41f563a17ad85e2a913826c4ef8c72f9c13068b7226394"
+    },
+    {
+      "path": "testing/serial_loopback.py",
+      "bytes": 3861,
+      "sha256": "b6520bdd41837be0873309e59b2e23a99f2aea59e11324f51fda0426f2b7e393"
+    },
+    {
+      "path": "testing/stress.py",
+      "bytes": 4483,
+      "sha256": "5da7cbb9abc928bc23c62b4614fec066bbad33119df0f04165aec20f5fd8a39d"
+    },
+    {
+      "path": "testing/swimtime_v08_browser.cjs",
+      "bytes": 8355,
+      "sha256": "9ac867992606901ad9c4fd6227784ccd7c02eb808e503060d836c5c0591fb22c"
+    },
+    {
+      "path": "testing/test_swimtime_v08.py",
+      "bytes": 11980,
+      "sha256": "67c991b1211dadb8ddf232abecb4318e1a2e626f43bb9490a15d52a8e127a1e7"
+    },
+    {
+      "path": "testing/test_system.py",
+      "bytes": 14329,
+      "sha256": "0f63f49dbba8cba6f5fe974e8c4b7cd11aa560f7defb1b8cef22b0bc06eef788"
+    },
+    {
+      "path": "testing/test_v07.py",
+      "bytes": 5061,
+      "sha256": "a9da1ec3fff014c5c7abf606dc3ef4868bd3ac3de834e072dbd05f16f32965b8"
+    },
+    {
+      "path": "testing/v07_browser.cjs",
+      "bytes": 8165,
+      "sha256": "b42c5f121630a2d2b83518538031ee76ca0cc672aebeeeb02ec19be21ec3e537"
+    },
+    {
+      "path": "testing/visual_assets.py",
+      "bytes": 2482,
+      "sha256": "8bb69f42229c45e4ab498aada3241d0f85493b581b6df3c7f10ee00771237c09"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+ID,Area,Requirement,Status,Acceptance owner,Evidence or next action
+A01,Software,Central results backend and transactional audit,TESTED SOFTWARE,Results lead,testing/reports/functional.xml
+A02,Software,Separate Chief and Jury approval plus correction revocation,TESTED SOFTWARE,Chief Results Officer,45 functional tests include workflow and restore gates
+A03,Timing,Manual reconstructed parser and serial software transport,TESTED SOFTWARE,Timing supplier,testing/reports/serial_loopback.json
+A04,Timing,TM-SWIM physical interface firmware and real capture,AWAITING HARDWARE TEST,ALGE supplier,Supply firmware SwimTime version and authorised receive-only capture
+A05,Timing,Network Display and LENEX Hy-Tek adapters,NOT IMPLEMENTED,Appointed results provider,Provide official transport specifications and real files or messages
+A06,TVG,35 independent engineering template captures and comparisons,TESTED ENGINEERING PREVIEWS,FISU Media and TV,35 screenshots and comparison JSON files
+A07,TVG,All field bindings and variant-specific pixel layouts complete,PARTIAL / NOT APPROVED,FISU Media and TV,Finish advanced variant data fields and source conflict resolution
+A08,TVG,Missing blue row clock and medal assets supplied,AWAITING SOURCE ASSETS,FISU artwork supplier,Missing_Assets_Register.csv
+A09,TVG,Fully Matched and written FISU sign-off,AWAITING FISU APPROVAL,FISU Media and TV,None approved in this release
+A10,Broadcast,OBS alpha output through actual video mixer,AWAITING HARDWARE TEST,Host broadcaster,Record 1920x1080 output and alpha chain test
+A11,LED,Six native canvas dimensions and independent routing,TESTED SOFTWARE,LED and results teams,Native browser screenshots and routing test
+A12,LED,Orientation cabinet pixel map EDID refresh and viewing distance,AWAITING HARDWARE TEST,LED supplier,Confirm every physical screen and processor
+A13,LED,Venue LED layout and identity acceptance,AWAITING APPROVAL,FISU and LOC,All six designs need written approval
+A14,Windows,Python setup and startup scripts on Surface and service hosts,AWAITING WINDOWS TEST,Venue IT,Windows 11 witnessed install test required
+A15,Performance,60-second eight-client backend soak,TESTED BOUNDED LOAD,Technical lead,testing/reports/stress.json
+A16,Performance,Full competition-day endurance CPU RAM GPU and physical latency,AWAITING FIELD TEST,Technical lead,No Surface or GPU capacity claim; RAM sample invalidated
+A17,Recovery,Backup restore locks and software reconnect,TESTED SOFTWARE,Venue IT,Functional CLI restore and browser service interruption tests
+A18,Recovery,Switch loss power UPS failover and spare hardware,AWAITING FIELD TEST,Venue IT,No automatic replicated server failover implemented
+A19,Web,Local official-only publication API,TESTED SOFTWARE,Results lead,Publication and authenticated workflow tests
+A20,Web,Public distribution provider and FISU policy acceptance,AWAITING FISU DECISION,FISU Technology,Technology Guideline 2025 page 15 and Source Conflict SRC-07
+A21,Data,Approved real roster start lists seeding and technical status codes,AWAITING INPUT,Competition Manager,Only TEST fixtures are loaded; no IRM code authority inferred from artwork
+A22,Release,Production release authorisation,NOT PRODUCTION APPROVED,FISU CMAS LOC and suppliers,Close all applicable field gates and record written acceptance

@@ -1,0 +1,104 @@
+{
+  "status": "COMPLETED",
+  "outputs": [
+    {
+      "key": "master",
+      "width": 3072,
+      "height": 1024,
+      "content": "startlist",
+      "overflow": [],
+      "test": true,
+      "approved": false,
+      "page": 1,
+      "pages": 1,
+      "visible_lanes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "l1",
+      "width": 1408,
+      "height": 256,
+      "content": "startlist",
+      "overflow": [],
+      "test": true,
+      "approved": false
+    },
+    {
+      "key": "l2",
+      "width": 1280,
+      "height": 256,
+      "content": "startlist",
+      "overflow": [],
+      "test": true,
+      "approved": false
+    },
+    {
+      "key": "screen2",
+      "width": 1792,
+      "height": 768,
+      "content": "startlist",
+      "overflow": [],
+      "test": true,
+      "approved": false,
+      "page": 1,
+      "pages": 1,
+      "visible_lanes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "screen3",
+      "width": 1536,
+      "height": 1024,
+      "content": "startlist",
+      "overflow": [],
+      "test": true,
+      "approved": false,
+      "page": 1,
+      "pages": 1,
+      "visible_lanes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "key": "stage",
+      "width": 1536,
+      "height": 512,
+      "content": "startlist",
+      "overflow": [],
+      "test": true,
+      "approved": false,
+      "page": 1,
+      "pages": 2,
+      "visible_lanes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "physical_readability_test": false
+}

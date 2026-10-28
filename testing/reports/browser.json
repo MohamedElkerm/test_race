@@ -1,0 +1,2238 @@
+{
+  "executed_at": "2026-10-19T23:35:15.505Z",
+  "environment": "Linux / headless Chromium / loopback network",
+  "checks": [
+    {
+      "name": "React control dashboard loads",
+      "status": "PASS"
+    },
+    {
+      "name": "Browser login authenticates named broadcast role",
+      "status": "PASS"
+    },
+    {
+      "name": "Preview then TAKE updates program in TEST mode",
+      "status": "PASS"
+    },
+    {
+      "name": "All 35 TVG browser captures executed",
+      "status": "PASS",
+      "detail": {
+        "count": 35
+      }
+    },
+    {
+      "name": "Independent original/output overlay/difference metrics executed for every template",
+      "status": "PASS",
+      "detail": {
+        "count": 35,
+        "fully_matched": 0
+      }
+    },
+    {
+      "name": "All six native LED resolutions rendered and captured",
+      "status": "PASS"
+    },
+    {
+      "name": "Real HTTP/WebSocket synthetic start-running-split-finish flow",
+      "status": "PASS"
+    },
+    {
+      "name": "Separate chief/Jury signatures gate publication over actual HTTP",
+      "status": "PASS"
+    },
+    {
+      "name": "Comparator original/candidate/overlay/difference executes",
+      "status": "PASS"
+    },
+    {
+      "name": "Long athlete/university fields suppress graphic and flag overflow rather than silently clipping",
+      "status": "PASS"
+    },
+    {
+      "name": "TV output preserves transparency outside graphic elements",
+      "status": "PASS"
+    },
+    {
+      "name": "Stale LIVE input suppresses clock after timeout",
+      "status": "PASS"
+    },
+    {
+      "name": "Backend/network loss clears output and exposes warning",
+      "status": "PASS"
+    },
+    {
+      "name": "WebSocket automatic reconnect and persistent heat recovery",
+      "status": "PASS"
+    },
+    {
+      "name": "All browser resources served locally without Internet",
+      "status": "PASS",
+      "detail": []
+    }
+  ],
+  "templates": [
+    {
+      "code": "SFS001",
+      "captured": true,
+      "metrics": {
+        "code": "SFS001",
+        "missing": [],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "SHARM EL SHEIKH - VENUE CONFIRMATION PENDING",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 618,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Presentation artwork/source conflict SRC-04",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 571,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS001  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Presentation artwork/source conflict SRC-04"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS002",
+      "captured": true,
+      "metrics": {
+        "code": "SFS002",
+        "missing": [],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "SHARM EL SHEIKH - VENUE CONFIRMATION PENDING",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 618,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Presentation artwork/source conflict SRC-04",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 571,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS002  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Presentation artwork/source conflict SRC-04"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS003",
+      "captured": true,
+      "metrics": {
+        "code": "SFS003",
+        "missing": [],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "SESSION SCHEDULE",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 225,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Schedule source not assigned",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 429,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS003  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Schedule source not assigned"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS004",
+      "captured": true,
+      "metrics": {
+        "code": "SFS004",
+        "missing": [],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 261,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS004  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS005",
+      "captured": true,
+      "metrics": {
+        "code": "SFS005",
+        "missing": [],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 261,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS005  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS200A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS200A",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 713,
+            "y": 992,
+            "size": 26,
+            "width": 214,
+            "max_width": 560,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS200A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS200B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS200B",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 713,
+            "y": 992,
+            "size": 26,
+            "width": 214,
+            "max_width": 560,
+            "weight": 900
+          },
+          {
+            "value": "IRM PENDING",
+            "x": 1380,
+            "y": 993,
+            "size": 22,
+            "width": 146,
+            "max_width": 165,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Approved false-start/IRM decision required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 557,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS200B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Approved false-start/IRM decision required"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS200C",
+      "captured": true,
+      "metrics": {
+        "code": "SFS200C",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 713,
+            "y": 992,
+            "size": 26,
+            "width": 214,
+            "max_width": 560,
+            "weight": 900
+          },
+          {
+            "value": "",
+            "x": 1370,
+            "y": 1034,
+            "size": 22,
+            "width": 0,
+            "max_width": 180,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Approved qualification / record required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 526,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS200C  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Approved qualification / record required"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS201A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS201A",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST RELAY TEAM 1",
+            "x": 713,
+            "y": 992,
+            "size": 26,
+            "width": 245,
+            "max_width": 560,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS201A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS201B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS201B",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST RELAY TEAM 1",
+            "x": 713,
+            "y": 992,
+            "size": 26,
+            "width": 245,
+            "max_width": 560,
+            "weight": 900
+          },
+          {
+            "value": "IRM PENDING",
+            "x": 1380,
+            "y": 993,
+            "size": 22,
+            "width": 146,
+            "max_width": 165,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Approved false-start/IRM decision required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 557,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS201B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Approved false-start/IRM decision required"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS201C",
+      "captured": true,
+      "metrics": {
+        "code": "SFS201C",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST RELAY TEAM 1",
+            "x": 713,
+            "y": 992,
+            "size": 26,
+            "width": 245,
+            "max_width": 560,
+            "weight": 900
+          },
+          {
+            "value": "",
+            "x": 1370,
+            "y": 1034,
+            "size": 22,
+            "width": 0,
+            "max_width": 180,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / Approved qualification / record required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 526,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS201C  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Approved qualification / record required"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS202",
+      "captured": true,
+      "metrics": {
+        "code": "SFS202",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST RELAY TEAM 1",
+            "x": 108,
+            "y": 800,
+            "size": 23,
+            "width": 215,
+            "max_width": 430,
+            "weight": 900
+          },
+          {
+            "value": "1. TEST RELAY 1 MEMBER 1",
+            "x": 108,
+            "y": 841,
+            "size": 22,
+            "width": 276,
+            "max_width": 430,
+            "weight": 900
+          },
+          {
+            "value": "2. TEST RELAY 1 MEMBER 2",
+            "x": 108,
+            "y": 882,
+            "size": 22,
+            "width": 276,
+            "max_width": 430,
+            "weight": 900
+          },
+          {
+            "value": "3. TEST RELAY 1 MEMBER 3",
+            "x": 108,
+            "y": 923,
+            "size": 22,
+            "width": 276,
+            "max_width": 430,
+            "weight": 900
+          },
+          {
+            "value": "4. TEST RELAY 1 MEMBER 4",
+            "x": 108,
+            "y": 964,
+            "size": 22,
+            "width": 276,
+            "max_width": 430,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS202  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS203A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS203A",
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 582,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 622,
+            "size": 24,
+            "width": 404,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "1",
+            "x": 537,
+            "y": 662,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 709,
+            "y": 662,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "2",
+            "x": 537,
+            "y": 703,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 709,
+            "y": 703,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "3",
+            "x": 537,
+            "y": 744,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 709,
+            "y": 744,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "4",
+            "x": 537,
+            "y": 785,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 709,
+            "y": 785,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "5",
+            "x": 537,
+            "y": 826,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 709,
+            "y": 826,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "6",
+            "x": 537,
+            "y": 867,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 709,
+            "y": 867,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "7",
+            "x": 537,
+            "y": 908,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 709,
+            "y": 908,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "8",
+            "x": 537,
+            "y": 949,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 709,
+            "y": 949,
+            "size": 26,
+            "width": 214,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 436,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS203A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS203B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS203B",
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 828,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "START LIST - MIXED 4x100m SF - FINAL 1",
+            "x": 664,
+            "y": 868,
+            "size": 24,
+            "width": 457,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "1",
+            "x": 537,
+            "y": 908,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST RELAY TEAM 1",
+            "x": 709,
+            "y": 908,
+            "size": 26,
+            "width": 245,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "2",
+            "x": 537,
+            "y": 949,
+            "size": 26,
+            "width": 15,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST RELAY TEAM 2",
+            "x": 709,
+            "y": 949,
+            "size": 26,
+            "width": 245,
+            "max_width": 650,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 436,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS203B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS204",
+      "captured": true,
+      "metrics": {
+        "code": "SFS204",
+        "missing": [],
+        "fields": [
+          {
+            "value": "LANE 1",
+            "x": 110,
+            "y": 76,
+            "size": 23,
+            "width": 76,
+            "max_width": 130,
+            "weight": 900
+          },
+          {
+            "value": "LANE 1",
+            "x": 110,
+            "y": 993,
+            "size": 23,
+            "width": 76,
+            "max_width": 130,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS204  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS205A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS205A",
+        "missing": [],
+        "fields": [
+          {
+            "value": "WARM UP POOL",
+            "x": 111,
+            "y": 993,
+            "size": 20,
+            "width": 158,
+            "max_width": 195,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS205A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS205B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS205B",
+        "missing": [],
+        "fields": [
+          {
+            "value": "CALL ROOM",
+            "x": 111,
+            "y": 993,
+            "size": 20,
+            "width": 116,
+            "max_width": 195,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS205B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS206",
+      "captured": true,
+      "metrics": {
+        "code": "SFS206",
+        "missing": [],
+        "fields": [
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 777,
+            "y": 953,
+            "size": 27,
+            "width": 218,
+            "max_width": 600,
+            "weight": 900
+          },
+          {
+            "value": "TEST UNIVERSITY 01",
+            "x": 666,
+            "y": 991,
+            "size": 24,
+            "width": 235,
+            "max_width": 712,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS206  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS300A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS300A",
+        "missing": [],
+        "fields": [
+          {
+            "value": "WINNER PENDING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 266,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "MEN 100m SF - FINAL 1 - WINNER",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 380,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / OFFICIAL results required | No approved winner/medal decision",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 734,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS300A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "OFFICIAL results required",
+          "No approved winner/medal decision"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS300B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS300B",
+        "missing": [],
+        "fields": [
+          {
+            "value": "WINNER PENDING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 266,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "MIXED 4x100m SF - FINAL 1 - WINNER",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 433,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / OFFICIAL results required | No approved winner/medal decision",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 734,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS300B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "OFFICIAL results required",
+          "No approved winner/medal decision"
+        ],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS301A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS301A",
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 910,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "ADVANCE TO PHASE - MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 950,
+            "size": 24,
+            "width": 517,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA | Approved qualification decisions required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 817,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS301A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Approved qualification decisions required"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS301B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS301B",
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 910,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "ADVANCE TO PHASE - MIXED 4x100m SF - FINAL 1",
+            "x": 664,
+            "y": 950,
+            "size": 24,
+            "width": 570,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA | Approved qualification decisions required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 817,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS301B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Approved qualification decisions required"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS302A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS302A",
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 582,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "READY RESULT - MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 622,
+            "size": 24,
+            "width": 450,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 662,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 01",
+            "x": 709,
+            "y": 662,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 663,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 703,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 02",
+            "x": 709,
+            "y": 703,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 704,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 744,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 03",
+            "x": 709,
+            "y": 744,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 745,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 785,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 04",
+            "x": 709,
+            "y": 785,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 786,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 826,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 05",
+            "x": 709,
+            "y": 826,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 827,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 867,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 06",
+            "x": 709,
+            "y": 867,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 868,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 908,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 07",
+            "x": 709,
+            "y": 908,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 909,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 949,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST ATHLETE 08",
+            "x": 709,
+            "y": 949,
+            "size": 26,
+            "width": 214,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 950,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 436,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS302A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS302B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS302B",
+        "missing": [
+          "BAR_BASIC_WITH_BLUE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 828,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "READY RESULT - MIXED 4x100m SF - FINAL 1",
+            "x": 664,
+            "y": 868,
+            "size": 24,
+            "width": 503,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 908,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST RELAY TEAM 1",
+            "x": 709,
+            "y": 908,
+            "size": 26,
+            "width": 245,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 909,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 537,
+            "y": 949,
+            "size": 26,
+            "width": 22,
+            "max_width": 45,
+            "weight": 900
+          },
+          {
+            "value": "TEST RELAY TEAM 2",
+            "x": 709,
+            "y": 949,
+            "size": 26,
+            "width": 245,
+            "max_width": 510,
+            "weight": 900
+          },
+          {
+            "value": "—",
+            "x": 1269,
+            "y": 950,
+            "size": 24,
+            "width": 21,
+            "max_width": 110,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / BAR_BASIC_WITH_BLUE.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 436,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS302B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS500",
+      "captured": true,
+      "metrics": {
+        "code": "SFS500",
+        "missing": [
+          "SFS_CLOCK.TGA"
+        ],
+        "fields": [
+          {
+            "value": "—",
+            "x": 1580,
+            "y": 994,
+            "size": 24,
+            "width": 21,
+            "max_width": 230,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / SFS_CLOCK.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 318,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS500  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS501",
+      "captured": true,
+      "metrics": {
+        "code": "SFS501",
+        "missing": [
+          "SFS_CLOCK.TGA"
+        ],
+        "fields": [
+          {
+            "value": "—",
+            "x": 1580,
+            "y": 994,
+            "size": 24,
+            "width": 21,
+            "max_width": 230,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / SFS_CLOCK.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 318,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS501  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS502",
+      "captured": true,
+      "metrics": {
+        "code": "SFS502",
+        "missing": [
+          "SFS_CLOCK.TGA"
+        ],
+        "fields": [
+          {
+            "value": "—",
+            "x": 1580,
+            "y": 994,
+            "size": 24,
+            "width": 21,
+            "max_width": 230,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / SFS_CLOCK.TGA",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 318,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS502  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS503",
+      "captured": true,
+      "metrics": {
+        "code": "SFS503",
+        "missing": [
+          "SFS_CLOCK.TGA"
+        ],
+        "fields": [
+          {
+            "value": "—",
+            "x": 1580,
+            "y": 994,
+            "size": 24,
+            "width": 21,
+            "max_width": 230,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / SFS_CLOCK.TGA | Finish event required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 520,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS503  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Finish event required"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS504A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS504A",
+        "missing": [
+          "SFS_CLOCK.TGA"
+        ],
+        "fields": [
+          {
+            "value": "—",
+            "x": 1580,
+            "y": 994,
+            "size": 24,
+            "width": 21,
+            "max_width": 230,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / SFS_CLOCK.TGA | Split data required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 495,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS504A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Split data required"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS504B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS504B",
+        "missing": [
+          "SFS_CLOCK.TGA"
+        ],
+        "fields": [
+          {
+            "value": "—",
+            "x": 1580,
+            "y": 994,
+            "size": 24,
+            "width": 21,
+            "max_width": 230,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / SFS_CLOCK.TGA | Split data required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 495,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS504B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "Split data required"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS900",
+      "captured": true,
+      "metrics": {
+        "code": "SFS900",
+        "missing": [],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 953,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "VICTORY CEREMONY - MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 993,
+            "size": 24,
+            "width": 527,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS900  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 611,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [],
+        "approval": "AWAITING VISUAL QA AND FISU APPROVAL"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS901A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS901A",
+        "missing": [
+          "MEDAL_GOLD_B.TGA",
+          "MEDAL_SILVER_B.TGA",
+          "MEDAL_BRONZE_B.TGA"
+        ],
+        "fields": [
+          {
+            "value": "MEDAL DECISION PENDING",
+            "x": 610,
+            "y": 993,
+            "size": 25,
+            "width": 327,
+            "max_width": 680,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / MEDAL_GOLD_B.TGA | MEDAL_SILVER_B.TGA | MEDAL_BRONZE_B.TGA | OFFICIAL results required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 1059,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS901A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "OFFICIAL results required",
+          "No approved winner/medal decision"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS901B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS901B",
+        "missing": [
+          "MEDAL_GOLD_B.TGA",
+          "MEDAL_SILVER_B.TGA",
+          "MEDAL_BRONZE_B.TGA"
+        ],
+        "fields": [
+          {
+            "value": "MEDAL DECISION PENDING",
+            "x": 610,
+            "y": 993,
+            "size": 25,
+            "width": 327,
+            "max_width": 680,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / MEDAL_GOLD_B.TGA | MEDAL_SILVER_B.TGA | MEDAL_BRONZE_B.TGA | OFFICIAL results required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 1059,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS901B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "OFFICIAL results required",
+          "No approved winner/medal decision"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS902A",
+      "captured": true,
+      "metrics": {
+        "code": "SFS902A",
+        "missing": [
+          "MEDAL_GOLD.TGA",
+          "MEDAL_SILVER.TGA",
+          "MEDAL_BRONZE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 910,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "MEDALS - MEN 100m SF - FINAL 1",
+            "x": 664,
+            "y": 950,
+            "size": 24,
+            "width": 377,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / MEDAL_GOLD.TGA | MEDAL_SILVER.TGA | MEDAL_BRONZE.TGA | OFFICIAL results required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 995,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS902A  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 626,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "OFFICIAL results required",
+          "No approved winner/medal decision"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    },
+    {
+      "code": "SFS902B",
+      "captured": true,
+      "metrics": {
+        "code": "SFS902B",
+        "missing": [
+          "MEDAL_GOLD.TGA",
+          "MEDAL_SILVER.TGA",
+          "MEDAL_BRONZE.TGA"
+        ],
+        "fields": [
+          {
+            "value": "FINSWIMMING",
+            "x": 664,
+            "y": 910,
+            "size": 30,
+            "width": 218,
+            "max_width": 620,
+            "weight": 900
+          },
+          {
+            "value": "MEDALS - MIXED 4x100m SF - FINAL 1",
+            "x": 664,
+            "y": 950,
+            "size": 24,
+            "width": 430,
+            "max_width": 700,
+            "weight": 900
+          },
+          {
+            "value": "NOT APPROVED / MEDAL_GOLD.TGA | MEDAL_SILVER.TGA | MEDAL_BRONZE.TGA | OFFICIAL results required",
+            "x": 76,
+            "y": 92,
+            "size": 20,
+            "width": 995,
+            "max_width": 1460,
+            "weight": 700
+          },
+          {
+            "value": "TEST / ENGINEERING BUILD  •  SFS902B  •  NOT FISU APPROVED",
+            "x": 76,
+            "y": 25,
+            "size": 21,
+            "width": 625,
+            "max_width": 1760,
+            "weight": 700
+          }
+        ],
+        "overflow": [],
+        "blocked": [
+          "OFFICIAL results required",
+          "No approved winner/medal decision"
+        ],
+        "approval": "ASSET MISSING / NOT APPROVED"
+      },
+      "visually_matched": false
+    }
+  ],
+  "led": [
+    {
+      "output": "master",
+      "width": 3072,
+      "height": 1024,
+      "rendered": true,
+      "overflow": []
+    },
+    {
+      "output": "l1",
+      "width": 1408,
+      "height": 256,
+      "rendered": true,
+      "overflow": []
+    },
+    {
+      "output": "l2",
+      "width": 1280,
+      "height": 256,
+      "rendered": true,
+      "overflow": []
+    },
+    {
+      "output": "screen2",
+      "width": 1792,
+      "height": 768,
+      "rendered": true,
+      "overflow": []
+    },
+    {
+      "output": "screen3",
+      "width": 1536,
+      "height": 1024,
+      "rendered": true,
+      "overflow": []
+    },
+    {
+      "output": "stage",
+      "width": 1536,
+      "height": 512,
+      "rendered": true,
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "No physical ALGE, LED processor, video mixer or Windows 11 device is attached.",
+    "Visual comparison screenshots are evidence; no template is declared fully matched."
+  ],
+  "browser": "153.0.8010.0",
+  "status": "COMPLETED"
+}

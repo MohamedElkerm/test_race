@@ -1,0 +1,42 @@
+{
+  "code": "SFS201A",
+  "missing": [],
+  "fields": [
+    {
+      "value": "TEST RELAY TEAM 1",
+      "x": 713,
+      "y": 992,
+      "size": 26,
+      "width": 245,
+      "max_width": 560,
+      "weight": 900
+    },
+    {
+      "value": "TEST / ENGINEERING BUILD  •  SFS201A  •  NOT FISU APPROVED",
+      "x": 76,
+      "y": 25,
+      "size": 21,
+      "width": 626,
+      "max_width": 1760,
+      "weight": 700
+    }
+  ],
+  "overflow": [],
+  "blocked": [],
+  "approval": "AWAITING VISUAL QA AND FISU APPROVAL",
+  "reference": "/references/SFS201A - TEAM ID + LANE.jpg",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "overlay_alpha": 0.5,
+  "mean_absolute_rgb_error": 168.8962590020576,
+  "pixels_over_12": 2051943,
+  "fully_matched": false,
+  "notes": [
+    "Reference camera matte and sample names differ from TEST data. Full-image error is not a static-sprite fidelity score.",
+    "Field positions, measured widths, font sizes and colours require independent review against original.",
+    "No template is production approved."
+  ],
+  "fonts": "Supplied Common Graphics Lato (native TTF); final per-field weights/baselines pending review"
+}
