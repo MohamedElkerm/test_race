@@ -1,4 +1,4 @@
-import {renderTemplate} from './render.js?v=6';import{subscribe}from './stream.js';
+import {renderTemplate} from './render.js?v=7';import{subscribe}from './stream.js';
 const q=new URLSearchParams(location.search),canvas=document.querySelector('canvas'),lost=document.querySelector('#lost');
 const registry=await fetch('/api/templates').then(r=>r.json());let state,busy=false,drawAgain=false,lastBeat=0,connectionLost=false;
 const client=globalThis.crypto?.randomUUID?.()||'tv-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
@@ -35,7 +35,7 @@ async function draw(){
      const cur=(!q.has('program')&&q.get('template'))?{template:q.get('template')}:state?.graphics?.[q.has('preview')?'preview':'program'];
      if(cur&&(cur.template==='SFS550'||cur.template==='COUNTDOWN'))draw();
      else{clearInterval(globalThis._cdTimer);globalThis._cdTimer=null}
-    },1000);
+    },100);
    }
   }else if(globalThis._cdTimer){
    clearInterval(globalThis._cdTimer);globalThis._cdTimer=null;
