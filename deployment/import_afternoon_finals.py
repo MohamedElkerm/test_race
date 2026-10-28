@@ -228,8 +228,21 @@ def import_into_db(db_path, events):
     print(f"Successfully imported {len(events)} events and finals into {db_path}!")
 
 if __name__ == '__main__':
-    xls = '/Users/mohamedelkerm/Desktop/meet program - 28 october 2026 - afternoon.xls'
-    evs = parse_afternoon_excel(xls)
+    candidates = [
+        ROOT / 'meet_program_28_october_2026_afternoon.xls',
+        ROOT / 'meet program - 28 october 2026 - afternoon.xls',
+        Path.home() / 'Desktop' / 'meet program - 28 october 2026 - afternoon.xls',
+        Path('/Users/mohamedelkerm/Desktop/meet program - 28 october 2026 - afternoon.xls')
+    ]
+    xls_path = None
+    for c in candidates:
+        if c.exists():
+            xls_path = str(c)
+            break
+    if not xls_path:
+        raise FileNotFoundError('Could not locate afternoon meet program Excel file')
+    print(f'Parsing Excel from: {xls_path}')
+    evs = parse_afternoon_excel(xls_path)
     for db in ['runtime/single_test.sqlite3', 'runtime/test.sqlite3']:
         p = ROOT / db
         if p.exists():
