@@ -3,7 +3,36 @@ const q=new URLSearchParams(location.search),canvas=document.querySelector('canv
 const registry=await fetch('/api/templates').then(r=>r.json());let state,busy=false,drawAgain=false,lastBeat=0,connectionLost=false;
 const client=globalThis.crypto?.randomUUID?.()||'tv-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
 function fit(){const k=Math.min(innerWidth/1920,innerHeight/1080);canvas.style.width=1920*k+'px';canvas.style.height=1080*k+'px'}addEventListener('resize',fit);fit();
+// Preload standby assets for zero-time immediate display
+const standbyPres=new Image();standbyPres.src='/assets/sfs/presentation.png';
+const standbySfs2=new Image();standbySfs2.src='/assets/sfs/sfs_2.png';
+
+function drawStandby(){
+ const c=canvas.getContext('2d');
+ c.clearRect(0,0,1920,1080);
+ const x=535,y=740;
+ if(standbyPres.complete&&standbyPres.naturalWidth>0)c.drawImage(standbyPres,x,y);
+ if(standbySfs2.complete&&standbySfs2.naturalWidth>0)c.drawImage(standbySfs2,x+725,y+35);
+ c.textBaseline='top';
+ c.fillStyle='#0c3274';c.font='900 32px Lato, sans-serif';
+ c.fillText('FINSWIMMING',x+55,y+35);
+ c.fillStyle='#1e293b';c.font='700 20px Lato, sans-serif';
+ c.fillText('FISU WORLD UNIVERSITY CHAMPIONSHIPS — SHARM EL SHEIKH 2026',x+55,y+80);
+ let eventText='WORLD UNIVERSITY CUP';
+ try{
+  const scene=(!q.has('program')&&q.get('template'))?{template:q.get('template'),heat_id:q.get('heat')||state?.selected_heat}:state?.graphics?.[q.has('preview')?'preview':'program'];
+  const heat=scene?.frozen_heat||state?.heats?.find(h=>h.id===scene?.heat_id)||state?.heats?.find(h=>h.id===state?.selected_heat)||state?.heats?.[0];
+  if(heat)eventText=`${heat.gender||''} ${heat.name||''} ${heat.round?'— '+heat.round:''}`.trim();
+ }catch{}
+ c.fillStyle='#334155';c.font='900 24px Lato, sans-serif';
+ c.fillText(eventText,x+55,y+125);
+ c.fillStyle='rgba(12, 50, 116, 0.9)';c.fillRect(x+55,y+180,185,36);
+ c.fillStyle='#ffffff';c.font='900 15px Lato, sans-serif';
+ c.fillText('● LIVE STANDBY',x+85,y+189);
+}
+
 async function draw(){
+ if(connectionLost){drawStandby();return}
  if(busy){drawAgain=true;return}busy=true;
  try{
   const scene=(!q.has('program')&&q.get('template'))?{template:q.get('template'),heat_id:q.get('heat')||state.selected_heat,lane:Number(q.get('lane')||1)}:state.graphics[q.has('preview')?'preview':'program'];
@@ -56,4 +85,4 @@ async function draw(){
   window.finsMetrics=metrics;
  }finally{busy=false;if(drawAgain){drawAgain=false;draw()}}
 }
-subscribe(s=>{state=s;connectionLost=false;lost.style.display='none';draw();if(performance.now()-lastBeat>1800){lastBeat=performance.now();fetch('/api/output/heartbeat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({client_id:client,output:'tv',width:1920,height:1080,revision:s.revision})}).catch(()=>{})}},()=>{connectionLost=true;if(!q.has('clean'))lost.style.display='block';});
+subscribe(s=>{state=s;connectionLost=false;lost.style.display='none';draw();if(performance.now()-lastBeat>1800){lastBeat=performance.now();fetch('/api/output/heartbeat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({client_id:client,output:'tv',width:1920,height:1080,revision:s.revision})}).catch(()=>{})}},()=>{connectionLost=true;drawStandby();});
