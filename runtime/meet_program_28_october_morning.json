@@ -76,6 +76,15 @@
             "country": "SNA",
             "seed_time": "17.68",
             "seed_ticks": 176800
+          },
+          {
+            "lane": 8,
+            "name": "Posada Vivian",
+            "age": "22",
+            "team": "Colombia",
+            "country": "COL",
+            "seed_time": "NT",
+            "seed_ticks": null
           }
         ]
       },

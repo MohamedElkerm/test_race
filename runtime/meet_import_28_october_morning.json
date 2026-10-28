@@ -82,6 +82,15 @@
               "country": "SNA",
               "seed_time": "17.68",
               "seed_ticks": 176800
+            },
+            {
+              "lane": 8,
+              "name": "Posada Vivian",
+              "age": "22",
+              "team": "Colombia",
+              "country": "COL",
+              "seed_time": "NT",
+              "seed_ticks": null
             }
           ]
         },
@@ -2834,6 +2843,18 @@
             "country": "SNA",
             "university_id": "TEST-U-SNA",
             "university": "Ain",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": null,
+          "athlete": {
+            "id": "TEST-ATH-0083",
+            "name": "Posada Vivian",
+            "country": "COL",
+            "university_id": "TEST-U-COL",
+            "university": "Colombia",
             "gender": "WOMEN"
           }
         }
