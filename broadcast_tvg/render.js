@@ -52,7 +52,7 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
  const isRelay=!!heat?.relay;
  const relayCodes=['SFS201A','SFS201B','SFS201C','SFS202','SFS203B','SFS300B','SFS301B','SFS302B','SFS504B','SFS901B','SFS902B'];
  if(relayCodes.includes(code)&&!isRelay)metrics.blocked.push('RELAY HEAT REQUIRED');
- const description=`${heat?.gender||''} ${heat?.name||''} - ${heat?.round||''}${heat?.timing_heat?' '+heat.timing_heat:''}`.trim();
+ const description=`${heat?.gender||''} ${heat?.name||''} - ${(heat?.round==='FINAL'||heat?.round==='Final')?'FINAL':(heat?.round||'')+(heat?.timing_heat?' '+heat.timing_heat:'')}`.trim();
  const status=heat?.status||'NO DATA';
  async function header(y,title='FINSWIMMING',sub=description,x=522){await image('header2_lines',x,y);await image('sfs_2',x,y);text(title,x+142,y+7,30,620);text(sub,x+142,y+47,24,700)}
  let rows=entries;

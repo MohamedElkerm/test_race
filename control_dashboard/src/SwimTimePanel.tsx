@@ -2,7 +2,7 @@ import {useEffect,useState} from 'react';
 
 export type Entry={lane:number;name:string;country:string;university:string;ticks:number|null;seed_ticks:number|null;rank:number|null;irm:string|null;qualification:string|null;record:string|null;medal:string|null;timings:{kind:string;ticks:number;touch:number}[];members?:{name:string;gender:string;university:string}[]};
 export type Heat={id:string;event_id?:string;name:string;gender:string;round:string;timing_heat:number;status:string;revision:number;clock_ticks:number|null;data_stale:boolean;timing_age_ms:number|null;published:number;entries:Entry[];approvals:{stage:string;user_id:string;revision:number}[]};
-export type EventGroup={event_id:string;timing_event:number;name:string;gender:string;discipline:string;heats:Heat[]};
+export type EventGroup={event_id:string;timing_event:number;name:string;gender:string;discipline:string;round?:string;heats:Heat[]};
 export type Template={code:string;name:string;approval_status:string;missing:string[];guide_page:number;fields:string[];reference:string;assets:{guide_name:string;original:string|null;resolution:string}[]};
 
 export type SwimTimeSyncConfig={api_base_url:string;bearer_token:string;lane_offset:number;auto_sync:boolean};
@@ -129,7 +129,7 @@ export default function SwimTimePanel({
    <div className="paneltitle">
     <h2>Active Meet Event & Heat (Competition Program)</h2>
     <span className="tag" style={{background:'#0c3559',color:'#84d3ff'}}>
-     {heat ? `${heat.gender} ${heat.name} • Heat ${heat.timing_heat} (${heat.round})` : 'NO HEAT SELECTED'}
+     {heat ? `${heat.gender} ${heat.name} • ${heat.round === 'FINAL' || heat.round === 'Final' ? 'Final' : `Heat ${heat.timing_heat} (${heat.round})`}` : 'NO HEAT SELECTED'}
     </span>
    </div>
    <p>Select the event and heat from the 28 October 2026 meet program to automatically drive all live graphics, OBS stream overlays, and SwimTime timing.</p>
@@ -144,7 +144,7 @@ export default function SwimTimePanel({
      >
       {events.map(ev=>(
        <option key={ev.event_id} value={ev.event_id}>
-        Event {ev.timing_event}: {ev.name} ({ev.heats.length} heats)
+        Event {ev.timing_event}: {ev.name} • {ev.round === 'FINAL' || ev.heats[0]?.round === 'FINAL' ? 'Final' : 'Prelims'} ({ev.heats.length} {ev.heats.length === 1 ? 'heat' : 'heats'})
        </option>
       ))}
      </select>
@@ -159,7 +159,7 @@ export default function SwimTimePanel({
      >
       {eventHeats.map(h=>(
        <option key={h.id} value={h.id}>
-        Heat {h.timing_heat} of {eventHeats.length} ({h.round}) — {h.entries?.length || 0} swimmers
+        {h.round === 'FINAL' || h.round === 'Final' ? 'Final' : `Heat ${h.timing_heat} of ${eventHeats.length} (${h.round})`} — {h.entries?.length || 0} swimmers
        </option>
       ))}
      </select>

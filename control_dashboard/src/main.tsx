@@ -66,12 +66,18 @@ function App(){
       name: h.name,
       gender: h.gender,
       discipline: (h as any).discipline || '',
+      round: (h as any).round || '',
       heats: []
      });
     }
     map.get(eid)!.heats.push(h);
    }
-   return Array.from(map.values()).sort((a,b)=>a.timing_event - b.timing_event);
+   return Array.from(map.values()).sort((a,b)=>{
+    if (a.timing_event !== b.timing_event) return a.timing_event - b.timing_event;
+    if (a.round === 'FINAL' && b.round !== 'FINAL') return 1;
+    if (a.round !== 'FINAL' && b.round === 'FINAL') return -1;
+    return a.event_id.localeCompare(b.event_id);
+   });
   }, [state?.heats]);
 
   const [selectedEventId, setSelectedEventId] = useState<string>('');
