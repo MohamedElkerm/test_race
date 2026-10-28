@@ -1,22 +1,33 @@
-import {renderTemplate} from './render.js?v=12';import{subscribe}from './stream.js';
+import {renderTemplate} from './render.js?v=13';import{subscribe}from './stream.js';
 const q=new URLSearchParams(location.search),canvas=document.querySelector('canvas'),lost=document.querySelector('#lost');
 const registry=await fetch('/api/templates').then(r=>r.json());let state,busy=false,drawAgain=false,lastBeat=0,connectionLost=false;
 const client=globalThis.crypto?.randomUUID?.()||'tv-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
 function fit(){const k=Math.min(innerWidth/1920,innerHeight/1080);canvas.style.width=1920*k+'px';canvas.style.height=1080*k+'px'}addEventListener('resize',fit);fit();
 // Preload standby assets for zero-time immediate display
-const standbyPres=new Image();standbyPres.src='/assets/sfs/presentation.png';
+const standbyLogo=new Image();standbyLogo.src='/assets/sfs/competition_logo.png';
 
 function drawStandby(){
  const c=canvas.getContext('2d');
  c.clearRect(0,0,1920,1080);
- const x=535,y=740;
- if(standbyPres.complete&&standbyPres.naturalWidth>0)c.drawImage(standbyPres,x,y);
+ const w=640,h=Math.round(w*(204/567)),x=(1920-w)/2,y=700;
+ if(standbyLogo.complete&&standbyLogo.naturalWidth>0)c.drawImage(standbyLogo,x,y,w,h);
+ const barW=w,barH=44,barX=x,barY=y+h+14;
+ c.save();
+ c.fillStyle='rgba(12,50,116,0.95)';
+ if(c.roundRect){
+  c.beginPath();
+  c.roundRect(barX,barY,barW,barH,8);
+  c.fill();
+ }else{
+  c.fillRect(barX,barY,barW,barH);
+ }
  c.textBaseline='middle';
  c.fillStyle='#ffffff';
- c.font='900 17px Lato, sans-serif';
+ c.font='900 18px Lato, sans-serif';
  const text='● LIVE TIMING STANDBY';
  const tw=c.measureText(text).width;
- c.fillText(text, x + (849 - tw) / 2, y + 266);
+ c.fillText(text,barX+(barW-tw)/2,barY+barH/2);
+ c.restore();
 }
 
 async function draw(){

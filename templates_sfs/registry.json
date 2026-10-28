@@ -1603,10 +1603,10 @@
     ],
     "assets": [
       {
-        "guide_name": "PRESENTATION.TGA",
-        "original": "assets_original/tga/background/presentation.tga",
-        "processed": "/assets/sfs/presentation.png",
-        "resolution": "EXACT_NAME_CASE_NORMALISED"
+        "guide_name": "COMPETITION_LOGO.PNG",
+        "original": "assets_processed/sfs/competition_logo.png",
+        "processed": "/assets/sfs/competition_logo.png",
+        "resolution": "TRANSPARENT_CUTOUT"
       }
     ],
     "missing": [],

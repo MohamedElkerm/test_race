@@ -218,24 +218,41 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
     metrics.blocked.push(String(e));
    }
   }else if(t.kind==='standby'||code==='STANDBY'){
-  const x=535,y=740;
-  await image('presentation',x,y);
-  c.textBaseline='middle';
-  c.fillStyle='#ffffff';
-  c.font='900 17px Lato, sans-serif';
-  const text='● LIVE TIMING STANDBY';
-  const tw=c.measureText(text).width;
-  c.fillText(text,x+(849-tw)/2,y+266);
- }else{
-  await header(946,'FINSWIMMING',code==='SFS900'?'VICTORY CEREMONY - '+description:code==='SFS001'||code==='SFS002'?'SHARM EL SHEIKH - '+(heat?.venue||'VENUE CONFIRMATION PENDING'):description);
+   const w=640,h=Math.round(w*(204/567)),x=(1920-w)/2,y=700;
+   try{
+    const im=await loadImage('/assets/sfs/competition_logo.png');
+    c.drawImage(im,x,y,w,h);
+   }catch(e){
+    metrics.blocked.push(String(e));
+   }
+   // Draw sleek rounded status bar under logo (pure transparent overlay, no white box)
+   const barW=w,barH=44,barX=x,barY=y+h+14;
+   c.save();
+   c.fillStyle='rgba(12,50,116,0.95)';
+   if(c.roundRect){
+    c.beginPath();
+    c.roundRect(barX,barY,barW,barH,8);
+    c.fill();
+   }else{
+    c.fillRect(barX,barY,barW,barH);
+   }
+   c.textBaseline='middle';
+   c.fillStyle='#ffffff';
+   c.font='900 18px Lato, sans-serif';
+   const text='● LIVE TIMING STANDBY';
+   const tw=c.measureText(text).width;
+   c.fillText(text,barX+(barW-tw)/2,barY+barH/2);
+   c.restore();
+  }else{
+   await header(946,'FINSWIMMING',code==='SFS900'?'VICTORY CEREMONY - '+description:code==='SFS001'||code==='SFS002'?'SHARM EL SHEIKH - '+(heat?.venue||'VENUE CONFIRMATION PENDING'):description);
 
- }
- metrics.blocked.push(...unavailable.map(x=>'ASSET UNAVAILABLE '+x));
- // Auto-fitting handles overflow cleanly; never suppress/blank broadcast graphics.
- if(diagnostics&&(metrics.missing.length||metrics.blocked.length||metrics.overflow.length)){
-  c.fillStyle='rgba(88,7,18,.95)';c.fillRect(60,75,1500,metrics.missing.length?92:56);
-  text('NOT APPROVED / '+[...metrics.missing,...metrics.blocked].slice(0,4).join(' | '),76,92,20,1460,'#fff',700);
- }
- if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'&&code!=='COMP_LOGO'&&code!=='LOGO'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
+  }
+  metrics.blocked.push(...unavailable.map(x=>'ASSET UNAVAILABLE '+x));
+  // Auto-fitting handles overflow cleanly; never suppress/blank broadcast graphics.
+  if(diagnostics&&(metrics.missing.length||metrics.blocked.length||metrics.overflow.length)){
+   c.fillStyle='rgba(88,7,18,.95)';c.fillRect(60,75,1500,metrics.missing.length?92:56);
+   text('NOT APPROVED / '+[...metrics.missing,...metrics.blocked].slice(0,4).join(' | '),76,92,20,1460,'#fff',700);
+  }
+  if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'&&code!=='COMP_LOGO'&&code!=='LOGO'&&code!=='STANDBY'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
  return metrics;
 }
