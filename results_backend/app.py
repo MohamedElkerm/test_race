@@ -308,9 +308,15 @@ def create_app(db_path=None,mode=None):
         try:
             while True:
                 s=await asyncio.to_thread(snapshot)
-                await asyncio.wait_for(ws.send_json(s),timeout=2)
-                await asyncio.sleep(.1)
-        except (WebSocketDisconnect,RuntimeError,asyncio.TimeoutError):pass
+                try:
+                    await asyncio.wait_for(ws.send_json(s),timeout=6)
+                except asyncio.TimeoutError:
+                    pass
+                st = s.get('swimtime') or {}
+                fast = st.get('clock_fresh') or st.get('receiving')
+                await asyncio.sleep(.1 if fast else .3)
+        except (WebSocketDisconnect,RuntimeError):pass
+        except Exception:pass
     app.mount('/assets',StaticFiles(directory=ROOT/'assets_processed'),name='assets')
     app.mount('/references',StaticFiles(directory=ROOT/'assets_original/references'),name='references')
     for name in ('control_dashboard','broadcast_tvg','led_displays','templates_sfs'):

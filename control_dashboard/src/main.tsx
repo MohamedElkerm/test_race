@@ -23,7 +23,7 @@ function App(){
  const [opsText,setOpsText]=useState(''),[authority,setAuthority]=useState('');
  useEffect(()=>{let ws:WebSocket|undefined,retry:number,watch:number,last=0,stopped=false;
   const connect=()=>{ws=new WebSocket((location.protocol==='https:'?'wss:':'ws:')+'//'+location.host+'/ws');ws.onmessage=e=>{last=performance.now();setState(JSON.parse(e.data));setOnline(true)};ws.onerror=()=>ws?.close();ws.onclose=()=>{setOnline(false);if(!stopped)retry=window.setTimeout(connect,1000)}};
-  connect();watch=window.setInterval(()=>{if(last&&performance.now()-last>2500)setOnline(false)},500);
+  connect();watch=window.setInterval(()=>{if(last&&performance.now()-last>8000)setOnline(false)},1000);
   fetch('/api/templates').then(r=>r.json()).then(setRegistry).catch(()=>setError('Template registry unavailable'));
   return()=>{stopped=true;clearTimeout(retry);clearInterval(watch);ws?.close()};
  },[]);

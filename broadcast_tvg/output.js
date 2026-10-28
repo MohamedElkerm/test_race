@@ -54,7 +54,6 @@ async function draw(){
   const isClean=q.has('clean');
   const metrics=await renderTemplate(canvas,scene.template,heat,registry,{test:isClean?false:(state.mode==='TEST'),diagnostics:!isClean});
   window.finsMetrics=metrics;
-  if(connectionLost)canvas.getContext('2d').clearRect(0,0,1920,1080);
  }finally{busy=false;if(drawAgain){drawAgain=false;draw()}}
 }
-subscribe(s=>{state=s;connectionLost=false;lost.style.display='none';draw();if(performance.now()-lastBeat>1800){lastBeat=performance.now();fetch('/api/output/heartbeat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({client_id:client,output:'tv',width:1920,height:1080,revision:s.revision})}).catch(()=>{})}},()=>{connectionLost=true;canvas.getContext('2d').clearRect(0,0,1920,1080);lost.style.display='block'});
+subscribe(s=>{state=s;connectionLost=false;lost.style.display='none';draw();if(performance.now()-lastBeat>1800){lastBeat=performance.now();fetch('/api/output/heartbeat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({client_id:client,output:'tv',width:1920,height:1080,revision:s.revision})}).catch(()=>{})}},()=>{connectionLost=true;if(!q.has('clean'))lost.style.display='block';});
