@@ -129,9 +129,6 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
  }else if(t.kind==='medal'){
   const a=rows[0]||{};await image('header1_line',522,987);await image('sfs_1',522,987);text(a.name||'MEDAL DECISION PENDING',610,993,25,680);
  }else if(t.kind==='countdown'||code==='SFS550'||code==='COUNTDOWN'){
-  const presX=535,presY=590;
-  await image('presentation',presX,presY);
-
   const now=Date.now()/1000;
   const setAt=heat?.scene_set_at||globalThis._cdStart||now;
   if(!globalThis._cdStart)globalThis._cdStart=setAt;
@@ -140,20 +137,8 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   const remaining=Math.ceil(remainingFloat);
   const progress=Math.min(1,Math.max(0.005,elapsed/75));
 
-  // 1. Top Event Header
-  const evTitle=(description||'RACE START COUNTDOWN').toUpperCase();
-  c.fillStyle='rgba(12, 50, 116, 0.95)';
-  c.fillRect(presX,120,849,56);
-  c.textBaseline='top';
-  c.fillStyle='#ffffff';
-  c.font='900 21px Lato, sans-serif';
-  c.fillText('CALL ROOM • START COUNTDOWN',presX+24,128);
-  c.fillStyle='#93c5fd';
-  c.font='700 16px Lato, sans-serif';
-  c.fillText(evTitle,presX+24,153);
-
-  // 2. Dark Squircle Card matching user reference image
-  const cx=960,cy=375,cardW=360,cardH=360,cardR=38;
+  // Standalone Dark Squircle Card: 400x400 dead center (cx=960, cy=540)
+  const cx=960,cy=540,cardW=400,cardH=400,cardR=44;
   const cardX=cx-cardW/2,cardY=cy-cardH/2;
   c.save();
   c.beginPath();
@@ -170,18 +155,18 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
    c.quadraticCurveTo(cardX,cardY,cardX+cardR,cardY);
    c.closePath();
   }
-  c.fillStyle='rgba(30, 33, 40, 0.97)';
+  c.fillStyle='rgba(32, 35, 43, 0.98)';
   c.fill();
   c.lineWidth=2;
-  c.strokeStyle='rgba(50, 56, 68, 0.9)';
+  c.strokeStyle='rgba(52, 58, 70, 0.95)';
   c.stroke();
 
   // Circular Track (dark slate grey)
-  const radius=126,strokeW=32;
+  const radius=135,strokeW=34;
   c.beginPath();
   c.arc(cx,cy,radius,0,Math.PI*2);
   c.lineWidth=strokeW;
-  c.strokeStyle='rgba(45, 50, 60, 0.95)';
+  c.strokeStyle='rgba(46, 51, 62, 0.95)';
   c.stroke();
 
   // Dynamic Progress Arc (sweeping clockwise)
@@ -235,18 +220,9 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.textBaseline='middle';
   c.textAlign='center';
   c.fillStyle='#ffffff';
-  c.font=remaining>=100?'900 88px Lato, sans-serif':'900 110px Lato, sans-serif';
+  c.font=remaining>=100?'900 92px Lato, Arial, sans-serif':'900 118px Lato, Arial, sans-serif';
   c.fillText(remaining===0?'0':String(remaining),cx,cy+2);
   c.restore();
-
-  // 3. Status text on presentation.png bottom blue bar
-  c.textBaseline='middle';
-  c.textAlign='center';
-  c.fillStyle=remaining===0?'#4ade80':'#ffffff';
-  c.font='900 17px Lato, sans-serif';
-  const label=remaining===0?'● CALL ROOM • RACE READY / START':('● CALL ROOM • START COUNTDOWN: '+remaining+'s');
-  c.fillText(label,presX+849/2,presY+266);
-  c.textAlign='left';
 
   }else if(t.kind==='standby'||code==='STANDBY'){
   const x=535,y=740;
@@ -267,6 +243,6 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.fillStyle='rgba(88,7,18,.95)';c.fillRect(60,75,1500,metrics.missing.length?92:56);
   text('NOT APPROVED / '+[...metrics.missing,...metrics.blocked].slice(0,4).join(' | '),76,92,20,1460,'#fff',700);
  }
- if(test&&diagnostics){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
+ if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
  return metrics;
 }
