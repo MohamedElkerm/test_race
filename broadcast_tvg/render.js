@@ -209,8 +209,14 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.restore();
 
   }else if(t.kind==='comp_logo'||code==='COMP_LOGO'||code==='LOGO'||code==='COMPETITION_LOGO'){
-   const x=535,y=416;
-   await image('competition_logo',x,y);
+   const w=737,h=265;
+   const x=(1920-w)/2,y=(1080-h)/2;
+   try{
+    const im=await loadImage('/assets/sfs/competition_logo.png');
+    c.drawImage(im,x,y,w,h);
+   }catch(e){
+    metrics.blocked.push(String(e));
+   }
   }else if(t.kind==='standby'||code==='STANDBY'){
   const x=535,y=740;
   await image('presentation',x,y);
