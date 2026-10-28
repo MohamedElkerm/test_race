@@ -201,26 +201,46 @@ export default function SwimTimePanel({
    <div style={{marginBottom:'16px',display:'flex',gap:'8px',flexWrap:'wrap',alignItems:'center'}}>
     <span style={{fontSize:'11px',fontWeight:700,color:'#9ab0cd',marginRight:'4px'}}>Quick Presets for this Heat:</span>
     <button
-     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
+     style={{fontSize:'12px',padding:'6px 12px',background:'#1e293b',color:'#f8fafc',border:'1px solid #475569',fontWeight:700}}
      disabled={busy||!heat}
      onClick={()=>{
-      const t = isRelay ? 'SFS201A' : 'SFS200A';
-      setSelectedTemplate(t);
-      onGraphicAction?.('preview', t, selectedLane);
+      setSelectedTemplate('COMP_LOGO');
+      onGraphicAction?.('preview', 'COMP_LOGO', selectedLane);
      }}
     >
-     👤 Lower-Third ({isRelay?'SFS201A':'SFS200A'})
+     🏛️ Competition Logo (LOGO)
     </button>
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
      disabled={busy||!heat}
      onClick={()=>{
-      const t = isRelay ? 'SFS201C' : 'SFS200C';
-      setSelectedTemplate(t);
-      onGraphicAction?.('preview', t, selectedLane, recordBadge);
+      setSelectedTemplate('SFS004');
+      onGraphicAction?.('preview', 'SFS004', selectedLane);
      }}
     >
-     🎖️ Athlete + Record ({isRelay?'SFS201C':'SFS200C'})
+     🏷️ Event ID (SFS004)
+    </button>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#0f4c3a',color:'#86efac',border:'1px solid #22c55e',fontWeight:700}}
+     disabled={busy||!heat}
+     title="Pushes Countdown 75s directly to Live ON-AIR without preview step"
+     onClick={()=>{
+      setSelectedTemplate('SFS550');
+      onGraphicAction?.('direct', 'SFS550', selectedLane);
+     }}
+    >
+     ⚡ ⏳ Countdown 75s (GO TO LIVE DIRECT)
+    </button>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e',color:'#93c5fd'}}
+     disabled={busy||!heat}
+     title="Loads Countdown into Preview"
+     onClick={()=>{
+      setSelectedTemplate('SFS550');
+      onGraphicAction?.('preview', 'SFS550', selectedLane);
+     }}
+    >
+     ⏳ Countdown (Preview)
     </button>
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
@@ -247,11 +267,23 @@ export default function SwimTimePanel({
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
      disabled={busy||!heat}
      onClick={()=>{
-      setSelectedTemplate('SFS004');
-      onGraphicAction?.('preview', 'SFS004', selectedLane);
+      const t = isRelay ? 'SFS201C' : 'SFS200C';
+      setSelectedTemplate(t);
+      onGraphicAction?.('preview', t, selectedLane, recordBadge);
      }}
     >
-     🏷️ Event ID (SFS004)
+     🎖️ Athlete + Record ({isRelay?'SFS201C':'SFS200C'})
+    </button>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
+     disabled={busy||!heat}
+     onClick={()=>{
+      const t = isRelay ? 'SFS302B' : 'SFS302A';
+      setSelectedTemplate(t);
+      onGraphicAction?.('preview', t, selectedLane);
+     }}
+    >
+     🏆 Results ({isRelay?'SFS302B':'SFS302A'})
     </button>
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
@@ -264,28 +296,6 @@ export default function SwimTimePanel({
      ⏱️ Race Clock (SFS500)
     </button>
     <button
-     style={{fontSize:'12px',padding:'6px 12px',background:'#0f4c3a',color:'#86efac',border:'1px solid #22c55e',fontWeight:700}}
-     disabled={busy||!heat}
-     title="Pushes Countdown 75s directly to Live ON-AIR without preview step"
-     onClick={()=>{
-      setSelectedTemplate('SFS550');
-      onGraphicAction?.('direct', 'SFS550', selectedLane);
-     }}
-    >
-     ⚡ ⏳ Countdown 75s (GO TO LIVE DIRECT)
-    </button>
-    <button
-     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e',color:'#93c5fd'}}
-     disabled={busy||!heat}
-     title="Loads Countdown into Preview"
-     onClick={()=>{
-      setSelectedTemplate('SFS550');
-      onGraphicAction?.('preview', 'SFS550', selectedLane);
-     }}
-    >
-     ⏳ Countdown (Preview)
-    </button>
-    <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#1e293b',color:'#38bdf8',border:'1px solid #0284c7',fontWeight:700}}
      disabled={busy||!heat}
      onClick={()=>{
@@ -294,17 +304,6 @@ export default function SwimTimePanel({
      }}
     >
      🛡️ Standby Card (STANDBY)
-    </button>
-    <button
-     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
-     disabled={busy||!heat}
-     onClick={()=>{
-      const t = isRelay ? 'SFS302B' : 'SFS302A';
-      setSelectedTemplate(t);
-      onGraphicAction?.('preview', t, selectedLane);
-     }}
-    >
-     🏆 Results ({isRelay?'SFS302B':'SFS302A'})
     </button>
    </div>
 

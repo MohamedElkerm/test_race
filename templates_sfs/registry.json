@@ -1619,5 +1619,30 @@
     "state_behaviour": "Official presentation card with standby status indicator.",
     "preview_url": "/broadcast_tvg/?template=STANDBY&preview=1",
     "test_case": "client standby render"
+  },
+  "COMP_LOGO": {
+    "code": "COMP_LOGO",
+    "name": "COMPETITION LOGO",
+    "guide_page": 1,
+    "kind": "comp_logo",
+    "fields": [],
+    "assets": [
+      {
+        "guide_name": "competition_logo.png",
+        "original": null,
+        "processed": "/assets/sfs/competition_logo.png",
+        "resolution": "OFFICIAL_CHAMPIONSHIP_BRANDING"
+      }
+    ],
+    "missing": [],
+    "reference": "/assets/sfs/competition_logo.png",
+    "component": "renderTemplate(COMP_LOGO)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": true,
+    "production_approved": true,
+    "state_behaviour": "Championship competition logo broadcast presentation.",
+    "preview_url": "/broadcast_tvg/?template=COMP_LOGO&preview=1",
+    "test_case": "competition logo render"
   }
 }

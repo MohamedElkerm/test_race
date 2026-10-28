@@ -243,7 +243,7 @@ def create_app(db_path=None,mode=None):
             if action=='preview':
                 h=store.heat(c,p['heat_id']);registry=templates()
                 t_code=str(p.get('template','') or '').strip().upper()
-                aliases={'COUNTDOWN':'SFS550','SFS550A':'SFS550','SFS200':'SFS200A','SFS201':'SFS201A','SFS100':'SFS203A','SFS101':'SFS203B','SFS300':'SFS302A','SFS300A':'SFS300A','SFS302':'SFS302A','SFS001A':'SFS001','SFS002A':'SFS002','SFS203':'SFS203A','SFS301':'SFS301A','SFS901':'SFS901A','SFS902':'SFS902A'}
+                aliases={'LOGO':'COMP_LOGO','COMPETITION_LOGO':'COMP_LOGO','COMP_LOGO':'COMP_LOGO','COUNTDOWN':'SFS550','SFS550A':'SFS550','SFS200':'SFS200A','SFS201':'SFS201A','SFS100':'SFS203A','SFS101':'SFS203B','SFS300':'SFS302A','SFS300A':'SFS300A','SFS302':'SFS302A','SFS001A':'SFS001','SFS002A':'SFS002','SFS203':'SFS203A','SFS301':'SFS301A','SFS901':'SFS901A','SFS902':'SFS902A'}
                 t_code=aliases.get(t_code,t_code)
                 if t_code not in registry:raise DomainError('Unknown official template code: '+str(t_code))
                 if p.get('result_label')=='OFFICIAL' and h['status']!='OFFICIAL':raise DomainError('Cannot preview OFFICIAL on unapproved results')

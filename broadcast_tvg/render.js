@@ -208,6 +208,9 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.fillText(remaining===0?'0':String(remaining),cx,cy+2);
   c.restore();
 
+  }else if(t.kind==='comp_logo'||code==='COMP_LOGO'||code==='LOGO'||code==='COMPETITION_LOGO'){
+   const x=535,y=416;
+   await image('competition_logo',x,y);
   }else if(t.kind==='standby'||code==='STANDBY'){
   const x=535,y=740;
   await image('presentation',x,y);
@@ -227,6 +230,6 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.fillStyle='rgba(88,7,18,.95)';c.fillRect(60,75,1500,metrics.missing.length?92:56);
   text('NOT APPROVED / '+[...metrics.missing,...metrics.blocked].slice(0,4).join(' | '),76,92,20,1460,'#fff',700);
  }
- if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
+ if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'&&code!=='COMP_LOGO'&&code!=='LOGO'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
  return metrics;
 }
