@@ -247,6 +247,16 @@ export default function SwimTimePanel({
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
      disabled={busy||!heat}
      onClick={()=>{
+      setSelectedTemplate('SFS004');
+      onGraphicAction?.('preview', 'SFS004', selectedLane);
+     }}
+    >
+     🏷️ Event ID (SFS004)
+    </button>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
+     disabled={busy||!heat}
+     onClick={()=>{
       setSelectedTemplate('SFS500');
       onGraphicAction?.('preview', 'SFS500', selectedLane);
      }}
@@ -256,12 +266,24 @@ export default function SwimTimePanel({
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#0f4c3a',color:'#86efac',border:'1px solid #22c55e',fontWeight:700}}
      disabled={busy||!heat}
+     title="Pushes Countdown 75s directly to Live ON-AIR without preview step"
+     onClick={()=>{
+      setSelectedTemplate('SFS550');
+      onGraphicAction?.('direct', 'SFS550', selectedLane);
+     }}
+    >
+     ⚡ ⏳ Countdown 75s (GO TO LIVE DIRECT)
+    </button>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#15324e',color:'#93c5fd'}}
+     disabled={busy||!heat}
+     title="Loads Countdown into Preview"
      onClick={()=>{
       setSelectedTemplate('SFS550');
       onGraphicAction?.('preview', 'SFS550', selectedLane);
      }}
     >
-     ⏳ Countdown 75s (SFS550)
+     ⏳ Countdown (Preview)
     </button>
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#1e293b',color:'#38bdf8',border:'1px solid #0284c7',fontWeight:700}}

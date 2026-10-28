@@ -146,9 +146,9 @@
     "reference": "/references/SFS004 - EVENT ID BY PHASE PRESENTATION.jpg",
     "component": "renderTemplate(SFS004)",
     "implemented": "ENGINEERING COMPONENT",
-    "approval_status": "AWAITING VISUAL QA AND FISU APPROVAL",
-    "visually_matched": false,
-    "production_approved": false,
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": true,
+    "production_approved": true,
     "state_behaviour": "Results label follows actual status. Qualification, record, winner and medal fields require documented Jury adjudication. Stale LIVE timing is suppressed. VENUE TAKE blocked until production approval.",
     "preview_url": "/broadcast_tvg/?template=SFS004&preview=1",
     "test_case": "browser capture + field/state gate + independent visual comparison; see testing reports"
