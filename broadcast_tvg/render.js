@@ -19,7 +19,7 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
  if(!t){return metrics}
  let unavailable=[];
  const required=[...t.assets.filter(a=>a.processed).map(a=>a.processed)];
- const allFlags=[...new Set((heat?.entries||[]).map(a=>a.country).filter(Boolean))];
+ const allFlags=[...new Set((heat?.entries||[]).map(a=>String(a.country||'').toUpperCase().trim()).filter(Boolean))];
  await Promise.all([...required,...allFlags.map(cc=>'/assets/flags/'+cc+'.png')].map(url=>loadImage(url).catch(()=>unavailable.push(url))));
  await readyFonts();
  function sprite(asset,x,y){const url='/assets/sfs/'+asset+'.png',p=cache.get(url);if(p&&!unavailable.includes(url))p.then(im=>{});return loadImage(url).then(im=>c.drawImage(im,x,y));}
@@ -47,7 +47,7 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.fillText(value,x,y);
  }
  // Supplied flags already include the IOC code; draw the entire 93x26 MEDIUM sprite natively.
- async function flag(code,x,y){try{const im=await loadImage('/assets/flags/'+code+'.png');c.drawImage(im,x,y)}catch{metrics.blocked.push('FLAG MISSING '+code)}}
+ async function flag(code,x,y){const cc=String(code||'').toUpperCase().trim();try{const im=await loadImage('/assets/flags/'+cc+'.png');c.drawImage(im,x,y)}catch{metrics.blocked.push('FLAG MISSING '+cc)}}
  const entries=heat?.entries||[],selected=entries.find(a=>a.lane===heat?.selected_lane)||entries[0]||{};
  const isRelay=!!heat?.relay;
  const relayCodes=['SFS201A','SFS201B','SFS201C','SFS202','SFS203B','SFS300B','SFS301B','SFS302B','SFS504B','SFS901B','SFS902B'];

@@ -83,8 +83,9 @@ export async function renderLED(canvas,route,state){
    // LANE_BOX, BAR_STANDING_RANK, a crop from a JPG, or a newly drawn shape.
    text(content==='startlist'?a.lane:a.rank??'—',x+15,rowY+4,26,45);
    if(a.country){
-    if(!/^[A-Z]{3}$/.test(a.country))metrics.blocked.push('FLAG CODE INVALID');
-    else try{const im=await loadImage('/assets/flags/'+a.country+'.png');c.drawImage(im,x+77,rowY+6)}catch{metrics.blocked.push('FLAG MISSING '+a.country)}
+    const cc=String(a.country).toUpperCase().trim();
+    if(!/^[A-Z]{3}$/.test(cc))metrics.blocked.push('FLAG CODE INVALID');
+    else try{const im=await loadImage('/assets/flags/'+cc+'.png');c.drawImage(im,x+77,rowY+6)}catch{metrics.blocked.push('FLAG MISSING '+cc)}
    }
    text(a.name||'',x+187,rowY+4,26,content==='startlist'?650:510);
    if(content!=='startlist')text(content==='qualification'?a.qualification:a.irm||clock(a.ticks),x+747,rowY+5,24,110);
