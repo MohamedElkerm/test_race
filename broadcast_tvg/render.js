@@ -129,77 +129,126 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
  }else if(t.kind==='medal'){
   const a=rows[0]||{};await image('header1_line',522,987);await image('sfs_1',522,987);text(a.name||'MEDAL DECISION PENDING',610,993,25,680);
  }else if(t.kind==='countdown'||code==='SFS550'||code==='COUNTDOWN'){
-  const x=535,y=600;
-  await image('presentation',x,y);
+  const presX=535,presY=590;
+  await image('presentation',presX,presY);
+
   const now=Date.now()/1000;
-  const setAt=heat?.scene_set_at||now;
+  const setAt=heat?.scene_set_at||globalThis._cdStart||now;
+  if(!globalThis._cdStart)globalThis._cdStart=setAt;
   const elapsed=Math.max(0,now-setAt);
   const remainingFloat=Math.max(0,75-elapsed);
   const remaining=Math.ceil(remainingFloat);
-  const progress=remainingFloat/75;
+  const progress=Math.min(1,Math.max(0.005,elapsed/75));
 
+  // 1. Top Event Header
   const evTitle=(description||'RACE START COUNTDOWN').toUpperCase();
   c.fillStyle='rgba(12, 50, 116, 0.95)';
-  c.fillRect(x,150,849,54);
+  c.fillRect(presX,120,849,56);
   c.textBaseline='top';
   c.fillStyle='#ffffff';
-  c.font='900 22px Lato, sans-serif';
-  c.fillText('CALL ROOM • START COUNTDOWN',x+25,158);
+  c.font='900 21px Lato, sans-serif';
+  c.fillText('CALL ROOM • START COUNTDOWN',presX+24,128);
   c.fillStyle='#93c5fd';
-  c.font='700 18px Lato, sans-serif';
-  c.fillText(evTitle,x+25,183);
+  c.font='700 16px Lato, sans-serif';
+  c.fillText(evTitle,presX+24,153);
 
-  const cx=960,cy=380,radius=95,strokeW=22;
+  // 2. Dark Squircle Card matching user reference image
+  const cx=960,cy=375,cardW=360,cardH=360,cardR=38;
+  const cardX=cx-cardW/2,cardY=cy-cardH/2;
   c.save();
   c.beginPath();
-  c.arc(cx,cy,radius+strokeW/2+14,0,Math.PI*2);
-  c.fillStyle='rgba(15, 23, 42, 0.92)';
+  if(typeof c.roundRect==='function'){
+   c.roundRect(cardX,cardY,cardW,cardH,cardR);
+  }else{
+   c.moveTo(cardX+cardR,cardY);c.lineTo(cardX+cardW-cardR,cardY);
+   c.quadraticCurveTo(cardX+cardW,cardY,cardX+cardW,cardY+cardR);
+   c.lineTo(cardX+cardW,cardY+cardH-cardR);
+   c.quadraticCurveTo(cardX+cardW,cardY+cardH,cardX+cardW-cardR,cardY+cardH);
+   c.lineTo(cardX+cardR,cardY+cardH);
+   c.quadraticCurveTo(cardX,cardY+cardH,cardX,cardY+cardH-cardR);
+   c.lineTo(cardX,cardY+cardR);
+   c.quadraticCurveTo(cardX,cardY,cardX+cardR,cardY);
+   c.closePath();
+  }
+  c.fillStyle='rgba(30, 33, 40, 0.97)';
   c.fill();
+  c.lineWidth=2;
+  c.strokeStyle='rgba(50, 56, 68, 0.9)';
+  c.stroke();
+
+  // Circular Track (dark slate grey)
+  const radius=126,strokeW=32;
   c.beginPath();
   c.arc(cx,cy,radius,0,Math.PI*2);
   c.lineWidth=strokeW;
-  c.strokeStyle='rgba(30, 41, 59, 0.85)';
+  c.strokeStyle='rgba(45, 50, 60, 0.95)';
   c.stroke();
-  if(progress>0){
-   const startAngle=-Math.PI/2;
-   const endAngle=startAngle+(Math.PI*2*progress);
-   const grad=c.createLinearGradient(cx-radius,cy-radius,cx+radius,cy+radius);
-   if(remaining<=10){grad.addColorStop(0,'#f87171');grad.addColorStop(1,'#ef4444');}
-   else{grad.addColorStop(0,'#0284c7');grad.addColorStop(1,'#38bdf8');}
-   c.beginPath();
-   c.arc(cx,cy,radius,startAngle,endAngle,false);
-   c.lineWidth=strokeW;
-   c.strokeStyle=grad;
-   c.lineCap='round';
-   c.stroke();
-   const tipX=cx+Math.cos(endAngle)*radius;
-   const tipY=cy+Math.sin(endAngle)*radius;
-   c.beginPath();
-   c.arc(tipX,tipY,strokeW*0.8,0,Math.PI*2);
-   c.fillStyle=remaining<=10?'rgba(239, 68, 68, 0.35)':'rgba(56, 189, 248, 0.35)';
-   c.fill();
-   c.beginPath();
-   c.arc(tipX,tipY,strokeW*0.55,0,Math.PI*2);
-   c.fillStyle=remaining<=10?'#fca5a5':'#bae6fd';
-   c.fill();
-  }
+
+  // Dynamic Progress Arc (sweeping clockwise)
+  const startAngle=-Math.PI/2;
+  const sweepAngle=Math.PI*2*progress;
+  const endAngle=startAngle+sweepAngle;
+
+  const grad=c.createLinearGradient(cx-radius,cy-radius,cx+radius,cy+radius);
+  grad.addColorStop(0,'#1848dc');
+  grad.addColorStop(0.4,'#0284c7');
+  grad.addColorStop(1,'#38bdf8');
+
+  c.beginPath();
+  c.arc(cx,cy,radius,startAngle,endAngle,false);
+  c.lineWidth=strokeW;
+  c.strokeStyle=grad;
+  c.lineCap='round';
+  c.stroke();
+
+  // Leading 3D Sphere / Bead at the tip
+  const tipX=cx+Math.cos(endAngle)*radius;
+  const tipY=cy+Math.sin(endAngle)*radius;
+  const beadR=strokeW*0.62;
+
+  // Ambient glow behind bead
+  c.save();
+  c.shadowColor='rgba(56, 189, 248, 0.6)';
+  c.shadowBlur=14;
+  c.beginPath();
+  c.arc(tipX,tipY,beadR,0,Math.PI*2);
+  c.fillStyle='#0ea5e9';
+  c.fill();
+  c.restore();
+
+  // 3D Sphere Radial Highlight
+  const sphereGrad=c.createRadialGradient(
+   tipX-beadR*0.25, tipY-beadR*0.25, beadR*0.05,
+   tipX, tipY, beadR
+  );
+  sphereGrad.addColorStop(0,'#7dd3fc');
+  sphereGrad.addColorStop(0.35,'#38bdf8');
+  sphereGrad.addColorStop(0.75,'#0ea5e9');
+  sphereGrad.addColorStop(1,'#0369a1');
+
+  c.beginPath();
+  c.arc(tipX,tipY,beadR,0,Math.PI*2);
+  c.fillStyle=sphereGrad;
+  c.fill();
+
+  // Center Seconds Number: big bold clean white
   c.textBaseline='middle';
   c.textAlign='center';
   c.fillStyle='#ffffff';
-  c.font=remaining>=100?'900 68px Lato, sans-serif':'900 80px Lato, sans-serif';
-  c.fillText(remaining===0?'START':String(remaining),cx,cy);
-  c.textAlign='left';
+  c.font=remaining>=100?'900 88px Lato, sans-serif':'900 110px Lato, sans-serif';
+  c.fillText(remaining===0?'0':String(remaining),cx,cy+2);
   c.restore();
 
+  // 3. Status text on presentation.png bottom blue bar
   c.textBaseline='middle';
-  const isUrgent=remaining<=10&&remaining>0;
-  const isZero=remaining===0;
-  c.fillStyle=isZero?'#22c55e':(isUrgent?'#ef4444':'#38bdf8');
-  c.font='900 18px Lato, sans-serif';
-  const label=isZero?'⏱️ 00:00 • RACE READY / START':`⏱️ START COUNTDOWN: ${remaining} SECONDS REMAINING`;
-  const lw=c.measureText(label).width;
-  c.fillText(label,x+(849-lw)/2,y+266);
- }else if(t.kind==='standby'||code==='STANDBY'){
+  c.textAlign='center';
+  c.fillStyle=remaining===0?'#4ade80':'#ffffff';
+  c.font='900 17px Lato, sans-serif';
+  const label=remaining===0?'● CALL ROOM • RACE READY / START':('● CALL ROOM • START COUNTDOWN: '+remaining+'s');
+  c.fillText(label,presX+849/2,presY+266);
+  c.textAlign='left';
+
+  }else if(t.kind==='standby'||code==='STANDBY'){
   const x=535,y=740;
   await image('presentation',x,y);
   c.textBaseline='middle';
