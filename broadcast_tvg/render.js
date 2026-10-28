@@ -152,6 +152,15 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   const label=isZero?'⏱️ 00:00 • RACE READY / START':`⏱️ COUNTDOWN: ${timeStr}  (${remaining}s)`;
   const lw=c.measureText(label).width;
   c.fillText(label,x+(849-lw)/2,y+266);
+ }else if(t.kind==='standby'||code==='STANDBY'){
+  const x=535,y=740;
+  await image('presentation',x,y);
+  c.textBaseline='middle';
+  c.fillStyle='#ffffff';
+  c.font='900 17px Lato, sans-serif';
+  const text='● LIVE TIMING STANDBY';
+  const tw=c.measureText(text).width;
+  c.fillText(text,x+(849-tw)/2,y+266);
  }else{
   await header(946,'FINSWIMMING',code==='SFS900'?'VICTORY CEREMONY - '+description:code==='SFS001'||code==='SFS002'?'SHARM EL SHEIKH - '+(heat?.venue||'VENUE CONFIRMATION PENDING'):description);
 

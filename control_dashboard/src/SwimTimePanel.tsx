@@ -254,7 +254,7 @@ export default function SwimTimePanel({
      ⏱️ Race Clock (SFS500)
     </button>
     <button
-     style={{fontSize:'12px',padding:'6px 12px',background:'#0f4c3a',color:'#86efac',border:'1px solid #22c55e'}}
+     style={{fontSize:'12px',padding:'6px 12px',background:'#0f4c3a',color:'#86efac',border:'1px solid #22c55e',fontWeight:700}}
      disabled={busy||!heat}
      onClick={()=>{
       setSelectedTemplate('SFS550');
@@ -262,6 +262,16 @@ export default function SwimTimePanel({
      }}
     >
      ⏳ Countdown 75s (SFS550)
+    </button>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#1e293b',color:'#38bdf8',border:'1px solid #0284c7',fontWeight:700}}
+     disabled={busy||!heat}
+     onClick={()=>{
+      setSelectedTemplate('STANDBY');
+      onGraphicAction?.('preview', 'STANDBY', selectedLane);
+     }}
+    >
+     🛡️ Standby Card (STANDBY)
     </button>
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
