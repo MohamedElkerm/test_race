@@ -137,36 +137,16 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   const remaining=Math.ceil(remainingFloat);
   const progress=Math.min(1,Math.max(0.005,elapsed/75));
 
-  // Standalone Dark Squircle Card: 400x400 dead center (cx=960, cy=540)
-  const cx=960,cy=540,cardW=400,cardH=400,cardR=44;
-  const cardX=cx-cardW/2,cardY=cy-cardH/2;
+  // Pure circular countdown with NO card/box background
+  const cx=960,cy=540;
   c.save();
-  c.beginPath();
-  if(typeof c.roundRect==='function'){
-   c.roundRect(cardX,cardY,cardW,cardH,cardR);
-  }else{
-   c.moveTo(cardX+cardR,cardY);c.lineTo(cardX+cardW-cardR,cardY);
-   c.quadraticCurveTo(cardX+cardW,cardY,cardX+cardW,cardY+cardR);
-   c.lineTo(cardX+cardW,cardY+cardH-cardR);
-   c.quadraticCurveTo(cardX+cardW,cardY+cardH,cardX+cardW-cardR,cardY+cardH);
-   c.lineTo(cardX+cardR,cardY+cardH);
-   c.quadraticCurveTo(cardX,cardY+cardH,cardX,cardY+cardH-cardR);
-   c.lineTo(cardX,cardY+cardR);
-   c.quadraticCurveTo(cardX,cardY,cardX+cardR,cardY);
-   c.closePath();
-  }
-  c.fillStyle='rgba(32, 35, 43, 0.98)';
-  c.fill();
-  c.lineWidth=2;
-  c.strokeStyle='rgba(52, 58, 70, 0.95)';
-  c.stroke();
 
-  // Circular Track (dark slate grey)
-  const radius=135,strokeW=34;
+  // Circular Track (clean dark translucent slate ring)
+  const radius=140,strokeW=34;
   c.beginPath();
   c.arc(cx,cy,radius,0,Math.PI*2);
   c.lineWidth=strokeW;
-  c.strokeStyle='rgba(46, 51, 62, 0.95)';
+  c.strokeStyle='rgba(30, 36, 48, 0.85)';
   c.stroke();
 
   // Dynamic Progress Arc (sweeping clockwise)
@@ -193,8 +173,8 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
 
   // Ambient glow behind bead
   c.save();
-  c.shadowColor='rgba(56, 189, 248, 0.6)';
-  c.shadowBlur=14;
+  c.shadowColor='rgba(56, 189, 248, 0.7)';
+  c.shadowBlur=16;
   c.beginPath();
   c.arc(tipX,tipY,beadR,0,Math.PI*2);
   c.fillStyle='#0ea5e9';
@@ -216,11 +196,15 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   c.fillStyle=sphereGrad;
   c.fill();
 
-  // Center Seconds Number: big bold clean white
+  // Center Seconds Number: bold white with subtle shadow for crisp broadcast visibility
   c.textBaseline='middle';
   c.textAlign='center';
+  c.shadowColor='rgba(0, 0, 0, 0.8)';
+  c.shadowBlur=12;
+  c.shadowOffsetX=2;
+  c.shadowOffsetY=3;
   c.fillStyle='#ffffff';
-  c.font=remaining>=100?'900 92px Lato, Arial, sans-serif':'900 118px Lato, Arial, sans-serif';
+  c.font=remaining>=100?'900 96px Lato, Arial, sans-serif':'900 124px Lato, Arial, sans-serif';
   c.fillText(remaining===0?'0':String(remaining),cx,cy+2);
   c.restore();
 
