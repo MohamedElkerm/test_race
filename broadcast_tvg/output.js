@@ -25,6 +25,7 @@ async function draw(){
  try{
   const scene=(!q.has('program')&&q.get('template'))?{template:q.get('template'),heat_id:q.get('heat')||state.selected_heat,lane:Number(q.get('lane')||1)}:state.graphics[q.has('preview')?'preview':'program'];
   if(!scene){canvas.getContext('2d').clearRect(0,0,1920,1080);return}
+  let heat=scene.frozen_heat||state.heats.find(h=>h.id===scene.heat_id)||state.heats.find(h=>h.id===state.selected_heat)||state.heats[0];
   heat={...heat,selected_lane:scene.lane,scene_set_at:scene.set_at};
 
   // Manage smooth 1s timer for countdown
