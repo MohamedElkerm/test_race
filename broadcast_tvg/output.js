@@ -1,4 +1,4 @@
-import {renderTemplate} from './render.js?v=23';import{subscribe}from './stream.js';
+import {renderTemplate} from './render.js?v=24';import{subscribe}from './stream.js';
 const q=new URLSearchParams(location.search),canvas=document.querySelector('canvas'),lost=document.querySelector('#lost');
 const registry=await fetch('/api/templates').then(r=>r.json());let state,busy=false,drawAgain=false,lastBeat=0,connectionLost=false;
 const client=globalThis.crypto?.randomUUID?.()||'tv-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);

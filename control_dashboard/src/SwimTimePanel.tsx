@@ -304,6 +304,18 @@ export default function SwimTimePanel({
      🎓 Athlete + University (SFS206)
     </button>
     <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#0284c7',color:'#f0f9ff',border:'1px solid #38bdf8',fontWeight:700}}
+     disabled={busy||!heat}
+     title="Athlete Lower-Third with Lane (No Record Box)"
+     onClick={()=>{
+      const t = isRelay ? 'SFS201A' : 'SFS200A';
+      setSelectedTemplate(t);
+      onGraphicAction?.('preview', t, selectedLane);
+     }}
+    >
+     🏊 👤 Athlete + Lane ({isRelay?'SFS201A':'SFS200A'})
+    </button>
+    <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#15324e'}}
      disabled={busy||!heat}
      onClick={()=>{

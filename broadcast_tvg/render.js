@@ -93,8 +93,12 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
   text(selected.name||'',777,953,27,600);text(selected.university||'',666,991,24,712);
  }else if(t.kind==='athlete'||t.kind==='team'){
   await image('header1_line',522,987);await image('sfs_1',522,987);
-  if(selected.country)await flag(selected.country,606,993);
-  text(selected.name||'',713,992,26,560);
+  if(selected.lane!=null){
+   c.save();c.textAlign='center';c.textBaseline='middle';c.font='900 28px Lato, sans-serif';c.fillStyle='#ffffff';
+   c.fillText(String(selected.lane),626,1007);c.restore();
+  }
+  if(selected.country)await flag(selected.country,666,994);
+  text(selected.name||'',775,992,26,560);
   if(code.endsWith('B')){if(!selected.irm)metrics.blocked.push('Approved false-start/IRM decision required');await image('short_box_red',1350,987);text(selected.irm||'IRM PENDING',1380,993,22,165)}
   if(code.endsWith('C')){
    const recText = selected.record || selected.qualification || (selected.display_time ? 'TIME: ' + selected.display_time : (selected.seed_ticks ? clock(selected.seed_ticks) : '00:00:00'));
