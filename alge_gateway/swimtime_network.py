@@ -11,6 +11,7 @@ from collections import Counter, deque
 import hashlib
 import ipaddress
 import json
+import os
 from pathlib import Path
 import socket
 import threading
@@ -235,7 +236,8 @@ class SwimTimeNetwork:
     def __init__(self, root: Path, mode='TEST'):
         self.root, self.mode = root, mode
         cfg = self._load_settings_file()
-        default_ip = cfg.get('swimtime_source_ip', '10.227.186.112')
+        env_ip = os.environ.get('SWIMTIME_SOURCE_IP') or os.environ.get('FINS_SWIMTIME_SOURCE_IP')
+        default_ip = env_ip or cfg.get('swimtime_source_ip', '10.227.186.112')
         self.data = FeedState(default_ip)
         self.listening = self.replay = False
         self.transport = None
@@ -243,7 +245,8 @@ class SwimTimeNetwork:
         self.log_bytes = 0
         self.log_part = 0
         self.capture_prefix = None
-        self.port = int(cfg.get('swimtime_port', 26))
+        env_port = os.environ.get('SWIMTIME_PORT') or os.environ.get('FINS_SWIMTIME_PORT')
+        self.port = int(env_port) if env_port else int(cfg.get('swimtime_port', 26))
         self.error = None
         self.log_path = None
         self.sync_config = {

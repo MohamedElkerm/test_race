@@ -95,7 +95,7 @@ def create_app(db_path=None,mode=None):
         try:
             if any(k in p for k in ('api_base_url','bearer_token','lane_offset','auto_sync')):
                 swimtime.update_sync_config(p)
-            result=await swimtime.start(p.get('source_ip','10.227.186.112'),p.get('port',26))
+            result=await swimtime.start(p.get('source_ip', swimtime.data.raw.expected_source or '10.227.186.112'), p.get('port', swimtime.port))
         except (OSError,ValueError) as exc:raise DomainError('UDP listener: '+str(exc),409)
         with store.db() as c:store.audit(c,a['id'],'SWIMTIME_TEST_START','observer',None,{'source_ip':result['source_ip'],'port':result['port']},'SwimTime Network Display','Read-only TEST observer; no competition timing or results changed')
         return result
