@@ -320,9 +320,11 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
      accentColor: '#FFA751',
      data: gold,
      cx: 960,
-     cardW: 290,
+     cardW: 320,
      cardH: 215,
      standTopY: 590,
+     flagW: 215,
+     flagH: 60,
      badgeIcon: '🥇'
     },
     {
@@ -333,9 +335,11 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
      accentColor: '#B0BEC5',
      data: silver,
      cx: 690,
-     cardW: 260,
-     cardH: 195,
+     cardW: 290,
+     cardH: 200,
      standTopY: 665,
+     flagW: 190,
+     flagH: 53,
      badgeIcon: '🥈'
     },
     {
@@ -346,16 +350,18 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
      accentColor: '#A0522D',
      data: bronze,
      cx: 1230,
-     cardW: 260,
-     cardH: 195,
+     cardW: 290,
+     cardH: 200,
      standTopY: 695,
+     flagW: 190,
+     flagH: 53,
      badgeIcon: '🥉'
     }
    ];
 
    for(const mc of medalConfigs){
     const cardX = mc.cx - mc.cardW / 2;
-    const cardY = mc.standTopY - mc.cardH - 14;
+    const cardY = mc.standTopY - mc.cardH - 12;
 
     // Card container: luxurious dark glass with themed border
     c.save();
@@ -397,11 +403,12 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
     c.fillText(`${mc.badgeIcon} ${mc.title} • ${mc.medalName}`, badgeX + badgeW / 2, badgeY + badgeH / 2 + 1);
     c.restore();
 
-    // Country Flag: placed right below badge
-    const flagW = mc.place === 1 ? 92 : 80;
-    const flagH = mc.place === 1 ? 48 : 42;
+    // Column Structure:
+    // 1) Big Flag: positioned right below badge
+    const flagW = mc.flagW;
+    const flagH = mc.flagH;
     const flagX = mc.cx - flagW / 2;
-    const flagY = badgeY + badgeH + 10;
+    const flagY = badgeY + badgeH + 14;
 
     const cc = (mc.data?.country || '').toUpperCase().trim();
     if(cc){
@@ -427,7 +434,7 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
      } catch(e) {
       c.save();
       c.fillStyle = mc.themeColor;
-      c.font = '900 18px Lato, sans-serif';
+      c.font = '900 20px Lato, sans-serif';
       c.textAlign = 'center';
       c.textBaseline = 'middle';
       c.fillText(cc, mc.cx, flagY + flagH / 2);
@@ -440,35 +447,25 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
      c.restore();
     }
 
-    // Under the flag: Athlete Name
-    const nameY = flagY + flagH + 10;
+    // 2) Under the big flag: Athlete Name
+    const nameY = flagY + flagH + 16;
     const athleteName = mc.data?.name || '— SELECT ATHLETE —';
     c.save();
     c.textAlign = 'center';
-    c.textBaseline = 'top';
+    c.textBaseline = 'middle';
     c.fillStyle = '#FFFFFF';
-    c.shadowColor = 'rgba(0, 0, 0, 0.85)';
-    c.shadowBlur = 6;
+    c.shadowColor = 'rgba(0, 0, 0, 0.9)';
+    c.shadowBlur = 8;
     c.shadowOffsetY = 2;
     const maxTextW = mc.cardW - 24;
-    let nameSize = mc.place === 1 ? 20 : 17;
+    let nameSize = mc.place === 1 ? 22 : 19;
     c.font = `900 ${nameSize}px Lato, sans-serif`;
     let measuredW = c.measureText(athleteName).width;
     if(measuredW > maxTextW){
-     nameSize = Math.max(12, Math.floor(nameSize * (maxTextW / measuredW)));
+     nameSize = Math.max(13, Math.floor(nameSize * (maxTextW / measuredW)));
      c.font = `900 ${nameSize}px Lato, sans-serif`;
     }
-    c.fillText(athleteName, mc.cx, nameY);
-    c.restore();
-
-    // Under athlete name: Nationality badge
-    const natY = nameY + nameSize + 5;
-    c.save();
-    c.textAlign = 'center';
-    c.textBaseline = 'top';
-    c.fillStyle = mc.themeColor;
-    c.font = '800 13px Lato, sans-serif';
-    c.fillText(cc ? `[ ${cc} ]` : '', mc.cx, natY);
+    c.fillText(athleteName, mc.cx, nameY + 10);
     c.restore();
    }
   }else{
