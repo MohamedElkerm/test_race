@@ -7,7 +7,7 @@ export type Template={code:string;name:string;approval_status:string;missing:str
 
 export type SwimTimeSyncConfig={api_base_url:string;bearer_token:string;lane_offset:number;auto_sync:boolean};
 export type SwimTimeSyncStatus={state:string;last_sync_at:number|null;matched_heat_id:string|null;matched_heat_label:string|null;swimtime_heat_number:string|null;last_sent_lanes:number;last_message:string|null;last_error:string|null};
-export type SwimTimeFeed={enabled:boolean;state:string;listening:boolean;receiving:boolean;replay:boolean;source_ip:string;port:number;age_ms:number|null;clock_display:string|null;clock_raw:number|null;clock_code:number|null;clock_fresh:boolean;counts:Record<string,number>;metadata?:Record<string,string>;capture_file:string|null;error:string|null;warning:string|null;layout:string;channels:{channel:number;raw_value:number;display_time:string|null;source_rank:string;source_lap:string;source_points:string;meaning:string}[];sync_config?:SwimTimeSyncConfig;sync_status?:SwimTimeSyncStatus};
+export type SwimTimeFeed={enabled:boolean;state:string;listening:boolean;receiving:boolean;replay:boolean;source_ip:string;port:number;age_ms:number|null;clock_display:string|null;clock_raw:number|null;clock_code:number|null;clock_fresh:boolean;held?:boolean;manual_hold?:boolean;clock_held?:boolean;counts:Record<string,number>;metadata?:Record<string,string>;capture_file:string|null;error:string|null;warning:string|null;layout:string;channels:{channel:number;raw_value:number;display_time:string|null;source_rank:string;source_lap:string;source_points:string;meaning:string}[];sync_config?:SwimTimeSyncConfig;sync_status?:SwimTimeSyncStatus};
 
 type Props={
  feed?:SwimTimeFeed;
@@ -24,6 +24,8 @@ type Props={
  state?:any;
  canBroadcast?:boolean;
  onGraphicAction?:(act:'preview'|'take'|'hold'|'clear'|'direct', tmpl?:string, targetLane?:number, recordBadge?:string)=>Promise<void>|void;
+ onHoldScore?:()=>void;
+ onResetScore?:()=>void;
  start:(source:string,port:number,cfg:SwimTimeSyncConfig)=>void;
  stop:()=>void;
  replay:()=>void;
@@ -46,6 +48,8 @@ export default function SwimTimePanel({
  state,
  canBroadcast=true,
  onGraphicAction,
+ onHoldScore,
+ onResetScore,
  start,
  stop,
  replay,
@@ -358,7 +362,7 @@ export default function SwimTimePanel({
       </label>
      </div>
 
-     <div className="buttons" style={{marginTop:'14px'}}>
+     <div className="buttons" style={{marginTop:'14px',display:'flex',gap:'8px',flexWrap:'wrap'}}>
       <button
        disabled={busy||!heat}
        onClick={()=>onGraphicAction?.('preview', selectedTemplate, selectedLane, recordBadge)}
@@ -373,10 +377,25 @@ export default function SwimTimePanel({
        🔴 TAKE (Push to OBS)
       </button>
       <button
-       disabled={busy||!programScene}
-       onClick={()=>onGraphicAction?.('hold')}
+       style={{
+        background: feed?.manual_hold || feed?.held ? '#d97706' : '#1e3a5f',
+        borderColor: feed?.manual_hold || feed?.held ? '#fbbf24' : '#3872aa',
+        color: '#fff',
+        fontWeight: 700
+       }}
+       disabled={busy}
+       onClick={()=>onHoldScore?.()}
+       title="Freeze and hold the current score & timing on screen"
       >
-       Hold
+       {feed?.manual_hold || feed?.held ? '🔒 Scores Held' : '⏸️ Hold Scores'}
+      </button>
+      <button
+       style={{background:'#374151',borderColor:'#4b5563',color:'#e5e7eb'}}
+       disabled={busy}
+       onClick={()=>onResetScore?.()}
+       title="Reset held scores for the next race"
+      >
+       🔄 Reset Scores
       </button>
      </div>
      <p className="muted" style={{margin:'6px 0 0'}}>
@@ -524,6 +543,25 @@ export default function SwimTimePanel({
     <button disabled={!enabled||feed?.listening} onClick={()=>start(source,port,cfg)}>Start UDP TEST listener</button>
     <button disabled={!enabled||!feed?.listening} onClick={stop}>Stop UDP listener</button>
     <button disabled={!enabled||feed?.listening} onClick={replay}>Replay recorded TEST capture</button>
+    <button
+     style={{
+      background: feed?.manual_hold || feed?.held ? '#d97706' : '#2b4c7e',
+      borderColor: feed?.manual_hold || feed?.held ? '#fbbf24' : '#3872aa',
+      color: '#fff',
+      fontWeight: 700
+     }}
+     disabled={!enabled}
+     onClick={()=>onHoldScore?.()}
+    >
+     {feed?.manual_hold || feed?.held ? '🔒 Scores Held (Unfreeze)' : '⏸️ Hold Scores (Freeze)'}
+    </button>
+    <button
+     style={{background: '#4b5563', color: '#e5e7eb'}}
+     disabled={!enabled}
+     onClick={()=>onResetScore?.()}
+    >
+     🔄 Reset Scores (New Race)
+    </button>
     {saveSync&&<button disabled={!enabled} onClick={()=>saveSync(cfg)}>Save API Settings</button>}
     {syncNow&&<button disabled={!enabled} onClick={()=>syncNow(cfg,true,false)}>Verify ONGOING Heat</button>}
     {syncNow&&<button className="take" disabled={!enabled} onClick={()=>syncNow(cfg,false,false)}>Sync Results to API Now</button>}

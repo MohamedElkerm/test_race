@@ -64,6 +64,7 @@ class FeedState:
         self.clock_at = None
         self.clock_code = None
         self.clock_held = False
+        self.manual_hold = False
         self.layout = 'LANE ORIENTATION EXPECTED / TEST CAPTURE ONLY'
         self.layout_supported = True
         self.metadata = {}
@@ -86,11 +87,15 @@ class FeedState:
             if not row['accepted']:
                 if raw.startswith(b'Layout\t') and raw.rstrip(b'\r\n') != b'Layout\tStartlist':
                     self.layout_supported = False
-                    self.clock = None
-                    self.channels.clear()
-                    self.finished_channels.clear()
-                    self.race_active = False
+                    if not self.manual_hold:
+                        self.clock = None
+                        self.channels.clear()
+                        self.finished_channels.clear()
+                        self.race_active = False
                     self.warning = 'Unsupported layout; times suppressed until LaneOriented is received or the listener is restarted.'
+                return row
+            if self.manual_hold:
+                # When manual hold is engaged, protect the live score table & clock from being modified
                 return row
             for rec in row['records']:
                 scope = rec['scope']
@@ -118,16 +123,26 @@ class FeedState:
                         if value < 0:
                             if self.race_active:
                                 row['trigger_race_end'] = self._snapshot_race_end(reset_after=False)
-                            self.clock = None
                             self.clock_code = value
-                            self.clock_held = False
-                            self.last_numeric_clock = None
+                            if self.last_numeric_clock is not None:
+                                self.clock = self.last_numeric_clock
+                                self.clock_held = True
+                            else:
+                                self.clock = None
+                                self.clock_held = False
+                                self.last_numeric_clock = None
                         elif self.clock_held:
                             pass
                         elif self.clock is not None and value < self.clock:
-                            self.clock = None
+                            # Hardware clock decreased or zeroed without transition: HOLD LAST CLOCK!
+                            self.clock = self.last_numeric_clock
                             self.clock_held = True
-                            self.warning = 'Clock decreased without an observed idle/ready transition; clock held. Raw data retained.'
+                            self.warning = 'Clock decreased or zeroed without transition; clock held at last valid time.'
+                        elif value == 0 and self.last_numeric_clock is not None and self.last_numeric_clock > 0:
+                            # Hardware sent 0 on reset: HOLD LAST CLOCK!
+                            self.clock = self.last_numeric_clock
+                            self.clock_held = True
+                            self.warning = 'Hardware reset to 0 received; holding last race clock.'
                         else:
                             if self.last_numeric_clock is None:
                                 self.channels.clear()
@@ -144,26 +159,31 @@ class FeedState:
                             row['trigger_race_end'] = self._snapshot_race_end(reset_after=True)
                         else:
                             row['reset_external_sync'] = True
-                        self.finished_channels.clear()
-                        self.clock = None
+                        # Ready / Device reset received: DO NOT erase finished swimmers' scores!
+                        if self.last_numeric_clock is not None:
+                            self.clock = self.last_numeric_clock
+                            self.clock_held = True
                         self.clock_code = None
-                        self.last_numeric_clock = None
-                        self.clock_held = False
-                        if self.warning and self.warning.startswith('Clock decreased'):
-                            self.warning = None
                     elif kind == 'LaneTime' and 0 <= channel <= 10:
-                        self.channels[channel] = {
-                            'channel': channel, 'raw_value': value,
-                            'display_time': display_ticks(value),
-                            'source_rank': rec['fields']['Rank'],
-                            'source_lap': rec['fields']['Lap'],
-                            'source_points': rec['fields']['Points'],
-                            'received_at_unix': at,
-                            'meaning': 'OBSERVED TIME / TEST ONLY' if value >= 0 else 'UNINTERPRETED NEGATIVE CODE',
-                        }
-                        if value > 0:
-                            self.finished_channels[channel] = dict(self.channels[channel])
-                            row['trigger_external_sync'] = True
+                        existing = self.channels.get(channel)
+                        # ANTI-ZERO PROTECTION:
+                        # If hardware device sends 0 (or <= 0) and this lane already has a valid score,
+                        # HOLD THE SCORE! Do not overwrite it with zeros!
+                        if (value is None or value <= 0) and existing and (existing.get('raw_value') or 0) > 0:
+                            pass
+                        else:
+                            self.channels[channel] = {
+                                'channel': channel, 'raw_value': value,
+                                'display_time': display_ticks(value),
+                                'source_rank': rec['fields']['Rank'],
+                                'source_lap': rec['fields']['Lap'],
+                                'source_points': rec['fields']['Points'],
+                                'received_at_unix': at,
+                                'meaning': 'OBSERVED TIME / TEST ONLY' if value >= 0 else 'UNINTERPRETED NEGATIVE CODE',
+                            }
+                            if value > 0:
+                                self.finished_channels[channel] = dict(self.channels[channel])
+                                row['trigger_external_sync'] = True
                     if kind != 'RunningTime':
                         self.events.append({'kind': kind, 'channel': channel, 'raw_value': value, 'at': at})
             return row
@@ -175,13 +195,17 @@ class FeedState:
             clock_age = None if self.clock_at is None else max(0, now - self.clock_at)
             clock_fresh = listening and fresh and clock_age is not None and clock_age <= 2 and self.layout_supported and not self.clock_held
             status = 'RECORDED TEST REPLAY' if replay else ('STOPPED' if not listening else ('NO FEED' if age is None else ('RECEIVING TEST DATA' if fresh else 'STALE / DATA LOST')))
+            show_clock = (clock_fresh or self.clock_held or self.manual_hold) and self.clock is not None
             return {
                 'profile': PROFILE, 'state': status, 'listening': listening,
                 'receiving': bool(listening and fresh), 'replay': replay,
+                'held': bool(self.manual_hold or self.clock_held),
+                'manual_hold': bool(self.manual_hold),
+                'clock_held': bool(self.clock_held),
                 'age_ms': None if age is None else round(age * 1000),
-                'clock_display': display_ticks(self.clock) if clock_fresh else None,
+                'clock_display': display_ticks(self.clock) if show_clock else None,
                 'clock_raw': self.clock, 'clock_code': self.clock_code,
-                'clock_fresh': bool(clock_fresh and self.clock is not None),
+                'clock_fresh': bool((clock_fresh or self.clock_held or self.manual_hold) and self.clock is not None),
                 'channels': [dict(self.channels[k]) for k in sorted(self.channels, reverse=True)],
                 'counts': dict(self.raw.counts), 'recent_events': list(self.events),
                 'metadata': dict(self.metadata), 'layout': self.layout,
@@ -308,6 +332,29 @@ class SwimTimeNetwork:
         self.active_heat_number = None
         self.active_heat_label = None
         self.last_synced_signature = None
+
+    def set_hold(self, held: bool | None = None) -> bool:
+        with self.data.lock:
+            if held is None:
+                self.data.manual_hold = not self.data.manual_hold
+            else:
+                self.data.manual_hold = bool(held)
+            if self.data.manual_hold and self.data.last_numeric_clock is not None:
+                self.data.clock = self.data.last_numeric_clock
+                self.data.clock_held = True
+            return self.data.manual_hold
+
+    def reset_scores(self):
+        with self.data.lock:
+            self.data.channels.clear()
+            self.data.finished_channels.clear()
+            self.data.clock = None
+            self.data.last_numeric_clock = None
+            self.data.clock_held = False
+            self.data.manual_hold = False
+            self.data.warning = None
+        self.reset_sync_session()
+        return self.snapshot()
 
     def update_sync_config(self, config: dict):
         if 'api_base_url' in config and config['api_base_url'] is not None:

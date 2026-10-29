@@ -202,6 +202,12 @@ function App(){
    state={state}
    canBroadcast={can('BROADCAST_OPERATOR')}
    onGraphicAction={handleGraphicAction}
+   onHoldScore={()=>action(async()=>{
+    return await api('/api/swimtime/hold',{});
+   }, feed?.held ? 'Scores unheld (listening)' : 'Scores held & frozen on screen')}
+   onResetScore={()=>action(async()=>{
+    return await api('/api/swimtime/reset',{});
+   }, 'Scores reset for next race')}
    start={(source_ip,port,cfg)=>action(()=>api('/api/swimtime/start',{source_ip,port,...cfg}),'UDP TEST listener started and API sync settings saved.')}
    stop={()=>action(()=>api('/api/swimtime/stop',{}),'UDP TEST listener stopped.')}
    replay={()=>action(()=>api('/api/swimtime/replay',{}),'Recorded TEST capture replayed. No results changed.')}

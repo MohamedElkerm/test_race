@@ -65,12 +65,19 @@ async function draw(){
    clearInterval(globalThis._cdTimer);globalThis._cdTimer=null;globalThis._cdStart=null;
   }
 
-  // Bind live SwimTime UDP timing & clock into heat
+  // Bind live SwimTime UDP timing & clock into heat with Anti-Zero protection
   const st = state.swimtime;
-  if(st){
+  const isHeld = scene.held || st?.manual_hold;
+
+  if(scene.frozen_heat){
+   // When scene was explicitly held, use the frozen snapshot of heat entries & times
+   heat = { ...scene.frozen_heat, selected_lane: scene.lane, scene_set_at: scene.set_at };
+  } else if(st && !isHeld){
    if(st.clock_display || st.clock_raw){
-    heat.clock_ticks = st.clock_raw ?? heat.clock_ticks;
-    heat.clock_display = st.clock_display;
+    if(st.clock_raw > 0 || !heat.clock_ticks){
+     heat.clock_ticks = st.clock_raw ?? heat.clock_ticks;
+     heat.clock_display = st.clock_display || heat.clock_display;
+    }
     heat.data_stale = !st.clock_fresh && !st.receiving;
    }
    if(st.channels && st.channels.length > 0){
@@ -78,13 +85,18 @@ async function draw(){
     heat.entries = (heat.entries || []).map(entry => {
      const ch = chMap.get(entry.lane);
      if(ch){
+      const incomingTicks = ch.raw_value;
+      // ANTI-ZERO PROTECTION: If hardware device resets to 0, hold the last valid score!
+      if((incomingTicks == null || incomingTicks <= 0) && (entry.ticks > 0 || (entry.display_time && entry.display_time !== '—' && !entry.display_time.startsWith('0:00')))){
+       return entry;
+      }
       const rk = (ch.source_rank && ch.source_rank !== "—") ? parseInt(ch.source_rank, 10) : entry.rank;
       return {
        ...entry,
-       ticks: ch.raw_value ?? entry.ticks,
-       display_time: ch.display_time || entry.display_time,
+       ticks: (incomingTicks > 0) ? incomingTicks : (entry.ticks || incomingTicks),
+       display_time: (incomingTicks > 0 && ch.display_time) ? ch.display_time : (entry.display_time || ch.display_time),
        rank: (rk && !isNaN(rk)) ? rk : entry.rank,
-       lap: ch.source_lap
+       lap: ch.source_lap || entry.lap
       };
      }
      return entry;

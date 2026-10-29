@@ -128,6 +128,56 @@ def create_app(db_path=None,mode=None):
         except (OSError,ValueError) as exc:raise DomainError(str(exc),409)
         with store.db() as c:store.audit(c,a['id'],'SWIMTIME_TEST_REPLAY','observer',None,{'datagrams':result['counts'].get('datagrams',0)},'Bundled 24 October field recording','Offline TEST replay; no results written or published')
         return result
+    @app.post('/api/swimtime/hold')
+    async def swimtime_hold(req:Request):
+        a=actor(req);store.require(a,'TIMING_OPERATOR','BROADCAST_OPERATOR')
+        p={}
+        try:
+            raw_body=await req.body()
+            if raw_body:p=json.loads(raw_body)
+        except Exception:pass
+        target=p.get('held')
+        held=swimtime.set_hold(target)
+        with store.db() as c:
+            old=dict(c.execute("SELECT * FROM graphics WHERE id='tv'").fetchone())
+            if old.get('program'):
+                scene=json.loads(old['program'])
+                if held:
+                    s=store.snapshot()
+                    cur_h=next((h for h in s['heats'] if h['id']==scene.get('heat_id')), None)
+                    if cur_h:
+                        st=swimtime.snapshot()
+                        chMap={ch['channel']:ch for ch in st.get('channels',[])}
+                        frozen_entries=[]
+                        for entry in cur_h.get('entries',[]):
+                            ch=chMap.get(entry['lane'])
+                            e=dict(entry)
+                            if ch and (ch.get('raw_value') or 0)>0:
+                                e['ticks']=ch['raw_value']
+                                e['display_time']=ch.get('display_time') or e.get('display_time')
+                            frozen_entries.append(e)
+                        cur_h=dict(cur_h)
+                        cur_h['entries']=frozen_entries
+                        scene['frozen_heat']=cur_h
+                else:
+                    scene.pop('frozen_heat', None)
+                scene['held']=1 if held else 0
+                c.execute("UPDATE graphics SET program=?,held=? WHERE id='tv'",(json.dumps(scene), 1 if held else 0))
+            store.audit(c,a['id'],'SWIMTIME_HOLD','observer',None,{'held':held},'Manual timing hold',f'Scores {"held" if held else "released"}')
+        return {'ok':True,'held':held}
+    @app.post('/api/swimtime/reset')
+    async def swimtime_reset(req:Request):
+        a=actor(req);store.require(a,'TIMING_OPERATOR','BROADCAST_OPERATOR')
+        swimtime.reset_scores()
+        with store.db() as c:
+            old=dict(c.execute("SELECT * FROM graphics WHERE id='tv'").fetchone())
+            if old.get('program'):
+                scene=json.loads(old['program'])
+                scene.pop('frozen_heat', None)
+                scene['held']=0
+                c.execute("UPDATE graphics SET program=?,held=0 WHERE id='tv'",(json.dumps(scene),0))
+            store.audit(c,a['id'],'SWIMTIME_RESET','observer',None,None,'Manual timing reset','Scores reset for next race')
+        return {'ok':True,'held':False}
     @app.get('/api/templates')
     def template_registry():return templates()
     @app.get('/api/public/results')
@@ -260,9 +310,32 @@ def create_app(db_path=None,mode=None):
             elif action=='hold':
                 if not old['program']:raise DomainError('Nothing on program')
                 scene=json.loads(old['program'])
-                if scene['template'].startswith('SFS50'):raise DomainError('Live timing cannot be held as a live clock')
-                s=store.snapshot();scene['frozen_heat']=next(h for h in s['heats'] if h['id']==scene['heat_id'])
+                s=store.snapshot()
+                cur_h=next((h for h in s['heats'] if h['id']==scene.get('heat_id')), None)
+                if cur_h:
+                    st=swimtime.snapshot()
+                    chMap={ch['channel']:ch for ch in st.get('channels',[])}
+                    frozen_entries=[]
+                    for entry in cur_h.get('entries',[]):
+                        ch=chMap.get(entry['lane'])
+                        e=dict(entry)
+                        if ch and (ch.get('raw_value') or 0)>0:
+                            e['ticks']=ch['raw_value']
+                            e['display_time']=ch.get('display_time') or e.get('display_time')
+                        frozen_entries.append(e)
+                    cur_h=dict(cur_h)
+                    cur_h['entries']=frozen_entries
+                    scene['frozen_heat']=cur_h
+                scene['held']=1
+                swimtime.set_hold(True)
                 c.execute("UPDATE graphics SET program=?,held=1 WHERE id='tv'",(J(scene),))
+            elif action=='reset_scores':
+                swimtime.reset_scores()
+                if old['program']:
+                    scene=json.loads(old['program'])
+                    scene.pop('frozen_heat', None)
+                    scene['held']=0
+                    c.execute("UPDATE graphics SET program=?,held=0 WHERE id='tv'",(J(scene),))
             elif action=='clear':c.execute("UPDATE graphics SET program=NULL,held=0 WHERE id='tv'")
             else:raise DomainError('Unknown graphic action')
             store.audit(c,a['id'],'GRAPHICS_'+action.upper(),'tv',old,p,'broadcast operator',reason(p))
