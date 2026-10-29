@@ -19,7 +19,12 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
  if(!t){return metrics}
  let unavailable=[];
  const required=[...t.assets.filter(a=>a.processed).map(a=>a.processed)];
- const allFlags=[...new Set((heat?.entries||[]).map(a=>String(a.country||'').toUpperCase().trim()).filter(Boolean))];
+ const medalCountries = heat?.medals ? [
+  heat.medals.first?.country || (typeof heat.medals.first === 'string' ? heat.medals.first.split(' - ')[1] : ''),
+  heat.medals.second?.country || (typeof heat.medals.second === 'string' ? heat.medals.second.split(' - ')[1] : ''),
+  heat.medals.third?.country || (typeof heat.medals.third === 'string' ? heat.medals.third.split(' - ')[1] : '')
+ ].filter(Boolean) : [];
+ const allFlags=[...new Set([...(heat?.entries||[]).map(a=>String(a.country||'').toUpperCase().trim()), ...medalCountries.map(c=>String(c).toUpperCase().trim())].filter(Boolean))];
  await Promise.all([...required,...allFlags.map(cc=>'/assets/flags/'+cc+'.png')].map(url=>loadImage(url).catch(()=>unavailable.push(url))));
  await readyFonts();
  function sprite(asset,x,y){const url='/assets/sfs/'+asset+'.png',p=cache.get(url);if(p&&!unavailable.includes(url))p.then(im=>{});return loadImage(url).then(im=>c.drawImage(im,x,y));}
@@ -243,6 +248,229 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
    const tw=c.measureText(text).width;
    c.fillText(text,barX+(barW-tw)/2,barY+barH/2);
    c.restore();
+  }else if(t.kind==='podium'||code==='PODIUM'||code==='MEDALISTS'||code==='SFS400'){
+   // Parse medalists for 1st, 2nd, 3rd
+   function parseM(m, defaultRank){
+    if(m){
+     if(typeof m==='object') return { name: m.name||m.playerName||'', country: (m.country||m.nationality||'').toUpperCase().trim(), team: m.team||m.university||'' };
+     if(typeof m==='string'){
+      const parts = m.split(' - ');
+      if(parts.length >= 2) return { name: parts[0].trim(), country: parts[1].trim().toUpperCase() };
+      return { name: m.trim(), country: '' };
+     }
+    }
+    const found = (heat?.entries||[]).find(e => e.rank === defaultRank);
+    if(found) return { name: found.name, country: (found.country||'').toUpperCase().trim(), team: found.university||found.team||found.country };
+    return null;
+   }
+
+   const gold = parseM(heat?.medals?.first, 1);
+   const silver = parseM(heat?.medals?.second, 2);
+   const bronze = parseM(heat?.medals?.third, 3);
+
+   // 1. Draw top Championship Victory Ceremony Header (pure floating luxury banner)
+   const barW = 1260, barH = 88, barX = (1920 - barW) / 2, barY = 55;
+   c.save();
+   c.fillStyle = 'rgba(6, 18, 38, 0.94)';
+   c.strokeStyle = 'rgba(218, 165, 32, 0.85)';
+   c.lineWidth = 2.5;
+   c.shadowColor = 'rgba(0, 0, 0, 0.65)';
+   c.shadowBlur = 18;
+   c.shadowOffsetY = 6;
+   if(c.roundRect){
+    c.beginPath();
+    c.roundRect(barX, barY, barW, barH, 14);
+    c.fill();
+    c.stroke();
+   } else {
+    c.fillRect(barX, barY, barW, barH);
+    c.strokeRect(barX, barY, barW, barH);
+   }
+   c.restore();
+
+   c.save();
+   c.textAlign = 'center';
+   c.textBaseline = 'middle';
+   c.fillStyle = '#FFFFFF';
+   c.font = '900 24px Lato, sans-serif';
+   c.fillText('2026 FISU WORLD UNIVERSITY CHAMPIONSHIP FINSWIMMING', barX + barW / 2, barY + 28);
+   c.fillStyle = '#F5B041';
+   c.font = '800 20px Lato, sans-serif';
+   const ceremonySub = description ? `VICTORY CEREMONY — ${description}` : 'VICTORY CEREMONY — MEDAL PRESENTATION';
+   c.fillText(ceremonySub, barX + barW / 2, barY + 60);
+   c.restore();
+
+   // 2. Draw 3D Podium Cutout (transparent PNG)
+   const podW = 960, podH = 453;
+   const podX = (1920 - podW) / 2, podY = 570;
+   try {
+    const im = await loadImage('/assets/sfs/podium_stand.png');
+    c.drawImage(im, podX, podY, podW, podH);
+   } catch (e) {
+    metrics.blocked.push(String(e));
+   }
+
+   // 3. Draw Medalist Cards floating directly above the 3 podium steps
+   const medalConfigs = [
+    {
+     place: 1,
+     title: '1st PLACE',
+     medalName: 'GOLD',
+     themeColor: '#FFD700',
+     accentColor: '#FFA751',
+     data: gold,
+     cx: 960,
+     cardW: 290,
+     cardH: 215,
+     standTopY: 590,
+     badgeIcon: '🥇'
+    },
+    {
+     place: 2,
+     title: '2nd PLACE',
+     medalName: 'SILVER',
+     themeColor: '#E0E0E0',
+     accentColor: '#B0BEC5',
+     data: silver,
+     cx: 690,
+     cardW: 260,
+     cardH: 195,
+     standTopY: 665,
+     badgeIcon: '🥈'
+    },
+    {
+     place: 3,
+     title: '3rd PLACE',
+     medalName: 'BRONZE',
+     themeColor: '#CD7F32',
+     accentColor: '#A0522D',
+     data: bronze,
+     cx: 1230,
+     cardW: 260,
+     cardH: 195,
+     standTopY: 695,
+     badgeIcon: '🥉'
+    }
+   ];
+
+   for(const mc of medalConfigs){
+    const cardX = mc.cx - mc.cardW / 2;
+    const cardY = mc.standTopY - mc.cardH - 14;
+
+    // Card container: luxurious dark glass with themed border
+    c.save();
+    c.fillStyle = 'rgba(8, 20, 40, 0.94)';
+    c.strokeStyle = mc.themeColor;
+    c.lineWidth = mc.place === 1 ? 3 : 2;
+    c.shadowColor = 'rgba(0, 0, 0, 0.65)';
+    c.shadowBlur = 16;
+    c.shadowOffsetY = 6;
+    if(c.roundRect){
+     c.beginPath();
+     c.roundRect(cardX, cardY, mc.cardW, mc.cardH, 12);
+     c.fill();
+     c.stroke();
+    } else {
+     c.fillRect(cardX, cardY, mc.cardW, mc.cardH);
+     c.strokeRect(cardX, cardY, mc.cardW, mc.cardH);
+    }
+    c.restore();
+
+    // Top pill badge: e.g. 🥇 1st PLACE • GOLD
+    const badgeH = 26, badgeW = mc.cardW - 40, badgeX = cardX + 20, badgeY = cardY + 12;
+    c.save();
+    const grad = c.createLinearGradient(badgeX, badgeY, badgeX + badgeW, badgeY);
+    grad.addColorStop(0, mc.accentColor);
+    grad.addColorStop(1, mc.themeColor);
+    c.fillStyle = grad;
+    if(c.roundRect){
+     c.beginPath();
+     c.roundRect(badgeX, badgeY, badgeW, badgeH, 6);
+     c.fill();
+    } else {
+     c.fillRect(badgeX, badgeY, badgeW, badgeH);
+    }
+    c.textAlign = 'center';
+    c.textBaseline = 'middle';
+    c.fillStyle = '#0F172A';
+    c.font = '900 13px Lato, sans-serif';
+    c.fillText(`${mc.badgeIcon} ${mc.title} • ${mc.medalName}`, badgeX + badgeW / 2, badgeY + badgeH / 2 + 1);
+    c.restore();
+
+    // Country Flag: placed right below badge
+    const flagW = mc.place === 1 ? 92 : 80;
+    const flagH = mc.place === 1 ? 48 : 42;
+    const flagX = mc.cx - flagW / 2;
+    const flagY = badgeY + badgeH + 10;
+
+    const cc = (mc.data?.country || '').toUpperCase().trim();
+    if(cc){
+     try {
+      const fim = await loadImage('/assets/flags/' + cc + '.png');
+      c.save();
+      c.shadowColor = 'rgba(0, 0, 0, 0.55)';
+      c.shadowBlur = 8;
+      c.shadowOffsetY = 3;
+      c.strokeStyle = mc.themeColor;
+      c.lineWidth = 1.5;
+      if(c.roundRect){
+       c.beginPath();
+       c.roundRect(flagX, flagY, flagW, flagH, 4);
+       c.clip();
+       c.drawImage(fim, flagX, flagY, flagW, flagH);
+       c.stroke();
+      } else {
+       c.drawImage(fim, flagX, flagY, flagW, flagH);
+       c.strokeRect(flagX, flagY, flagW, flagH);
+      }
+      c.restore();
+     } catch(e) {
+      c.save();
+      c.fillStyle = mc.themeColor;
+      c.font = '900 18px Lato, sans-serif';
+      c.textAlign = 'center';
+      c.textBaseline = 'middle';
+      c.fillText(cc, mc.cx, flagY + flagH / 2);
+      c.restore();
+     }
+    } else {
+     c.save();
+     c.strokeStyle = 'rgba(255, 255, 255, 0.25)';
+     c.strokeRect(flagX, flagY, flagW, flagH);
+     c.restore();
+    }
+
+    // Under the flag: Athlete Name
+    const nameY = flagY + flagH + 10;
+    const athleteName = mc.data?.name || '— SELECT ATHLETE —';
+    c.save();
+    c.textAlign = 'center';
+    c.textBaseline = 'top';
+    c.fillStyle = '#FFFFFF';
+    c.shadowColor = 'rgba(0, 0, 0, 0.85)';
+    c.shadowBlur = 6;
+    c.shadowOffsetY = 2;
+    const maxTextW = mc.cardW - 24;
+    let nameSize = mc.place === 1 ? 20 : 17;
+    c.font = `900 ${nameSize}px Lato, sans-serif`;
+    let measuredW = c.measureText(athleteName).width;
+    if(measuredW > maxTextW){
+     nameSize = Math.max(12, Math.floor(nameSize * (maxTextW / measuredW)));
+     c.font = `900 ${nameSize}px Lato, sans-serif`;
+    }
+    c.fillText(athleteName, mc.cx, nameY);
+    c.restore();
+
+    // Under athlete name: Nationality badge
+    const natY = nameY + nameSize + 5;
+    c.save();
+    c.textAlign = 'center';
+    c.textBaseline = 'top';
+    c.fillStyle = mc.themeColor;
+    c.font = '800 13px Lato, sans-serif';
+    c.fillText(cc ? `[ ${cc} ]` : '', mc.cx, natY);
+    c.restore();
+   }
   }else{
    await header(946,'FINSWIMMING',code==='SFS900'?'VICTORY CEREMONY - '+description:code==='SFS001'||code==='SFS002'?'SHARM EL SHEIKH - '+(heat?.venue||'VENUE CONFIRMATION PENDING'):description);
 
@@ -253,6 +481,6 @@ export async function renderTemplate(canvas,code,heat,registry,{test=true,diagno
    c.fillStyle='rgba(88,7,18,.95)';c.fillRect(60,75,1500,metrics.missing.length?92:56);
    text('NOT APPROVED / '+[...metrics.missing,...metrics.blocked].slice(0,4).join(' | '),76,92,20,1460,'#fff',700);
   }
-  if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'&&code!=='COMP_LOGO'&&code!=='LOGO'&&code!=='STANDBY'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
+  if(test&&diagnostics&&code!=='SFS550'&&code!=='COUNTDOWN'&&code!=='COMP_LOGO'&&code!=='LOGO'&&code!=='STANDBY'&&code!=='PODIUM'){c.fillStyle='rgba(4,20,44,.94)';c.fillRect(60,18,1800,36);text('TEST / ENGINEERING BUILD  •  '+code+'  •  NOT FISU APPROVED',76,25,21,1760,'#fff',700)}
  return metrics;
 }

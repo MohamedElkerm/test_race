@@ -121,7 +121,7 @@ function App(){
   const wf=(a:string)=>action(()=>api('/api/results/'+heat!.id+'/workflow',{action:a,revision:heat!.revision,reason,document_ref:doc,authority_name:authority}));
   const resultPath='/api/results/'+heat?.id;
 
-  const handleGraphicAction = async (act: 'preview'|'take'|'hold'|'clear'|'direct', tmpl?: string, targetLane?: number, recordBadge?: string) => {
+  const handleGraphicAction = async (act: 'preview'|'take'|'hold'|'clear'|'direct', tmpl?: string, targetLane?: number, recordBadge?: string, medals?: any) => {
    if (act === 'clear') {
     await action(() => api('/api/graphics', { action: 'clear', reason: 'Cleared from SwimTime panel' }), 'Graphics cleared (Off-Air)');
    } else if (act === 'take') {
@@ -129,10 +129,10 @@ function App(){
    } else if (act === 'hold') {
     await action(() => api('/api/graphics', { action: 'hold', reason: 'Hold from SwimTime panel' }), 'Graphic held');
    } else if (act === 'preview') {
-    await action(() => api('/api/graphics', { action: 'preview', template: tmpl, heat_id: heat?.id, lane: targetLane || 1, record: recordBadge, reason: 'Preview loaded' }), `Loaded preview (${tmpl})`);
+    await action(() => api('/api/graphics', { action: 'preview', template: tmpl, heat_id: heat?.id, lane: targetLane || 1, record: recordBadge, medals, reason: 'Preview loaded' }), `Loaded preview (${tmpl})`);
    } else if (act === 'direct') {
     await action(async () => {
-     await api('/api/graphics', { action: 'preview', template: tmpl, heat_id: heat?.id, lane: targetLane || 1, record: recordBadge, reason: 'Direct stream trigger' });
+     await api('/api/graphics', { action: 'preview', template: tmpl, heat_id: heat?.id, lane: targetLane || 1, record: recordBadge, medals, reason: 'Direct stream trigger' });
      await api('/api/graphics', { action: 'take', reason: 'Direct stream trigger TAKE' });
     }, `Live on OBS: ${tmpl} (Lane ${targetLane || 1})`);
    }

@@ -23,7 +23,7 @@ type Props={
  registry?:Record<string,Template>;
  state?:any;
  canBroadcast?:boolean;
- onGraphicAction?:(act:'preview'|'take'|'hold'|'clear'|'direct', tmpl?:string, targetLane?:number, recordBadge?:string)=>Promise<void>|void;
+ onGraphicAction?:(act:'preview'|'take'|'hold'|'clear'|'direct', tmpl?:string, targetLane?:number, recordBadge?:string, medals?:any)=>Promise<void>|void;
  onHoldScore?:()=>void;
  onResetScore?:()=>void;
  start:(source:string,port:number,cfg:SwimTimeSyncConfig)=>void;
@@ -69,6 +69,30 @@ export default function SwimTimePanel({
  const [selectedLane, setSelectedLane] = useState(1);
  const [copied, setCopied] = useState(false);
  const [recordBadge, setRecordBadge] = useState('00:00:00');
+
+ const [allAthletes, setAllAthletes] = useState<{id:string;name:string;country:string;gender?:string;university?:string}[]>([]);
+ const [goldMedalist, setGoldMedalist] = useState('');
+ const [silverMedalist, setSilverMedalist] = useState('');
+ const [bronzeMedalist, setBronzeMedalist] = useState('');
+
+ useEffect(()=>{
+  fetch('/api/athletes')
+   .then(r=>r.json())
+   .then(data=>{ if(Array.isArray(data)) setAllAthletes(data); })
+   .catch(()=>{});
+ },[]);
+
+ useEffect(()=>{
+  if(heat?.entries && heat.entries.length > 0){
+   const sorted = [...heat.entries].sort((a,b)=>(a.rank||999)-(b.rank||999));
+   const g = sorted[0];
+   const s = sorted[1];
+   const b = sorted[2];
+   if(g) setGoldMedalist(`${g.name} - ${g.country}`);
+   if(s) setSilverMedalist(`${s.name} - ${s.country}`);
+   if(b) setBronzeMedalist(`${b.name} - ${b.country}`);
+  }
+ },[heat?.id]);
 
  useEffect(()=>{
   if(isRelay){
@@ -204,6 +228,18 @@ export default function SwimTimePanel({
    {/* Dynamic Quick Preset Buttons */}
    <div style={{marginBottom:'16px',display:'flex',gap:'8px',flexWrap:'wrap',alignItems:'center'}}>
     <span style={{fontSize:'11px',fontWeight:700,color:'#9ab0cd',marginRight:'4px'}}>Quick Presets for this Heat:</span>
+    <button
+     style={{fontSize:'12px',padding:'6px 12px',background:'#854d0e',color:'#fef08a',border:'1px solid #eab308',fontWeight:700}}
+     disabled={busy}
+     title="3D Podium Victory Ceremony for 1st, 2nd, 3rd Medalists"
+     onClick={()=>{
+      setSelectedTemplate('PODIUM');
+      const m = { first: goldMedalist, second: silverMedalist, third: bronzeMedalist };
+      onGraphicAction?.('preview', 'PODIUM', selectedLane, recordBadge, m);
+     }}
+    >
+     🏆 3D Podium / Medalists (PODIUM)
+    </button>
     <button
      style={{fontSize:'12px',padding:'6px 12px',background:'#1e293b',color:'#f8fafc',border:'1px solid #475569',fontWeight:700}}
      disabled={busy||!heat}
@@ -362,10 +398,139 @@ export default function SwimTimePanel({
       </label>
      </div>
 
+     {selectedTemplate === 'PODIUM' && (
+      <div style={{background:'rgba(234, 179, 8, 0.08)', border:'1px solid rgba(234, 179, 8, 0.4)', borderRadius:6, padding:'12px 14px', marginTop:'12px'}}>
+       <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:'10px'}}>
+        <span style={{fontSize:'13px', fontWeight:800, color:'#fef08a'}}>
+         🏆 Podium Medalists — 1st, 2nd & 3rd Place Dropdowns
+        </span>
+        <span style={{fontSize:'11px', color:'#fde047', fontWeight:600}}>
+         Format: [ playerName - Nationality ]
+        </span>
+       </div>
+       <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(260px, 1fr))', gap:'12px'}}>
+        {/* 1st Place (Gold) */}
+        <label style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+         <span style={{fontSize:'12px', fontWeight:700, color:'#ffd700'}}>
+          🥇 1st Place (Gold Medal)
+         </span>
+         <select
+          value={goldMedalist}
+          onChange={e=>{
+           setGoldMedalist(e.target.value);
+           const m = { first: e.target.value, second: silverMedalist, third: bronzeMedalist };
+           onGraphicAction?.('preview', 'PODIUM', selectedLane, recordBadge, m);
+          }}
+          style={{fontSize:'12px', background:'#06101e', border:'1px solid #ffd700', color:'#fff', height:34}}
+         >
+          <option value="">-- Choose 1st Place Athlete --</option>
+          {heat?.entries && heat.entries.length > 0 && (
+           <optgroup label="Current Heat Entries">
+            {heat.entries.map(e=>(
+             <option key={`heat-g-${e.lane}`} value={`${e.name} - ${e.country}`}>
+              [ {e.name} - {e.country} ] {e.rank ? `(Rank ${e.rank})` : ''}
+             </option>
+            ))}
+           </optgroup>
+          )}
+          {allAthletes.length > 0 && (
+           <optgroup label="All Meet Athletes (Students Database)">
+            {allAthletes.map(a=>(
+             <option key={`all-g-${a.id}`} value={`${a.name} - ${a.country}`}>
+              [ {a.name} - {a.country} ]
+             </option>
+            ))}
+           </optgroup>
+          )}
+         </select>
+        </label>
+
+        {/* 2nd Place (Silver) */}
+        <label style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+         <span style={{fontSize:'12px', fontWeight:700, color:'#e0e0e0'}}>
+          🥈 2nd Place (Silver Medal)
+         </span>
+         <select
+          value={silverMedalist}
+          onChange={e=>{
+           setSilverMedalist(e.target.value);
+           const m = { first: goldMedalist, second: e.target.value, third: bronzeMedalist };
+           onGraphicAction?.('preview', 'PODIUM', selectedLane, recordBadge, m);
+          }}
+          style={{fontSize:'12px', background:'#06101e', border:'1px solid #e0e0e0', color:'#fff', height:34}}
+         >
+          <option value="">-- Choose 2nd Place Athlete --</option>
+          {heat?.entries && heat.entries.length > 0 && (
+           <optgroup label="Current Heat Entries">
+            {heat.entries.map(e=>(
+             <option key={`heat-s-${e.lane}`} value={`${e.name} - ${e.country}`}>
+              [ {e.name} - {e.country} ] {e.rank ? `(Rank ${e.rank})` : ''}
+             </option>
+            ))}
+           </optgroup>
+          )}
+          {allAthletes.length > 0 && (
+           <optgroup label="All Meet Athletes (Students Database)">
+            {allAthletes.map(a=>(
+             <option key={`all-s-${a.id}`} value={`${a.name} - ${a.country}`}>
+              [ {a.name} - {a.country} ]
+             </option>
+            ))}
+           </optgroup>
+          )}
+         </select>
+        </label>
+
+        {/* 3rd Place (Bronze) */}
+        <label style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+         <span style={{fontSize:'12px', fontWeight:700, color:'#cd7f32'}}>
+          🥉 3rd Place (Bronze Medal)
+         </span>
+         <select
+          value={bronzeMedalist}
+          onChange={e=>{
+           setBronzeMedalist(e.target.value);
+           const m = { first: goldMedalist, second: silverMedalist, third: e.target.value };
+           onGraphicAction?.('preview', 'PODIUM', selectedLane, recordBadge, m);
+          }}
+          style={{fontSize:'12px', background:'#06101e', border:'1px solid #cd7f32', color:'#fff', height:34}}
+         >
+          <option value="">-- Choose 3rd Place Athlete --</option>
+          {heat?.entries && heat.entries.length > 0 && (
+           <optgroup label="Current Heat Entries">
+            {heat.entries.map(e=>(
+             <option key={`heat-b-${e.lane}`} value={`${e.name} - ${e.country}`}>
+              [ {e.name} - {e.country} ] {e.rank ? `(Rank ${e.rank})` : ''}
+             </option>
+            ))}
+           </optgroup>
+          )}
+          {allAthletes.length > 0 && (
+           <optgroup label="All Meet Athletes (Students Database)">
+            {allAthletes.map(a=>(
+             <option key={`all-b-${a.id}`} value={`${a.name} - ${a.country}`}>
+              [ {a.name} - {a.country} ]
+             </option>
+            ))}
+           </optgroup>
+          )}
+         </select>
+        </label>
+       </div>
+      </div>
+     )}
+
      <div className="buttons" style={{marginTop:'14px',display:'flex',gap:'8px',flexWrap:'wrap'}}>
       <button
-       disabled={busy||!heat}
-       onClick={()=>onGraphicAction?.('preview', selectedTemplate, selectedLane, recordBadge)}
+       disabled={busy}
+       onClick={()=>{
+        const m = selectedTemplate === 'PODIUM' ? {
+         first: goldMedalist,
+         second: silverMedalist,
+         third: bronzeMedalist
+        } : undefined;
+        onGraphicAction?.('preview', selectedTemplate, selectedLane, recordBadge, m);
+       }}
       >
        Load preview
       </button>

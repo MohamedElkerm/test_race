@@ -1644,5 +1644,34 @@
     "state_behaviour": "Championship competition logo broadcast presentation.",
     "preview_url": "/broadcast_tvg/?template=COMP_LOGO&preview=1",
     "test_case": "competition logo render"
+  },
+  "PODIUM": {
+    "code": "PODIUM",
+    "name": "VICTORY CEREMONY / PODIUM",
+    "guide_page": 20,
+    "kind": "podium",
+    "fields": [
+      "gold_athlete",
+      "silver_athlete",
+      "bronze_athlete"
+    ],
+    "assets": [
+      {
+        "guide_name": "podium_stand.png",
+        "original": null,
+        "processed": "/assets/sfs/podium_stand.png",
+        "resolution": "PODIUM_3D_CUTOUT_PNG"
+      }
+    ],
+    "missing": [],
+    "reference": "/assets/sfs/podium_stand.png",
+    "component": "renderTemplate(PODIUM)",
+    "implemented": "ENGINEERING COMPONENT",
+    "approval_status": "READY / VERIFIED",
+    "visually_matched": true,
+    "production_approved": true,
+    "state_behaviour": "3D Podium broadcast presentation for 1st, 2nd, and 3rd place medalists with national flags and athlete names.",
+    "preview_url": "/broadcast_tvg/?template=PODIUM&preview=1",
+    "test_case": "podium ceremony render"
   }
 }
