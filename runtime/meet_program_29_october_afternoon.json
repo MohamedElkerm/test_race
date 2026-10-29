@@ -1,0 +1,932 @@
+[
+  {
+    "event_number": 12,
+    "event_id": "TEST-E12",
+    "heat_id": "TEST-E12-FINAL",
+    "name": "Men 50 LC Meter AP",
+    "gender": "MEN",
+    "discipline": "AP",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Yassin Ahmed Aly",
+        "age": "19",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "15.16",
+        "seed_ticks": 151600
+      },
+      {
+        "lane": 2,
+        "name": "Aleksandr Stupak",
+        "age": "19",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "14.98",
+        "seed_ticks": 149800
+      },
+      {
+        "lane": 3,
+        "name": "Villa Jose",
+        "age": "25",
+        "country_raw": "Colombia",
+        "country": "COL",
+        "seed_time": "14.75",
+        "seed_ticks": 147500
+      },
+      {
+        "lane": 4,
+        "name": "Enxi WU",
+        "age": "21",
+        "country_raw": "China",
+        "country": "CHN",
+        "seed_time": "14.34",
+        "seed_ticks": 143400
+      },
+      {
+        "lane": 5,
+        "name": "Tarek Hassan Elsayed",
+        "age": "18",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "14.41",
+        "seed_ticks": 144100
+      },
+      {
+        "lane": 6,
+        "name": "Tom Durager",
+        "age": "21",
+        "country_raw": "France",
+        "country": "FRA",
+        "seed_time": "14.83",
+        "seed_ticks": 148300
+      },
+      {
+        "lane": 7,
+        "name": "Hanzhi Guan",
+        "age": "23",
+        "country_raw": "China",
+        "country": "CHN",
+        "seed_time": "15.16",
+        "seed_ticks": 151600
+      },
+      {
+        "lane": 8,
+        "name": "Fabio Biancalana",
+        "age": "21",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "15.29",
+        "seed_ticks": 152900
+      }
+    ]
+  },
+  {
+    "event_number": 13,
+    "event_id": "TEST-E13",
+    "heat_id": "TEST-E13-FINAL",
+    "name": "Men 50 LC Meter BF",
+    "gender": "MEN",
+    "discipline": "BF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Youssef Neffati",
+        "age": "25",
+        "country_raw": "Tunisia",
+        "country": "TUN",
+        "seed_time": "20.02",
+        "seed_ticks": 200200
+      },
+      {
+        "lane": 2,
+        "name": "Riccardo Porciani",
+        "age": "22",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "19.95",
+        "seed_ticks": 199500
+      },
+      {
+        "lane": 3,
+        "name": "Seif Khaled Mohamed",
+        "age": "20",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "19.38",
+        "seed_ticks": 193800
+      },
+      {
+        "lane": 4,
+        "name": "Szymon Kropidlowski",
+        "age": "23",
+        "country_raw": "Poland",
+        "country": "POL",
+        "seed_time": "18.90",
+        "seed_ticks": 189000
+      },
+      {
+        "lane": 5,
+        "name": "Ammar Ahmed Waseef",
+        "age": "19",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "19.33",
+        "seed_ticks": 193300
+      },
+      {
+        "lane": 6,
+        "name": "Valter Prampolini",
+        "age": "22",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "19.93",
+        "seed_ticks": 199300
+      },
+      {
+        "lane": 7,
+        "name": "Zong-Rui Yang",
+        "age": "23",
+        "country_raw": "Chinese Taipei",
+        "country": "TPE",
+        "seed_time": "20.01",
+        "seed_ticks": 200100
+      },
+      {
+        "lane": 8,
+        "name": "Nino Camilo",
+        "age": "23",
+        "country_raw": "Colombia",
+        "country": "COL",
+        "seed_time": "20.11",
+        "seed_ticks": 201100
+      }
+    ]
+  },
+  {
+    "event_number": 14,
+    "event_id": "TEST-E14",
+    "heat_id": "TEST-E14-FINAL",
+    "name": "Women 100 LC Meter SF",
+    "gender": "WOMEN",
+    "discipline": "SF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Giorgia Destefani",
+        "age": "20",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "43.17",
+        "seed_ticks": 431700
+      },
+      {
+        "lane": 2,
+        "name": "Wenmin Xie",
+        "age": "22",
+        "country_raw": "China",
+        "country": "CHN",
+        "seed_time": "42.73",
+        "seed_ticks": 427300
+      },
+      {
+        "lane": 3,
+        "name": "Maïwenn Hamon",
+        "age": "23",
+        "country_raw": "France",
+        "country": "FRA",
+        "seed_time": "42.44",
+        "seed_ticks": 424400
+      },
+      {
+        "lane": 4,
+        "name": "Valeriia Proshina",
+        "age": "21",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "41.48",
+        "seed_ticks": 414800
+      },
+      {
+        "lane": 5,
+        "name": "Ru-Yi Lee",
+        "age": "25",
+        "country_raw": "Chinese Taipei",
+        "country": "TPE",
+        "seed_time": "41.81",
+        "seed_ticks": 418100
+      },
+      {
+        "lane": 6,
+        "name": "Huali Yao",
+        "age": "20",
+        "country_raw": "China",
+        "country": "CHN",
+        "seed_time": "42.52",
+        "seed_ticks": 425200
+      },
+      {
+        "lane": 7,
+        "name": "Adela Svomova",
+        "age": "24",
+        "country_raw": "Czechia",
+        "country": "CZE",
+        "seed_time": "42.95",
+        "seed_ticks": 429500
+      },
+      {
+        "lane": 8,
+        "name": "Nina Kohler",
+        "age": "21",
+        "country_raw": "Germany",
+        "country": "GER",
+        "seed_time": "43.27",
+        "seed_ticks": 432700
+      }
+    ]
+  },
+  {
+    "event_number": 15,
+    "event_id": "TEST-E15",
+    "heat_id": "TEST-E15-FINAL",
+    "name": "Women 100 LC Meter BF",
+    "gender": "WOMEN",
+    "discipline": "BF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Polina Sharkova",
+        "age": "25",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "50.43",
+        "seed_ticks": 504300
+      },
+      {
+        "lane": 2,
+        "name": "Barbora Nemcanska",
+        "age": "23",
+        "country_raw": "Czechia",
+        "country": "CZE",
+        "seed_time": "50.28",
+        "seed_ticks": 502800
+      },
+      {
+        "lane": 3,
+        "name": "Albane Deage",
+        "age": "25",
+        "country_raw": "France",
+        "country": "FRA",
+        "seed_time": "50.09",
+        "seed_ticks": 500900
+      },
+      {
+        "lane": 4,
+        "name": "Sára Suba",
+        "age": "22",
+        "country_raw": "Hungary",
+        "country": "HUN",
+        "seed_time": "49.47",
+        "seed_ticks": 494700
+      },
+      {
+        "lane": 5,
+        "name": "Viola Magoga",
+        "age": "25",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "49.93",
+        "seed_ticks": 499300
+      },
+      {
+        "lane": 6,
+        "name": "Emna Ben Hsouna",
+        "age": "20",
+        "country_raw": "Tunisia",
+        "country": "TUN",
+        "seed_time": "50.17",
+        "seed_ticks": 501700
+      },
+      {
+        "lane": 7,
+        "name": "Kseniia Moskalenko",
+        "age": "22",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "50.31",
+        "seed_ticks": 503100
+      },
+      {
+        "lane": 8,
+        "name": "Lara Gawenda",
+        "age": "20",
+        "country_raw": "Germany",
+        "country": "GER",
+        "seed_time": "50.59",
+        "seed_ticks": 505900
+      }
+    ]
+  },
+  {
+    "event_number": 16,
+    "event_id": "TEST-E16",
+    "heat_id": "TEST-E16-FINAL",
+    "name": "Men 200 LC Meter SF",
+    "gender": "MEN",
+    "discipline": "SF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Christian Degli Esposti",
+        "age": "21",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "1:28.76",
+        "seed_ticks": 887600
+      },
+      {
+        "lane": 2,
+        "name": "Nándor Kiss",
+        "age": "21",
+        "country_raw": "Hungary",
+        "country": "HUN",
+        "seed_time": "1:28.02",
+        "seed_ticks": 880200
+      },
+      {
+        "lane": 3,
+        "name": "Mohamed Amine Aloui",
+        "age": "19",
+        "country_raw": "Tunisia",
+        "country": "TUN",
+        "seed_time": "1:27.83",
+        "seed_ticks": 878300
+      },
+      {
+        "lane": 4,
+        "name": "Mahmoud Waleed Ali",
+        "age": "22",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "1:27.44",
+        "seed_ticks": 874400
+      },
+      {
+        "lane": 5,
+        "name": "Marcos José Madrid Fresno",
+        "age": "19",
+        "country_raw": "Spain",
+        "country": "ESP",
+        "seed_time": "1:27.58",
+        "seed_ticks": 875800
+      },
+      {
+        "lane": 6,
+        "name": "Hanzhi Guan",
+        "age": "23",
+        "country_raw": "China",
+        "country": "CHN",
+        "seed_time": "1:27.89",
+        "seed_ticks": 878900
+      },
+      {
+        "lane": 7,
+        "name": "Ahmed Mohamed Awad",
+        "age": "18",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "1:28.49",
+        "seed_ticks": 884900
+      },
+      {
+        "lane": 8,
+        "name": "Marco Pietralunga",
+        "age": "23",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "1:31.07",
+        "seed_ticks": 910700
+      }
+    ]
+  },
+  {
+    "event_number": 17,
+    "event_id": "TEST-E17",
+    "heat_id": "TEST-E17-FINAL",
+    "name": "Men 200 LC Meter BF",
+    "gender": "MEN",
+    "discipline": "BF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Majus Miliauskas",
+        "age": "26",
+        "country_raw": "Lithuania",
+        "country": "LTU",
+        "seed_time": "1:44.02",
+        "seed_ticks": 1040200
+      },
+      {
+        "lane": 2,
+        "name": "Szymon Kropidlowski",
+        "age": "23",
+        "country_raw": "Poland",
+        "country": "POL",
+        "seed_time": "1:43.28",
+        "seed_ticks": 1032800
+      },
+      {
+        "lane": 3,
+        "name": "Riccardo Porciani",
+        "age": "22",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "1:42.09",
+        "seed_ticks": 1020900
+      },
+      {
+        "lane": 4,
+        "name": "Kelen Cséplo",
+        "age": "23",
+        "country_raw": "Hungary",
+        "country": "HUN",
+        "seed_time": "1:40.64",
+        "seed_ticks": 1006400
+      },
+      {
+        "lane": 5,
+        "name": "Gerard Pardina Bravo",
+        "age": "21",
+        "country_raw": "Spain",
+        "country": "ESP",
+        "seed_time": "1:41.09",
+        "seed_ticks": 1010900
+      },
+      {
+        "lane": 6,
+        "name": "Valter Prampolini",
+        "age": "22",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "1:43.05",
+        "seed_ticks": 1030500
+      },
+      {
+        "lane": 7,
+        "name": "Ahmed Hesham Safwat",
+        "age": "20",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "1:43.73",
+        "seed_ticks": 1037300
+      },
+      {
+        "lane": 8,
+        "name": "Ahmed Mohamed Aly",
+        "age": "19",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "1:44.34",
+        "seed_ticks": 1043400
+      }
+    ]
+  },
+  {
+    "event_number": 18,
+    "event_id": "TEST-E18",
+    "heat_id": "TEST-E18-FINAL",
+    "name": "Women 400 LC Meter SF",
+    "gender": "WOMEN",
+    "discipline": "SF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Louise Altenstein",
+        "age": "20",
+        "country_raw": "Germany",
+        "country": "GER",
+        "seed_time": "3:44.50",
+        "seed_ticks": 2245000
+      },
+      {
+        "lane": 2,
+        "name": "Valentina Basso",
+        "age": "20",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "3:36.30",
+        "seed_ticks": 2163000
+      },
+      {
+        "lane": 3,
+        "name": "Mireia Bayes Ezquerro",
+        "age": "21",
+        "country_raw": "Spain",
+        "country": "ESP",
+        "seed_time": "3:34.02",
+        "seed_ticks": 2140200
+      },
+      {
+        "lane": 4,
+        "name": "Nada Magdy Hagrass",
+        "age": "21",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "3:31.20",
+        "seed_ticks": 2112000
+      },
+      {
+        "lane": 5,
+        "name": "Malak Sherif Abdelhafez",
+        "age": "21",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "3:32.70",
+        "seed_ticks": 2127000
+      },
+      {
+        "lane": 6,
+        "name": "Beatrice Graziella Serra",
+        "age": "22",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "3:35.60",
+        "seed_ticks": 2156000
+      },
+      {
+        "lane": 7,
+        "name": "Daria Soboleva",
+        "age": "23",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "3:38.77",
+        "seed_ticks": 2187700
+      },
+      {
+        "lane": 8,
+        "name": "Klara Mazalova",
+        "age": "21",
+        "country_raw": "Czechia",
+        "country": "CZE",
+        "seed_time": "3:44.54",
+        "seed_ticks": 2245400
+      }
+    ]
+  },
+  {
+    "event_number": 19,
+    "event_id": "TEST-E19",
+    "heat_id": "TEST-E19-FINAL",
+    "name": "Women 400 LC Meter BF",
+    "gender": "WOMEN",
+    "discipline": "BF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Bo Van DE Plas",
+        "age": "25",
+        "country_raw": "Belgium",
+        "country": "BEL",
+        "seed_time": "4:00.21",
+        "seed_ticks": 2402100
+      },
+      {
+        "lane": 2,
+        "name": "Laura Franchin",
+        "age": "22",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "3:59.11",
+        "seed_ticks": 2391100
+      },
+      {
+        "lane": 3,
+        "name": "Aliaa Ehab Wahby",
+        "age": "19",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "3:58.24",
+        "seed_ticks": 2382400
+      },
+      {
+        "lane": 4,
+        "name": "Aleksandra Golovkina",
+        "age": "19",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "3:57.57",
+        "seed_ticks": 2375700
+      },
+      {
+        "lane": 5,
+        "name": "Albane Deage",
+        "age": "25",
+        "country_raw": "France",
+        "country": "FRA",
+        "seed_time": "3:58.10",
+        "seed_ticks": 2381000
+      },
+      {
+        "lane": 6,
+        "name": "Silvia Belli",
+        "age": "20",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "3:59.06",
+        "seed_ticks": 2390600
+      },
+      {
+        "lane": 7,
+        "name": "Csenge Stadler",
+        "age": "24",
+        "country_raw": "Hungary",
+        "country": "HUN",
+        "seed_time": "3:59.48",
+        "seed_ticks": 2394800
+      },
+      {
+        "lane": 8,
+        "name": "Daria Egorova",
+        "age": "17",
+        "country_raw": "Nsa",
+        "country": "SNA",
+        "seed_time": "4:03.00",
+        "seed_ticks": 2430000
+      }
+    ]
+  },
+  {
+    "event_number": 25,
+    "event_id": "TEST-E25",
+    "heat_id": "TEST-E25-FINAL",
+    "name": "Men 800 LC Meter SF Fast Heats",
+    "gender": "MEN",
+    "discipline": "SF",
+    "relay": false,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "name": "Mohamed Amine Aloui",
+        "age": "19",
+        "country_raw": "Tunisia",
+        "country": "TUN",
+        "seed_time": "6:48.49",
+        "seed_ticks": 4084900
+      },
+      {
+        "lane": 2,
+        "name": "Maocan Lin",
+        "age": "21",
+        "country_raw": "China",
+        "country": "CHN",
+        "seed_time": "6:45.00",
+        "seed_ticks": 4050000
+      },
+      {
+        "lane": 3,
+        "name": "Matyas Kubicek",
+        "age": "23",
+        "country_raw": "Czechia",
+        "country": "CZE",
+        "seed_time": "6:39.57",
+        "seed_ticks": 3995700
+      },
+      {
+        "lane": 4,
+        "name": "Nándor Kiss",
+        "age": "21",
+        "country_raw": "Hungary",
+        "country": "HUN",
+        "seed_time": "6:16.74",
+        "seed_ticks": 3767400
+      },
+      {
+        "lane": 5,
+        "name": "Mohab Ehab Nasreldin",
+        "age": "18",
+        "country_raw": "Egypt",
+        "country": "EGY",
+        "seed_time": "6:30.11",
+        "seed_ticks": 3901100
+      },
+      {
+        "lane": 6,
+        "name": "Po-Han Chen",
+        "age": "25",
+        "country_raw": "Chinese Taipei",
+        "country": "TPE",
+        "seed_time": "6:39.84",
+        "seed_ticks": 3998400
+      },
+      {
+        "lane": 7,
+        "name": "Christian Degli Esposti",
+        "age": "21",
+        "country_raw": "Italy",
+        "country": "ITA",
+        "seed_time": "6:45.00",
+        "seed_ticks": 4050000
+      },
+      {
+        "lane": 8,
+        "name": "Kamil Pietras",
+        "age": "20",
+        "country_raw": "Poland",
+        "country": "POL",
+        "seed_time": "6:50.22",
+        "seed_ticks": 4102200
+      }
+    ]
+  },
+  {
+    "event_number": 21,
+    "event_id": "TEST-E21",
+    "heat_id": "TEST-E21-FINAL",
+    "name": "Mixed 4x100 LC Meter Relay BF",
+    "gender": "MIXED",
+    "discipline": "BF",
+    "relay": true,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "team_raw": "Japan",
+        "relay_letter": "A",
+        "country": "JPN",
+        "seed_time": "3:15.47",
+        "seed_ticks": 1954700
+      },
+      {
+        "lane": 2,
+        "team_raw": "Egypt",
+        "relay_letter": "A",
+        "country": "EGY",
+        "seed_time": "3:13.04",
+        "seed_ticks": 1930400
+      },
+      {
+        "lane": 3,
+        "team_raw": "Spain",
+        "relay_letter": "A",
+        "country": "ESP",
+        "seed_time": "3:12.11",
+        "seed_ticks": 1921100
+      },
+      {
+        "lane": 4,
+        "team_raw": "Italy",
+        "relay_letter": "A",
+        "country": "ITA",
+        "seed_time": "3:08.56",
+        "seed_ticks": 1885600
+      },
+      {
+        "lane": 5,
+        "team_raw": "Poland",
+        "relay_letter": "A",
+        "country": "POL",
+        "seed_time": "3:08.71",
+        "seed_ticks": 1887100
+      },
+      {
+        "lane": 6,
+        "team_raw": "Hungary",
+        "relay_letter": "A",
+        "country": "HUN",
+        "seed_time": "3:12.33",
+        "seed_ticks": 1923300
+      },
+      {
+        "lane": 7,
+        "team_raw": "Nsa",
+        "relay_letter": "A",
+        "country": "SNA",
+        "seed_time": "3:13.58",
+        "seed_ticks": 1935800
+      },
+      {
+        "lane": 8,
+        "team_raw": "Germany",
+        "relay_letter": "A",
+        "country": "GER",
+        "seed_time": "3:16.49",
+        "seed_ticks": 1964900
+      }
+    ]
+  },
+  {
+    "event_number": 22,
+    "event_id": "TEST-E22",
+    "heat_id": "TEST-E22-FINAL",
+    "name": "Mixed 4x50 LC Meter Relay SF",
+    "gender": "MIXED",
+    "discipline": "SF",
+    "relay": true,
+    "round": "FINAL",
+    "heat_name": "Final",
+    "timing_heat": 1,
+    "entries": [
+      {
+        "lane": 1,
+        "team_raw": "Chinese Taipei",
+        "relay_letter": "A",
+        "country": "TPE",
+        "seed_time": "1:13.32",
+        "seed_ticks": 733200
+      },
+      {
+        "lane": 2,
+        "team_raw": "Italy",
+        "relay_letter": "A",
+        "country": "ITA",
+        "seed_time": "1:11.52",
+        "seed_ticks": 715200
+      },
+      {
+        "lane": 3,
+        "team_raw": "China",
+        "relay_letter": "A",
+        "country": "CHN",
+        "seed_time": "1:10.67",
+        "seed_ticks": 706700
+      },
+      {
+        "lane": 4,
+        "team_raw": "Egypt",
+        "relay_letter": "A",
+        "country": "EGY",
+        "seed_time": "1:09.59",
+        "seed_ticks": 695900
+      },
+      {
+        "lane": 5,
+        "team_raw": "Czechia",
+        "relay_letter": "A",
+        "country": "CZE",
+        "seed_time": "1:10.24",
+        "seed_ticks": 702400
+      },
+      {
+        "lane": 6,
+        "team_raw": "France",
+        "relay_letter": "A",
+        "country": "FRA",
+        "seed_time": "1:11.16",
+        "seed_ticks": 711600
+      },
+      {
+        "lane": 7,
+        "team_raw": "Nsa",
+        "relay_letter": "A",
+        "country": "SNA",
+        "seed_time": "1:11.87",
+        "seed_ticks": 718700
+      },
+      {
+        "lane": 8,
+        "team_raw": "Germany",
+        "relay_letter": "A",
+        "country": "GER",
+        "seed_time": "1:14.34",
+        "seed_ticks": 743400
+      }
+    ]
+  }
+]

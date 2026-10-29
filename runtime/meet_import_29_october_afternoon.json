@@ -1,0 +1,2696 @@
+{
+  "data_mode": "TEST",
+  "championship_id": "TEST-FINS26",
+  "name": "FISU World University Championship Finswimming 2026",
+  "source": "meet program - 29 october 2026 - afternoon.xls",
+  "reason": "Meet program import for 29 October 2026 afternoon finals",
+  "events": [
+    {
+      "event_number": 12,
+      "event_id": "TEST-E12",
+      "heat_id": "TEST-E12-FINAL",
+      "name": "Men 50 LC Meter AP",
+      "gender": "MEN",
+      "discipline": "AP",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Yassin Ahmed Aly",
+          "age": "19",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "15.16",
+          "seed_ticks": 151600
+        },
+        {
+          "lane": 2,
+          "name": "Aleksandr Stupak",
+          "age": "19",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "14.98",
+          "seed_ticks": 149800
+        },
+        {
+          "lane": 3,
+          "name": "Villa Jose",
+          "age": "25",
+          "country_raw": "Colombia",
+          "country": "COL",
+          "seed_time": "14.75",
+          "seed_ticks": 147500
+        },
+        {
+          "lane": 4,
+          "name": "Enxi WU",
+          "age": "21",
+          "country_raw": "China",
+          "country": "CHN",
+          "seed_time": "14.34",
+          "seed_ticks": 143400
+        },
+        {
+          "lane": 5,
+          "name": "Tarek Hassan Elsayed",
+          "age": "18",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "14.41",
+          "seed_ticks": 144100
+        },
+        {
+          "lane": 6,
+          "name": "Tom Durager",
+          "age": "21",
+          "country_raw": "France",
+          "country": "FRA",
+          "seed_time": "14.83",
+          "seed_ticks": 148300
+        },
+        {
+          "lane": 7,
+          "name": "Hanzhi Guan",
+          "age": "23",
+          "country_raw": "China",
+          "country": "CHN",
+          "seed_time": "15.16",
+          "seed_ticks": 151600
+        },
+        {
+          "lane": 8,
+          "name": "Fabio Biancalana",
+          "age": "21",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "15.29",
+          "seed_ticks": 152900
+        }
+      ]
+    },
+    {
+      "event_number": 13,
+      "event_id": "TEST-E13",
+      "heat_id": "TEST-E13-FINAL",
+      "name": "Men 50 LC Meter BF",
+      "gender": "MEN",
+      "discipline": "BF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Youssef Neffati",
+          "age": "25",
+          "country_raw": "Tunisia",
+          "country": "TUN",
+          "seed_time": "20.02",
+          "seed_ticks": 200200
+        },
+        {
+          "lane": 2,
+          "name": "Riccardo Porciani",
+          "age": "22",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "19.95",
+          "seed_ticks": 199500
+        },
+        {
+          "lane": 3,
+          "name": "Seif Khaled Mohamed",
+          "age": "20",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "19.38",
+          "seed_ticks": 193800
+        },
+        {
+          "lane": 4,
+          "name": "Szymon Kropidlowski",
+          "age": "23",
+          "country_raw": "Poland",
+          "country": "POL",
+          "seed_time": "18.90",
+          "seed_ticks": 189000
+        },
+        {
+          "lane": 5,
+          "name": "Ammar Ahmed Waseef",
+          "age": "19",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "19.33",
+          "seed_ticks": 193300
+        },
+        {
+          "lane": 6,
+          "name": "Valter Prampolini",
+          "age": "22",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "19.93",
+          "seed_ticks": 199300
+        },
+        {
+          "lane": 7,
+          "name": "Zong-Rui Yang",
+          "age": "23",
+          "country_raw": "Chinese Taipei",
+          "country": "TPE",
+          "seed_time": "20.01",
+          "seed_ticks": 200100
+        },
+        {
+          "lane": 8,
+          "name": "Nino Camilo",
+          "age": "23",
+          "country_raw": "Colombia",
+          "country": "COL",
+          "seed_time": "20.11",
+          "seed_ticks": 201100
+        }
+      ]
+    },
+    {
+      "event_number": 14,
+      "event_id": "TEST-E14",
+      "heat_id": "TEST-E14-FINAL",
+      "name": "Women 100 LC Meter SF",
+      "gender": "WOMEN",
+      "discipline": "SF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Giorgia Destefani",
+          "age": "20",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "43.17",
+          "seed_ticks": 431700
+        },
+        {
+          "lane": 2,
+          "name": "Wenmin Xie",
+          "age": "22",
+          "country_raw": "China",
+          "country": "CHN",
+          "seed_time": "42.73",
+          "seed_ticks": 427300
+        },
+        {
+          "lane": 3,
+          "name": "Maïwenn Hamon",
+          "age": "23",
+          "country_raw": "France",
+          "country": "FRA",
+          "seed_time": "42.44",
+          "seed_ticks": 424400
+        },
+        {
+          "lane": 4,
+          "name": "Valeriia Proshina",
+          "age": "21",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "41.48",
+          "seed_ticks": 414800
+        },
+        {
+          "lane": 5,
+          "name": "Ru-Yi Lee",
+          "age": "25",
+          "country_raw": "Chinese Taipei",
+          "country": "TPE",
+          "seed_time": "41.81",
+          "seed_ticks": 418100
+        },
+        {
+          "lane": 6,
+          "name": "Huali Yao",
+          "age": "20",
+          "country_raw": "China",
+          "country": "CHN",
+          "seed_time": "42.52",
+          "seed_ticks": 425200
+        },
+        {
+          "lane": 7,
+          "name": "Adela Svomova",
+          "age": "24",
+          "country_raw": "Czechia",
+          "country": "CZE",
+          "seed_time": "42.95",
+          "seed_ticks": 429500
+        },
+        {
+          "lane": 8,
+          "name": "Nina Kohler",
+          "age": "21",
+          "country_raw": "Germany",
+          "country": "GER",
+          "seed_time": "43.27",
+          "seed_ticks": 432700
+        }
+      ]
+    },
+    {
+      "event_number": 15,
+      "event_id": "TEST-E15",
+      "heat_id": "TEST-E15-FINAL",
+      "name": "Women 100 LC Meter BF",
+      "gender": "WOMEN",
+      "discipline": "BF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Polina Sharkova",
+          "age": "25",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "50.43",
+          "seed_ticks": 504300
+        },
+        {
+          "lane": 2,
+          "name": "Barbora Nemcanska",
+          "age": "23",
+          "country_raw": "Czechia",
+          "country": "CZE",
+          "seed_time": "50.28",
+          "seed_ticks": 502800
+        },
+        {
+          "lane": 3,
+          "name": "Albane Deage",
+          "age": "25",
+          "country_raw": "France",
+          "country": "FRA",
+          "seed_time": "50.09",
+          "seed_ticks": 500900
+        },
+        {
+          "lane": 4,
+          "name": "Sára Suba",
+          "age": "22",
+          "country_raw": "Hungary",
+          "country": "HUN",
+          "seed_time": "49.47",
+          "seed_ticks": 494700
+        },
+        {
+          "lane": 5,
+          "name": "Viola Magoga",
+          "age": "25",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "49.93",
+          "seed_ticks": 499300
+        },
+        {
+          "lane": 6,
+          "name": "Emna Ben Hsouna",
+          "age": "20",
+          "country_raw": "Tunisia",
+          "country": "TUN",
+          "seed_time": "50.17",
+          "seed_ticks": 501700
+        },
+        {
+          "lane": 7,
+          "name": "Kseniia Moskalenko",
+          "age": "22",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "50.31",
+          "seed_ticks": 503100
+        },
+        {
+          "lane": 8,
+          "name": "Lara Gawenda",
+          "age": "20",
+          "country_raw": "Germany",
+          "country": "GER",
+          "seed_time": "50.59",
+          "seed_ticks": 505900
+        }
+      ]
+    },
+    {
+      "event_number": 16,
+      "event_id": "TEST-E16",
+      "heat_id": "TEST-E16-FINAL",
+      "name": "Men 200 LC Meter SF",
+      "gender": "MEN",
+      "discipline": "SF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Christian Degli Esposti",
+          "age": "21",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "1:28.76",
+          "seed_ticks": 887600
+        },
+        {
+          "lane": 2,
+          "name": "Nándor Kiss",
+          "age": "21",
+          "country_raw": "Hungary",
+          "country": "HUN",
+          "seed_time": "1:28.02",
+          "seed_ticks": 880200
+        },
+        {
+          "lane": 3,
+          "name": "Mohamed Amine Aloui",
+          "age": "19",
+          "country_raw": "Tunisia",
+          "country": "TUN",
+          "seed_time": "1:27.83",
+          "seed_ticks": 878300
+        },
+        {
+          "lane": 4,
+          "name": "Mahmoud Waleed Ali",
+          "age": "22",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "1:27.44",
+          "seed_ticks": 874400
+        },
+        {
+          "lane": 5,
+          "name": "Marcos José Madrid Fresno",
+          "age": "19",
+          "country_raw": "Spain",
+          "country": "ESP",
+          "seed_time": "1:27.58",
+          "seed_ticks": 875800
+        },
+        {
+          "lane": 6,
+          "name": "Hanzhi Guan",
+          "age": "23",
+          "country_raw": "China",
+          "country": "CHN",
+          "seed_time": "1:27.89",
+          "seed_ticks": 878900
+        },
+        {
+          "lane": 7,
+          "name": "Ahmed Mohamed Awad",
+          "age": "18",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "1:28.49",
+          "seed_ticks": 884900
+        },
+        {
+          "lane": 8,
+          "name": "Marco Pietralunga",
+          "age": "23",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "1:31.07",
+          "seed_ticks": 910700
+        }
+      ]
+    },
+    {
+      "event_number": 17,
+      "event_id": "TEST-E17",
+      "heat_id": "TEST-E17-FINAL",
+      "name": "Men 200 LC Meter BF",
+      "gender": "MEN",
+      "discipline": "BF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Majus Miliauskas",
+          "age": "26",
+          "country_raw": "Lithuania",
+          "country": "LTU",
+          "seed_time": "1:44.02",
+          "seed_ticks": 1040200
+        },
+        {
+          "lane": 2,
+          "name": "Szymon Kropidlowski",
+          "age": "23",
+          "country_raw": "Poland",
+          "country": "POL",
+          "seed_time": "1:43.28",
+          "seed_ticks": 1032800
+        },
+        {
+          "lane": 3,
+          "name": "Riccardo Porciani",
+          "age": "22",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "1:42.09",
+          "seed_ticks": 1020900
+        },
+        {
+          "lane": 4,
+          "name": "Kelen Cséplo",
+          "age": "23",
+          "country_raw": "Hungary",
+          "country": "HUN",
+          "seed_time": "1:40.64",
+          "seed_ticks": 1006400
+        },
+        {
+          "lane": 5,
+          "name": "Gerard Pardina Bravo",
+          "age": "21",
+          "country_raw": "Spain",
+          "country": "ESP",
+          "seed_time": "1:41.09",
+          "seed_ticks": 1010900
+        },
+        {
+          "lane": 6,
+          "name": "Valter Prampolini",
+          "age": "22",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "1:43.05",
+          "seed_ticks": 1030500
+        },
+        {
+          "lane": 7,
+          "name": "Ahmed Hesham Safwat",
+          "age": "20",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "1:43.73",
+          "seed_ticks": 1037300
+        },
+        {
+          "lane": 8,
+          "name": "Ahmed Mohamed Aly",
+          "age": "19",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "1:44.34",
+          "seed_ticks": 1043400
+        }
+      ]
+    },
+    {
+      "event_number": 18,
+      "event_id": "TEST-E18",
+      "heat_id": "TEST-E18-FINAL",
+      "name": "Women 400 LC Meter SF",
+      "gender": "WOMEN",
+      "discipline": "SF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Louise Altenstein",
+          "age": "20",
+          "country_raw": "Germany",
+          "country": "GER",
+          "seed_time": "3:44.50",
+          "seed_ticks": 2245000
+        },
+        {
+          "lane": 2,
+          "name": "Valentina Basso",
+          "age": "20",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "3:36.30",
+          "seed_ticks": 2163000
+        },
+        {
+          "lane": 3,
+          "name": "Mireia Bayes Ezquerro",
+          "age": "21",
+          "country_raw": "Spain",
+          "country": "ESP",
+          "seed_time": "3:34.02",
+          "seed_ticks": 2140200
+        },
+        {
+          "lane": 4,
+          "name": "Nada Magdy Hagrass",
+          "age": "21",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "3:31.20",
+          "seed_ticks": 2112000
+        },
+        {
+          "lane": 5,
+          "name": "Malak Sherif Abdelhafez",
+          "age": "21",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "3:32.70",
+          "seed_ticks": 2127000
+        },
+        {
+          "lane": 6,
+          "name": "Beatrice Graziella Serra",
+          "age": "22",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "3:35.60",
+          "seed_ticks": 2156000
+        },
+        {
+          "lane": 7,
+          "name": "Daria Soboleva",
+          "age": "23",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "3:38.77",
+          "seed_ticks": 2187700
+        },
+        {
+          "lane": 8,
+          "name": "Klara Mazalova",
+          "age": "21",
+          "country_raw": "Czechia",
+          "country": "CZE",
+          "seed_time": "3:44.54",
+          "seed_ticks": 2245400
+        }
+      ]
+    },
+    {
+      "event_number": 19,
+      "event_id": "TEST-E19",
+      "heat_id": "TEST-E19-FINAL",
+      "name": "Women 400 LC Meter BF",
+      "gender": "WOMEN",
+      "discipline": "BF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Bo Van DE Plas",
+          "age": "25",
+          "country_raw": "Belgium",
+          "country": "BEL",
+          "seed_time": "4:00.21",
+          "seed_ticks": 2402100
+        },
+        {
+          "lane": 2,
+          "name": "Laura Franchin",
+          "age": "22",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "3:59.11",
+          "seed_ticks": 2391100
+        },
+        {
+          "lane": 3,
+          "name": "Aliaa Ehab Wahby",
+          "age": "19",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "3:58.24",
+          "seed_ticks": 2382400
+        },
+        {
+          "lane": 4,
+          "name": "Aleksandra Golovkina",
+          "age": "19",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "3:57.57",
+          "seed_ticks": 2375700
+        },
+        {
+          "lane": 5,
+          "name": "Albane Deage",
+          "age": "25",
+          "country_raw": "France",
+          "country": "FRA",
+          "seed_time": "3:58.10",
+          "seed_ticks": 2381000
+        },
+        {
+          "lane": 6,
+          "name": "Silvia Belli",
+          "age": "20",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "3:59.06",
+          "seed_ticks": 2390600
+        },
+        {
+          "lane": 7,
+          "name": "Csenge Stadler",
+          "age": "24",
+          "country_raw": "Hungary",
+          "country": "HUN",
+          "seed_time": "3:59.48",
+          "seed_ticks": 2394800
+        },
+        {
+          "lane": 8,
+          "name": "Daria Egorova",
+          "age": "17",
+          "country_raw": "Nsa",
+          "country": "SNA",
+          "seed_time": "4:03.00",
+          "seed_ticks": 2430000
+        }
+      ]
+    },
+    {
+      "event_number": 25,
+      "event_id": "TEST-E25",
+      "heat_id": "TEST-E25-FINAL",
+      "name": "Men 800 LC Meter SF Fast Heats",
+      "gender": "MEN",
+      "discipline": "SF",
+      "relay": false,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "name": "Mohamed Amine Aloui",
+          "age": "19",
+          "country_raw": "Tunisia",
+          "country": "TUN",
+          "seed_time": "6:48.49",
+          "seed_ticks": 4084900
+        },
+        {
+          "lane": 2,
+          "name": "Maocan Lin",
+          "age": "21",
+          "country_raw": "China",
+          "country": "CHN",
+          "seed_time": "6:45.00",
+          "seed_ticks": 4050000
+        },
+        {
+          "lane": 3,
+          "name": "Matyas Kubicek",
+          "age": "23",
+          "country_raw": "Czechia",
+          "country": "CZE",
+          "seed_time": "6:39.57",
+          "seed_ticks": 3995700
+        },
+        {
+          "lane": 4,
+          "name": "Nándor Kiss",
+          "age": "21",
+          "country_raw": "Hungary",
+          "country": "HUN",
+          "seed_time": "6:16.74",
+          "seed_ticks": 3767400
+        },
+        {
+          "lane": 5,
+          "name": "Mohab Ehab Nasreldin",
+          "age": "18",
+          "country_raw": "Egypt",
+          "country": "EGY",
+          "seed_time": "6:30.11",
+          "seed_ticks": 3901100
+        },
+        {
+          "lane": 6,
+          "name": "Po-Han Chen",
+          "age": "25",
+          "country_raw": "Chinese Taipei",
+          "country": "TPE",
+          "seed_time": "6:39.84",
+          "seed_ticks": 3998400
+        },
+        {
+          "lane": 7,
+          "name": "Christian Degli Esposti",
+          "age": "21",
+          "country_raw": "Italy",
+          "country": "ITA",
+          "seed_time": "6:45.00",
+          "seed_ticks": 4050000
+        },
+        {
+          "lane": 8,
+          "name": "Kamil Pietras",
+          "age": "20",
+          "country_raw": "Poland",
+          "country": "POL",
+          "seed_time": "6:50.22",
+          "seed_ticks": 4102200
+        }
+      ]
+    },
+    {
+      "event_number": 21,
+      "event_id": "TEST-E21",
+      "heat_id": "TEST-E21-FINAL",
+      "name": "Mixed 4x100 LC Meter Relay BF",
+      "gender": "MIXED",
+      "discipline": "BF",
+      "relay": true,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "team_raw": "Japan",
+          "relay_letter": "A",
+          "country": "JPN",
+          "seed_time": "3:15.47",
+          "seed_ticks": 1954700
+        },
+        {
+          "lane": 2,
+          "team_raw": "Egypt",
+          "relay_letter": "A",
+          "country": "EGY",
+          "seed_time": "3:13.04",
+          "seed_ticks": 1930400
+        },
+        {
+          "lane": 3,
+          "team_raw": "Spain",
+          "relay_letter": "A",
+          "country": "ESP",
+          "seed_time": "3:12.11",
+          "seed_ticks": 1921100
+        },
+        {
+          "lane": 4,
+          "team_raw": "Italy",
+          "relay_letter": "A",
+          "country": "ITA",
+          "seed_time": "3:08.56",
+          "seed_ticks": 1885600
+        },
+        {
+          "lane": 5,
+          "team_raw": "Poland",
+          "relay_letter": "A",
+          "country": "POL",
+          "seed_time": "3:08.71",
+          "seed_ticks": 1887100
+        },
+        {
+          "lane": 6,
+          "team_raw": "Hungary",
+          "relay_letter": "A",
+          "country": "HUN",
+          "seed_time": "3:12.33",
+          "seed_ticks": 1923300
+        },
+        {
+          "lane": 7,
+          "team_raw": "Nsa",
+          "relay_letter": "A",
+          "country": "SNA",
+          "seed_time": "3:13.58",
+          "seed_ticks": 1935800
+        },
+        {
+          "lane": 8,
+          "team_raw": "Germany",
+          "relay_letter": "A",
+          "country": "GER",
+          "seed_time": "3:16.49",
+          "seed_ticks": 1964900
+        }
+      ]
+    },
+    {
+      "event_number": 22,
+      "event_id": "TEST-E22",
+      "heat_id": "TEST-E22-FINAL",
+      "name": "Mixed 4x50 LC Meter Relay SF",
+      "gender": "MIXED",
+      "discipline": "SF",
+      "relay": true,
+      "round": "FINAL",
+      "heat_name": "Final",
+      "timing_heat": 1,
+      "entries": [
+        {
+          "lane": 1,
+          "team_raw": "Chinese Taipei",
+          "relay_letter": "A",
+          "country": "TPE",
+          "seed_time": "1:13.32",
+          "seed_ticks": 733200
+        },
+        {
+          "lane": 2,
+          "team_raw": "Italy",
+          "relay_letter": "A",
+          "country": "ITA",
+          "seed_time": "1:11.52",
+          "seed_ticks": 715200
+        },
+        {
+          "lane": 3,
+          "team_raw": "China",
+          "relay_letter": "A",
+          "country": "CHN",
+          "seed_time": "1:10.67",
+          "seed_ticks": 706700
+        },
+        {
+          "lane": 4,
+          "team_raw": "Egypt",
+          "relay_letter": "A",
+          "country": "EGY",
+          "seed_time": "1:09.59",
+          "seed_ticks": 695900
+        },
+        {
+          "lane": 5,
+          "team_raw": "Czechia",
+          "relay_letter": "A",
+          "country": "CZE",
+          "seed_time": "1:10.24",
+          "seed_ticks": 702400
+        },
+        {
+          "lane": 6,
+          "team_raw": "France",
+          "relay_letter": "A",
+          "country": "FRA",
+          "seed_time": "1:11.16",
+          "seed_ticks": 711600
+        },
+        {
+          "lane": 7,
+          "team_raw": "Nsa",
+          "relay_letter": "A",
+          "country": "SNA",
+          "seed_time": "1:11.87",
+          "seed_ticks": 718700
+        },
+        {
+          "lane": 8,
+          "team_raw": "Germany",
+          "relay_letter": "A",
+          "country": "GER",
+          "seed_time": "1:14.34",
+          "seed_ticks": 743400
+        }
+      ]
+    }
+  ],
+  "heats": [
+    {
+      "id": "TEST-E12-FINAL",
+      "event_id": "TEST-E12",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 12,
+      "timing_heat": 1,
+      "name": "Men 50 LC Meter AP",
+      "discipline": "AP",
+      "gender": "MEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 151600,
+          "athlete": {
+            "id": "TEST-ATH-0020",
+            "name": "Yassin Ahmed Aly",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 149800,
+          "athlete": {
+            "id": "TEST-ATH-0021",
+            "name": "Aleksandr Stupak",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 147500,
+          "athlete": {
+            "id": "TEST-ATH-0009",
+            "name": "Villa Jose",
+            "country": "COL",
+            "university_id": "TEST-U-COL",
+            "university": "National University of COL",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 143400,
+          "athlete": {
+            "id": "TEST-ATH-0011",
+            "name": "Enxi WU",
+            "country": "CHN",
+            "university_id": "TEST-U-CHN",
+            "university": "National University of CHN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 144100,
+          "athlete": {
+            "id": "TEST-ATH-0018",
+            "name": "Tarek Hassan Elsayed",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 148300,
+          "athlete": {
+            "id": "TEST-ATH-0019",
+            "name": "Tom Durager",
+            "country": "FRA",
+            "university_id": "TEST-U-FRA",
+            "university": "National University of FRA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 151600,
+          "athlete": {
+            "id": "TEST-ATH-0010",
+            "name": "Hanzhi Guan",
+            "country": "CHN",
+            "university_id": "TEST-U-CHN",
+            "university": "National University of CHN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 152900,
+          "athlete": {
+            "id": "TEST-ATH-0016",
+            "name": "Fabio Biancalana",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E13-FINAL",
+      "event_id": "TEST-E13",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 13,
+      "timing_heat": 1,
+      "name": "Men 50 LC Meter BF",
+      "discipline": "BF",
+      "gender": "MEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 200200,
+          "athlete": {
+            "id": "TEST-ATH-0029",
+            "name": "Youssef Neffati",
+            "country": "TUN",
+            "university_id": "TEST-U-TUN",
+            "university": "National University of TUN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 199500,
+          "athlete": {
+            "id": "TEST-ATH-0035",
+            "name": "Riccardo Porciani",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 193800,
+          "athlete": {
+            "id": "TEST-ATH-0037",
+            "name": "Seif Khaled Mohamed",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 189000,
+          "athlete": {
+            "id": "TEST-ATH-0030",
+            "name": "Szymon Kropidlowski",
+            "country": "POL",
+            "university_id": "TEST-U-POL",
+            "university": "National University of POL",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 193300,
+          "athlete": {
+            "id": "TEST-ATH-0038",
+            "name": "Ammar Ahmed Waseef",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 199300,
+          "athlete": {
+            "id": "TEST-ATH-0039",
+            "name": "Valter Prampolini",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 200100,
+          "athlete": {
+            "id": "TEST-ATH-0032",
+            "name": "Zong-Rui Yang",
+            "country": "TPE",
+            "university_id": "TEST-U-TPE",
+            "university": "National University of TPE",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 201100,
+          "athlete": {
+            "id": "TEST-ATH-0031",
+            "name": "Nino Camilo",
+            "country": "COL",
+            "university_id": "TEST-U-COL",
+            "university": "National University of COL",
+            "gender": "MEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E14-FINAL",
+      "event_id": "TEST-E14",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 14,
+      "timing_heat": 1,
+      "name": "Women 100 LC Meter SF",
+      "discipline": "SF",
+      "gender": "WOMEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 431700,
+          "athlete": {
+            "id": "TEST-ATH-0057",
+            "name": "Giorgia Destefani",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 427300,
+          "athlete": {
+            "id": "TEST-ATH-0056",
+            "name": "Wenmin Xie",
+            "country": "CHN",
+            "university_id": "TEST-U-CHN",
+            "university": "National University of CHN",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 424400,
+          "athlete": {
+            "id": "TEST-ATH-0049",
+            "name": "Maïwenn Hamon",
+            "country": "FRA",
+            "university_id": "TEST-U-FRA",
+            "university": "National University of FRA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 414800,
+          "athlete": {
+            "id": "TEST-ATH-0048",
+            "name": "Valeriia Proshina",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 418100,
+          "athlete": {
+            "id": "TEST-ATH-0050",
+            "name": "Ru-Yi Lee",
+            "country": "TPE",
+            "university_id": "TEST-U-TPE",
+            "university": "National University of TPE",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 425200,
+          "athlete": {
+            "id": "TEST-ATH-0055",
+            "name": "Huali Yao",
+            "country": "CHN",
+            "university_id": "TEST-U-CHN",
+            "university": "National University of CHN",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 429500,
+          "athlete": {
+            "id": "TEST-ATH-0053",
+            "name": "Adela Svomova",
+            "country": "CZE",
+            "university_id": "TEST-U-CZE",
+            "university": "National University of CZE",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 432700,
+          "athlete": {
+            "id": "TEST-ATH-0054",
+            "name": "Nina Kohler",
+            "country": "GER",
+            "university_id": "TEST-U-GER",
+            "university": "National University of GER",
+            "gender": "WOMEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E15-FINAL",
+      "event_id": "TEST-E15",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 15,
+      "timing_heat": 1,
+      "name": "Women 100 LC Meter BF",
+      "discipline": "BF",
+      "gender": "WOMEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 504300,
+          "athlete": {
+            "id": "TEST-ATH-0072",
+            "name": "Polina Sharkova",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 502800,
+          "athlete": {
+            "id": "TEST-ATH-0075",
+            "name": "Barbora Nemcanska",
+            "country": "CZE",
+            "university_id": "TEST-U-CZE",
+            "university": "National University of CZE",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 500900,
+          "athlete": {
+            "id": "TEST-ATH-0071",
+            "name": "Albane Deage",
+            "country": "FRA",
+            "university_id": "TEST-U-FRA",
+            "university": "National University of FRA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 494700,
+          "athlete": {
+            "id": "TEST-ATH-0047",
+            "name": "Sára Suba",
+            "country": "HUN",
+            "university_id": "TEST-U-HUN",
+            "university": "National University of HUN",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 499300,
+          "athlete": {
+            "id": "TEST-ATH-0077",
+            "name": "Viola Magoga",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 501700,
+          "athlete": {
+            "id": "TEST-ATH-0078",
+            "name": "Emna Ben Hsouna",
+            "country": "TUN",
+            "university_id": "TEST-U-TUN",
+            "university": "National University of TUN",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 503100,
+          "athlete": {
+            "id": "TEST-ATH-0079",
+            "name": "Kseniia Moskalenko",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 505900,
+          "athlete": {
+            "id": "TEST-ATH-0070",
+            "name": "Lara Gawenda",
+            "country": "GER",
+            "university_id": "TEST-U-GER",
+            "university": "National University of GER",
+            "gender": "WOMEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E16-FINAL",
+      "event_id": "TEST-E16",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 16,
+      "timing_heat": 1,
+      "name": "Men 200 LC Meter SF",
+      "discipline": "SF",
+      "gender": "MEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 887600,
+          "athlete": {
+            "id": "TEST-ATH-0088",
+            "name": "Christian Degli Esposti",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 880200,
+          "athlete": {
+            "id": "TEST-ATH-0089",
+            "name": "Nándor Kiss",
+            "country": "HUN",
+            "university_id": "TEST-U-HUN",
+            "university": "National University of HUN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 878300,
+          "athlete": {
+            "id": "TEST-ATH-0085",
+            "name": "Mohamed Amine Aloui",
+            "country": "TUN",
+            "university_id": "TEST-U-TUN",
+            "university": "National University of TUN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 874400,
+          "athlete": {
+            "id": "TEST-ATH-0084",
+            "name": "Mahmoud Waleed Ali",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 875800,
+          "athlete": {
+            "id": "TEST-ATH-0083",
+            "name": "Marcos José Madrid Fresno",
+            "country": "ESP",
+            "university_id": "TEST-U-ESP",
+            "university": "National University of ESP",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 878900,
+          "athlete": {
+            "id": "TEST-ATH-0010",
+            "name": "Hanzhi Guan",
+            "country": "CHN",
+            "university_id": "TEST-U-CHN",
+            "university": "National University of CHN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 884900,
+          "athlete": {
+            "id": "TEST-ATH-0090",
+            "name": "Ahmed Mohamed Awad",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 910700,
+          "athlete": {
+            "id": "TEST-ATH-0015",
+            "name": "Marco Pietralunga",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E17-FINAL",
+      "event_id": "TEST-E17",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 17,
+      "timing_heat": 1,
+      "name": "Men 200 LC Meter BF",
+      "discipline": "BF",
+      "gender": "MEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 1040200,
+          "athlete": {
+            "id": "TEST-ATH-0028",
+            "name": "Majus Miliauskas",
+            "country": "LTU",
+            "university_id": "TEST-U-LTU",
+            "university": "National University of LTU",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 1032800,
+          "athlete": {
+            "id": "TEST-ATH-0030",
+            "name": "Szymon Kropidlowski",
+            "country": "POL",
+            "university_id": "TEST-U-POL",
+            "university": "National University of POL",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 1020900,
+          "athlete": {
+            "id": "TEST-ATH-0035",
+            "name": "Riccardo Porciani",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 1006400,
+          "athlete": {
+            "id": "TEST-ATH-0100",
+            "name": "Kelen Cséplo",
+            "country": "HUN",
+            "university_id": "TEST-U-HUN",
+            "university": "National University of HUN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 1010900,
+          "athlete": {
+            "id": "TEST-ATH-0099",
+            "name": "Gerard Pardina Bravo",
+            "country": "ESP",
+            "university_id": "TEST-U-ESP",
+            "university": "National University of ESP",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 1030500,
+          "athlete": {
+            "id": "TEST-ATH-0039",
+            "name": "Valter Prampolini",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 1037300,
+          "athlete": {
+            "id": "TEST-ATH-0094",
+            "name": "Ahmed Hesham Safwat",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 1043400,
+          "athlete": {
+            "id": "TEST-ATH-0095",
+            "name": "Ahmed Mohamed Aly",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E18-FINAL",
+      "event_id": "TEST-E18",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 18,
+      "timing_heat": 1,
+      "name": "Women 400 LC Meter SF",
+      "discipline": "SF",
+      "gender": "WOMEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 2245000,
+          "athlete": {
+            "id": "TEST-ATH-0102",
+            "name": "Louise Altenstein",
+            "country": "GER",
+            "university_id": "TEST-U-GER",
+            "university": "National University of GER",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 2163000,
+          "athlete": {
+            "id": "TEST-ATH-0045",
+            "name": "Valentina Basso",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 2140200,
+          "athlete": {
+            "id": "TEST-ATH-0105",
+            "name": "Mireia Bayes Ezquerro",
+            "country": "ESP",
+            "university_id": "TEST-U-ESP",
+            "university": "National University of ESP",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 2112000,
+          "athlete": {
+            "id": "TEST-ATH-0108",
+            "name": "Nada Magdy Hagrass",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 2127000,
+          "athlete": {
+            "id": "TEST-ATH-0104",
+            "name": "Malak Sherif Abdelhafez",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 2156000,
+          "athlete": {
+            "id": "TEST-ATH-0103",
+            "name": "Beatrice Graziella Serra",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 2187700,
+          "athlete": {
+            "id": "TEST-ATH-0110",
+            "name": "Daria Soboleva",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 2245400,
+          "athlete": {
+            "id": "TEST-ATH-0106",
+            "name": "Klara Mazalova",
+            "country": "CZE",
+            "university_id": "TEST-U-CZE",
+            "university": "National University of CZE",
+            "gender": "WOMEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E19-FINAL",
+      "event_id": "TEST-E19",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 19,
+      "timing_heat": 1,
+      "name": "Women 400 LC Meter BF",
+      "discipline": "BF",
+      "gender": "WOMEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 2402100,
+          "athlete": {
+            "id": "TEST-ATH-0061",
+            "name": "Bo Van DE Plas",
+            "country": "BEL",
+            "university_id": "TEST-U-BEL",
+            "university": "National University of BEL",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 2391100,
+          "athlete": {
+            "id": "TEST-ATH-0120",
+            "name": "Laura Franchin",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 2382400,
+          "athlete": {
+            "id": "TEST-ATH-0113",
+            "name": "Aliaa Ehab Wahby",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 2375700,
+          "athlete": {
+            "id": "TEST-ATH-0114",
+            "name": "Aleksandra Golovkina",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 2381000,
+          "athlete": {
+            "id": "TEST-ATH-0071",
+            "name": "Albane Deage",
+            "country": "FRA",
+            "university_id": "TEST-U-FRA",
+            "university": "National University of FRA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 2390600,
+          "athlete": {
+            "id": "TEST-ATH-0115",
+            "name": "Silvia Belli",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 2394800,
+          "athlete": {
+            "id": "TEST-ATH-0119",
+            "name": "Csenge Stadler",
+            "country": "HUN",
+            "university_id": "TEST-U-HUN",
+            "university": "National University of HUN",
+            "gender": "WOMEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 2430000,
+          "athlete": {
+            "id": "TEST-ATH-0121",
+            "name": "Daria Egorova",
+            "country": "SNA",
+            "university_id": "TEST-U-SNA",
+            "university": "National University of SNA",
+            "gender": "WOMEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E25-FINAL",
+      "event_id": "TEST-E25",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 25,
+      "timing_heat": 1,
+      "name": "Men 800 LC Meter SF Fast Heats",
+      "discipline": "SF",
+      "gender": "MEN",
+      "round": "FINAL",
+      "relay": false,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 4084900,
+          "athlete": {
+            "id": "TEST-ATH-0085",
+            "name": "Mohamed Amine Aloui",
+            "country": "TUN",
+            "university_id": "TEST-U-TUN",
+            "university": "National University of TUN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 4050000,
+          "athlete": {
+            "id": "TEST-ATH-0091",
+            "name": "Maocan Lin",
+            "country": "CHN",
+            "university_id": "TEST-U-CHN",
+            "university": "National University of CHN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 3995700,
+          "athlete": {
+            "id": "TEST-ATH-0500",
+            "name": "Matyas Kubicek",
+            "country": "CZE",
+            "university_id": "TEST-U-CZE",
+            "university": "National University of CZE",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 3767400,
+          "athlete": {
+            "id": "TEST-ATH-0089",
+            "name": "Nándor Kiss",
+            "country": "HUN",
+            "university_id": "TEST-U-HUN",
+            "university": "National University of HUN",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 3901100,
+          "athlete": {
+            "id": "TEST-ATH-0501",
+            "name": "Mohab Ehab Nasreldin",
+            "country": "EGY",
+            "university_id": "TEST-U-EGY",
+            "university": "National University of EGY",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 3998400,
+          "athlete": {
+            "id": "TEST-ATH-0502",
+            "name": "Po-Han Chen",
+            "country": "TPE",
+            "university_id": "TEST-U-TPE",
+            "university": "National University of TPE",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 4050000,
+          "athlete": {
+            "id": "TEST-ATH-0088",
+            "name": "Christian Degli Esposti",
+            "country": "ITA",
+            "university_id": "TEST-U-ITA",
+            "university": "National University of ITA",
+            "gender": "MEN"
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 4102200,
+          "athlete": {
+            "id": "TEST-ATH-0092",
+            "name": "Kamil Pietras",
+            "country": "POL",
+            "university_id": "TEST-U-POL",
+            "university": "National University of POL",
+            "gender": "MEN"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E21-FINAL",
+      "event_id": "TEST-E21",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 21,
+      "timing_heat": 1,
+      "name": "Mixed 4x100 LC Meter Relay BF",
+      "discipline": "BF",
+      "gender": "MIXED",
+      "round": "FINAL",
+      "relay": true,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 1954700,
+          "team": {
+            "id": "TEST-TEAM-050",
+            "name": "Japan Relay A",
+            "country": "JPN",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0003",
+                "name": "Ayumu Toyama",
+                "country": "JPN",
+                "university_id": "TEST-U-JPN",
+                "university": "National University of JPN",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0052",
+                "name": "Ayaka Shibata",
+                "country": "JPN",
+                "university_id": "TEST-U-JPN",
+                "university": "National University of JPN",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0014",
+                "name": "Yuma Matsuo",
+                "country": "JPN",
+                "university_id": "TEST-U-JPN",
+                "university": "National University of JPN",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0059",
+                "name": "Mai Kuzuhara",
+                "country": "JPN",
+                "university_id": "TEST-U-JPN",
+                "university": "National University of JPN",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 1930400,
+          "team": {
+            "id": "TEST-TEAM-051",
+            "name": "Egypt Relay A",
+            "country": "EGY",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0018",
+                "name": "Tarek Hassan Elsayed",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0051",
+                "name": "Ghada Mohamed Khalil",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0020",
+                "name": "Yassin Ahmed Aly",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0058",
+                "name": "Jana Mohamed Ewis",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 1921100,
+          "team": {
+            "id": "TEST-TEAM-052",
+            "name": "Spain Relay A",
+            "country": "ESP",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0083",
+                "name": "Marcos José Madrid Fresno",
+                "country": "ESP",
+                "university_id": "TEST-U-ESP",
+                "university": "National University of ESP",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0063",
+                "name": "Laura Lauge Domenech",
+                "country": "ESP",
+                "university_id": "TEST-U-ESP",
+                "university": "National University of ESP",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0096",
+                "name": "Mikel USAR MACAYA",
+                "country": "ESP",
+                "university_id": "TEST-U-ESP",
+                "university": "National University of ESP",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0073",
+                "name": "Irati Zufiaurre Ayerra",
+                "country": "ESP",
+                "university_id": "TEST-U-ESP",
+                "university": "National University of ESP",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 1885600,
+          "team": {
+            "id": "TEST-TEAM-053",
+            "name": "Italy Relay A",
+            "country": "ITA",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0015",
+                "name": "Marco Pietralunga",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0045",
+                "name": "Valentina Basso",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0016",
+                "name": "Fabio Biancalana",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0057",
+                "name": "Giorgia Destefani",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 1887100,
+          "team": {
+            "id": "TEST-TEAM-054",
+            "name": "Poland Relay A",
+            "country": "POL",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0001",
+                "name": "Karol Markiewicz",
+                "country": "POL",
+                "university_id": "TEST-U-POL",
+                "university": "National University of POL",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0062",
+                "name": "Jolanta Siodmiak",
+                "country": "POL",
+                "university_id": "TEST-U-POL",
+                "university": "National University of POL",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0030",
+                "name": "Szymon Kropidlowski",
+                "country": "POL",
+                "university_id": "TEST-U-POL",
+                "university": "National University of POL",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0080",
+                "name": "Antonina Dudek",
+                "country": "POL",
+                "university_id": "TEST-U-POL",
+                "university": "National University of POL",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 1923300,
+          "team": {
+            "id": "TEST-TEAM-055",
+            "name": "Hungary Relay A",
+            "country": "HUN",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0036",
+                "name": "Dávid Mayer",
+                "country": "HUN",
+                "university_id": "TEST-U-HUN",
+                "university": "National University of HUN",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0047",
+                "name": "Sára Suba",
+                "country": "HUN",
+                "university_id": "TEST-U-HUN",
+                "university": "National University of HUN",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0082",
+                "name": "Máté István Misits",
+                "country": "HUN",
+                "university_id": "TEST-U-HUN",
+                "university": "National University of HUN",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0119",
+                "name": "Csenge Stadler",
+                "country": "HUN",
+                "university_id": "TEST-U-HUN",
+                "university": "National University of HUN",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 1935800,
+          "team": {
+            "id": "TEST-TEAM-056",
+            "name": "Nsa Relay A",
+            "country": "SNA",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0006",
+                "name": "Artem Burlakov",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0048",
+                "name": "Valeriia Proshina",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0021",
+                "name": "Aleksandr Stupak",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0072",
+                "name": "Polina Sharkova",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 1964900,
+          "team": {
+            "id": "TEST-TEAM-057",
+            "name": "Germany Relay A",
+            "country": "GER",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0002",
+                "name": "Noah Dalichow",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0046",
+                "name": "Franca Richter",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0005",
+                "name": "Elias Koch",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0054",
+                "name": "Nina Kohler",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "TEST-E22-FINAL",
+      "event_id": "TEST-E22",
+      "session_id": "TEST-S29A",
+      "session_name": "Afternoon Session - 29 October 2026",
+      "date": "2026-10-29",
+      "session_start": "16:00",
+      "timing_event": 22,
+      "timing_heat": 1,
+      "name": "Mixed 4x50 LC Meter Relay SF",
+      "discipline": "SF",
+      "gender": "MIXED",
+      "round": "FINAL",
+      "relay": true,
+      "entries": [
+        {
+          "lane": 1,
+          "seed_ticks": 733200,
+          "team": {
+            "id": "TEST-TEAM-058",
+            "name": "Chinese Taipei Relay A",
+            "country": "TPE",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0004",
+                "name": "Chao-Chien Lin",
+                "country": "TPE",
+                "university_id": "TEST-U-TPE",
+                "university": "National University of TPE",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0050",
+                "name": "Ru-Yi Lee",
+                "country": "TPE",
+                "university_id": "TEST-U-TPE",
+                "university": "National University of TPE",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0012",
+                "name": "Tzu-Wei Liu",
+                "country": "TPE",
+                "university_id": "TEST-U-TPE",
+                "university": "National University of TPE",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0060",
+                "name": "Pin-Hsuan SU",
+                "country": "TPE",
+                "university_id": "TEST-U-TPE",
+                "university": "National University of TPE",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 2,
+          "seed_ticks": 715200,
+          "team": {
+            "id": "TEST-TEAM-059",
+            "name": "Italy Relay A",
+            "country": "ITA",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0015",
+                "name": "Marco Pietralunga",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0045",
+                "name": "Valentina Basso",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0016",
+                "name": "Fabio Biancalana",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0057",
+                "name": "Giorgia Destefani",
+                "country": "ITA",
+                "university_id": "TEST-U-ITA",
+                "university": "National University of ITA",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 3,
+          "seed_ticks": 706700,
+          "team": {
+            "id": "TEST-TEAM-060",
+            "name": "China Relay A",
+            "country": "CHN",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0010",
+                "name": "Hanzhi Guan",
+                "country": "CHN",
+                "university_id": "TEST-U-CHN",
+                "university": "National University of CHN",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0055",
+                "name": "Huali Yao",
+                "country": "CHN",
+                "university_id": "TEST-U-CHN",
+                "university": "National University of CHN",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0011",
+                "name": "Enxi WU",
+                "country": "CHN",
+                "university_id": "TEST-U-CHN",
+                "university": "National University of CHN",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0056",
+                "name": "Wenmin Xie",
+                "country": "CHN",
+                "university_id": "TEST-U-CHN",
+                "university": "National University of CHN",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 4,
+          "seed_ticks": 695900,
+          "team": {
+            "id": "TEST-TEAM-061",
+            "name": "Egypt Relay A",
+            "country": "EGY",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0018",
+                "name": "Tarek Hassan Elsayed",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0051",
+                "name": "Ghada Mohamed Khalil",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0020",
+                "name": "Yassin Ahmed Aly",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0058",
+                "name": "Jana Mohamed Ewis",
+                "country": "EGY",
+                "university_id": "TEST-U-EGY",
+                "university": "National University of EGY",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 5,
+          "seed_ticks": 702400,
+          "team": {
+            "id": "TEST-TEAM-062",
+            "name": "Czechia Relay A",
+            "country": "CZE",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0007",
+                "name": "Simon Vyskocil",
+                "country": "CZE",
+                "university_id": "TEST-U-CZE",
+                "university": "National University of CZE",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0053",
+                "name": "Adela Svomova",
+                "country": "CZE",
+                "university_id": "TEST-U-CZE",
+                "university": "National University of CZE",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0008",
+                "name": "Tadeas Andres",
+                "country": "CZE",
+                "university_id": "TEST-U-CZE",
+                "university": "National University of CZE",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0075",
+                "name": "Barbora Nemcanska",
+                "country": "CZE",
+                "university_id": "TEST-U-CZE",
+                "university": "National University of CZE",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 6,
+          "seed_ticks": 711600,
+          "team": {
+            "id": "TEST-TEAM-063",
+            "name": "France Relay A",
+            "country": "FRA",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0019",
+                "name": "Tom Durager",
+                "country": "FRA",
+                "university_id": "TEST-U-FRA",
+                "university": "National University of FRA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0049",
+                "name": "Maïwenn Hamon",
+                "country": "FRA",
+                "university_id": "TEST-U-FRA",
+                "university": "National University of FRA",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0022",
+                "name": "Ewen Hamon",
+                "country": "FRA",
+                "university_id": "TEST-U-FRA",
+                "university": "National University of FRA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0071",
+                "name": "Albane Deage",
+                "country": "FRA",
+                "university_id": "TEST-U-FRA",
+                "university": "National University of FRA",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 7,
+          "seed_ticks": 718700,
+          "team": {
+            "id": "TEST-TEAM-064",
+            "name": "Nsa Relay A",
+            "country": "SNA",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0006",
+                "name": "Artem Burlakov",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0048",
+                "name": "Valeriia Proshina",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0021",
+                "name": "Aleksandr Stupak",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0072",
+                "name": "Polina Sharkova",
+                "country": "SNA",
+                "university_id": "TEST-U-SNA",
+                "university": "National University of SNA",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        },
+        {
+          "lane": 8,
+          "seed_ticks": 743400,
+          "team": {
+            "id": "TEST-TEAM-065",
+            "name": "Germany Relay A",
+            "country": "GER",
+            "fisu_team": false,
+            "members": [
+              {
+                "id": "TEST-ATH-0002",
+                "name": "Noah Dalichow",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0046",
+                "name": "Franca Richter",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "WOMEN"
+              },
+              {
+                "id": "TEST-ATH-0005",
+                "name": "Elias Koch",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "MEN"
+              },
+              {
+                "id": "TEST-ATH-0054",
+                "name": "Nina Kohler",
+                "country": "GER",
+                "university_id": "TEST-U-GER",
+                "university": "National University of GER",
+                "gender": "WOMEN"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

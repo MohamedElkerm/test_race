@@ -157,10 +157,10 @@ export default function SwimTimePanel({
    <div className="paneltitle">
     <h2>Active Meet Event & Heat (Competition Program)</h2>
     <span className="tag" style={{background:'#0c3559',color:'#84d3ff'}}>
-     {heat ? `${heat.gender} ${heat.name} • ${heat.round === 'FINAL' || heat.round === 'Final' ? 'Final' : `Heat ${heat.timing_heat} (${heat.round})`}` : 'NO HEAT SELECTED'}
+     {heat ? `${(heat.name && heat.gender && heat.name.toLowerCase().startsWith(heat.gender.toLowerCase())) ? heat.name : `${heat.gender} ${heat.name}`} • ${heat.round === 'FINAL' || heat.round === 'Final' ? 'Final' : `Heat ${heat.timing_heat} (${heat.round})`}` : 'NO HEAT SELECTED'}
     </span>
    </div>
-   <p>Select the event and heat from the 28 October 2026 meet program to automatically drive all live graphics, OBS stream overlays, and SwimTime timing.</p>
+   <p>Select the event and heat from the meet program to automatically drive all live graphics, OBS stream overlays, and SwimTime timing.</p>
    <div className="fields" style={{marginTop:'10px'}}>
     <label style={{flex:1.4}}>
      <b>1. Select Event Name</b>
@@ -613,7 +613,7 @@ export default function SwimTimePanel({
   {heat && heat.entries && heat.entries.length > 0 && (
    <section className="panel" style={{borderLeft:'4px solid #45d6b0'}}>
     <div className="paneltitle">
-     <h2>Athletes & Nationalities List — Heat {heat.timing_heat} ({heat.entries.length} participants)</h2>
+     <h2>Athletes & Nationalities List — {heat.round === 'FINAL' || heat.round === 'Final' ? 'Final' : `Heat ${heat.timing_heat}`} ({heat.entries.length} participants)</h2>
      <span className="tag" style={{background:'#123a31',color:'#5fe0ba'}}>START LIST</span>
     </div>
     <div className="tablewrap" style={{marginTop:'12px'}}>
@@ -755,7 +755,7 @@ export default function SwimTimePanel({
      <p>{clock?'RECEIVED TEST CLOCK':feed?.replay?'OFFLINE RECORDING':feed?.receiving?'NO CURRENT NONNEGATIVE CLOCK':'CLOCK SUPPRESSED'}</p>
     </div>
     <div>
-     <p>Selected Heat: <b>{heat ? `${heat.gender} ${heat.name} (Heat ${heat.timing_heat})` : 'None'}</b></p>
+     <p>Selected Heat: <b>{heat ? `${(heat.name && heat.gender && heat.name.toLowerCase().startsWith(heat.gender.toLowerCase())) ? heat.name : `${heat.gender} ${heat.name}`} (${heat.round === 'FINAL' || heat.round === 'Final' ? 'Final' : `Heat ${heat.timing_heat}`})` : 'None'}</b></p>
      <p>Source: {feed?.source_ip||'—'} → UDP {feed?.port||26} | Freshness: {feed?.replay?'RECORDED / NOT LIVE':feed?.age_ms==null?'NO FEED':`${feed.age_ms} ms since last valid datagram`}</p>
      <p>Datagrams: <b>{feed?.counts.datagrams||0}</b> / parsed: <b>{feed?.counts.accepted||0}</b> / unparsed: <b>{feed?.counts.unparsed||0}</b></p>
      <p>LaneTime messages: <b>{feed?.counts.LaneTime||0}</b> / repeated content within 2 s: {feed?.counts.duplicate_payload_within_2s||0}</p>
